@@ -1,0 +1,33 @@
+# Great British Bake Off
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+[Chapter 10: Tibbles](https://r4ds.had.co.nz/tibbles.html)
+
+### Guided Instruction
+
+1.  [data structures](https://byuistats.github.io/M335/online_class/week3-tibbles_data_structures.Rmd)
+
+2.  The previous guided instruction could still be helpful if you have not yet completed it: [data wrangling with dplyr](https://byuistats.github.io/M335/online_class/week3-dplyr.Rmd)
+
+## Background
+
+The [Great British Bake Off](https://byuistats.github.io/M335/assignment_pages/r/(https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#TV_ratings)) was a hit reality TV show that put amateur bakers against each other. Contestants were eliminated in each round until a winner was crowned. The show ran for 12 seasons (a season is called a series in the dataset) through 2021, with plenty of drama. You will analyze the show's 7-day viewership (i.e. TV ratings over a 7 day period).
+
+Specifically, you want to know how the 7-day viewership changes within a season and across seasons. In one graph, you compare the 7-day viewership for the season's premiere and finale. In another graph, you compare the mean across seasons while not losing track of each episode's 7-day viewership.
+
+## Pre
+
+Do this and this
+
+## Post
+
+Do that and that
+
+### Submit
+
+In I-learn paste the link to the `.md` file that contains all your work for the pre and post tasks on GitHub.
+:::

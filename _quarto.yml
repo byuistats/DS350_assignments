@@ -8,15 +8,24 @@ book:
   date: "7/13/2022"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: "Module 1: Technology Set-up"
+      chapters: 
+        - Task_01_set-up.qmd
+        - summary.qmd
+        - references.qmd
+    - part: "Module 2: Grammar of Graphics"
+      chapters:
+        - index.qmd
+    - part: "Module 3: Data transformation"
+      chapters:
+        - Task_06_GBBO.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    number-depth: 0
   pdf:
     documentclass: scrreprt
 
