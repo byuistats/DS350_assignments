@@ -20,6 +20,9 @@ book:
     - part: "Module 3: Data transformation"
       chapters:
         - Task_06_GBBO.qmd
+    - part: "Semester Project"
+      chapters:
+        - Task_03_questions.qmd
 
 bibliography: references.bib
 

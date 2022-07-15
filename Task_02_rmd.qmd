@@ -17,9 +17,9 @@
 
     -   An '.md' is essentially a text file and it renders nicely in GitHub so we can easily see each other's work there. (The .Rmd file is a text file with code chunks and doesn't render well on GitHub, nor does the .html files)
 
-2.  Create an .Rmd file in RStudio using the RMD Template for this class.
+2.  Create an .Rmd file in RStudio using the RMD Template for this class, after making te following changes try knitting it.
 
-    -   Title it "Case Study W01"
+    -   Title it "Task 2pre"
     -   Just to give you practice putting code in a file, add the R code below to your .Rmd file in an R chunk:
 
 ``` r
