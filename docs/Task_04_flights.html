@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.344">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>task_04_flights</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="Task_04_flights_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Task_04_flights_files/libs/quarto-html/quarto.js"></script>
+<script src="Task_04_flights_files/libs/quarto-html/popper.min.js"></script>
+<script src="Task_04_flights_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Task_04_flights_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Task_04_flights_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="Task_04_flights_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="Task_04_flights_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Task_04_flights_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Task_04_flights_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="few-layers-many-ros" class="level1">
+<h1>Few Layers, Many Ros</h1>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<ol type="1">
+<li><a href="https://r4ds.had.co.nz/data-visualisation.html">Chapter 3.1-3.6: R for Data Science—Visualization</a></li>
+<li><a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">Chapter 7: R for Data Science—Exploratory Data Analysis</a></li>
+<li><a href="https://byuistats.github.io/M335/online_class/week2-ggplot.html">Plotting large datasets</a></li>
+</ol>
+</section>
+<section id="guided-instruction" class="level3">
+<h3 class="anchored" data-anchor-id="guided-instruction">Guided Instruction</h3>
+<p>Guided instruction materials are tailored to this course and often have extra hints/emphasis to help you complete the task. These exercises assume you have read the material. They provide you an opportunity to practice while providing additional explanation. Solutions for the exercises are provided at the bottom of the file. You can think of this like a chance to “look in the back of the book.” These activities are not graded or turned in. You can use them however you like, to your best benefit.</p>
+<ol type="1">
+<li>Read and complete the exercises in the <code>.Rmd</code> file (you may wish to knit the file first for easier reading): <a href="https://byuistats.github.io/M335/online_class/week2-ggplot_part2.Rmd">ggplotting with many layers</a></li>
+</ol>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Before we can start to answer business questions we need to become familiar with our data. If one is provided, you may want to start with the <a href="https://www.bridging-the-gap.com/data-dictionary/">data dictionary</a>. However, you can also just dive into the data and gain an understanding based on the variable names and types.</p>
+<p>We will also want to know how the variables relate to each other. We can create tables or visualizations that summarize how different variables relate to each other. At this point, we are deepening our understanding as well as beginning our analysis.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ol type="1">
+<li>Create a new .Rmd to do this task. Don’t forget to load (not install) the tidyverse package.</li>
+<li>Use the <code>nycflights13::flights</code> dataset. (You may need to install <code>nycflights13</code> package first).
+<ul>
+<li>Note the use of double colon allows you to access functions and datasets from a package without loading the entire package.</li>
+<li>You can run <code>?nycflights13::flights</code> in the console to learn more about the variables in the dataset. (Don’t include this in your Rmarkdown).</li>
+</ul></li>
+<li>Pick two variables (columns) whose relationship you would like to explore.
+<ul>
+<li>Provide a visualization of the univariate distribution of each of the selected variables separately (i.e.&nbsp;2 plots are needed here, 1 for each variable)</li>
+<li>Build bivariate summaries of the variables you have chosen to investigate (1 plot is needed here, the plot should contain both variables in it).</li>
+</ul></li>
+<li>Write one to two paragraphs in the <code>.Rmd</code> summarizing insights from your graphics and your data presentation choices.</li>
+<li>Knit your .Rmd and then push your <code>.Rmd</code>, <code>.md</code>, <code>.html</code> into your git repository.</li>
+</ol>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Make at least two significant improvements to what you created as part of the <em>pre class</em> tasks and push to GitHub.</p>
+<section id="submit" class="level3">
+<h3 class="anchored" data-anchor-id="submit">Submit</h3>
+<p>In I-learn submit a link to the <code>.md</code> file on GitHub.</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

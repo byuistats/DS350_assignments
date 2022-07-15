@@ -1,0 +1,47 @@
+# Few Layers, Many Ros
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+1. [Chapter 3.1-3.6: R for Data Science—Visualization](https://r4ds.had.co.nz/data-visualisation.html)
+2. [Chapter 7: R for Data Science—Exploratory Data Analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
+3. [Plotting large datasets](https://byuistats.github.io/M335/online_class/week2-ggplot.html)
+
+
+### Guided Instruction
+
+Guided instruction materials are tailored to this course and often have extra hints/emphasis to help you complete the task. These exercises assume you have read the material. They provide you an opportunity to practice while providing additional explanation. Solutions for the exercises are provided at the bottom of the file. You can think of this like a chance to "look in the back of the book." These activities are not graded or turned in. You can use them however you like, to your best benefit.
+
+1. Read and complete the exercises in the `.Rmd` file (you may wish to knit the file first for easier reading): [ggplotting with many layers](https://byuistats.github.io/M335/online_class/week2-ggplot_part2.Rmd)
+
+## Background
+
+Before we can start to answer business questions we need to become familiar with our data. If one is provided, you may want to start with the [data dictionary](https://www.bridging-the-gap.com/data-dictionary/). However, you can also just dive into the data and gain an understanding based on the variable names and types.
+
+We will also want to know how the variables relate to each other. We can create tables or visualizations that summarize how different variables relate to each other. At this point, we are deepening our understanding as well as beginning our analysis.
+
+## Pre
+
+1. Create a new .Rmd to do this task. Don't forget to load (not install) the tidyverse package.
+2. Use the `nycflights13::flights` dataset. (You may need to install `nycflights13` package first). 
+    * Note the use of double colon allows you to access functions and datasets from a package without loading the entire package.
+    * You can run `?nycflights13::flights` in the console to learn more about the variables in the dataset. (Don't include this in your Rmarkdown).
+    
+3. Pick two variables (columns) whose relationship you would like to explore. 
+    * Provide a visualization of the univariate distribution of each of the selected variables separately (i.e. 2 plots are needed here, 1 for each variable)
+    * Build bivariate summaries of the variables you have chosen to investigate (1 plot is needed here, the plot should contain both variables in it).
+    
+4. Write one to two paragraphs in the `.Rmd` summarizing insights from your graphics and your data presentation choices.
+5. Knit your .Rmd and then push your `.Rmd`, `.md`, `.html` into your git repository.
+
+## Post
+
+Make at least two significant improvements to what you created as part of the *pre class* tasks and push to GitHub.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

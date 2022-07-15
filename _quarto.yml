@@ -16,8 +16,8 @@ book:
         - references.qmd
     - part: "Module 2: Grammar of Graphics"
       chapters:
-        - index.qmd
-    - part: "Module 3: Data transformation"
+        - Task_04_flights.qmd
+    - part: "Module 3: Data Wrangling"
       chapters:
         - Task_06_GBBO.qmd
     - part: "Semester Project"
