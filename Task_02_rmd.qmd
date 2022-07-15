@@ -1,0 +1,49 @@
+# First Rmd
+
+::: panel-tabset
+## Reading
+
+1.  [Making your first R Markdown File](https://byuistats.github.io/M335/rmarkdown_help.html)
+
+2.  [Chapter 27: R for Data Science---R Markdown](http://r4ds.had.co.nz/r-markdown.html)
+
+3.  [Chapter 30: R for Data Science---R Markdown workflow](http://r4ds.had.co.nz/r-markdown-workflow.html)
+
+4.  [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) (a summary of the highlights from the reading for future, quick reference)
+
+## Pre
+
+1.  Install the [DS350 RMarkdown template](https://byuistats.github.io/M335/online_class/markdown_template_instructions.html). This template automatically keeps the .md file and formats the report the way we like. You MUST use this template for all future markdown files.
+
+    -   An '.md' is essentially a text file and it renders nicely in GitHub so we can easily see each other's work there. (The .Rmd file is a text file with code chunks and doesn't render well on GitHub, nor does the .html files)
+
+2.  Create an .Rmd file in RStudio using the RMD Template for this class.
+
+    -   Title it "Case Study W01"
+    -   Just to give you practice putting code in a file, add the R code below to your .Rmd file in an R chunk:
+
+``` r
+plot(x = iris$Sepal.Length,  
+     y = iris$Petal.Length, 
+     col = iris$Species, 
+     pch = 19)
+```
+
+Try to get help if things don't go smoothly. Ask questions in slack or at the [lab](https://byuidatascience.github.io/lab.html). If issues persist, note any questions, errors, or problems you have and plan to ask them in class (i.e. this is considered "successfully stuck").
+
+## Post
+
+1.  Find three or four articles that use data and visualizations to answer a question
+    -   Use any website, blog, or article with good visualizations.
+    -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/).
+2.  While in the R project for this class' repository, start a new `.Fmd` file using the DS350 Rmd template. Remove what's there by default. Put a link to each article in the `.Rmd` file. Also, write a one-paragraph review of each article that answers the following questions:
+    -   What is unique or good about the visualization? List a few ideas.
+    -   What could be better? Identify at least one issue with the visualization.
+
+### Submit
+
+Knit the file to `.html` and keep the `.md` file as well (this will happen automatically if you used the template). Push your `.md`, `.html`, and `.Rmd` files to your Github repository.
+
+**NOTE**: As was mentioned above, the DS350 template automatically keeps the MD file and formats the page the way we like. For instructions on getting and using the template [read here, same link as step 1 above](https://byuistats.github.io/M335/online_class/markdown_template_instructions.html) You **MUST** use this template for all future markdown files.
+
+:::

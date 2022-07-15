@@ -195,13 +195,33 @@ ul.task-list{list-style: none;}
 <p>Specifically, you want to know how the 7-day viewership changes within a season and across seasons. In one graph, you compare the 7-day viewership for the season’s premiere and finale. In another graph, you compare the mean across seasons while not losing track of each episode’s 7-day viewership.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Do this and this</p>
+<ol type="1">
+<li><p>Read in the TV ratings data for the show using the following code. We will be using the <code>ratings</code> dataset. You can learn more about the data set by running <code>?ratings</code>.</p>
+<pre><code>install.packages("remotes")
+remotes::install_github("apreshill/bakeoff")
+library(bakeoff)</code></pre></li>
+<li><p>Create a chart to illustrate the differences in seven-day viewership between the first and last episode of each season respectively.</p></li>
+<li><p>Write a paragraph in your .Rmd file to discuss the historical trends and the way the finale viewership behaves.</p></li>
+<li><p>We are curious how the mean ratings have changed across seasons (aka series) for the Great British Bake Off. We also want to see how ratings progress for each episode within a season. More specifically, for seasons with 10 episodes, sketch a chart that displays the 7 day ratings for each episode per season (aka series) and how mean ratings change across seasons.</p>
+<ul>
+<li>In your sketch, be sure to fully think through and label the axes and other aspects of the chart.</li>
+<li>Now make a sketch on paper of what the underlying dataset for that chart should look like (i.e.&nbsp;what are the column, what do the rows contain, etc.)</li>
+</ul></li>
+<li><p>Bring your 2 sketches (one of the chart, and one of the dataset) to class. Also be sure your .md file containing the answers to points 2 and 3 above is on GitHub so that you can easily share it with classmates.</p></li>
+</ol>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>Do that and that</p>
+<ol type="1">
+<li><p>Again, start with the <code>ratings</code> dataset. Create the graph you sketched (or an improved version) as part of the <em>pre class</em> work for this task.</p>
+<ul>
+<li>Use/add on to the file you started in the <em>pre class</em> tasks.</li>
+<li>Remember, this chart should only include seasons with 10 episodes.</li>
+</ul></li>
+<li><p>Write at least one paragraph discussing your visualization. Point out interesting insights you see in the plot. Perhaps a little internet surfing or Googling will help you find reasons for the viewership changes.</p></li>
+</ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>
-<p>In I-learn paste the link to the <code>.md</code> file that contains all your work for the pre and post tasks on GitHub.</p>
+<p>Push all your files to GitHub. In I-learn paste the link to the <code>.md</code> file that contains all your work for the pre and post tasks on GitHub: 2 charts and 2 paragraphs of writing (one about each chart).</p>
 </section>
 </div>
 </div>
