@@ -1,0 +1,59 @@
+---
+title: "Wings to Fly"
+---
+
+::: panel-tabset
+## Resources
+
+### Reading
+
+[Interactive primer](https://rstudio.cloud/learn/primers/3.8) about how to customize your plot. (Start at the "Welcome" section from the menu on the left and work your way through all the sections. Some of it will be review)
+
+## Background
+
+You just started your internship at a big firm in New York, and your manager gave you an extensive file of flights that departed JFK, LGA, or EWR in 2013. From this data (which you can obtain in R) your manager wants you to answer some specific questions. :
+
+1. For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
+2. Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?
+3. Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”
+
+## Pre
+
+1. Get the data using this R code:
+
+```{r eval = FALSE}
+#uncomment and run the line below once, if you haven't installed this package yet. 
+#install.packages("nycflights13")
+
+library(nycflights13)
+
+#Run this line to learn more about the flights data set. 
+#?flights
+```
+
+2. Answer this questions and support your answer with at least one chart of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
+
+    - Push yourself to show the complexity of the data (i.e. individual flights, and not only broad summaries).
+    - Write a memor to your boss (about a paragraph) to explain your approach and the results.
+    
+3. Knit your `.Rmd` and then push your `.Rmd`, `.md`, and `.html` into your git repository.
+
+## Post
+
+1. Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with at least one additional chart.
+
+    - Add on to the `.Rmd` file you started as part of *pre class* tasks.
+    - For each question you answer, include a paragraph to explain your approach and the answer you arrived at.
+    
+    Questions
+
+    - For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
+    - Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”
+
+2. Knit the updated `.Rmd` and then push your `.Rmd`, `.md`, and `.html` into your git repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

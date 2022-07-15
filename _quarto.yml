@@ -17,9 +17,11 @@ book:
     - part: "Module 2: Grammar of Graphics"
       chapters:
         - Task_04_flights.qmd
+        - Task_05_gapminder1.qmd
     - part: "Module 3: Data Wrangling"
       chapters:
         - Task_06_GBBO.qmd
+        - Task_07_gapminder2.qmd
     - part: "Semester Project"
       chapters:
         - Task_03_questions.qmd
