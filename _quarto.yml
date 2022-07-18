@@ -22,9 +22,22 @@ book:
       chapters:
         - Task_06_GBBO.qmd
         - Task_07_gapminder2.qmd
-    - part: "Semester Project"
+        - Task_08_flights.qmd
+    - part: "Module 4: Data Ingestion"
+      chapters:
+        - Task_09_stock_table.qmd
+        - Task_10_heights1.qmd
+        - Task_11_heights2.qmd
+    - part: "Module 4: Data Ingestion"
+      chapters:
+        - Task_014_highlight_owd1.qmd        
+    - part: "Module: In the Workplace"
+      chapters:
+        - Task_13_github1.qmd
+    - part: "Module: Semester Project"
       chapters:
         - Task_03_questions.qmd
+        - Task_12_get_data.qmd
 
 bibliography: references.bib
 

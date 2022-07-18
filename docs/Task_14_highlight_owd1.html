@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.344">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Our World in Data Part 1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="Task_14_highlight_owd1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Task_14_highlight_owd1_files/libs/quarto-html/quarto.js"></script>
+<script src="Task_14_highlight_owd1_files/libs/quarto-html/popper.min.js"></script>
+<script src="Task_14_highlight_owd1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Task_14_highlight_owd1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Task_14_highlight_owd1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="Task_14_highlight_owd1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="Task_14_highlight_owd1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Task_14_highlight_owd1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Task_14_highlight_owd1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Our World in Data Part 1</h1>
+</div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<p>Read the chapter.</p>
+<p><a href="http://r4ds.had.co.nz/graphics-for-communication.html">Chapter 28: R for Data Science—Graphics for communication</a></p>
+<p>After reading the chapter, you may find these reference sheets/pages helpful.</p>
+<pre><code>* [Theme Elements Referenece Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
+* [Theme Elements Demonstration](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+* [Theme Documentation](https://henrywang.nl/ggplot2-theme-elements-demonstration/)</code></pre>
+</section>
+<section id="guided-instruction" class="level3">
+<h3 class="anchored" data-anchor-id="guided-instruction">Guided Instruction</h3>
+<p><a href="https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation.Rmd">Visualization for Presentation</a></p>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>The Our World in Data website publishes research and graphics that provide insight into world data. We are going to recreate one of their charts and use it to practice our annotation skills.</p>
+<p>If the thing you want to edit is not a theme element, then it is related to data and can mostly likely be changed inside a geom_<em>() or a scale_</em>() layer.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ol type="1">
+<li>Recreate this graph as closely as you can.
+<ul>
+<li>The data is provided on the download tab.</li>
+<li>Focus your energy on labels, the y-axis, background color, and line color.</li>
+<li>If you are getting stuck matching the graph, try completing steps 2 and 3, then coming back to this step with the time you have left.</li>
+</ul></li>
+<li>Create a graph that highlights (draws attention to) any points that are above 100%. Be creative.</li>
+<li>Knit the <code>.Rmd</code> file. Push your <code>.Rmd</code>, <code>.md</code>, and <code>.html</code> files into your GitHub repository.</li>
+</ol>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>In the same <code>.rmd</code> file as the <em>pre-class</em> tasks</p>
+<ol type="1">
+<li>Make a graph that highlights or emphasizes all the points from a particular country.
+<ul>
+<li>This should be a separate graph from the one that highlights points over 100%</li>
+<li>It might be fun to add the United States before downloading the data, then highlighting the United States; or maybe the country where you served your mission.</li>
+</ul></li>
+<li>Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use “highlighting” to help the data tell a story.</li>
+<li>Knit the <code>.Rmd</code> file. Push your <code>.Rmd</code>, <code>.md</code>, and <code>.html</code> files into your GitHub repository.</li>
+</ol>
+<section id="submit" class="level3">
+<h3 class="anchored" data-anchor-id="submit">Submit</h3>
+<p>In I-learn submit a link to the <code>.md</code> file on GitHub.</p>
+</section>
+</div>
+</div>
+</div>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

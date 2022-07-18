@@ -1,0 +1,61 @@
+---
+title: "Clean and Reformat (aka Tidy) Stock Data"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+1. [Chapter 11.5: R for Data Science—Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
+2. [Chapter 12: R for Data Science—Tidy Data](http://r4ds.had.co.nz/tidy-data.html)
+3. [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
+    *   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
+4. Raw vs. blob
+    *   [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub
+    *   [This video](https://www.loom.com/share/fe4d7c623f1d4c5197b63648358e3ddc) shows examples of using the correct url to read in the data.
+
+### Guided Instruction
+
+
+1. [tidyr](https://byuistats.github.io/M335/online_class/week4-tidyr.Rmd)
+2. [Reading and Writing R files](https://byuistats.github.io/M335/online_class/week4-reading-writing_Rfiles.Rmd)
+
+## Background
+
+In 1973 Princeton University professor Burton Malkiel said
+
+> In 1990 the Wall Street Journal took Burton up on his challenge. They ran this challenge until 2002 and pitted random dart throwing selections to expert picks. 
+
+We have access to stock return data through 1998. Open the dataset and get familiar with it. The "PROS" rows contain returns that professional investors were able to achieve at that date. The "DARTS" rows contain returns of stocks that were selected by monkeys randomly throwing darts. The "DJIA" rows contain returns for stocks in the Dow Jones Industrial Average. The Dow Jones Industrial Average is a group of 30 stocks for large companies with stable earnings. This "index" of stocks is one of the oldest, most closely watched indices in the world and is designed to serve as a proxy, or indicator, of the United States economy in general. ([learn about about "the Dow".](https://www.investopedia.com/terms/d/djia.asp))
+
+We want to look at the returns for each six-month period of the year in which the returns were reported. 
+
+## Pre
+
+1. Use the appropriate function in `library(readr)` to read in the `.RDS` file found on [GitHub](https://github.com/byuistats/data/tree/master/Dart_Expert_Dow_6month_anova)
+    * Depending on your computer, you should use `read_rds(url("WEBLOCATION.RDS"))` or `read_rds("WEBLOCATION.RDS")` to download and read the .RDS file type. Remember, R is case sensitive.
+    * When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the reading below).
+2. The `contestant_period` column is not “tidy” we want to create a `month_end` and a `year_end` column from the information it contains.
+3. Save your “tidy” data as an `.rds` object.
+4. Create a plot that shows the six-month returns by the year in which the returns are collected. *Your plot should highlight the tighter spread of the DJIA as compared to the other two selection methods,* DARTS and PROS.
+5. Include your plot in an `.Rmd` file with a short paragraph describing your plots. Play with code-folding to make sure your code is displayed in your file (though have it default to hidden).
+6. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, `.html`, and `.rds` files into your git repository.
+
+## Post
+
+Add to your existing `.rmd` file to complete these steps:
+
+1. Read in the “tidy” data `.rds` object you saved in the *pre class* tasks.
+2. Use code to create a table of the DJIA returns that matches the table shown below (apply `pivot_wider()` to the data). 
+
+![](DJIA_returns.PNG)
+
+6. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, `.html` into your git repository.
+    * Don't be surprised when the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks exactly as below in your `.html` or `.html` preview.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

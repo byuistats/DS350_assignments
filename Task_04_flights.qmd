@@ -1,4 +1,4 @@
-# Few Layers, Many Ros
+# Few Layers, Many Rows
 
 ::: panel-tabset
 ## Resources
@@ -18,6 +18,8 @@ Guided instruction materials are tailored to this course and often have extra hi
 
 ## Background
 
+You just started your internship at a big firm in New York, and your manager gave you an extensive file of flights that departed JFK, LGA, or EWR in 2013. From this data (which you can obtain in R) your manager wants you draw some insights.
+
 Before we can start to answer business questions we need to become familiar with our data. If one is provided, you may want to start with the [data dictionary](https://www.bridging-the-gap.com/data-dictionary/). However, you can also just dive into the data and gain an understanding based on the variable names and types.
 
 We will also want to know how the variables relate to each other. We can create tables or visualizations that summarize how different variables relate to each other. At this point, we are deepening our understanding as well as beginning our analysis.
@@ -34,7 +36,7 @@ We will also want to know how the variables relate to each other. We can create 
     * Build bivariate summaries of the variables you have chosen to investigate (1 plot is needed here, the plot should contain both variables in it).
     
 4. Write one to two paragraphs in the `.Rmd` summarizing insights from your graphics and your data presentation choices.
-5. Knit your .Rmd and then push your `.Rmd`, `.md`, `.html` into your git repository.
+5. Knit your `.Rmd` and then push your `.Rmd`, `.md`, `.html` into your git repository.
 
 ## Post
 

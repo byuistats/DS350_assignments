@@ -1,0 +1,55 @@
+---
+title: "Our World in Data Part 1"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+Read the chapter.
+
+[Chapter 28: R for Data Science—Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+
+After reading the chapter, you may find these reference sheets/pages helpful.
+
+    * [Theme Elements Referenece Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
+    * [Theme Elements Demonstration](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+    * [Theme Documentation](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+
+### Guided Instruction
+
+[Visualization for Presentation](https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation.Rmd)
+
+## Background
+
+The Our World in Data website publishes research and graphics that provide insight into world data. We are going to recreate one of their charts and use it to practice our annotation skills.
+
+If the thing you want to edit is not a theme element, then it is related to data and can mostly likely be changed inside a geom_*() or a scale_*() layer.
+
+## Pre
+
+1. Recreate this graph as closely as you can.
+    - The data is provided on the download tab.
+    - Focus your energy on labels, the y-axis, background color, and line color.
+    - If you are getting stuck matching the graph, try completing steps 2 and 3, then coming back to this step with the time you have left.
+
+2. Create a graph that highlights (draws attention to) any points that are above 100%. Be creative.
+3. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+
+## Post
+
+In the same `.rmd` file as the *pre-class* tasks
+
+1. Make a graph that highlights or emphasizes all the points from a particular country.
+    - This should be a separate graph from the one that highlights points over 100%
+    - It might be fun to add the United States before downloading the data, then highlighting the United States; or maybe the country where you served your mission.
+
+2. Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use "highlighting" to help the data tell a story.
+3. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

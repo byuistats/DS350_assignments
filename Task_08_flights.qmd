@@ -31,7 +31,7 @@ library(nycflights13)
 #?flights
 ```
 
-2. Answer this questions and support your answer with at least one chart of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
+2. Answer this question and support your answer with at least one chart of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
 
     - Push yourself to show the complexity of the data (i.e. individual flights, and not only broad summaries).
     - Write a memor to your boss (about a paragraph) to explain your approach and the results.
