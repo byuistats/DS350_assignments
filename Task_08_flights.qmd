@@ -13,25 +13,12 @@ title: "Wings to Fly"
 
 You just started your internship at a big firm in New York, and your manager gave you an extensive file of flights that departed JFK, LGA, or EWR in 2013. From this data (which you can obtain in R) your manager wants you to answer some specific questions. :
 
-1. For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
-2. Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?
-3. Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”
 
 ## Pre
 
-1. Get the data using this R code:
+1. To get the data, first install the `nycflights13` package. Then use `library(nycflights13)` to load the package. We will be using the `flights` dataset within the package. To learn more about the flights dataset, run `?flights` in the console.
 
-```{r eval = FALSE}
-#uncomment and run the line below once, if you haven't installed this package yet. 
-#install.packages("nycflights13")
-
-library(nycflights13)
-
-#Run this line to learn more about the flights data set. 
-#?flights
-```
-
-2. Answer this question and support your answer with at least one chart of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
+2. Answer this question and support your answer with one or more charts of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
 
     - Push yourself to show the complexity of the data (i.e. individual flights, and not only broad summaries).
     - Write a memor to your boss (about a paragraph) to explain your approach and the results.
@@ -40,7 +27,7 @@ library(nycflights13)
 
 ## Post
 
-1. Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with at least one additional chart.
+1. Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with a chart of the data.
 
     - Add on to the `.Rmd` file you started as part of *pre class* tasks.
     - For each question you answer, include a paragraph to explain your approach and the answer you arrived at.

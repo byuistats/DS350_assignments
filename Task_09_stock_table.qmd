@@ -52,7 +52,7 @@ Add to your existing `.rmd` file to complete these steps:
 ![](DJIA_returns.PNG)
 
 6. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, `.html` into your git repository.
-    * Don't be surprised when the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks exactly as below in your `.html` or `.html` preview.
+    * Don't be surprised when the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks correct in your `.html` or `.html` preview.
 
 ### Submit
 

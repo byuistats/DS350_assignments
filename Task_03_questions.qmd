@@ -7,24 +7,24 @@ title: "Asking Questions"
 
 Good data science hinges on good questions. Watch the videos here to help you ask questions, especially as you develop questions for your semester project. NOTE: These LinkedInLearning videos require BYUI authentication. Follow these steps to play the videos: [Free LinkedInLearning for College Students (Step by Step)](https://www.linkedin.com/pulse/free-linkedin-learning-college-students-step-marcelo-wilen-menezes/).
 
-*   [Harness the Power of Questions](https://www.lynda.com/Business-Skills-tutorials/Harness-power-questions/477451/574315-4.html)
-*   [Run Question Meetings](https://www.lynda.com/Business-Skills-tutorials/Run-question-meetings/477451/574320-4.html)
-*   [Clarify Key Terms](https://www.lynda.com/Business-Skills-tutorials/Clarify-key-terms/477451/574326-4.html)
-
+-   [Harness the Power of Questions](https://www.lynda.com/Business-Skills-tutorials/Harness-power-questions/477451/574315-4.html)
+-   [Run Question Meetings](https://www.lynda.com/Business-Skills-tutorials/Run-question-meetings/477451/574320-4.html)
+-   [Clarify Key Terms](https://www.lynda.com/Business-Skills-tutorials/Clarify-key-terms/477451/574326-4.html)
 
 ## Pre
 
-1. Read the semester project assignment *****LINK*****
-2. Develop a few novel questions (at least 4) that data can answer. Consider this a brainstorm of what you might address for your semester project.
-    
-    * Look for other examples of people addressing your question, or a similar question, online. Include a url to their work if possible.
-    * Present your question to a data scientist or data analyst (this can include teachers) to get feedback on the quality of the question and if it can be addressed in two months.
+1.  Read the semester project assignment \*\*\*\*\*LINK\*\*\*\*\*
 
-3. Edit the `readme.md` file in the folder for this assignment so that it contains your potential questions and feedback. Push it to GitHub to be easily shared.
+2.  Develop a few novel questions (at least 4) that data can answer. Consider this a brainstorm of what you might address for your semester project.
+
+    -   Look for other examples of people addressing your question, or a similar question, online. Include a url to their work if possible.
+    -   Present your question to a data scientist or data analyst (this can include teachers) to get feedback on the quality of the question and if it can be addressed in two months.
+
+3.  Edit the `readme.md` file in the folder for this assignment so that it contains your potential questions and feedback. Push it to GitHub to be easily shared.
 
 ## Post
 
-1. Get feedback from four to six people on their interest in your questions and summarize this feedback in the `readme.md` file you edited as part of the *pre class* tasks.
+1.  Get feedback from four to six people on their interest in your questions and summarize this feedback in the `readme.md` file you edited as part of the *pre class* tasks.
 
 ### Submit
 

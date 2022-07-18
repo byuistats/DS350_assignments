@@ -12,8 +12,6 @@ book:
       chapters: 
         - Task_01_set-up.qmd
         - Task_02_rmd.qmd
-        - summary.qmd
-        - references.qmd
     - part: "Module 2: Grammar of Graphics"
       chapters:
         - Task_04_flights.qmd

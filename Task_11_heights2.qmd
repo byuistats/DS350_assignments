@@ -22,7 +22,7 @@ This time, instead of looking at the mean height per country over time like we d
 
 ## Pre
 
-1. Work with these datasets where each row represents an individual. Import these five datasets into R and combine them into one tidy dataset.
+1. Work with these datasets where each row represents an individual. Import these five datasets into R.
     * [German male conscripts in Bavaria, 19th century: Stata format](https://byuistats.github.io/M335/data/heights/germanconscr.dta).
     * [Heights of bavarian male conscripts, 19th century: Stata format](https://byuistats.github.io/M335/data/heights/germanprison.dta).
     * [Heights of south-east and south-west german soldiers born in the 18th century: DBF format](https://byuistats.github.io/M335/data/heights/Heights_south-east.zip).
@@ -33,12 +33,13 @@ This time, instead of looking at the mean height per country over time like we d
     * [University of Wisconsin National Survey Data: SPSS (.sav) format](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav)
         - You'll want to look here to understand this dataset and know which columns to use: [National Survey Codebook](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK)
 
-2. After your wrangling, each dataset should only contain the following columns: 
+2. Wrangle each dataset so that it contains the following columns: `birth_year`, `height.in`, `height.cm`, and `study`.
+    * You will have to potentially do some renaming and conversions between inches and centimeters.
+    * You need to create the “study” column yourself to identify which dataset the rows came from. 
     * We want to examine how heights have changed over time. Three of the data sets consist of just men, while 2 have both men and women. *Filter to just focus on men.*
-    * Wrangle each dataset so that it contains the following columns: birth_year, height.in, height.cm, and study. You will have to do some conversions between inches and centimeters. You need to create the “study” column yourself to identify which dataset the rows came from. 
     * For each dataset `select(birth_year, height.in, height.cm, study)`
     
-3. Use the `bind_rows()` function to combine your five individual datasets into one dataset.
+3. Use the `bind_rows()` function to combine your five individual datasets into one dataset.Each dataset must have the columns in the same order for this to work.
 
 4. Write a short paragraph summarizing the data wrangling process you had to go through to create your tidy dataset. Include in that discussion any decisions you had to make about what data to exclude.
     * You may want to run some simple summary statistics or visuals to aid in the comparison of your dataset with the dataset of your group members.
