@@ -1,0 +1,54 @@
+---
+title: "Counting Words"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+These readings are focused on working with factors in R
+
+-   [Chapter 15: R for Data Science—Factors](http://r4ds.had.co.nz/factors.html)
+-   [Forcats R package](http://stat545.com/block029_factors.html)
+-   Optional: the [stringi R package](https://rdrr.io/rforge/stringi/man/stri_stats_latex.html) offers additional, less commonly needed functions for working with strings.
+
+### Guided Instruction
+
+In this file, the "Extra Enrichment" section is just that, extra. It demonstrates some things the book doesn't cover and may come in handy someday in the future, but you can skim it or skip it entirely to make time for mastering more critical skills. 
+[Factors and forcats](https://byuistats.github.io/M335/online_class/week7_factors.Rmd)
+
+
+## Background
+
+In 1978 Susan Easton Black wrote an Ensign article, [Names of Christ in the Book of Mormon](https://www.churchofjesuschrist.org/study/ensign/1978/07/discovery/names-of-christ-in-the-book-of-mormon.html?lang=eng) that states: *"Even statistically, he is the dominant figure of the Book of Mormon."*   
+
+We are going to use some of our string skills to count words in the New Testament and in the Book of Mormon.
+
+## Pre
+
+1. In a previous week we learned to download zip files, unzip them, and then read in their content. This process is greatly simplified with the `rio` package (dealing with zipped folders may be more tricky). [`rio`](https://github.com/leeper/rio) is a package that can read in a wide variety of file types with one easy command. After installing the `rio` package download the data using this code:
+
+```{r eval = FALSE, echo = TRUE}
+scriptures_data <- rio::import("http://scriptures.nephi.org/downloads/lds-scriptures.csv.zip") %>% 
+  as_tibble()
+```
+
+4. Create an `.Rmd`  file to show/report your results (including the graph) for the following:
+    * Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
+    * Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
+5. Knit your `.rmd`  file and push the `.rmd`, `.md` and `.html`  files into your GitHub repository.
+
+## Post
+
+1. In the same `.rmd` file as you did the *pre class* tasks, create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
+    - Count how many words there are per verse
+    - Since there are 15 books, you should graphically depict/summarize 15 distributions of word counts.
+
+2. Knit your `.rmd`  file and push the `.rmd`, `.md` and `.html`  files into your GitHub repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

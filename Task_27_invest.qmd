@@ -1,0 +1,42 @@
+---
+title: "Stocks"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+[tidyquant R package](https://github.com/business-science/tidyquant)
+
+### Guided Instruction
+
+[Financial Time Series](https://byuistats.github.io/M335/online_class/week10-tidyquant.Rmd)
+
+## Background
+
+The stock market is overflowing with data. There are many packages in R that allow us to get quick access to information on publicly traded companies. Imagine that you and a friend each purchased about \$1,000 of stock in three different stocks at the start of October last year, and you want to compare your performance up to this week. Use the stock shares purchased and share prices to demonstrate how each of you fared over the period you were competing (assuming that you did not change your allocations).
+
+## Pre
+
+1.  Decide the three stocks that your friend picks and the three that you pick.
+2.  Pull the price performance data of those 6 stocks using `library(tidyquant)`.
+3.  On paper, sketch what a visualization could look like to show who is winning each day of the competition.
+4.  We also need to know which stock is helping the winner of the competition. Incorporate this into the visualization sketch of the previous bullet, or sketch a separate visualization to tell this part of the story.
+
+Though the data on the chart will be notional and a bit of a guess, it can be helpful (especially to classmates when you explain it to them) to sketch in pretend values.
+
+At this point, worry more about the story being told and what skeptics might ask. Consider the importance of scales. Putting proper labels on the sketch can help bring some issues into focus and help you confront important questions. Don't worry yet about how you would actually create it.
+
+5.  Bring your sketch(es) to class to share.
+
+## Post
+
+1.  Now, in the same .`rmd` file used in the *pre class* tasks, create the sketches you envisioned (or better ones based on your conversation with teammates).
+2.  Write one or two paragraphs summarizing your graphics and the choices you made in the data presentation.
+3.  Knit the `.Rmd`. Push the `.Rmd`, `.md`, and `.html` files to your GitHub repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+:::

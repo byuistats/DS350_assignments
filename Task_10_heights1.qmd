@@ -7,15 +7,13 @@ title: "Mean Heights of Countries Over Time"
 
 ### Readings
 
-1. [Chapter 18: R for Data Science—Pipes](https://r4ds.had.co.nz/pipes.html)
-2. [Chapter 20: R for Data Science—Vectors](https://r4ds.had.co.nz/vectors.html)
-3. [ALL of Chapter 11: R for Data Science—Data Import](http://r4ds.had.co.nz/data-import.html)
-4. [readxl R package](http://readxl.tidyverse.org/)
-5. [downloader R package](https://github.com/wch/downloader)
+1.  [Chapter 18: R for Data Science---Pipes](https://r4ds.had.co.nz/pipes.html)
+2.  [Chapter 20: R for Data Science---Vectors](https://r4ds.had.co.nz/vectors.html)
+3.  [ALL of Chapter 11: R for Data Science---Data Import](http://r4ds.had.co.nz/data-import.html)
+4.  [readxl R package](http://readxl.tidyverse.org/)
+5.  [downloader R package](https://github.com/wch/downloader)
 
-
-BONUS:
-[`rio`](https://github.com/leeper/rio) is the name of an R package that simplifies the reading in process. Instead of worrying about matching data types with the necessary package, you can just use `import()` from the `rio` package and it will figure it out for you. It can also read in a zipped file. (*Note: for zipped folders you can experiment with `rio::import_list` or the [`archive`](https://www.tidyverse.org/blog/2021/11/archive-1-1-2/) package.)
+BONUS: [`rio`](https://github.com/leeper/rio) is the name of an R package that simplifies the reading in process. Instead of worrying about matching data types with the necessary package, you can just use `import()` from the `rio` package and it will figure it out for you. It can also read in a zipped file. (\*Note: for zipped folders you can experiment with `rio::import_list` or the [`archive`](https://www.tidyverse.org/blog/2021/11/archive-1-1-2/) package.)
 
 ### Guided Instruction
 
@@ -25,30 +23,27 @@ BONUS:
 
 The [Scientific American](https://www.scientificamerican.com/article/why-are-we-getting-taller/) argues that humans have been getting taller over the years. As the data scientists that we are becoming, we would like to find data that validates this concept.
 
-This project is not as severe as the two quotes below, but it will give you a taste of pulling various data and file formats together into “tidy” data for visualization and analysis. 
+This project is not as severe as the two quotes below, but it will give you a taste of pulling various data and file formats together into "tidy" data for visualization and analysis.
 
->    “Classroom data are like teddy bears and real data are like a grizzly bear with salmon blood dripping out its mouth.” [Jenny Bryan](https://twitter.com/JennyBryan)
-    
->    "Up to 80% of data analysis is spent on the process of cleaning and preparing data” Hadley Wickham
+> "Classroom data are like teddy bears and real data are like a grizzly bear with salmon blood dripping out its mouth." [Jenny Bryan](https://twitter.com/JennyBryan)
 
+> "Up to 80% of data analysis is spent on the process of cleaning and preparing data" Hadley Wickham
 
 ## Pre
 
-1. Read in and tidy the [Worldwide heights estimates .xlsx file](https://byuistats.github.io/M335/data/heights/Height.xlsx)
-    * Make sure the file is in long format with year as a column. See [Example of the Tidy Excel File after formatting](https://byuistats.github.io/M335/maleheight_tidy.html)
-    * Use the `separate()` and `mutate()` functions to create a decade column.
-
-2. To check your work and verify there are no data issues, make a plot with decade on the x-axis and and all the countries heights in inches on the y-axis; with the points from Germany highlighted based on the data from the `.xlsx` file.
-    * Don't worry about formatting and labelling the plot too much at this point. You will do that as part of the *post class* task.
-
-3. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+1.  Read in and tidy the [Worldwide heights estimates .xlsx file](https://byuistats.github.io/M335/data/heights/Height.xlsx)
+    -   Make sure the file is in long format with year as a column. See [Example of the Tidy Excel File after formatting](https://byuistats.github.io/M335/maleheight_tidy.html)
+    -   Use the `separate()` and `mutate()` functions to create a decade column.
+2.  To check your work and verify there are no data issues, make a plot with decade on the x-axis and and all the countries heights in inches on the y-axis; with the points from Germany highlighted based on the data from the `.xlsx` file.
+    -   Don't worry about formatting and labelling the plot too much at this point. You will do that as part of the *post class* task.
+3.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
 
 ## Post
 
-1. Fix whatever issues you discovered in your data/plot by sharing with others in class.
-2. Improve the visualization. Take time to fine tune the formatting and labelling.
-3. Write a paragraph to summarize how you would respond to the assertion that humans are getting taller over the years. (Does your data tell a story?) 
-3. Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+1.  Fix whatever issues you discovered in your data/plot by sharing with others in class.
+2.  Improve the visualization. Take time to fine tune the formatting and labelling.
+3.  Write a paragraph to summarize how you would respond to the assertion that humans are getting taller over the years. (Does your data tell a story?)
+4.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
 
 ### Submit
 

@@ -26,16 +26,53 @@ book:
         - Task_09_stock_table.qmd
         - Task_10_heights1.qmd
         - Task_11_heights2.qmd
-    - part: "Module 4: Data Ingestion"
+        - Task_11bonus_cpi.qmd
+    - part: "Module 5: Data for Presentation"
       chapters:
-        - Task_14_highlight_owd1.qmd        
+        - Task_14_highlight_owd1.qmd  
+        - Task_15_owd2.qmd
+    - part: "Module 6: Data Joins"
+      chapters:
+        - Task_17_BYU_baseball.qmd
+        - Task_18-1_baseball_managers.qmd
+        - Task_18-2_age_of_planes.qmd
+    - part: "Module 7: text"
+      chapters:
+        - Task_19_strings.qmd
+        - Task_20_counting_words.qmd
+        - Task_21_savior_names1.qmd
+    - part: "Module 8: Iteration"
+      chapters:
+        - Task_22_chipotle_functions.qmd
+        - Task_23_chipotle_purrr.qmd
+        - Task_24_savior_names2.qmd
+    - part: "Module 9: Time"
+      chapters:
+        - Task_25_lubridate.qmd
+        - Task_26_ibc_time.qmd
+        - Task_27_invest.qmd
+    - part: "Module 10: Spatial Data"
+      chapters:
+        - Task_28_city_map.qmd
+        - Task_29_IDwater.qmd
+        - Task_30_building_the_past.qmd
+    - part: "Module 11: Interactive Charts"
+      chapters:
+        - Task_31_leaflet.qmd
+        - Task_32_dygraph.qmd
     - part: "Module: In the Workplace"
       chapters:
         - Task_13_github1.qmd
+        - Task_16_github2.qmd
+        - Task_33_interview.qmd
     - part: "Module: Semester Project"
       chapters:
         - Task_03_questions.qmd
         - Task_12_get_data.qmd
+    - part: 
+      chapters:
+        - semester_project.qmd
+
 
 bibliography: references.bib
 

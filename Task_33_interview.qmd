@@ -1,0 +1,37 @@
+---
+title: "Exit Interview Prep"
+---
+
+::: panel-tabset
+## Resources
+
+Re-read the syllabus for the course.
+
+## Background
+
+If your focus is on learning and skill development, the grade will take care of itself. Rather than a rigid set of boxes to be checked, the grade guidance in the syllabus provides sufficient flexibility for you to propose your own grade based on your learning, and think through what evidences exist to support your proposal. An overwhelming majority of students get the grade they propose.
+
+## Pre
+
+1.  Update it to reflect this semester's worth of learning and experience. This is not about our class per se, upload a version you would actually use when applying for a job
+
+2.  Join the \[BYUI Data Science LinkedIn\](https://www.linkedin.com/groups/13537407/), \[GitHub\](https://github.com/byuidss), \[Slack\](https://byuidss.slack.com/signup) groups (if you haven't yet) and make sure your picture is placed in your profile.
+
+3.  Schedule your exit interview with the instructor.
+
+## Post
+
+1\. Write a one-page grade request letter to your instructor. Include the following:
+
+\* The grade you deserve and why. Please defend your reasoning based on the Syllabus. This is the most important part of the letter, but for most students will also be the shortest part.
+
+\* Explanation of how you fit (or will fit) into the data science industry.
+
+\* Your confidence in and strategies for addressing ambiguity that you have gained this semester.
+
+2.  Attend the Exit Interview. In the exit interview we will: review the semester project, review the grade proposal, review your resume. Most of the time will be spent reviewing the resume. After this class you should be prepared to get internships in the field. Your resume is one of the main ways you will extract value (\$\$) from the time and effort you spent in college.
+
+### Submit
+
+In I-learn submit the letter and updated resume. Show up for the exit interview.
+:::

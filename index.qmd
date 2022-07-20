@@ -1,9 +1,5 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This book/site can be used to access DS350 assignment instructions. Credit will be given for adequately completing the tasks and specifications given in the instructions.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+You only need to submit completed tasks to I-learn once a week, but should probably be pushing to your GitHub repo every day.

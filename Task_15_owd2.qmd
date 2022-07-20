@@ -1,0 +1,35 @@
+---
+title: "Choose Your Own OWD"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+-   (review) [Chapter 7: R for Data Science—Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
+-   These next two references come from another excellent online book: ggplot2: Elegant Graphics for Data Analysis. You may find it a useful reference at other times during the semester as well. For this assignment you may find it useful to scan these two chapters: 
+
+    -    [Themes](https://ggplot2-book.org/polishing.html)
+    -    [Annotations](https://ggplot2-book.org/annotations.html)
+
+### Guided Instruction
+
+[Example: Visualization for Presentation Walk Through](https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation_OWD_task_example.Rmd)
+    
+## Background
+
+The [Our World in Data](https://ourworldindata.org/) website has world data. It is nice that they have provided graphics and the data that they used to generate the graphics. We are going to recreate one of their visualizations.
+
+## Pre
+
+1. Review the [Our World in Data](https://ourworldindata.org/) webpage and find a graphic that interests you. Recreate that graphic in an `.rmd` file as close as possible using the data from their website. (Make sure you keep the link or can navigate back to the original chart on their website).
+
+## Post
+
+After sharing charts among the group, make improvements to your chart so that it even more closely matches the chart produced by [Our World in Data](https://ourworldindata.org/) OR pick another chart to recreate.
+
+### Submit
+
+In I-learn submit a link to the .md file containing your chart(s) on GitHub.
+:::

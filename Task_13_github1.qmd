@@ -5,9 +5,9 @@ title: "GitHub Issues Round 1"
 ::: panel-tabset
 ## Readings
 
-1.   [GitHub Issues](https://learn-the-web.algonquindesign.ca/topics/github-issues/): a quick tutorial
-2.   [Example of a long issue thread](https://github.com/STAT545-UBC/Discussion/issues/387) (just scan this to see how issues on GitHub can be used)
-3.   Optional: [reprex R Package](https://github.com/tidyverse/reprex#what-is-a-reprex) (this could be helpful when trying to illustrate a bug or problem)
+1.  [GitHub Issues](https://learn-the-web.algonquindesign.ca/topics/github-issues/): a quick tutorial
+2.  [Example of a long issue thread](https://github.com/STAT545-UBC/Discussion/issues/387) (just scan this to see how issues on GitHub can be used)
+3.  Optional: [reprex R Package](https://github.com/tidyverse/reprex#what-is-a-reprex) (this could be helpful when trying to illustrate a bug or problem)
 
 ## Background
 
@@ -17,11 +17,11 @@ GitHub is much more than simply storage in the cloud. It can be used to collabor
 
 <!-- Do this part during class since there is no other good way to verify that it is done! -->
 
-Find two other student’s compiled files in their repository for the previous week's Case Study and provide feedback using the issues feature in GitHub (If they already have two issues find a different student to critique). You should mention things they could do to improve their visualization, for example.
+Find two other student's compiled files in their repository for the previous week's Case Study and provide feedback using the issues feature in GitHub (If they already have two issues find a different student to critique). You should mention things they could do to improve their visualization, for example.
 
-## Post 
+## Post
 
-Find any issues that have been left for you in your GitHub repository. Reply to the issues and close the issues after addressing them. (Depending on the issue, addressing it may simply be a reply to the issue, or it may be uploading an update to the assignment). 
+Find any issues that have been left for you in your GitHub repository. Reply to the issues and close the issues after addressing them. (Depending on the issue, addressing it may simply be a reply to the issue, or it may be uploading an update to the assignment).
 
 ### Submit
 

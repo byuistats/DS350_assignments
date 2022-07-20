@@ -1,0 +1,47 @@
+---
+title: "It's About Time"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+[lubridate cheatsheet and quick summary](http://lubridate.tidyverse.org/)
+
+### Guided Instruction
+
+Complete the guided instruction for the previous tasks in this module if you have not yet.
+
+## Background
+
+We have transaction data for a few businesses that have been in operation for three months. Each of these companies has come to your investment company for a loan to expand their business. Your boss has asked you to go through the transactions for each business and provide daily, weekly, and monthly gross revenue summaries and comparisons. Your boss would like a short write-up with tables and visualizations that help with the decision of which company did the best over the three-month period. You will also need to provide a short paragraph with your recommendation after building your analysis.
+
+This course only looks at understanding and visualizing recorded time series data. If you would like to learn more about forecasting I would recommend [Forecasting: Principles and Practice](https://www.otexts.org/fpp2/) and for a quick introduction read [Exploring and Visualizing Time Series.](https://afit-r.github.io/ts_exploration)
+
+## Pre
+
+1. Read in the data from `https://byuistats.github.io/M335/data/sales.csv` and format it for visualization and analysis.
+    * The data has time recorded in UTC, but come from businesses in the mountain time zone. Make sure to convert!
+    * This is point of sale (pos) data, so you will need to use `library(lubridate)` to create the correct time aggregations.
+    * Check the data for any inaccuracies and use your best judgment in how to deal with them.
+    * A plot or table may be helpful in discussing the issue with your teammates during class
+2. In a `.rmd` file create visualizations that show gross revenue over time for each company.
+    - Consider whether to aggregate at the daily, the weekly, or monthly level - or all 3
+
+
+## Post
+
+A strong customer base is preferred over companies whose revenue comes from just a few big purchases/customers. Thus, customer traffic (number of transactions) will also be helpful in deciding which company to choose. Use the `.rmd` file you created as part of the *pre class* tasks to incorporate these additional requirements.
+
+1. Provide a visualization that shows customer traffic (i.e. # of transactions) for each company.
+    - Consider whether to aggregate at the daily, the weekly, or monthly level - or all 3
+2. Provide a visualization that gives insight into **hours of operation** for each company.
+3. Write a short paragraph with your final recommendation. Which company do you think performed the best over the three months? Why?
+4. Knit the `.Rmd`. Push the `.Rmd`, `.md`, and `.html` files to your GitHub repository. 
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+
+:::

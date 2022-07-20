@@ -1,0 +1,61 @@
+---
+title: "Interactive Maps"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+In [Leaflet for R](http://rstudio.github.io/leaflet/) read the following sections:
+
+-   Introduction
+
+-   The Map Widget
+
+-   Basemaps
+
+-   Markers
+
+-   Popups and Labels
+
+-   Lines and Shapes
+
+-   Colors
+
+-   Layers
+
+A gallery of tiles to consider is the [Leaflet Providers Preview](http://leaflet-extras.github.io/leaflet-providers/preview/)
+
+### Guided Instruction
+
+1.  [Leaflet Basic.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_basic.Rmd)
+2.  [Leaflet Layers.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_layers.Rmd)
+3.  (optional) [Answer Key to Above Guided Instructions](https://byuistats.github.io/M335/online_class/week13-leaflet_activity_keys.html)
+4.  [Publishing to a Shiny Server for Interactive Files](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
+
+## Background
+
+You can recreate the previous case study or find your own spatial data to display using leaflet (Links to an external site.). Consider using layers and control boxes to show time or other aspects of the data.
+
+## Pre
+
+1.  Choose an option:
+    -   Recreate a previous task visualization using a simple leaflet plut using R OR
+    -   Find your own spatial data that interests you and build a simple interactive map using leaflet
+2.  **Publish your visualization to Rstudio Connect at shiny.byui.edu**
+3.  Paste the link to your Rstudio Connect file in a `readme.md` file on GitHub
+
+## Post
+
+1.  Improve on/embellish the plot as part of the *pre class* task by adding images, layers, legend, etc. to your leaflet plot.
+
+-   Layers is a great way to show progression of time. You could experiment with using the two different kinds of layers.
+
+2.  **Publish your visualization to Rstudio Connect at shiny.byui.edu**
+3.  Paste the link to your Rstudio Connect file in a `readme.md` file on GitHub
+
+### Submit
+
+In I-learn submit the link to your RStudio Connect file
+:::

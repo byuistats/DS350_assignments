@@ -1,0 +1,58 @@
+---
+title: "CPI Index"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+Read/review the following
+
+1.  [readxl](http://readxl.tidyverse.org/)
+2.  [rio](https://github.com/leeper/rio)
+3.  [ALL of Chapter 11: R for Data Science---Data Import](http://r4ds.had.co.nz/data-import.html)
+
+### Guided Instruction
+
+Complete the following if you have not yet: [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
+
+## Background
+
+[This article](https://medium.com/nightingale/covid-19-leads-to-a-drop-in-average-food-prices-in-the-uk-a6605a31cb0f) tracks the Consumer Price Index average food price in the United Kingdom. The author notes a drop in food prices in February 2020 and attributes that to the Corona Virus pandemic. She has 1 chart in her article.
+
+The article is on Medium, which means if you frequent that site often then you won't be able to see the image unless you pay for a membership. Here is a [screen capture of the image](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png) if the article won't show.
+
+## Pre
+
+The data used to create that chart can be found in these excel files, one file for each month of data:
+
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201910.xlsx>
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201911.xlsx>
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201912.xlsx>
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202001.xlsx>
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202002.xlsx>
+-   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202003.xlsx>
+
+1.  Load in the datasets. Note that not all the datasets have an identical structure.
+2.  Wrangle the data and prepare the files to be combined into one overall dataset.
+    -   Use `mutate()` to add a column to each dataset to identify what month it represents.
+3.  Combine the datasets into one overall dataset
+4.  Use the combined dataset to recreate the chart.
+
+![](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png)
+
+5.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+
+## Post
+
+Some of the food items used to calculate the CPI changed starting in February 2020: some were removed and others were added. One could argue that the dip in the CPI was due to the change in items rather than a result of the Corona Virus.
+
+1.  Add to the `.rmd` file you started as part of the *pre class* tasks by creating 1 or 2 charts that investigate this hypothesis.
+2.  Write a a paragraph or two to articulate the story the data tells regarding the dip in CPI and the change of items included.
+3.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+:::

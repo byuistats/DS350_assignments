@@ -13,7 +13,7 @@ Good data science hinges on good questions. Watch the videos here to help you as
 
 ## Pre
 
-1.  Read the semester project assignment \*\*\*\*\*LINK\*\*\*\*\*
+1.  Read the [semester project assignment](semester_project.qmd)
 
 2.  Develop a few novel questions (at least 4) that data can answer. Consider this a brainstorm of what you might address for your semester project.
 
