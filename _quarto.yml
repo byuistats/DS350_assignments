@@ -36,7 +36,7 @@ book:
         - Task_17_BYU_baseball.qmd
         - Task_18-1_baseball_managers.qmd
         - Task_18-2_age_of_planes.qmd
-    - part: "Module 7: text"
+    - part: "Module 7: Text"
       chapters:
         - Task_19_strings.qmd
         - Task_20_counting_words.qmd

@@ -80,5 +80,11 @@ You will want to get in the habit of pull, add/stage, commit, push (in that orde
 
 ### Submit
 
-Once you have completed all that you can for the week, include a link to the `readme.md` file in the Week 1 Submission on I-learn. Don't submit multiple times to the submission box in I-learn, just submit 1 time at the end of the week and include all the links to what you want graded that week.
+Include a link to the `readme.md` file in the Week 1 Submission on I-learn.
+
+::: callout-important
+## Weekly Submissions for DS350
+
+Don't submit multiple times to the submission box in I-learn, just submit 1 time at the end of the week; include all the links want graded that week.
+:::
 :::
