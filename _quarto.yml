@@ -69,7 +69,7 @@ book:
       chapters:
         - Task_03_questions.qmd
         - Task_12_get_data.qmd
-    - part: 
+    - part: "Semester Project"
       chapters:
         - semester_project.qmd
 
