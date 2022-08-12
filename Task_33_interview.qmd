@@ -13,15 +13,15 @@ If your focus is on learning and skill development, the grade will take care of 
 
 ## Pre
 
-1.  Update it to reflect this semester's worth of learning and experience. This is not about our class per se, upload a version you would actually use when applying for a job
+1.  Update your resume to reflect this semester's worth of learning and experience. This is not about our class per se, upload a version you would actually use when applying for a job
 
-2.  Join the \[BYUI Data Science LinkedIn\](https://www.linkedin.com/groups/13537407/), \[GitHub\](https://github.com/byuidss), \[Slack\](https://byuidss.slack.com/signup) groups (if you haven't yet) and make sure your picture is placed in your profile.
+2.  Join the [BYUI Data Science LinkedIn](https://www.linkedin.com/groups/13537407/), [GitHub](https://github.com/byuidss), [Slack](https://byuidss.slack.com/signup) groups (if you haven't yet) and make sure your picture is placed in your profile.
 
 3.  Schedule your exit interview with the instructor.
 
 ## Post
 
-1\. Write a one-page grade request letter to your instructor. Include the following:
+ 1. Write a one-page grade request letter to your instructor. Include the following:
 
 \* The grade you deserve and why. Please defend your reasoning based on the Syllabus. This is the most important part of the letter, but for most students will also be the shortest part.
 
@@ -29,7 +29,7 @@ If your focus is on learning and skill development, the grade will take care of 
 
 \* Your confidence in and strategies for addressing ambiguity that you have gained this semester.
 
-2.  Attend the Exit Interview. In the exit interview we will: review the semester project, review the grade proposal, review your resume. Most of the time will be spent reviewing the resume. After this class you should be prepared to get internships in the field. Your resume is one of the main ways you will extract value (\$\$) from the time and effort you spent in college.
+2.  Attend the Exit Interview. In the exit interview we will: review the semester project, review the grade proposal, review your resume/talk about the future. After this you should plan to get internships in the field. Your resume is one of the main ways you will extract value (\$\$) from the time and effort you spent in college.
 
 ### Submit
 

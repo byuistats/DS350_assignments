@@ -27,7 +27,7 @@ Readings teach you to do the things that a data analyst or scientist does and pr
     -   R ([Mac OS X](https://mirror.las.iastate.edu/CRAN/) \| [Windows](https://mirror.las.iastate.edu/CRAN/)
     -   RStudio ([Mac OS X](https://rstudio.com/products/rstudio/download/#download) \| [Windows](https://rstudio.com/products/rstudio/download/#download))
 
-3.  Fix your settings in RStudio to use the [code diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics).
+3.  If necessary, adjust your settings in RStudio to use the [code diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics). Feel free to place a check on every diagnostic for now, and then unselect those, throughout the semester, that you no longer find relevant.
 
 4.  **IMPORTANT**: Create a [GitHub account](https://github.com/join?source=header-home)
 
@@ -39,7 +39,7 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
     -   Create a professional username, something you could share with an employer
     -   In addition to the channels you are automatically add to, be sure to join the following two channels:
-        -   Our class channel. It will look something like `#ds350_s22_allen` or `#ds350_s22_woodruff`. Find the appropriate channel and add yourself to it. Once you are in the class channel, introduce yourself by replying to the *introduction* thread by clicking the thread, hit reply, then type a brief introduction.
+        -   Our class channel. It will look something like `#ds350_s22_allen` or `#ds350_s22_woodruff`, where the last part of the channel name corresponds to the last name of the instructor. Find the appropriate channel and add yourself to it. Once you are in the class channel, introduce yourself by replying to the *introduction* thread by clicking the thread, hit reply, then type a brief introduction.
         -   **#tutoring_lab**, add this channel. It is where you can ask questions about code related to specific tasks or case studies.
         -   Browse through the channels and join as as many as you are interested in. This community will be a great resource, even if you are not a Data Science major.
     -   Extra features are available when you install Slack as an app on your PC and/or phone. The more comfortable you become with using Slack, the easier it will be to collaborate with each other throughout your professional career.

@@ -17,7 +17,7 @@
 
     -   An '.md' is essentially a text file and it renders nicely in GitHub so we can easily see each other's work there. (The .Rmd file is a text file with code chunks and doesn't render well on GitHub, nor does the .html files)
 
-2.  Create an .Rmd file in RStudio using the RMD Template for this class, after making te following changes try knitting it.
+2.  Create an .Rmd file in RStudio using the RMD Template for this class, after making the following changes try knitting it.
 
     -   Title it "Task 2pre"
     -   Just to give you practice putting code in a file, add the R code below to your .Rmd file in an R chunk:
@@ -29,7 +29,7 @@ plot(x = iris$Sepal.Length,
      pch = 19)
 ```
 
-Try to get help if things don't go smoothly. Ask questions in slack or at the [lab](https://byuidatascience.github.io/lab.html). If issues persist, note any questions, errors, or problems you have and plan to ask them in class (i.e. this is considered "successfully stuck").
+Try to get help if things don't go smoothly by putting questions in slack or at the [lab](https://byuidatascience.github.io/lab.html). If issues persist, note any questions, errors, or problems you have and plan to ask them in class (i.e. this is considered "successfully stuck").
 
 ## Post
 
@@ -45,5 +45,4 @@ Try to get help if things don't go smoothly. Ask questions in slack or at the [l
 Knit the file to `.html` and keep the `.md` file as well (this will happen automatically if you used the template). Push your `.md`, `.html`, and `.Rmd` files to your Github repository.
 
 **NOTE**: As was mentioned above, the DS350 template automatically keeps the MD file and formats the page the way we like. For instructions on getting and using the template [read here, same link as step 1 above](https://byuistats.github.io/M335/online_class/markdown_template_instructions.html) You **MUST** use this template for all future markdown files.
-
 :::
