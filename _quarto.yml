@@ -11,7 +11,7 @@ book:
     - part: "Module 1: Technology Set-up"
       chapters: 
         - Task_01_set-up.qmd
-        - Task_02_rmd.qmd
+        - Task_02_qmd.qmd
     - part: "Module 2: Grammar of Graphics"
       chapters:
         - Task_04_flights.qmd

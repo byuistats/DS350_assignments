@@ -31,7 +31,7 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
 4.  **IMPORTANT**: Create a [GitHub account](https://github.com/join?source=header-home)
 
-5.  **IMPORTANT** Post your GitHub username on the [GitHub Usernames google sheet](https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing). After roughly 10 minutes (during normal working hours), you should receive two emails. One email will be an invitation from "GitHub" to join the BYUI335 organization. Accept the invitation. The other email will be an invitation from "Katie Allen" to collaborate on a repository with your name on it. Accept the invitation. If you do not see the two emails, check your spam folder.
+5.  **IMPORTANT** Post your GitHub username on the [GitHub Usernames google sheet](https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing). After roughly 30 minutes (during normal working hours), you should receive two emails. One email will be an invitation from "GitHub" to join the BYUI335 organization. Accept the invitation. The other email will be an invitation from "Katie Allen" to collaborate on a repository with your name on it. Accept the invitation. If you do not see the two emails, check your spam folder.
 
     -   Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this repository to turn in assignments.
 

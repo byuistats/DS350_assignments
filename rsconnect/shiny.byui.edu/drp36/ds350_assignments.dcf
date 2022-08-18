@@ -1,0 +1,14 @@
+name: ds350_assignments
+title: DS350_assignments
+username: drp36
+account: drp36
+server: shiny.byui.edu
+hostUrl: https://shiny.byui.edu/__api__
+appId: 1842
+bundleId: 3753
+url: https://shiny.byui.edu/content/f7ab654e-f4fd-42e4-b912-18af4c107989/
+when: 1660765313.57301
+lastSyncTime: 1660765313.57301
+asMultiple: FALSE
+asStatic: TRUE
+ignoredFiles: choose_your_own_case_study.png|citymap.png|DJIA_returns.PNG|first-R-script.R|index.html|search.json|semester_project.html|Task_01_set-up.html|Task_02_rmd.html|Task_03_questions.html|Task_04_flights.html|Task_05_gapminder1.html|Task_06_GBBO.html|Task_07_gapminder2.html|Task_08_flights.html|Task_09_stock_table.html|Task_10_heights1.html|Task_11_heights2.html|Task_11bonus_cpi.html|Task_12_get_data.html|Task_13_github1.html|Task_14_highlight_owd1.html|Task_15_owd2.html|Task_16_github2.html|Task_17_BYU_baseball.html|Task_18-1_baseball_managers.html|Task_18-2_age_of_planes.html|Task_19_strings.html|Task_20_counting_words.html|Task_21_savior_names1.html|Task_22_chipotle_functions.html|Task_23_chipotle_purrr.html|Task_24_savior_names2.html|Task_25_lubridate.html|Task_26_ibc_time.html|Task_27_invest.html|Task_28_city_map.html|Task_29_IDwater.html|Task_30_building_the_past.html|Task_31_leaflet.html|Task_32_dygraph.html|task5_post.png|task5_pre.png|task7_post.png|task7_pre.png|site_libs

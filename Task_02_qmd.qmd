@@ -1,0 +1,76 @@
+# First Quarto Markdown `.qmd`
+
+::: panel-tabset
+## Reading
+
+1\. [Announcing Quarto](https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)
+
+-   (optional) For R users, here is some explanation of the side [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/)
+
+2\. Install quarto from [here](https://quarto.org/docs/get-started/)
+
+3\. Walk through the tutorial ["Hello, Quarto"](https://quarto.org/docs/get-started/hello/rstudio.html) for RStudio
+
+-   Here is a [video walk through of the tutorial](https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb), to help fill in the gaps if you had trouble following the reading.
+
+4\. Walk through the tutorial [Computations](https://quarto.org/docs/get-started/computations/rstudio.html) for RStudio (especially from the beginning through Code Folding section)
+
+## Pre
+
+1.  Starting with the `Computations.qmd` file you created as part of the tutorial in the readings, practice tweaking options in the yaml and code chunks.
+
+    1.  Adjust the YAML so that rendered file has a title of "Computations".
+
+    2.  Add the following to the YAML so that the file will always print it's most recent rendering
+
+        ``` r
+        date: "`r format(Sys.time(), '%B %d, %Y')`"
+        ```
+
+    3.  Add the following code to the YAML so that the `.md` file will be kept at the time of rendering.
+
+        ``` r
+        execute:
+          keep-md: true
+        ```
+
+        ::: callout-important
+        ## An \`.md\`
+
+        An '.md' file is essentially a text file with inserted links to the output that was created when knitr runs all the code chunks. `.md` files render nicely in GitHub so we can easily see each other's work there. (The `.qmd` file is a text file with code chunks and doesn't render well on GitHub, nor does the `.html` files). On **ALL** your assignments you need to add the code above to the YAML.
+
+        [Here is a video](https://www.loom.com/share/f4a8028286e34739abf38a703c4f1cba) that explains a bit more about the importance of the `.md` file.
+        :::
+
+    4.  It is recommended that you turn off all the warnings in the reports you submit for this class. In the same way the Computations tutorial shows to turn "echo" to `false`, adjust `Computations.qmd` YAML so that no warnings are produced. (The code doesn't throw any warnings to begin with, so you won't see any change in the output).
+
+    5.  Finally, add the following code to the YAML. Can you describe what changed?
+
+        ``` r
+        format:
+          html:
+            code-fold: true
+            code-line-numbers: true
+        ```
+
+## Post
+
+1.  Find three or four articles that use data and visualizations to answer a question
+
+    -   Use any website, blog, or article with good visualizations.
+    -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/).
+
+2.  While in the project for this class' repository, start a new `.qmd` file. Edit what's there by default to title the report "Task 2". Put a link to each article in the `.Rmd` file. Also, write a one-paragraph review of each article that answers the following questions:
+
+    -   What is unique or good about the visualization? List a few ideas.
+    -   What could be better? Identify at least one issue with the visualization.
+
+Experiment/play with adding callouts or other text formatting in the visual editor of the file. Switch between the Visual Editor and the Source Editor so you can see what adjustments are being made to the code. Eventually you should be relatively comfortable making edits in visual or source editors.
+
+3.  Add an R code chunk that contains the following code: `plot(1:20)`; adjust the YAML so that the code "folded" by default
+4.  **IMPORTANT**: Adjust the YAML so that when you render this new `.qmd` file, the `.md` is also saved.
+
+### Submission
+
+Render the file you titled "Task 2" to `.html`. Push your `.md`, `.html`, and `.qmd` files to your Github repository.
+:::
