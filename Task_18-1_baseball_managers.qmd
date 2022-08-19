@@ -7,9 +7,7 @@ title: "Baseball Managers"
 
 ### Readings
 
-Read the following if you have not yet:
-- [Chapter 13: R for Data Science—Relational Data](http://r4ds.had.co.nz/relational-data.html) OR
-- [Interactive Primer on Joins](https://rstudio.cloud/learn/primers/4.3)
+Read the following if you have not yet: - [Chapter 13: R for Data Science---Relational Data](http://r4ds.had.co.nz/relational-data.html) OR - [Interactive Primer on Joins](https://rstudio.cloud/learn/primers/4.3)
 
 ### Guided Instruction
 
@@ -17,36 +15,35 @@ Read the following if you have not yet:
 
 ## Background
 
-There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the top 5 managers in major league baseball (MLB). We are going to use the Sean Lahman’s baseball database to explore patterns and double check the statistics in the article.
+There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the top 5 managers in major league baseball (MLB). We are going to use the Sean Lahman's baseball database to explore patterns and double check the statistics in the article.
 
 ## Pre
 
-The Grueling Truth article states 
+The Grueling Truth article states
 
-> “[Bobby] Cox…is one of only four managers to have won the award [Manager of the Year] in both the American and National League.”
+> "\[Bobby\] Cox...is one of only four managers to have won the award \[Manager of the Year\] in both the American and National League."
 
-1. Find a table in library(Lahman) with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox’s playerID is.
-2. Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. *Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.*
-3. Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.
-4. Knit the `.rmd` file and push your `.rmd`, `.md` and `.html` file into your GitHub repository.
+1.  Find a table in library(Lahman) with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox's playerID is.
+2.  Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. *Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.*
+3.  Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.
+4.  Render the `.qmd` file and push your `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ## Post
 
-The article also states, 
+The article also states,
 
->“[Joe] McCarthy has the numbers. His winning percentage is the best all-time for managers with more than 300 games.” 
+> "\[Joe\] McCarthy has the numbers. His winning percentage is the best all-time for managers with more than 300 games."
 
-In the same `.rmd` file you started as part of the *pre class* tasks, do the following:
+In the same `.qmd` file you started as part of the *pre class* tasks, do the following:
 
-1. Find a table in `library(Lahman)` with data relevant to this statement.
-2. Wrangle the data to create a new table that will directly allow us to assess the truth of this statement.
-3. Write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.
-4. Create a new dataframe with the full name of each manager, the manager’s winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.
-    - Write a paragraph to describe what you learned in th
-5. Knit the `.rmd` file and push your `.rmd`, `.md` and `.html` file into your GitHub repository.
+1.  Find a table in `library(Lahman)` with data relevant to this statement.
+2.  Wrangle the data to create a new table that will directly allow us to assess the truth of this statement.
+3.  Write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.
+4.  Create a new dataframe with the full name of each manager, the manager's winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.
+    -   Write a paragraph to describe what you learned in th
+5.  Render the `.qmd` file and push your `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ### Submit
 
 In I-learn submit a link to the `.md` file containing your chart(s) on GitHub.
-
 :::

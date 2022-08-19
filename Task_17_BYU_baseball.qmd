@@ -7,8 +7,8 @@ title: "BYU Baseball"
 
 ### Readings
 
-- [Chapter 13: R for Data Science—Relational Data](http://r4ds.had.co.nz/relational-data.html) OR
-- [Interactive Primer on Joins](https://rstudio.cloud/learn/primers/4.3)
+-   [Chapter 13: R for Data Science---Relational Data](http://r4ds.had.co.nz/relational-data.html) OR
+-   [Interactive Primer on Joins](https://rstudio.cloud/learn/primers/4.3)
 
 ### Guided Instruction
 
@@ -16,25 +16,24 @@ title: "BYU Baseball"
 
 ## Background
 
-Over the campfire, you and a friend get into a debate about which college in Utah has had the best MLB success. As an avid BYU fan, you want to prove your point, and you go to data to settle the debate. You need a clear visualization that depicts the performance of BYU players compared to other Utah college players that have played in the major leagues. The `library(Lahman)` package has a comprehensive set of baseball data. It is great for testing out our relational data skills. We will also need a function to adjust player salaries due to inflation- `library(priceR)`. 
+Over the campfire, you and a friend get into a debate about which college in Utah has had the best MLB success. As an avid BYU fan, you want to prove your point, and you go to data to settle the debate. You need a clear visualization that depicts the performance of BYU players compared to other Utah college players that have played in the major leagues. The `library(Lahman)` package has a comprehensive set of baseball data. It is great for testing out our relational data skills. We will also need a function to adjust player salaries due to inflation- `library(priceR)`.
 
 ## Pre
 
-1. Install the `library(Lahman)` and examine the available data sets.
-    - Find the handful of data sets that you will need in that package to show full college name and player **first and last names** (not first and middle name) as well as their annual earnings.
-2. Install and load the  `priceR` package, then use the `adjust_for_inflation(price = your_earnings_vector, from_date = your_earnings_year_vector, country = "US", to_date = 2021)` function to get all earnings in 2021 dollars.
-3. On paper, sketch a chart (or a few ideas) that you think would *best* settle the debate with your friend and meets the requirements in bullet point 1 above. Obviously you don't know the data yet, but you can think through aesthetic mapping and use notional data.
-4. On paper, make a sketch of the table(s) you would need to create the charts you sketched in the bullet point above.
-5. Bring your sketches to class and be prepared to share/explain them. Have an open and critical mind as you share.
+1.  Install the `library(Lahman)` and examine the available data sets.
+    -   Find the handful of data sets that you will need in that package to show full college name and player **first and last names** (not first and middle name) as well as their annual earnings.
+2.  Install and load the `priceR` package, then use the `adjust_for_inflation(price = your_earnings_vector, from_date = your_earnings_year_vector, country = "US", to_date = 2021)` function to get all earnings in 2021 dollars.
+3.  On paper, sketch a chart (or a few ideas) that you think would *best* settle the debate with your friend and meets the requirements in bullet point 1 above. Obviously you don't know the data yet, but you can think through aesthetic mapping and use notional data.
+4.  On paper, make a sketch of the table(s) you would need to create the charts you sketched in the bullet point above.
+5.  Bring your sketches to class and be prepared to share/explain them. Have an open and critical mind as you share.
 
 ## Post
 
-1. In an `.rmd` file make a plot (or two) showing how professional baseball player earnings who are alum of BYU compare to the professional players who are alum of other Utah schools.
-2. Write a paragraph (or two) to summarize your findings and explain what conclusions you can draw from your visualization.
-3. Knit the `.rmd` file and push your `.rmd`, `.md` and `.html` file into your GitHub repository.
+1.  In an `.qmd` file make a plot (or two) showing how professional baseball player earnings who are alum of BYU compare to the professional players who are alum of other Utah schools.
+2.  Write a paragraph (or two) to summarize your findings and explain what conclusions you can draw from your visualization.
+3.  Render the `.qmd` file and push your `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ### Submit
 
 In I-learn submit a link to the `.md` file containing your chart(s) on GitHub.
-
 :::

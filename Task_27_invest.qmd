@@ -32,9 +32,9 @@ At this point, worry more about the story being told and what skeptics might ask
 
 ## Post
 
-1.  Now, in the same .`rmd` file used in the *pre class* tasks, create the sketches you envisioned (or better ones based on your conversation with teammates).
+1.  Now, in the same .qmd file used in the *pre class* tasks, create the sketches you envisioned (or better ones based on your conversation with teammates).
 2.  Write one or two paragraphs summarizing your graphics and the choices you made in the data presentation.
-3.  Knit the `.Rmd`. Push the `.Rmd`, `.md`, and `.html` files to your GitHub repository.
+3.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
 
 ### Submit
 

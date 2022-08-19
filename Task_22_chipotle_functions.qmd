@@ -14,8 +14,6 @@ title: "Chipotle Functions"
 -   read [Chapter 19: R for Data Science---Functions](http://r4ds.had.co.nz/functions.html) **OR**
 -   [Interactive primers](https://rstudio.cloud/learn/primers/6) about functions
     -   "Function Basics" and "How to Write a Function" are essential. The other primers about functions are optional since they are beyond what we will be doing in this class
-    
-
 
 ### Guided Instruction
 
@@ -23,10 +21,10 @@ title: "Chipotle Functions"
 
 ## Background
 
-You got your dream job working as a data analyst for one of your favorite restaurants, Chipotle! 
+You got your dream job working as a data analyst for one of your favorite restaurants, Chipotle!
 
-- [What is Chipotle](https://www.youtube.com/watch?v=FmW5RtswBRU)
-- [Say what?!](https://www.youtube.com/watch?v=AmDTjUdCQsU). Ask Brother Woodruff how he pronounces it :).
+-   [What is Chipotle](https://www.youtube.com/watch?v=FmW5RtswBRU)
+-   [Say what?!](https://www.youtube.com/watch?v=AmDTjUdCQsU). Ask Brother Woodruff how he pronounces it :).
 
 Chipotle is planning to run a large 1 or 2 day promotion. They would like the promotion to take place when the restaurant is busiest. They have gathered restaurant level data that you can use to answer the question: what is the busiest day in the restaurant?
 
@@ -50,7 +48,7 @@ The data contains a column `popularity_by_day`. This column contains a lot of in
 | Saturday  | 128    |
 | Sunday    | 58     |
 
-2.  Knit your `.rmd` file and push the `.rmd`, `.md` and `.html` files into your GitHub repository.
+2.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
 
 ## Post
 
@@ -131,7 +129,7 @@ Function 2 should return "Wednesday, Saturday".
 We will worry about expanding the function to multiple sites or rows in the next task. For now the input is just one string.
 :::
 
-3.  Knit your `.rmd` file and push the `.rmd`, `.md` and `.html` files into your GitHub repository.
+3.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
 
 ### Submit
 

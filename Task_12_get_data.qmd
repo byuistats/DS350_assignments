@@ -31,7 +31,7 @@ Don't be afraid to pivot or change directions if you find a dataset that sparks 
 
 ## Pre
 
-Create an `.rmd` file that has links to data sources with a description of the quality of each.
+Create an `.qmd` file that has links to data sources with a description of the quality of each.
 
 Find 3-5 potential data sources (that are free) and document some information about the source. Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)
 

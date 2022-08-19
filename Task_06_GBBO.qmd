@@ -29,25 +29,23 @@ Specifically, you want to know how the 7-day viewership changes within a season 
 
 2.  Create a chart to illustrate the differences in seven-day viewership between the first and last episode of each season respectively.
 
-3.  Write a paragraph in your .Rmd file to discuss the historical trends and the way the finale viewership behaves.
-        
-4. We are curious how the mean ratings have changed across seasons (aka series) for the Great British Bake Off. We also want to see how ratings progress for each episode within a season. More specifically, for seasons with 10 episodes, sketch a chart that displays the 7 day ratings for each episode per season (aka series) and how mean ratings change across seasons.
+3.  Write a paragraph in your .qmd file to discuss the historical trends and the way the finale viewership behaves.
+
+4.  We are curious how the mean ratings have changed across seasons (aka series) for the Great British Bake Off. We also want to see how ratings progress for each episode within a season. More specifically, for seasons with 10 episodes, sketch a chart that displays the 7 day ratings for each episode per season (aka series) and how mean ratings change across seasons.
 
     -   In your sketch, be sure to fully think through and label the axes and other aspects of the chart.
     -   Now make a sketch on paper of what the underlying dataset for that chart should look like (i.e. what are the column, what do the rows contain, etc.)
 
-5. Bring your 2 sketches (one of the chart, and one of the dataset) to class. Also be sure your .md file containing the answers to points 2 and 3 above is on GitHub so that you can easily share it with classmates.
-
-
+5.  Bring your 2 sketches (one of the chart, and one of the dataset) to class. Also be sure your .md file containing the answers to points 2 and 3 above is on GitHub so that you can easily share it with classmates.
 
 ## Post
 
-1. Again, start with the `ratings` dataset. Create the graph you sketched (or an improved version) as part of the *pre class* work for this task.
+1.  Again, start with the `ratings` dataset. Create the graph you sketched (or an improved version) as part of the *pre class* work for this task.
 
     -   Use/add on to the file you started in the *pre class* tasks.
     -   Remember, this chart should only include seasons with 10 episodes.
-    
-2. Write at least one paragraph discussing your visualization. Point out interesting insights you see in the plot. Perhaps a little internet surfing or Googling will help you find reasons for the viewership changes.
+
+2.  Write at least one paragraph discussing your visualization. Point out interesting insights you see in the plot. Perhaps a little internet surfing or Googling will help you find reasons for the viewership changes.
 
 ### Submit
 

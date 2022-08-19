@@ -7,7 +7,7 @@ title: "Strings and Regex"
 
 ### Readings
 
--   [Chapter 14: R for Data Science—Strings](http://r4ds.had.co.nz/strings.html)
+-   [Chapter 14: R for Data Science---Strings](http://r4ds.had.co.nz/strings.html)
 -   [RVerbalExpressions package](https://github.com/VerbalExpressions/RVerbalExpressions)
 -   [regexr.com (optional)](http://regexr.com/)
 -   [Regular Expression examples (optional)](https://qntm.org/files/re/re.html)
@@ -23,7 +23,7 @@ Using g.r.e.p. (global regular expression print) and regular expressions (regex)
 
 ## Pre
 
-In `library(tidyverse)` is a vector called sentences that contains 720 sentences on which we can practice wrangling text. Before running a command that works on all 720 sentences, we can run the command on a smaller subset, so we can validate our code on a small subset. We can examine the first 10 sentences using `sentences[1:10]`, or we could pick a random sample of 10 sentences using `sample(sentences,10)`. Beware that when using a random sample, your work will not be reproducible on someone else’s computer unless you use the `set.seed()` command. The following chunk of code shows the length of the sentences vector, as well as how to get a subset of these sentences in various ways.
+In `library(tidyverse)` is a vector called sentences that contains 720 sentences on which we can practice wrangling text. Before running a command that works on all 720 sentences, we can run the command on a smaller subset, so we can validate our code on a small subset. We can examine the first 10 sentences using `sentences[1:10]`, or we could pick a random sample of 10 sentences using `sample(sentences,10)`. Beware that when using a random sample, your work will not be reproducible on someone else's computer unless you use the `set.seed()` command. The following chunk of code shows the length of the sentences vector, as well as how to get a subset of these sentences in various ways.
 
 ```{r eval = FALSE, echo = TRUE}
 length(sentences)
@@ -33,7 +33,7 @@ set.seed(123)
 sample(sentences,10)
 ```
 
-Because the sentences object is a vector, we cannot use `dplyr` tools on it unless we first put the vector into a tibble (a tidy table). The following chunk of code places the first 4 sentences into a tibble, and then counts the number of times the string “the” shows up in each sentence. It then uses `str_view_all()` to show you a visual of where the string appeared.
+Because the sentences object is a vector, we cannot use `dplyr` tools on it unless we first put the vector into a tibble (a tidy table). The following chunk of code places the first 4 sentences into a tibble, and then counts the number of times the string "the" shows up in each sentence. It then uses `str_view_all()` to show you a visual of where the string appeared.
 
 ```{r eval = FALSE, echo = TRUE}
 tibble(sentence = sentences[1:4]) |> 
@@ -42,9 +42,9 @@ tibble(sentence = sentences[1:4]) |>
 str_view_all(sentences[1:4],"the")
 ```
 
-1. Modify the code above so that it counts the number of times the word “the” appears in any form (so as “The” or “the”), but make sure that words such as “These” or “them” are not included in your counts. Once you have validated your code works on the first 4 sentences, try grabbing a random sample of a few other sentences and validate your code on them. Then run the code on the entire set of 720 sentences to count the number of times the word “the” appears in each sentence. End by summarizing your results and state the number of sentences that have the word “the” exactly 0 times, exactly 1 time, exactly 2 times, exactly 3 times, etc.
+1.  Modify the code above so that it counts the number of times the word "the" appears in any form (so as "The" or "the"), but make sure that words such as "These" or "them" are not included in your counts. Once you have validated your code works on the first 4 sentences, try grabbing a random sample of a few other sentences and validate your code on them. Then run the code on the entire set of 720 sentences to count the number of times the word "the" appears in each sentence. End by summarizing your results and state the number of sentences that have the word "the" exactly 0 times, exactly 1 time, exactly 2 times, exactly 3 times, etc.
 
-2. Run the following code and explain what each line of code does.
+2.  Run the following code and explain what each line of code does.
 
 ```{r eval = FALSE, echo = TRUE}
 month.abb
@@ -73,14 +73,13 @@ Bring your questions, if any, to class with you.
 
 The three tasks below can be completed in many different ways, but generally should not require many lines of code.
 
-1. Use the `readr::read_lines()` function to read in each: [string—randomletters.txt](https://byuistats.github.io/M335/data/randomletters.txt) and [randomletters_wnumbers.txt.](https://byuistats.github.io/M335/data/randomletters_wnumbers.txt)
-2. With the `randomletters.txt` file, pull out every 1700 letter (for example, 1, 1700, 3400, 5100, …) and find the quote that is hidden—the quote ends with a period.
-3. With the `randomletters_wnumbers.txt` file, find all the numbers hidden, and convert those numbers to letters using the letters order in the alphabet to decipher the message. For example, a 1=a, 2=b,..., 26=z (Hint: the message starts with "experts").
-4. With the `randomletters.txt` file, remove all the spaces and periods from the string then find the longest sequence of vowels.
-5. Save your **`.R` script** (not `.rmd`) to your repository.
+1.  Use the `readr::read_lines()` function to read in each: [string---randomletters.txt](https://byuistats.github.io/M335/data/randomletters.txt) and [randomletters_wnumbers.txt.](https://byuistats.github.io/M335/data/randomletters_wnumbers.txt)
+2.  With the `randomletters.txt` file, pull out every 1700 letter (for example, 1, 1700, 3400, 5100, ...) and find the quote that is hidden---the quote ends with a period.
+3.  With the `randomletters_wnumbers.txt` file, find all the numbers hidden, and convert those numbers to letters using the letters order in the alphabet to decipher the message. For example, a 1=a, 2=b,..., 26=z (Hint: the message starts with "experts").
+4.  With the `randomletters.txt` file, remove all the spaces and periods from the string then find the longest sequence of vowels.
+5.  Save your **`.R` script** (not `.qmd`) to your repository.
 
 ### Submit
 
 In I-learn submit a link to the script file on GitHub.
-
 :::

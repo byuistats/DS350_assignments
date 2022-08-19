@@ -23,18 +23,18 @@ What is the relationship between departure delays and age of the plane? What is 
 
 ## Pre
 
-1. Join the `flights` and `planes` tibbles. 
-2. For each flight, calculate the age of the plane that was used. 
-3. Create a chart that looks at the distribution of departure delays by age group. Do you notice any patterns?
-    - You may want to try to create a new column that groups age of a planes, for example 0-10, 11-20, 21-30, and >30.
-    
+1.  Join the `flights` and `planes` tibbles.
+2.  For each flight, calculate the age of the plane that was used.
+3.  Create a chart that looks at the distribution of departure delays by age group. Do you notice any patterns?
+    -   You may want to try to create a new column that groups age of a planes, for example 0-10, 11-20, 21-30, and \>30.
+
 ## Post
 
-Add on to the `.rmd` file you started as part of the *pre class* tasks. 
+Add on to the `.qmd` file you started as part of the *pre class* tasks.
 
-1. Continue to work with your age data, but join on the `airlines` tibble so you have the full name of the carrier.
-2. Create a chart that looks at the distribution of age by carrier. Write about patterns you see (or lack thereof).
-3. Create a third chart using any variable(s) you think will be related to age. (You can use any/all of the other tibbles in the `nycflights13` package.) Write about patterns you see (or lack thereof).
+1.  Continue to work with your age data, but join on the `airlines` tibble so you have the full name of the carrier.
+2.  Create a chart that looks at the distribution of age by carrier. Write about patterns you see (or lack thereof).
+3.  Create a third chart using any variable(s) you think will be related to age. (You can use any/all of the other tibbles in the `nycflights13` package.) Write about patterns you see (or lack thereof).
 
 ### Submit
 

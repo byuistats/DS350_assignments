@@ -7,7 +7,7 @@ title: "Distance Between Savior Names, Part 1"
 
 ### Readings
 
-[The Book of Mormon](https://www.lds.org/scriptures/bofm?lang=eng). This link is for reference only. You don't have to read the full BOM before completing this assignment, but you should reading some each day :). 
+[The Book of Mormon](https://www.lds.org/scriptures/bofm?lang=eng). This link is for reference only. You don't have to read the full BOM before completing this assignment, but you should reading some each day :).
 
 ### Guided Instruction
 
@@ -15,31 +15,30 @@ None
 
 ## Background
 
-In 1978 Susan Easton Black stated, *"Even statistically, he [Christ] is the dominant figure of the Book of Mormon."*
+In 1978 Susan Easton Black stated, *"Even statistically, he \[Christ\] is the dominant figure of the Book of Mormon."*
 
-With our strong “string” skills we are going to check her results and build an improved statistic using number of words between references.
+With our strong "string" skills we are going to check her results and build an improved statistic using number of words between references.
 
 ## Pre
 
-1. Get the scripture and savior name data into R. 
-    * **Scripture Text:** Use the same data from the previous task. You don't have to download it again if you stored it on your computer. See the previous task for code to complete this step.
-    * **Savior Names:** Use `read_rds(url("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds"))`  or `read_rds("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds")` to download and load the Savior names table into R. (Or try experimenting with [`rio::import()`](https://github.com/leeper/rio) to read in the data)
-
-2. Use the list of Savior names and the Book of Mormon text to find the distribution of number of words between references to the Savior.
-    * Find each instance of a Savior name in the Book of Mormon.
-    * Split on those instances and then count the number of words between each instance.
-    * Use the example code below for some hints on how to tackle this task.
-3. Report the average number of words between each Savior name.
-4. Create an `.Rmd`  file with one to two paragraphs summarizing your graphic that shows how the distance between Savior names.
-5. Knit your `.rmd`  file and push the `.rmd`, `.md` and `.html`  files into your GitHub repository.
+1.  Get the scripture and savior name data into R.
+    -   **Scripture Text:** Use the same data from the previous task. You don't have to download it again if you stored it on your computer. See the previous task for code to complete this step.
+    -   **Savior Names:** Use `read_rds(url("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds"))` or `read_rds("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds")` to download and load the Savior names table into R. (Or try experimenting with [`rio::import()`](https://github.com/leeper/rio) to read in the data)
+2.  Use the list of Savior names and the Book of Mormon text to find the distribution of number of words between references to the Savior.
+    -   Find each instance of a Savior name in the Book of Mormon.
+    -   Split on those instances and then count the number of words between each instance.
+    -   Use the example code below for some hints on how to tackle this task.
+3.  Report the average number of words between each Savior name.
+4.  Create an `.qmd` file with one to two paragraphs summarizing your graphic that shows how the distance between Savior names.
+5.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
 
 ## Post
 
-1. Edit the `.rmd` file created in the *pre class* tasks to incorporate a visualization of the distribution of words between savior names.
-    - The plot should display the average in some way.
-    - Can you get the plot to "tell a story"?
-2. Write a paragraph to tell about the distribution / the data's story contained in the chart(s).
-3. Knit your `.rmd`  file and push the `.rmd`, `.md` and `.html`  files into your GitHub repository.
+1.  Edit the `.qmd` file created in the *pre class* tasks to incorporate a visualization of the distribution of words between savior names.
+    -   The plot should display the average in some way.
+    -   Can you get the plot to "tell a story"?
+2.  Write a paragraph to tell about the distribution / the data's story contained in the chart(s).
+3.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
 
 ### Submit
 

@@ -7,9 +7,9 @@ title: "Car Wash"
 
 ### Readings
 
-- [Chapter 16: R for Data Science—Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)
-- [lubridate Vignette](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
-- (optional) [Time Series Visualization Gallery](https://vcg.informatik.uni-rostock.de/~ct/timeviz/timeviz.html)
+-   [Chapter 16: R for Data Science---Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)
+-   [lubridate Vignette](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
+-   (optional) [Time Series Visualization Gallery](https://vcg.informatik.uni-rostock.de/~ct/timeviz/timeviz.html)
 
 ### Guided Instruction
 
@@ -21,25 +21,25 @@ A car wash business based in Rexburg, Idaho USA wants to see if the temperature 
 
 ## Pre
 
-1. In a R markdown file, read in the car wash data `https://byuistats.github.io/M335/data/carwash.csv` and format it for the needs of this task.
-    * Convert the times from UTC time to the business' local time using the right function out of `library(lubridate)`.
-    * Get to know your data. Investigate/look for unusual data points and decide what you should do about them.
-    * Create a new hourly grouping variable using `ceiling_date()` from `library(lubridate)`.
-    * Aggregate the point of sale data into hour sales totals.
-2. Use `riem_measures(station = "RXE", date_start = , date_end = )` for station `RXE` from `library(riem)` to get the Rexburg temperatures for the relevant dates.
-    * Create a new hourly variable that matches your car wash hourly variable, this will allow the join to take place.
-3. Merge/join the two datasets together.
-4. Consider the variables in the dataset. Sketch a graph that investigates the relationship between temperature and car wash. Remember to be creative. Let the situation dictate the chart that best tells the story rather than picking a chart based on limitations from software or your own coding ability.
-    - Why might it be important to incorporate other variables into a plot (e.g. time of day), even though the primary focus is the relationship between temperature and sales?
-5. Bring your sketch to class to share with others.    
+1.  In a R markdown file, read in the car wash data `https://byuistats.github.io/M335/data/carwash.csv` and format it for the needs of this task.
+    -   Convert the times from UTC time to the business' local time using the right function out of `library(lubridate)`.
+    -   Get to know your data. Investigate/look for unusual data points and decide what you should do about them.
+    -   Create a new hourly grouping variable using `ceiling_date()` from `library(lubridate)`.
+    -   Aggregate the point of sale data into hour sales totals.
+2.  Use `riem_measures(station = "RXE", date_start = , date_end = )` for station `RXE` from `library(riem)` to get the Rexburg temperatures for the relevant dates.
+    -   Create a new hourly variable that matches your car wash hourly variable, this will allow the join to take place.
+3.  Merge/join the two datasets together.
+4.  Consider the variables in the dataset. Sketch a graph that investigates the relationship between temperature and car wash. Remember to be creative. Let the situation dictate the chart that best tells the story rather than picking a chart based on limitations from software or your own coding ability.
+    -   Why might it be important to incorporate other variables into a plot (e.g. time of day), even though the primary focus is the relationship between temperature and sales?
+5.  Bring your sketch to class to share with others.
 
 ## Post
 
-In the same `.rmd` file used for the 'pre class' tasks, 
+In the same `.qmd` file used for the 'pre class' tasks,
 
-1. Create a visualization (or two) that provides insight into the relationship between sales and temperature by hour of the day.
-2. In a few sentences explain a couple of the key take-aways about the relationship between sales and temperature by hour of the day.
-3. Knit the `.Rmd`. Push the `.Rmd`, `.md`, and `.html` files to your GitHub repository. 
+1.  Create a visualization (or two) that provides insight into the relationship between sales and temperature by hour of the day.
+2.  In a few sentences explain a couple of the key take-aways about the relationship between sales and temperature by hour of the day.
+3.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
 
 ### Submit
 

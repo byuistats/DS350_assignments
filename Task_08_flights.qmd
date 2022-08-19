@@ -13,34 +13,32 @@ title: "Wings to Fly"
 
 You just started your internship at a big firm in New York, and your manager gave you an extensive file of flights that departed JFK, LGA, or EWR in 2013. From this data (which you can obtain in R) your manager wants you to answer some specific questions. :
 
-
 ## Pre
 
-1. To get the data, first install the `nycflights13` package. Then use `library(nycflights13)` to load the package. We will be using the `flights` dataset within the package. To learn more about the flights dataset, run `?flights` in the console.
+1.  To get the data, first install the `nycflights13` package. Then use `library(nycflights13)` to load the package. We will be using the `flights` dataset within the package. To learn more about the flights dataset, run `?flights` in the console.
 
-2. Answer this question and support your answer with one or more charts of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
+2.  Answer this question and support your answer with one or more charts of the data: **Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?**
 
-    - Push yourself to show the complexity of the data (i.e. individual flights, and not only broad summaries).
-    - Write a memor to your boss (about a paragraph) to explain your approach and the results.
-    
-3. Knit your `.Rmd` and then push your `.Rmd`, `.md`, and `.html` into your git repository.
+    -   Push yourself to show the complexity of the data (i.e. individual flights, and not only broad summaries).
+    -   Write a memor to your boss (about a paragraph) to explain your approach and the results.
+
+3.  Render your `.qmd` and then push your `.qmd`, `.md`, and `.html` into your git repository.
 
 ## Post
 
-1. Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with a chart of the data.
+1.  Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with a chart of the data.
 
-    - Add on to the `.Rmd` file you started as part of *pre class* tasks.
-    - For each question you answer, include a paragraph to explain your approach and the answer you arrived at.
-    
+    -   Add on to the `.qmd` file you started as part of *pre class* tasks.
+    -   For each question you answer, include a paragraph to explain your approach and the answer you arrived at.
+
     Questions
 
-    - For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
-    - Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”
+    -   For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
+    -   Which destination airport is the worst airport for arrival delays? You decide on the metric for "worst."
 
-2. Knit the updated `.Rmd` and then push your `.Rmd`, `.md`, and `.html` into your git repository.
+2.  Render the updated `.qmd` and then push your `.qmd`, `.md`, and `.html` into your git repository.
 
 ### Submit
 
 In I-learn submit a link to the `.md` file on GitHub.
-
 :::

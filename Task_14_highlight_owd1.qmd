@@ -36,17 +36,17 @@ If the thing you want to edit is not a theme element, then it is related to data
     -   Focus your energy on labels, the y-axis, background color, and line color.
     -   If you are getting stuck matching the graph, try completing steps 2 and 3, then coming back to this step with the time you have left.
 2.  Create a graph that highlights (draws attention to) any points that are above 100%. Be creative.
-3.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
 
 ## Post
 
-In the same `.rmd` file as the *pre-class* tasks
+In the same `.qmd` file as the *pre-class* tasks
 
 1.  Make a graph that highlights or emphasizes all the points from a particular country.
     -   This should be a separate graph from the one that highlights points over 100%
     -   It might be fun to add the United States before downloading the data, then highlighting the United States; or maybe the country where you served your mission.
 2.  Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use "highlighting" to help the data tell a story.
-3.  Knit the `.Rmd` file. Push your `.Rmd`, `.md`, and `.html` files into your GitHub repository.
+3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
 
 ### Submit
 
