@@ -60,7 +60,7 @@
     -   Use any website, blog, or article with good visualizations.
     -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/).
 
-2.  While in the project for this class' repository, start a new `.qmd` file. Edit what's there by default to title the report "Task 2". Put a link to each article in the `.Rmd` file. Also, write a one-paragraph review of each article that answers the following questions:
+2.  While in the project for this class' repository, start a new `.qmd` file. Edit what's there by default to title the report "Task 2". Put a link to each article in the `.qmd` file. Also, write a one-paragraph review of each article that answers the following questions:
 
     -   What is unique or good about the visualization? List a few ideas.
     -   What could be better? Identify at least one issue with the visualization.
