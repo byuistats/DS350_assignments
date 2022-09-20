@@ -58,7 +58,7 @@ Git is a program that helps you organize code and keep track of any changes you 
 
 1.  Study [Chapter 8: R for Data Science---Projects](http://r4ds.had.co.nz/workflow-projects.html)
 
-2.  Install Git on your computer. Then link the repository we created for you on GitHub to an RStudio project dedicated specifically to this class. Either read these [instructions](https://byuistats.github.io/M335/git_335.html){target="_blank"} or watch [this video](https://www.loom.com/share/cc734410dfec4e1bbabd5aeecff50e95) that walks you through the process of setting everything up and ensuring RStudio is talking to GitHub. If you can't get it to work, reach out for help! This is a critical step to being able to turn in assignments.
+2.  Install Git on your computer. Then link the repository we created for you on GitHub to an RStudio project dedicated specifically to this class. Read these [instructions](https://byuistats.github.io/M335/git_335.html){target="_blank"} <!-- or watch [this video](https://www.loom.com/share/cc734410dfec4e1bbabd5aeecff50e95) --> that walk you through the process of setting everything up and ensuring RStudio is talking to GitHub. If you can't get it to work, reach out for help! This is a critical step to being able to turn in assignments.
 
     ::: callout-warning
     If you didn't put your Github info on the google sheet referenced in the "pre" part of this task, and accept the two invitations, then you will need to do so ASAP. Do not simply create your own repository since we want the repository to belong to our class organization.
