@@ -32,7 +32,7 @@ Finish reading the rest of [Chapter 3: R for Data Science---Visualization](https
 
 Don't forget that slack is a great place to go if you can't figure something out. Asking questions in a way that allows people to help you is a skill you can practice in slack and within your groups.
 
-2.  Render the updated `.qmd` file. Push your `.qmd`, `.md`, `.html` and the `.png` of the plot into your git repository.
+2.  Render the updated `.qmd` file. Push your `.qmd`, `.md`, `.html` and the updated `.png` of the plot into your git repository.
 
 ### Submit
 

@@ -39,7 +39,7 @@ Read and complete the exercises in the `.qmd` file (you may wish to Render the f
 
 ![](task7_post.png)
 
-2.  Render the updated `.qmd` file. Push your `.qmd`, `.md`, `.html` and the `.png` of the plot into your git repository.
+2.  Render the updated `.qmd` file. Push your `.qmd`, `.md`, and `.html` into your git repository.
 
 ### Submit
 
