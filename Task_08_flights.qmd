@@ -33,7 +33,7 @@ You just started your internship at a big firm in New York, and your manager gav
 
     Questions
 
-    -   For *each origin* airport (JFK, EWR, LGA), which airline has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
+    -   For *each origin* airport (JFK, EWR, LGA), which **airline** has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?
     -   Which destination airport is the worst airport for arrival delays? You decide on the metric for "worst."
 
 2.  Render the updated `.qmd` and then push your `.qmd`, `.md`, and `.html` into your git repository.
