@@ -29,26 +29,26 @@ Finding good data takes time, and can take longer than the time to tidy your dat
 
 Don't be afraid to pivot or change directions if you find a dataset that sparks your interest or cannot find data to answer your initial question.
 
-## Pre
+## Task
 
-Create an `.qmd` file that has links to data sources with a description of the quality of each.
+Create an `.qmd` file or R script that has links to data sources with a description of the quality of each.
 
-Find 3-5 potential data sources (that are free) and document some information about the source. Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)
+1.  Find 3-5 potential data sources (that are free) and document some information about the source. Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)
+2.  Of the 3-5 potential data sources you identify, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.
 
-## Post
+::: callout-warning
+CAUTION: If you have to download your data (as opposed to read it directly from the web) you may want to store your data outside of the project folder so it doesn't try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there. There are also other ways to make Git ignore your data.
+:::
 
-1.  Of the 3-5 potential data sources, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.
+3.  Write a short summary of the read-in process and some coding secrets you learned.
 
-CAUTION: You may want to store your data outside of the repository so it doesn't try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there.
+4.  Include two to three quick visualizations that you used to check the quality of your data.
 
--   Write a short summary of the read-in process and some coding secrets you learned.
+5.  Summarize the limitations of the compiled data in addressing your original question.
 
--   Include two to three quick visualizations that you used to check the quality of your data.
+6.  After formatting your data, identify any follow-on or alternate questions that you could use for your project.
 
--   Summarize the limitations of the compiled data in addressing your original question.
-
-2.  After formatting your data, identify any follow-on or alternate questions that you could use for your project.
-3.  Push your R script or markdown files to your GitHub repository.
+7.  Push your R script or markdown files to your GitHub repository.
 
 ### Submit
 

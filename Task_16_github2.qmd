@@ -3,17 +3,13 @@ title: "GitHub Issues Round 2"
 ---
 
 ::: panel-tabset
-## Pre
+## Task
 
-There are two parts to this *pre class* task.
-
-1.  If you have not yet, be sure to finish the *post class* task for the GitHub Issues Round 1 task. This requires you to address the issues currently on your GitHub and close them.
+1.  Address the issues currently on your GitHub and close them.
 
 2.  You need to find a chart from two different students and leave an issue in their repository.
 
-## Post
-
-Find the issues that have been left for you (either by students or by teachers as part of past feedback) and fully address them and close them. In addition pushing updated charts to your repo, be sure you put a comment or explanation as a reply to original issue that was left to explain how you addressed it.
+3.  Later, after the class has had a chance to leave some issues for you, address the issues your classmates left for you while they completed the previous bullet. In addition pushing updated charts to your repo, be sure you put a comment or explanation as a reply to original issue that was left to explain how you addressed it. Then close the issues
 
 ### Submit
 

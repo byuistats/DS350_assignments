@@ -22,13 +22,9 @@ title: "Choose Your Own OWD"
 
 The [Our World in Data](https://ourworldindata.org/) website has world data. It is nice that they have provided graphics and the data that they used to generate the graphics. We are going to recreate one of their visualizations.
 
-## Pre
+## Task
 
-1.  Review the [Our World in Data](https://ourworldindata.org/) webpage and find a graphic that interests you. Recreate that graphic in an `.qmd` file as close as possible using the data from their website. (Make sure you keep the link or can navigate back to the original chart on their website).
-
-## Post
-
-After sharing charts among the group, make improvements to your chart so that it even more closely matches the chart produced by [Our World in Data](https://ourworldindata.org/) OR pick another chart to recreate.
+1.  Review the [Our World in Data](https://ourworldindata.org/) webpage and find a graphic that interests you. Using the data from their website, spend a couple of hours recreating their graphic as closely as you can in an `.qmd` file . (Make sure you keep the link or can navigate back to the original chart on their website).
 
 ### Submit
 

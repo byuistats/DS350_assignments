@@ -29,24 +29,18 @@ The Our World in Data website publishes research and graphics that provide insig
 
 If the thing you want to edit is not a theme element, then it is related to data and can mostly likely be changed inside a geom\_*() or a scale\_*() layer.
 
-## Pre
+## Task
 
-1.  Recreate this graph as closely as you can.
+1.  Recreate [this graph](https://ourworldindata.org/grapher/excess-mortality-p-scores?tab=chart&stackMode=absolute&time=earliest..latest&region=World) as closely as you can. Add the United States, your home country, or another country of special interest to you (like where you served a mission) before downloading the data so you can complete bullet #4.
     -   The data is provided on the download tab.
     -   Focus your energy on labels, the y-axis, background color, and line color.
     -   If you are getting stuck matching the graph, try completing steps 2 and 3, then coming back to this step with the time you have left.
 2.  Create a graph that highlights (draws attention to) any points that are above 100%. Be creative.
-3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
+3.  Create a another graph that shows a different way to highlight/emphasize points that are above 100%. 
+4.  Add a line for the United States (or whatever country you chose), alter the chart to highlight/emphasize just the that country.
+4.  Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use "highlighting" to help the data tell a story.
+5.  Render the `.qmd` file. Push all files created as part of the render to your GitHub repository.
 
-## Post
-
-In the same `.qmd` file as the *pre-class* tasks
-
-1.  Make a graph that highlights or emphasizes all the points from a particular country.
-    -   This should be a separate graph from the one that highlights points over 100%
-    -   It might be fun to add the United States before downloading the data, then highlighting the United States; or maybe the country where you served your mission.
-2.  Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use "highlighting" to help the data tell a story.
-3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
 
 ### Submit
 

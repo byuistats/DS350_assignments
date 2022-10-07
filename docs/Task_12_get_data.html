@@ -441,7 +441,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>These readings are from the book <em>Build a Career in Data Science</em>. If the links below don’t work for you, you can get an electronic version of the book from the <a href="https://library.byui.edu/">BYU-Idaho library</a>.</p>
@@ -465,22 +465,30 @@ ul.task-list{list-style: none;}
 <p>Don’t be afraid to pivot or change directions if you find a dataset that sparks your interest or cannot find data to answer your initial question.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Create an <code>.qmd</code> file that has links to data sources with a description of the quality of each.</p>
-<p>Find 3-5 potential data sources (that are free) and document some information about the source. Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)</p>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Create an <code>.qmd</code> file or R script that has links to data sources with a description of the quality of each.</p>
 <ol type="1">
-<li>Of the 3-5 potential data sources, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.</li>
+<li>Find 3-5 potential data sources (that are free) and document some information about the source. Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)</li>
+<li>Of the 3-5 potential data sources you identify, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.</li>
 </ol>
-<p>CAUTION: You may want to store your data outside of the repository so it doesn’t try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there.</p>
-<ul>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>CAUTION: If you have to download your data (as opposed to read it directly from the web) you may want to store your data outside of the project folder so it doesn’t try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there. There are also other ways to make Git ignore your data.</p>
+</div>
+</div>
+<ol start="3" type="1">
 <li><p>Write a short summary of the read-in process and some coding secrets you learned.</p></li>
 <li><p>Include two to three quick visualizations that you used to check the quality of your data.</p></li>
 <li><p>Summarize the limitations of the compiled data in addressing your original question.</p></li>
-</ul>
-<ol start="2" type="1">
-<li>After formatting your data, identify any follow-on or alternate questions that you could use for your project.</li>
-<li>Push your R script or markdown files to your GitHub repository.</li>
+<li><p>After formatting your data, identify any follow-on or alternate questions that you could use for your project.</p></li>
+<li><p>Push your R script or markdown files to your GitHub repository.</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

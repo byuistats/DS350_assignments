@@ -13,15 +13,13 @@ title: "GitHub Issues Round 1"
 
 GitHub is much more than simply storage in the cloud. It can be used to collaborate and communicate. Making feature requests or pointing out bugs in software is a common use of the GitHub Issues feature.
 
-## Pre
+## Task
 
 <!-- Do this part during class since there is no other good way to verify that it is done! -->
 
-Find two other student's compiled files in their repository for the previous week's Case Study and provide feedback using the issues feature in GitHub (If they already have two issues find a different student to critique). You should mention things they could do to improve their visualization, for example.
+First, find two other student's compiled files in their repository for the previous week's Case Study and provide feedback using the issues feature in GitHub (If they already have two issues find a different student to critique). You should mention things they could do to improve their visualization, for example.
 
-## Post
-
-Find any issues that have been left for you in your GitHub repository. Reply to the issues and close the issues after addressing them. (Depending on the issue, addressing it may simply be a reply to the issue, or it may be uploading an update to the assignment).
+Later, after the class had the chance to leave issues for you, reply to the issues and close the issues after addressing them. (Depending on the issue, addressing it may simply be a reply to the issue, or it may be uploading an update to the assignment).
 
 ### Submit
 
