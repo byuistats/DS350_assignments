@@ -31,14 +31,15 @@ This time, instead of looking at the mean height per country over time like we d
         -   Can you tell which column is the birth year? HINT: Google translate may be helpful.
     -   [Bureau of Labor Statistics Height Data: csv format](https://raw.githubusercontent.com/hadley/r4ds/main/data/heights.csv)
         -   Note: There is no birth year, so just assume mid-20th century and use 1950 as birth year
+        -   Don't forget to filter for just males.
     -   [University of Wisconsin National Survey Data: SPSS (.sav) format](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav)
         -   You'll want to look here to understand this dataset and know which columns to use: [National Survey Codebook](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK)
+        -   There is no gender identifier in this survey, we will just work with the data, knowing there is likely a mix of genders.
 
 2.  Wrangle each dataset so that it contains the following columns: `birth_year`, `height.in`, `height.cm`, and `study`.
 
     -   You will have to potentially do some renaming and conversions between inches and centimeters.
     -   You need to create the "study" column yourself to identify which dataset the rows came from.
-    -   We want to examine how heights have changed over time. Three of the data sets consist of just men, while 2 have both men and women. *Filter to just focus on men.*
     -   For each dataset `select(birth_year, height.in, height.cm, study)`
 
 3.  Use the `bind_rows()` function to combine your five individual datasets into one dataset.Each dataset must have the columns in the same order for this to work.

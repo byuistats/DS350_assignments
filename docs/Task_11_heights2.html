@@ -472,17 +472,18 @@ ul.task-list{list-style: none;}
 <li><a href="https://raw.githubusercontent.com/hadley/r4ds/main/data/heights.csv">Bureau of Labor Statistics Height Data: csv format</a>
 <ul>
 <li>Note: There is no birth year, so just assume mid-20th century and use 1950 as birth year</li>
+<li>Don’t forget to filter for just males.</li>
 </ul></li>
 <li><a href="http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav">University of Wisconsin National Survey Data: SPSS (.sav) format</a>
 <ul>
 <li>You’ll want to look here to understand this dataset and know which columns to use: <a href="http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK">National Survey Codebook</a></li>
+<li>There is no gender identifier in this survey, we will just work with the data, knowing there is likely a mix of genders.</li>
 </ul></li>
 </ul></li>
 <li><p>Wrangle each dataset so that it contains the following columns: <code>birth_year</code>, <code>height.in</code>, <code>height.cm</code>, and <code>study</code>.</p>
 <ul>
 <li>You will have to potentially do some renaming and conversions between inches and centimeters.</li>
 <li>You need to create the “study” column yourself to identify which dataset the rows came from.</li>
-<li>We want to examine how heights have changed over time. Three of the data sets consist of just men, while 2 have both men and women. <em>Filter to just focus on men.</em></li>
 <li>For each dataset <code>select(birth_year, height.in, height.cm, study)</code></li>
 </ul></li>
 <li><p>Use the <code>bind_rows()</code> function to combine your five individual datasets into one dataset.Each dataset must have the columns in the same order for this to work.</p></li>
