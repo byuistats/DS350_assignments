@@ -19,27 +19,19 @@ Read and complete the exercises in the `.qmd` file (you may wish to Render the f
 
 [Hans Rosling](http://www.gapminder.org/news/sad-to-announce-hans-rosling-passed-away-this-morning/) is one of the most popular data scientists on the web. His original TED talk, [The best stats you've ever seen](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen) set a new bar for data visualization.
 
-## Pre
+## Task
 
-1.  **Look at GDP over time.** Recreate the graphic shown below using gapminder dataset from `library(gapminder)` (get them to match as closely as you can).
-    -   Remove Kuwait from the data.
-    -   Use `library(tidyverse)` to load ggplot2 and dplyr, and use theme_bw() to duplicate basic plot formatting.
+1. **Look at GDP over time.** Recreate the graphic shown below using gapminder dataset from `library(gapminder)` (get them to match as closely as you can).
+    *   Remove Kuwait from the data.
+    *   Use `library(tidyverse)` to load ggplot2 and dplyr, and use theme_bw() to duplicate basic plot formatting.
+    *   Build a weighted average data set using `weighted.mean()` and GDP with `summarise()` and `group_by()`.
+    *   You will need to use the weighted average dataset you create in the previous step to make the black lines and dots that show the continent weighted average. 
 2.  Build an `.qmd` file to complete this task.
-3.  Render your `.qmd` and then push your `.qmd`, `.md`, `.html` into your git repository.
-
-### Plot to recreate:
-
-![](task7_pre.png)
-
-## Post
-
-1.  Edit the `.qmd` file created in the *pre class* task to incorporate a weighted mean for each facet, as shown below (continent mean should be weighted by country's population size).
-
-    -   Build a weighted average data set using `weighted.mean()` and GDP with `summarise()` and `group_by()`. You will need to use this weighted average dataset to make the black lines and dots that show the continent weighted average.
+3.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
 
 ![](task7_post.png)
 
-2.  Render the updated `.qmd` file. Push your `.qmd`, `.md`, and `.html` into your git repository.
+2.  Render the updated `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 

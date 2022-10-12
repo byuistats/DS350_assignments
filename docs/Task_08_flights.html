@@ -441,7 +441,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="reading" class="level3">
@@ -451,31 +451,36 @@ ul.task-list{list-style: none;}
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>You just started your internship at a big firm in New York, and your manager gave you an extensive file of flights that departed JFK, LGA, or EWR in 2013. From this data (which you can obtain in R) your manager wants you to answer some specific questions. :</p>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <ol type="1">
-<li><p>To get the data, first install the <code>nycflights13</code> package. Then use <code>library(nycflights13)</code> to load the package. We will be using the <code>flights</code> dataset within the package. To learn more about the flights dataset, run <code>?flights</code> in the console.</p></li>
-<li><p>Answer this question and support your answer with one or more charts of the data: <strong>Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?</strong></p>
-<ul>
-<li>Push yourself to show the complexity of the data (i.e.&nbsp;individual flights, and not only broad summaries).</li>
-<li>Write a memor to your boss (about a paragraph) to explain your approach and the results.</li>
-</ul></li>
-<li><p>Render your <code>.qmd</code> and then push your <code>.qmd</code>, <code>.md</code>, and <code>.html</code> into your git repository.</p></li>
+<li>For <em>each origin</em> airport (JFK, EWR, LGA), which <strong>airline</strong> has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?</li>
+<li>Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?</li>
+<li>Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”</li>
 </ol>
 </div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<ol type="1">
-<li><p>Your boss has two follow-up questions. Pick at least one of the questions below to answer (answer them both if you have time). Be sure to support your answer with a chart of the data.</p>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>The boss’ questions:</p>
+<div class="callout-note callout callout-style-simple no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
 <ul>
-<li>Add on to the <code>.qmd</code> file you started as part of <em>pre class</em> tasks.</li>
-<li>For each question you answer, include a paragraph to explain your approach and the answer you arrived at.</li>
+<li><p>For <em>each origin</em> airport (JFK, EWR, LGA), which <strong>airline</strong> has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?</p></li>
+<li><p>Which origin airport is best to minimize my chances of a late arrival when I am using Delta Airlines?</p></li>
+<li><p>Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”</p></li>
 </ul>
-<p>Questions</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><p>To get the data, first install the <code>nycflights13</code> package. Then use <code>library(nycflights13)</code> to load the package. We will be using the <code>flights</code> dataset within the package. To learn more about the flights dataset, run <code>?flights</code> in the console.</p></li>
+<li><p>Address two of the three questions from your manager. Each answer should contain at least one chart and a description where you state the answer.</p>
 <ul>
-<li>For <em>each origin</em> airport (JFK, EWR, LGA), which <strong>airline</strong> has the lowest 75th percentile of delay time for flights scheduled to leave earlier than noon?</li>
-<li>Which destination airport is the worst airport for arrival delays? You decide on the metric for “worst.”</li>
+<li>At least one of your visualizations needs to show the complexity of the data (i.e.&nbsp;individual flights, and not only broad summaries).</li>
 </ul></li>
-<li><p>Render the updated <code>.qmd</code> and then push your <code>.qmd</code>, <code>.md</code>, and <code>.html</code> into your git repository.</p></li>
+<li><p>Create a report that has the graphs and an explanation of the answers to the boss’ questions mentioned in the background section..</p></li>
+<li><p>Render your <code>.qmd</code>. Push all the files created in the rendering process into your GitHub repository.</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

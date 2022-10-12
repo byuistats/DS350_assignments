@@ -441,7 +441,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
@@ -454,7 +454,7 @@ ul.task-list{list-style: none;}
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the top 5 managers in major league baseball (MLB). We are going to use the Sean Lahman’s baseball database to explore patterns and double check the statistics in the article.</p>
+<p>There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the <a href="https://thegruelingtruth.com/baseball/top-5-managers-mlb-history/">top 5 managers in major league baseball (MLB)</a>. We are going to use the Sean Lahman’s baseball database to explore patterns and double check the statistics in the article.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>The Grueling Truth article states</p>
@@ -462,27 +462,36 @@ ul.task-list{list-style: none;}
 <p>“[Bobby] Cox…is one of only four managers to have won the award [Manager of the Year] in both the American and National League.”</p>
 </blockquote>
 <ol type="1">
-<li>Find a table in library(Lahman) with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox’s playerID is.</li>
-<li>Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. <em>Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.</em></li>
-<li>Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.</li>
-<li>Render the <code>.qmd</code> file and push your <code>.qmd</code>, <code>.md</code> and <code>.html</code> file into your GitHub repository.</li>
-</ol>
+<li><p>Find a table in <code>library(Lahman)</code> with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox’s playerID is.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using double question marks is a great way to learn about a package. For example, <code>??Lahman</code>.</p>
+</div>
+</div></li>
+<li><p>Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. <em>Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.</em></p></li>
+<li><p>Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.</p></li>
+</ol>
 <p>The article also states,</p>
 <blockquote class="blockquote">
 <p>“[Joe] McCarthy has the numbers. His winning percentage is the best all-time for managers with more than 300 games.”</p>
 </blockquote>
-<p>In the same <code>.qmd</code> file you started as part of the <em>pre class</em> tasks, do the following:</p>
-<ol type="1">
-<li>Find a table in <code>library(Lahman)</code> with data relevant to this statement.</li>
-<li>Wrangle the data to create a new table that will directly allow us to assess the truth of this statement.</li>
-<li>Write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.</li>
-<li>Create a new dataframe with the full name of each manager, the manager’s winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.
+<ol start="4" type="1">
+<li><p>Find a table in <code>library(Lahman)</code> with data relevant to this statement.</p></li>
+<li><p>Wrangle the data to create a visualization that will directly allow us to assess how Joe McCarthy’s winning percentage compares to other managers.</p></li>
+<li><p>Using your visualization, write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.</p></li>
+<li><p>Create a new dataframe with the full name of each manager, the manager’s winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.</p>
 <ul>
-<li>Write a paragraph to describe what you learned in th</li>
+<li>Write a paragraph to describe what you learned</li>
 </ul></li>
-<li>Render the <code>.qmd</code> file and push your <code>.qmd</code>, <code>.md</code> and <code>.html</code> file into your GitHub repository.</li>
+<li><p>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

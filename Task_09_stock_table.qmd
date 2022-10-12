@@ -30,28 +30,19 @@ We have access to stock return data through 1998. Open the dataset and get famil
 
 We want to look at the returns for each six-month period of the year in which the returns were reported.
 
-## Pre
+## Task
 
 1.  Use the appropriate function in `library(readr)` to read in the `.RDS` file found on [GitHub](https://github.com/byuistats/data/tree/master/Dart_Expert_Dow_6month_anova)
     -   Depending on your computer, you should use `read_rds(url("WEBLOCATION.RDS"))` or `read_rds("WEBLOCATION.RDS")` to download and read the .RDS file type. Remember, R is case sensitive.
     -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the reading below).
 2.  The `contestant_period` column is not "tidy" we want to create a `month_end` and a `year_end` column from the information it contains.
-3.  Save your "tidy" data as an `.rds` object.
-4.  Create a plot that shows the six-month returns by the year in which the returns are collected. *Your plot should highlight the tighter spread of the DJIA as compared to the other two selection methods,* DARTS and PROS.
-5.  Include your plot in an `.qmd` file with a short paragraph describing your plots. Play with code-folding to make sure your code is displayed in your file (though have it default to hidden).
-6.  Render the `.qmd` file. Push your `.qmd`, `.md`, `.html`, and `.rds` files into your git repository.
-
-## Post
-
-Add to your existing `.qmd` file to complete these steps:
-
-1.  Read in the "tidy" data `.rds` object you saved in the *pre class* tasks.
-2.  Use code to create a table of the DJIA returns that matches the table shown below (apply `pivot_wider()` to the data).
+3.  Save your "tidy" data as an `.rds` object. (see if you can read in the saved file!)
+4.  Use code to create a table of the DJIA returns that matches the table shown below (apply `pivot_wider()` to the data). Pay attention to detail.
 
 ![](DJIA_returns.PNG)
 
-6.  Render the `.qmd` file. Push your `.qmd`, `.md`, `.html` into your git repository.
-    -   Don't be surprised when the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks correct in your `.html` or `.html` preview.
+6.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
+    -   Don't be surprised if the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks correct in your `.html` or `.html` preview.
 
 ### Submit
 

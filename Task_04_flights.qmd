@@ -25,21 +25,17 @@ Before we can start to answer business questions we need to become familiar with
 
 We will also want to know how the variables relate to each other. We can create tables or visualizations that summarize how different variables relate to each other. At this point, we are deepening our understanding as well as beginning our analysis.
 
-## Pre
+## Task
 
 1.  Create a new `.qmd` to do this task. Don't forget to load (not install) the tidyverse package.
 2.  Use the `nycflights13::flights` dataset. (You may need to install `nycflights13` package first).
     -   Note the use of double colon allows you to access functions and datasets from a package without loading the entire package.
-    -   You can run `?nycflights13::flights` in the console to learn more about the variables in the dataset. (Don't include this in your Rmarkdown).
+    -   You can run `?nycflights13::flights` in the console to learn more about the variables in the dataset. (Don't include this in your Quarto file).
 3.  Pick two variables (columns) whose relationship you would like to explore.
     -   Provide a visualization of the univariate distribution of each of the selected variables separately (i.e. 2 plots are needed here, 1 for each variable)
     -   Build bivariate summaries of the variables you have chosen to investigate (1 plot is needed here, the plot should contain both variables in it).
 4.  Write one to two paragraphs in the `.qmd` summarizing insights from your graphics and your data presentation choices.
-5.  Knit your `.qmd` and then push your `.qmd`, `.md`, `.html` into your git repository.
-
-## Post
-
-Make at least two significant improvements to what you created as part of the *pre class* tasks and push to GitHub.
+5.  Render your `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 

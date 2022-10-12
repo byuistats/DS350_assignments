@@ -46,25 +46,15 @@ This time, instead of looking at the mean height per country over time like we d
 
 4.  Write a short paragraph summarizing the data wrangling process you had to go through to create your tidy dataset. Include in that discussion any decisions you had to make about what data to exclude.
 
-    -   You may want to run some simple summary statistics or visuals to aid in the comparison of your dataset with the dataset of your group members.
+5. Make a plot of the five studies containing individual heights to examine the question of height distribution across centuries.
 
-5.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
+6.  Write at least two paragraphs to address the following:
 
-Make a small-multiples plot (i.e. facets) of the five studies containing individual heights to examine the question of height distribution across centuries.
-
-## Post
-
-1.  Make two graphs to examine the question of height distribution across centuries.
-
-    -   One graph should show individual heights (not summaries) and be faceted by study.
-
-2.  Write at least two paragraphs to address the following:
-
+    -   How does the story told by this data compare to the story told by the data in the previous task? Do they agree or do they contradict? If they contradict, reason through the contradiction and try to make sense of it.    
     -   How would you respond to the assertion that humans are getting taller over time based on the datasets in these two tasks involving height?
-    -   How does the story told by this data compare to the story told by the data in the previous task? Do they agree or do they contradict? If they contradict, reason through the contradiction and try to make sense of it.
     -   Be sure to provide an overall conclusion about where you stand on the question.
 
-3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
+3.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 

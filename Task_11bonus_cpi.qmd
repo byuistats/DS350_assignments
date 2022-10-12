@@ -23,7 +23,7 @@ Complete the following if you have not yet: [Data structures and importing data]
 
 The article is on Medium, which means if you frequent that site often then you won't be able to see the image unless you pay for a membership. Here is a [screen capture of the image](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png) if the article won't show.
 
-## Pre
+## Task
 
 The data used to create that chart can be found in these excel files, one file for each month of data:
 
@@ -42,15 +42,11 @@ The data used to create that chart can be found in these excel files, one file f
 
 ![](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png)
 
-5.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
-
-## Post
-
 Some of the food items used to calculate the CPI changed starting in February 2020: some were removed and others were added. One could argue that the dip in the CPI was due to the change in items rather than a result of the Corona Virus.
 
-1.  Add to the `.qmd` file you started as part of the *pre class* tasks by creating 1 or 2 charts that investigate this hypothesis.
-2.  Write a a paragraph or two to articulate the story the data tells regarding the dip in CPI and the change of items included.
-3.  Render the `.qmd` file. Push your `.qmd`, `.md`, and `.html` files into your GitHub repository.
+5.  Create 1 or 2 charts that investigate this hypothesis.
+6.  Write a a paragraph or two to articulate the story the data tells regarding the dip in CPI and the change of items included.
+7.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 

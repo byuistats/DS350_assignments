@@ -15,33 +15,39 @@ Read the following if you have not yet: - [Chapter 13: R for Data Science---Rela
 
 ## Background
 
-There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the top 5 managers in major league baseball (MLB). We are going to use the Sean Lahman's baseball database to explore patterns and double check the statistics in the article.
+There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the [top 5 managers in major league baseball (MLB)](https://thegruelingtruth.com/baseball/top-5-managers-mlb-history/). We are going to use the Sean Lahman's baseball database to explore patterns and double check the statistics in the article.
 
-## Pre
+## Task
 
 The Grueling Truth article states
 
 > "\[Bobby\] Cox...is one of only four managers to have won the award \[Manager of the Year\] in both the American and National League."
 
-1.  Find a table in library(Lahman) with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox's playerID is.
-2.  Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. *Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.*
-3.  Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.
-4.  Render the `.qmd` file and push your `.qmd`, `.md` and `.html` file into your GitHub repository.
+1.  Find a table in `library(Lahman)` with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox's playerID is.
 
-## Post
+    ::: callout-tip
+    Using double question marks is a great way to learn about a package. For example, `??Lahman`.
+    :::
+
+2.  Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. *Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.*
+
+3.  Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.
 
 The article also states,
 
 > "\[Joe\] McCarthy has the numbers. His winning percentage is the best all-time for managers with more than 300 games."
 
-In the same `.qmd` file you started as part of the *pre class* tasks, do the following:
+4.  Find a table in `library(Lahman)` with data relevant to this statement.
 
-1.  Find a table in `library(Lahman)` with data relevant to this statement.
-2.  Wrangle the data to create a new table that will directly allow us to assess the truth of this statement.
-3.  Write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.
-4.  Create a new dataframe with the full name of each manager, the manager's winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.
-    -   Write a paragraph to describe what you learned in th
-5.  Render the `.qmd` file and push your `.qmd`, `.md` and `.html` file into your GitHub repository.
+5.  Wrangle the data to create a visualization that will directly allow us to assess how Joe McCarthy's winning percentage compares to other managers.
+
+6.  Using your visualization, write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.
+
+7.  Create a new dataframe with the full name of each manager, the manager's winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.
+
+    -   Write a paragraph to describe what you learned
+
+8.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 

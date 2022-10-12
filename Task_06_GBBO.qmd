@@ -19,7 +19,7 @@ The [Great British Bake Off](https://byuistats.github.io/M335/assignment_pages/r
 
 Specifically, you want to know how the 7-day viewership changes within a season and across seasons. In one graph, you compare the 7-day viewership for the season's premiere and finale. In another graph, you compare the mean across seasons while not losing track of each episode's 7-day viewership.
 
-## Pre
+## Task
 
 1.  Read in the TV ratings data for the show using the following code. We will be using the `ratings` dataset. You can learn more about the data set by running `?ratings`.
 
@@ -29,25 +29,19 @@ Specifically, you want to know how the 7-day viewership changes within a season 
 
 2.  Create a chart to illustrate the differences in seven-day viewership between the first and last episode of each season respectively.
 
-3.  Write a paragraph in your .qmd file to discuss the historical trends and the way the finale viewership behaves.
+3.  Create another chart that displays the ratings for each and every episode AND the season's mean rating. This should should only include series/seasons that have 10 episodes.
 
-4.  We are curious how the mean ratings have changed across seasons (aka series) for the Great British Bake Off. We also want to see how ratings progress for each episode within a season. More specifically, for seasons with 10 episodes, sketch a chart that displays the 7 day ratings for each episode per season (aka series) and how mean ratings change across seasons.
+4.  Write a paragraph or two in your .qmd file to discuss
 
-    -   In your sketch, be sure to fully think through and label the axes and other aspects of the chart.
-    -   Now make a sketch on paper of what the underlying dataset for that chart should look like (i.e. what are the column, what do the rows contain, etc.)
+    -   Patterns of viewership within a season
 
-5.  Bring your 2 sketches (one of the chart, and one of the dataset) to class. Also be sure your .md file containing the answers to points 2 and 3 above is on GitHub so that you can easily share it with classmates.
+    -   Historical trends of the show's viewership and changes over time
 
-## Post
+        -   Perhaps a little internet surfing or Googling will help you find reasons for the viewership changes.
 
-1.  Again, start with the `ratings` dataset. Create the graph you sketched (or an improved version) as part of the *pre class* work for this task.
-
-    -   Use/add on to the file you started in the *pre class* tasks.
-    -   Remember, this chart should only include seasons with 10 episodes.
-
-2.  Write at least one paragraph discussing your visualization. Point out interesting insights you see in the plot. Perhaps a little internet surfing or Googling will help you find reasons for the viewership changes.
+5.  Render the updated \`.qmd\` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-Push all your files to GitHub. In I-learn paste the link to the `.md` file that contains all your work for the pre and post tasks on GitHub: 2 charts and 2 paragraphs of writing (one about each chart).
+In I-learn paste the link to the `.md` file on GitHub.
 :::

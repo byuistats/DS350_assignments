@@ -441,7 +441,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
@@ -484,23 +484,14 @@ ul.task-list{list-style: none;}
 <li>When using file paths to read files in from Github (and other locations), you must pay attention to ‘raw’ vs.&nbsp;‘blob’ (seeing the reading below).</li>
 </ul></li>
 <li>The <code>contestant_period</code> column is not “tidy” we want to create a <code>month_end</code> and a <code>year_end</code> column from the information it contains.</li>
-<li>Save your “tidy” data as an <code>.rds</code> object.</li>
-<li>Create a plot that shows the six-month returns by the year in which the returns are collected. <em>Your plot should highlight the tighter spread of the DJIA as compared to the other two selection methods,</em> DARTS and PROS.</li>
-<li>Include your plot in an <code>.qmd</code> file with a short paragraph describing your plots. Play with code-folding to make sure your code is displayed in your file (though have it default to hidden).</li>
-<li>Render the <code>.qmd</code> file. Push your <code>.qmd</code>, <code>.md</code>, <code>.html</code>, and <code>.rds</code> files into your git repository.</li>
-</ol>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>Add to your existing <code>.qmd</code> file to complete these steps:</p>
-<ol type="1">
-<li>Read in the “tidy” data <code>.rds</code> object you saved in the <em>pre class</em> tasks.</li>
-<li>Use code to create a table of the DJIA returns that matches the table shown below (apply <code>pivot_wider()</code> to the data).</li>
+<li>Save your “tidy” data as an <code>.rds</code> object. (see if you can read in the saved file!)</li>
+<li>Use code to create a table of the DJIA returns that matches the table shown below (apply <code>pivot_wider()</code> to the data). Pay attention to detail.</li>
 </ol>
 <p><img src="DJIA_returns.PNG" class="img-fluid"></p>
 <ol start="6" type="1">
-<li>Render the <code>.qmd</code> file. Push your <code>.qmd</code>, <code>.md</code>, <code>.html</code> into your git repository.
+<li>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.
 <ul>
-<li>Don’t be surprised when the table doesn’t render well in the <code>.md</code> file on Github. That is okay, as long as it looks correct in your <code>.html</code> or <code>.html</code> preview.</li>
+<li>Don’t be surprised if the table doesn’t render well in the <code>.md</code> file on Github. That is okay, as long as it looks correct in your <code>.html</code> or <code>.html</code> preview.</li>
 </ul></li>
 </ol>
 <section id="submit" class="level3">
