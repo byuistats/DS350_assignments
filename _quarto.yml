@@ -33,9 +33,9 @@ book:
         - Task_15_owd2.qmd
     - part: "Module 6: Data Joins"
       chapters:
-        - Task_17_BYU_baseball.qmd
-        - Task_18-1_baseball_managers.qmd
-        - Task_18-2_age_of_planes.qmd
+        - Task_17_age_of_planes.qmd
+        - Task_18-1_BYU_baseball.qmd
+        - Task_18-2_baseball_managers.qmd
     - part: "Module 7: Text"
       chapters:
         - Task_19_strings.qmd

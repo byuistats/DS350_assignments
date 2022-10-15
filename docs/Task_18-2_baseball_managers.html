@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DS350 assignments - 14&nbsp; BYU Baseball</title>
+<title>DS350 assignments - 16&nbsp; Baseball Managers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,8 +24,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<link href="./Task_18-1_baseball_managers.html" rel="next">
-<link href="./Task_15_owd2.html" rel="prev">
+<link href="./Task_19_strings.html" rel="next">
+<link href="./Task_18-1_BYU_baseball.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +64,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Baseball Managers</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -217,17 +217,17 @@ ul.task-list{list-style: none;}
     <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_17_BYU_baseball.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_17_age_of_planes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Age of Planes</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_age_of_planes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Age of Planes</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
     </ul>
@@ -424,7 +424,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Baseball Managers</span></h1>
 </div>
 
 
@@ -446,10 +446,7 @@ ul.task-list{list-style: none;}
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
 <h3 class="anchored" data-anchor-id="readings">Readings</h3>
-<ul>
-<li><a href="http://r4ds.had.co.nz/relational-data.html">Chapter 13: R for Data Science—Relational Data</a> OR</li>
-<li><a href="https://rstudio.cloud/learn/primers/4.3">Interactive Primer on Joins</a></li>
-</ul>
+<p>Read the following if you have not yet: - <a href="http://r4ds.had.co.nz/relational-data.html">Chapter 13: R for Data Science—Relational Data</a> OR - <a href="https://rstudio.cloud/learn/primers/4.3">Interactive Primer on Joins</a></p>
 </section>
 <section id="guided-instruction" class="level3">
 <h3 class="anchored" data-anchor-id="guided-instruction">Guided Instruction</h3>
@@ -457,18 +454,44 @@ ul.task-list{list-style: none;}
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Over the campfire, you and a friend get into a debate about which college in Utah has had the best MLB success. As an avid BYU fan, you want to prove your point, and you go to data to settle the debate. You need a clear visualization that depicts the performance of BYU players compared to other Utah college players that have played in the major leagues. The <code>library(Lahman)</code> package has a comprehensive set of baseball data. It is great for testing out our relational data skills. We will also need a function to adjust player salaries due to inflation- <code>library(priceR)</code>.</p>
+<p>There are many websites, podcasts, and even databases dedicated to tracking professional sports. In 2021, The Grueling Truth published an article listing the <a href="https://thegruelingtruth.com/baseball/top-5-managers-mlb-history/">top 5 managers in major league baseball (MLB)</a>. We are going to use the Sean Lahman’s baseball database to explore patterns and double check the statistics in the article.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>The Grueling Truth article states</p>
+<blockquote class="blockquote">
+<p>“[Bobby] Cox…is one of only four managers to have won the award [Manager of the Year] in both the American and National League.”</p>
+</blockquote>
 <ol type="1">
-<li>Install the <code>library(Lahman)</code> and examine the available data sets.
+<li><p>Find a table in <code>library(Lahman)</code> with data relevant to this statement. You also need to find a table that will tell you what Bobby Cox’s playerID is.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using double question marks is a great way to learn about a package. For example, <code>??Lahman</code>.</p>
+</div>
+</div></li>
+<li><p>Wrangle the data to create a new table that will directly allow us to assess the truth of this statement. <em>Note: I believe this statement is referring only to the BBWAA award. The TSN award is mentioned separately in the article.</em></p></li>
+<li><p>Write a paragraph to describe what you have learned about managers winning this award and the truthfulness of the claim.</p></li>
+</ol>
+<p>The article also states,</p>
+<blockquote class="blockquote">
+<p>“[Joe] McCarthy has the numbers. His winning percentage is the best all-time for managers with more than 300 games.”</p>
+</blockquote>
+<ol start="4" type="1">
+<li><p>Find a table in <code>library(Lahman)</code> with data relevant to this statement.</p></li>
+<li><p>Wrangle the data to create a visualization that will directly allow us to assess how Joe McCarthy’s winning percentage compares to other managers.</p></li>
+<li><p>Using your visualization, write a paragraph to describe the truthfulness of the statement and what you learned about who are the winningest managers.</p></li>
+<li><p>Create a new dataframe with the full name of each manager, the manager’s winning percentage, and the number of awards received by the manager. Then create a chart to show the relationship between winning percentage and number of awards received. Label any outliers in your plot with the full name of the manager.</p>
 <ul>
-<li>Find the handful of data sets that you will need in that package to show full college name and player <strong>first and last names</strong> (not first and middle name) as well as their annual earnings.</li>
+<li>Write a paragraph to describe what you learned</li>
 </ul></li>
-<li>Install and load the <code>priceR</code> package, then use the <code>adjust_for_inflation(price = your_earnings_vector, from_date = your_earnings_year_vector, country = "US", to_date = 2021)</code> function to get all earnings in 2021 dollars.</li>
-<li>In an <code>.qmd</code> file make a plot (or two) showing how professional baseball player earnings who are alum of BYU compare to the professional players who are alum of other Utah schools.</li>
-<li>Write a paragraph (or two) to summarize your findings and explain what conclusions you can draw from your visualization.</li>
-<li>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.</li>
+<li><p>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>
@@ -562,13 +585,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Task_15_owd2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Choose Your Own OWD</span></span>
+      <a href="./Task_18-1_BYU_baseball.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Task_18-1_baseball_managers.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Task_19_strings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Strings and Regex</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
