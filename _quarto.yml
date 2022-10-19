@@ -18,15 +18,14 @@ book:
         - Task_05_gapminder1.qmd
     - part: "Module 3: Data Wrangling"
       chapters:
-        - Task_06_GBBO.qmd
-        - Task_07_gapminder2.qmd
-        - Task_08_flights.qmd
+        - Task_06_gapminder2.qmd
+        - Task_07_wings_to_fly.qmd
+        - Task_08_gun_deaths.qmd
     - part: "Module 4: Data Ingestion"
       chapters:
         - Task_09_stock_table.qmd
         - Task_10_heights1.qmd
         - Task_11_heights2.qmd
-        - Task_11bonus_cpi.qmd
     - part: "Module 5: Data for Presentation"
       chapters:
         - Task_14_highlight_owd1.qmd  
@@ -72,6 +71,10 @@ book:
     - part: "Semester Project"
       chapters:
         - semester_project.qmd
+    - part: "Alternate/extra tasks"
+      chapters:
+        - Task_06_GBBO.qmd
+        - Task_11bonus_cpi.qmd
 
 
 bibliography: references.bib

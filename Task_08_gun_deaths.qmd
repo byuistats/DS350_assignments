@@ -1,0 +1,38 @@
+---
+title: "Reducing Gun Deaths"
+editor: visual
+---
+
+::: panel-tabset
+## Resources
+
+### Reading
+
+1.  [Chapter 11.1 - 11.4: R for Data Science - Data Import](http://r4ds.had.co.nz/data-import.html)
+2.  Raw vs. blob
+    -   [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub
+    -   [This video](https://www.loom.com/share/fe4d7c623f1d4c5197b63648358e3ddc) shows examples of using the correct url to read in the data.
+
+## Background
+
+The world is a dangerous place. Police shootings, mass shootings, and apparently random shootings consistently seem to be in the headlines. The solution to the problem is politically controversial. [FiveThirtyEight](https://fivethirtyeight.com/) reported on [gun deaths in 2016](https://fivethirtyeight.com/features/gun-deaths/). As leaders in data journalism, they have posted a clean version of this data in their GitHub repo called [full_data.csv](https://github.com/fivethirtyeight/guns-data) for us to use.
+
+While their visualizations focused on yearly averages, our client wants to create commercials that help reduce the gun deaths in the US. They would like to target the commercials in different seasons of the year (think month variable) to audiences that could have the most impact in reducing gun deaths. Our challenge is to summarize and visualize seasonal trends across the other variables in these data.
+
+## Task
+
+1.  Write a short paragraph summarizing their article: [FiveThirtyEight article](https://fivethirtyeight.com/features/gun-deaths/)
+2. Read in the data from their GitHub repo called [full_data.csv](https://github.com/fivethirtyeight/guns-data).
+    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the reading below).
+2. Create one plot to illustrate one (or more) of the key insights from your summary.
+3. Address the client’s need for emphasis areas of their commercials for different seasons of the year.
+    -   Provide plots that help them know the different potential groups (variables) they could address in different seasons (2-4 visualizations seem necessary)
+    -   Write 2-4 sentences describing each image.
+4.  Build an `.qmd` file to complete this task.
+5.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
+
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+:::

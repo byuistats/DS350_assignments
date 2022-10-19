@@ -20,7 +20,7 @@ The [Scientific American](https://www.scientificamerican.com/article/why-are-we-
 
 This time, instead of looking at the mean height per country over time like we did for the previous task, we have a few files that contain heights of individuals. Each file represents a different time and/or place from which the individuals are sampled. We will combine the data from these files into one dataset to facilitate our visualization.
 
-## Pre
+## Task
 
 1.  Work with these datasets where each row represents an individual. Import these five datasets into R.
 

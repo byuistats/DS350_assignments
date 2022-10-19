@@ -11,9 +11,6 @@ title: "Clean and Reformat (aka Tidy) Stock Data"
 2.  [Chapter 12: R for Data Science---Tidy Data](http://r4ds.had.co.nz/tidy-data.html)
 3.  [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
     -   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
-4.  Raw vs. blob
-    -   [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub
-    -   [This video](https://www.loom.com/share/fe4d7c623f1d4c5197b63648358e3ddc) shows examples of using the correct url to read in the data.
 
 ### Guided Instruction
 
