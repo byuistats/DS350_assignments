@@ -20,9 +20,9 @@ book:
       chapters:
         - Task_06_gapminder2.qmd
         - Task_07_wings_to_fly.qmd
-        - Task_08_gun_deaths.qmd
     - part: "Module 4: Data Ingestion"
       chapters:
+        - Task_08_gun_deaths.qmd
         - Task_09_stock_table.qmd
         - Task_10_heights1.qmd
         - Task_11_heights2.qmd
@@ -33,8 +33,8 @@ book:
     - part: "Module 6: Data Joins"
       chapters:
         - Task_17_age_of_planes.qmd
-        - Task_18-1_BYU_baseball.qmd
         - Task_18-2_baseball_managers.qmd
+        - Task_18-1_BYU_baseball.qmd
     - part: "Module 7: Text"
       chapters:
         - Task_19_strings.qmd

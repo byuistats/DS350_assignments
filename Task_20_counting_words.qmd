@@ -23,7 +23,7 @@ In 1978 Susan Easton Black wrote an Ensign article, [Names of Christ in the Book
 
 We are going to use some of our string skills to count words in the New Testament and in the Book of Mormon.
 
-## Pre
+## Task
 
 1.  In a previous week we learned to download zip files, unzip them, and then read in their content. This process is greatly simplified with the `rio` package (dealing with zipped folders may be more tricky). [`rio`](https://github.com/leeper/rio) is a package that can read in a wide variety of file types with one easy command. After installing the `rio` package download the data using this code:
 
@@ -32,17 +32,14 @@ scriptures_data <- rio::import("http://scriptures.nephi.org/downloads/lds-script
   as_tibble()
 ```
 
-4.  Create an `.qmd` file to show/report your results (including the graph) for the following:
-    -   Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
-    -   Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
-5.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
-
-## Post
-
-1.  In the same `.qmd` file as you did the *pre class* tasks, create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
+2. Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
+3. Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
+4. Create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
     -   Count how many words there are per verse
     -   Since there are 15 books, you should graphically depict/summarize 15 distributions of word counts.
-2.  Render your `.qmd` file and push the `.qmd`, `.md` and `.html` files into your GitHub repository.
+5.  Create an `.qmd` file to show your results (including the graph).
+6.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
+
 
 ### Submit
 
