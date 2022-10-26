@@ -15,7 +15,7 @@ These readings are focused on working with factors in R
 
 ### Guided Instruction
 
-In this file, the "Extra Enrichment" section is just that, extra. It demonstrates some things the book doesn't cover and may come in handy someday in the future, but you can skim it or skip it entirely to make time for mastering more critical skills. [Factors and forcats](https://byuistats.github.io/M335/online_class/week7_factors.Rmd)
+In this file, the "Extra Enrichment" section is just that, extra. It demonstrates some things the book doesn't cover and may come in handy someday in the future, but you can skim it or skip it entirely to make time for mastering more critical skills. [Factors and forcats](https://byuistats.github.io/M335/online_class/week7_factorsv2.Rmd)
 
 ## Background
 
