@@ -25,40 +25,31 @@ You got your dream job working as a data analyst for one of your favorite restau
 
 This task asks you to conduct the analysis/visualization using two different units of measure. The decision about what unit of measure to use can mask or reveal key insights.
 
-## Pre
+## Task
 
 1.  Create a visualization of the data that can be used to decide what day(s) to run the promotion.
 
-    -   Apply one of the functions to each row of the dataset using `map_*()`. (You may need to do a little cleaning/wrangling first)
+    -   Apply one of the functions from the previous task to each row of the dataset using `map_*()`. (You may need to do a little cleaning/wrangling first)
     -   Use the dataset to create your visualization to support your conclusion (You may need to do a little cleaning/wrangling first)
-    -   Think about what an "observation" represents in this newly created dataset.
+    -   Write about what an "observation" represents in this newly created dataset.
 
-2.  Write a paragraph containing a recommendation to Chipotle leadership about when to run the promotion.
+2.  Write a sentence or two containing a recommendation to Chipotle leadership about when to run the promotion based on the graphed data.
 
-3.  Render your .qmd file and push the .qmd, .md and .html files into your GitHub repository.
+3.  Repeat bullets 1& 2 above, however if you you applied Function 1 to do the steps above, use Function 2 for this portion. If you used Function 2 to do the previous bullets, now use Function 1 for this portion.
 
-## Post
+4.  Ensure both of your visualizations are "presentation worthy".
 
-In the same `.qmd` file you created for the *pre class* tasks do the following. If you you used function 1 to do the *pre class* task, use function 2 for this portion. If you used function 2 to do the *pre class* task, use function 1 for this portion.
+5.  Render your \`.qmd\`, then push all the files created in the rendering process into your GitHub repository.
 
-1.  Create a visualization of the data that can be used to decide what day(s) to run the promotion.
+6.  Write a paragraph or two to address the following points:
 
-    -   Apply whichever function you did *not* use in the *pre class* tasks to each row of the dataset using `map_*()`. (You may need to do a little cleaning/wrangling first).
-        -   If you you used function 1 to do the *pre class* task, use function 2 for this portion. If you used function 2 to do the *pre class* task, use function 1 for this portion.
-    -   Use the dataset to create your visualization to support your conclusion (You may need to do a little cleaning/wrangling first)
-    -   Think about what an "observation" represents in this newly created dataset. How is this different from the dataset you created in the *pre class* task?
-
-2.  Ensure both of your visualizations are "presentation worthy".
-
-3.  Write a paragraph or two to address the following points:
-
-    -   Make a recommendation regarding which day(s) of the week Chipotle's big promotion should run.
+    -   Now that you have seen both graphs, make a recommendation regarding which day(s) of the week Chipotle's big promotion should run.
     -   Explain which visualization was most influential in your decision. In other words, which unit of measure (store count of busiest day, or count of inidividual visits) is most useful. If you think both are valuable, explain why.
     -   Mention any other worthy insights.
 
-4.  Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
+7.  Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
 
-5.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
+8.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ### Submit
 
