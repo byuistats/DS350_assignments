@@ -30,6 +30,10 @@ Chipotle is planning to run a large 1 or 2 day promotion. They would like the pr
 
 We will answer this question over the course of a couple of assignments. For now, we will build a couple of functions that help us evaluate one site at a time.
 
+The dataset this comes from is not needed for this task. (The next task will use the dataset.) Your function just needs a string as input, not the column of data. However, in case you are curious, here is the restaurant level data: <https://byuistats.github.io/M335/data/chipotle_reduced.csv>
+
+-   Here is a [data dictionary](https://docs.safegraph.com/docs/monthly-patterns)
+
 ## Task
 
 The data contains a column `popularity_by_day`. This column contains a lot of information we need to extract from a string. As an example, for the restaurant with `placekey` equal to "zzw-222\@5vg-nwf-mp9", the value for `popularity_by_day` is a string:

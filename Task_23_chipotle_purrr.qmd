@@ -27,29 +27,33 @@ This task asks you to conduct the analysis/visualization using two different uni
 
 ## Task
 
-1.  Create a visualization of the data that can be used to decide what day(s) to run the promotion.
+1.  Read in the restaurant level data: <https://byuistats.github.io/M335/data/chipotle_reduced.csv>
+
+    -   Here is a [data dictionary](https://docs.safegraph.com/docs/monthly-patterns)
+
+2.  Create a visualization of the data that can be used to decide what day(s) to run the promotion.
 
     -   Apply one of the functions from the previous task to each row of the dataset using `map_*()`. (You may need to do a little cleaning/wrangling first)
     -   Use the dataset to create your visualization to support your conclusion (You may need to do a little cleaning/wrangling first)
     -   Write about what an "observation" represents in this newly created dataset.
 
-2.  Write a sentence or two containing a recommendation to Chipotle leadership about when to run the promotion based on the graphed data.
+3.  Write a sentence or two containing a recommendation to Chipotle leadership about when to run the promotion based on the graphed data.
 
-3.  Repeat bullets 1& 2 above, however if you you applied Function 1 to do the steps above, use Function 2 for this portion. If you used Function 2 to do the previous bullets, now use Function 1 for this portion.
+4.  Repeat bullets 1& 2 above, however if you you applied Function 1 to do the steps above, use Function 2 for this portion. If you used Function 2 to do the previous bullets, now use Function 1 for this portion.
 
-4.  Ensure both of your visualizations are "presentation worthy".
+5.  Ensure both of your visualizations are "presentation worthy".
 
-5.  Render your \`.qmd\`, then push all the files created in the rendering process into your GitHub repository.
+6.  Render your \`.qmd\`, then push all the files created in the rendering process into your GitHub repository.
 
-6.  Write a paragraph or two to address the following points:
+7.  Write a paragraph or two to address the following points:
 
     -   Now that you have seen both graphs, make a recommendation regarding which day(s) of the week Chipotle's big promotion should run.
     -   Explain which visualization was most influential in your decision. In other words, which unit of measure (store count of busiest day, or count of inidividual visits) is most useful. If you think both are valuable, explain why.
     -   Mention any other worthy insights.
 
-7.  Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
+8.  Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
 
-8.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
+9.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ### Submit
 
