@@ -10,6 +10,11 @@ title: "U.S. Cities"
 1.  [Using SF package with tidyverse](https://byuistats.github.io/M335/online_class/week12-spatial_reading.html#Spatial_Data_in_R)
 2.  [SF R package](https://r-spatial.github.io/sf/articles/sf1.html) Read through the section titled, "sfc: simple feature geometry list-column."
 3.  [USA Boundaries](https://github.com/ropensci/USAboundaries)
+    -   `USAboundaries` and `USAboundariesData` are finicky to install correctly. Consider using this code to install the package:
+
+        `install.packages(“USAboundaries”, repos = “https://ropensci.r-universe.dev”, type = “source”)`
+
+        `install.packages(“USAboundariesData”, repos = “https://ropensci.r-universe.dev”, type = “source”)`
 
 ### Guided Instruction
 

@@ -464,7 +464,12 @@ ul.task-list{list-style: none;}
 <ol type="1">
 <li><a href="https://byuistats.github.io/M335/online_class/week12-spatial_reading.html#Spatial_Data_in_R">Using SF package with tidyverse</a></li>
 <li><a href="https://r-spatial.github.io/sf/articles/sf1.html">SF R package</a> Read through the section titled, “sfc: simple feature geometry list-column.”</li>
-<li><a href="https://github.com/ropensci/USAboundaries">USA Boundaries</a></li>
+<li><a href="https://github.com/ropensci/USAboundaries">USA Boundaries</a>
+<ul>
+<li><p><code>USAboundaries</code> and <code>USAboundariesData</code> are finicky to install correctly. Consider using this code to install the package:</p>
+<p><code>install.packages(“USAboundaries”, repos = “https://ropensci.r-universe.dev”, type = “source”)</code></p>
+<p><code>install.packages(“USAboundariesData”, repos = “https://ropensci.r-universe.dev”, type = “source”)</code></p></li>
+</ul></li>
 </ol>
 </section>
 <section id="guided-instruction" class="level3">
