@@ -26,22 +26,19 @@ However, your friend is not going to tell you the stock symbols until the beginn
 
 The `dygraphs` for R package requires we use an `xts` objects, rather than a data frame, to plot data. As such, we'll need a conversion tool, available in the `timetk` package. You should notice that the `xts` objects needed to plot multiple stocks on a `dygraphs` are not tidy.
 
-## Pre
+## Task
 
 1.  Load both library(tidyverse) and library(dygraphs), installing the latter if needed.
 2.  Let's now pull current stock information from the web using `library(tidyquant)`. The command `tq_get(c("AMZN","MSFT","WMT"))` will pull the last 10 years of daily stock information for Amazon, Microsoft, and Walmart. Pick your own set of 3-10 stocks and use the `tq_get()` function to pull stock price data.
-    -   Include only the most recent 5 years worth of data as you wrangle the data to prepare it for use with `dygraph`.
-3.  Create an interactive graph of the stock prices using `dygraph`.
-4.  Publish your visualization to Rstudio Connect at shiny.byui.edu
+    -   Include only the most recent 5 years worth of data as you wrangle the data 
 
-## Post
+3.  Visualize the stock returns. You can accomplish this inside of `tidyquant` or `dygraph.`
 
-1.  Stock performance is often measured in terms of its return, rather than price. Redo the *pre class* tasks but this time find a way to visualize the stock **returns**.
-    -   You can accomplish this inside of `tidyquant` or `dygraph`.
-    -   If possible, consider experimenting with some of the bells and whistles available in `dygraph`.
-2.  (optional bonus) Evaluate the return of the portfolio as a whole using functions from the `quantmod` package. (`quantmod` is installed as a dependent package of `tidyquant`. Many of the `tidyquant` functions are actually wrappers around `quantmod` functions and so sometimes navigating the help files requires more effort).
-3.  Write a paragraph to summarize your findings about the performance of the stocks you chose.
-4.  Render the file then publish your report on returns to Rstudio Connect at shiny.byui.edu
+    If possible, consider experimenting with some of the bells and whistles available in `dygraph.`
+
+4.  (optional bonus) Evaluate the return of the portfolio as a whole using functions from the `quantmod` package. (`quantmod` is installed as a dependent package of `tidyquant`. Many of the `tidyquant` functions are actually wrappers around `quantmod` functions and so sometimes navigating the help files requires more effort).
+5.  Write a paragraph to summarize your findings about the performance of the stocks you chose.
+6.  Render the file then publish your report on returns to Rstudio Connect at shiny.byui.edu
 
 ### Submit
 

@@ -217,12 +217,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
     </ul>
@@ -456,7 +456,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
@@ -482,7 +482,7 @@ ul.task-list{list-style: none;}
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <ol type="1">
-<li>Create a map of the 48 continguous United States where each state is outlined and where the counties of Idaho are outlined. Here are some hints to keep in mind for this task (the <em>pre class</em> and <em>post class</em> portions).
+<li>Create a map of the 48 continguous United States where each state is outlined and where the counties of Idaho are outlined. Here are some hints to keep in mind for this task
 <ul>
 <li>From <code>library(USAboundaries)</code> use <code>us_states()</code> and <code>us_counties()</code> to get the state and county shape geometries</li>
 <li>Remember that R has some helpful variables called <code>state.name</code> and <code>state.abb</code></li>
@@ -491,12 +491,7 @@ ul.task-list{list-style: none;}
 <ul>
 <li>From <code>library(USAboundaries)</code> use <code>us_cities()</code> to get a starting dataset and then do your wrangling from there.</li>
 </ul></li>
-<li>Render the <code>.qmd</code>. Push the <code>.qmd</code>, <code>.md</code>, and <code>.html</code> files to your GitHub repository.</li>
-</ol>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<ol type="1">
-<li>Build on the progress you made in the <em>pre class</em> tasks in order to fully recreate this image:</li>
+<li>Use the wrangled data to fully recreate this image (right click image to view in new window if it is too small to see well):</li>
 </ol>
 <p><img src="citymap.png" class="img-fluid"></p>
 <ul>
@@ -505,9 +500,9 @@ ul.task-list{list-style: none;}
 <li>To add the labels to the image consider using library(ggrepel)</li>
 <li>The labels may not look correct until you save the map as a larger image.</li>
 </ul>
-<ol start="2" type="1">
-<li><p>Save your chart as a .png image. Try using ggsave() with width = 15 and height = 10. What hap`pens if you change the width and height?</p></li>
-<li><p>Render the <code>.qmd</code>. Push the <code>.png</code>, <code>.qmd</code>, <code>.md</code>, and <code>.html</code> files to your GitHub repository.</p></li>
+<ol start="4" type="1">
+<li>Save your chart as a .png image. Try using ggsave() with width = 15 and height = 10. What happens if you change the width and height?</li>
+<li>Render the <code>.qmd</code>. Push the <code>.png</code>, <code>.qmd</code>, <code>.md</code>, and <code>.html</code> files to your GitHub repository.</li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

@@ -217,12 +217,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
     </ul>
@@ -456,7 +456,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
@@ -482,20 +482,15 @@ ul.task-list{list-style: none;}
 <li>Look through your state data and county data and see if you can identify the columns containing the FIPS numbers. You will need these columns to merge this spatial data to our building permit data.</li>
 </ul></li>
 <li><p>Read in the <code>permits</code> data from the <code>devtools::install_github("hathawayj/buildings")</code> package. Wrangle the data into two separate data sets. One data set should look at single family permits at the state level for all US states. The other should look at single family permits at the county level for the state of your choice. -Look through your permit data and identify the FIPS columns.</p></li>
-<li><p>Use the FIPS number columns to join the state and country permit data to the state and county spatial data.</p></li>
-<li><p>Create at least one chart that shows, for each US state, the trend in single family building permits over time.</p>
+<li><p>Use the FIPS number columns to join the state and county permit data to the state and county spatial data.</p></li>
+<li><p>Create a chart that shows, for each US state, the trend in single family building permits over time.</p>
 <ul>
-<li>Make sure at least one (if not all) of your charts displays the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).</li>
+<li>Make sure at least one (if not all) of your charts display the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).</li>
 <li>Also, consider how you can effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)</li>
 </ul></li>
-<li><p>Create an R Markdown report that has the charts and descriptions mentioned above. Push the <code>.qmd</code>, <code>.md</code>, and <code>.html</code> files to your GitHub repository.</p></li>
-</ol>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<ol type="1">
-<li><p>In the same <code>.qmd</code> file you used in the <em>pre class</em> tasks, create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time.</p></li>
+<li><p>Create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time. Again, the chart should use some sort of spatial/geographical representation and you should consider how to deal with disparities of scale.</p></li>
 <li><p>Write a couple of paragraphs summarizing insights from your graphics for the reporter, and the choices you made during your visualization process.</p></li>
-<li><p>Render your <code>.qmd</code> and push all Renderted files for this case study to your class GitHub repository.</p></li>
+<li><p>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

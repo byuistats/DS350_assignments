@@ -217,12 +217,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
     </ul>
@@ -456,7 +456,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Pre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Post</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
@@ -483,25 +483,16 @@ ul.task-list{list-style: none;}
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <ol type="1">
-<li>Load both library(tidyverse) and library(dygraphs), installing the latter if needed.</li>
-<li>Let’s now pull current stock information from the web using <code>library(tidyquant)</code>. The command <code>tq_get(c("AMZN","MSFT","WMT"))</code> will pull the last 10 years of daily stock information for Amazon, Microsoft, and Walmart. Pick your own set of 3-10 stocks and use the <code>tq_get()</code> function to pull stock price data.
+<li><p>Load both library(tidyverse) and library(dygraphs), installing the latter if needed.</p></li>
+<li><p>Let’s now pull current stock information from the web using <code>library(tidyquant)</code>. The command <code>tq_get(c("AMZN","MSFT","WMT"))</code> will pull the last 10 years of daily stock information for Amazon, Microsoft, and Walmart. Pick your own set of 3-10 stocks and use the <code>tq_get()</code> function to pull stock price data.</p>
 <ul>
-<li>Include only the most recent 5 years worth of data as you wrangle the data to prepare it for use with <code>dygraph</code>.</li>
+<li>Include only the most recent 5 years worth of data as you wrangle the data</li>
 </ul></li>
-<li>Create an interactive graph of the stock prices using <code>dygraph</code>.</li>
-<li>Publish your visualization to Rstudio Connect at shiny.byui.edu</li>
-</ol>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<ol type="1">
-<li>Stock performance is often measured in terms of its return, rather than price. Redo the <em>pre class</em> tasks but this time find a way to visualize the stock <strong>returns</strong>.
-<ul>
-<li>You can accomplish this inside of <code>tidyquant</code> or <code>dygraph</code>.</li>
-<li>If possible, consider experimenting with some of the bells and whistles available in <code>dygraph</code>.</li>
-</ul></li>
-<li>(optional bonus) Evaluate the return of the portfolio as a whole using functions from the <code>quantmod</code> package. (<code>quantmod</code> is installed as a dependent package of <code>tidyquant</code>. Many of the <code>tidyquant</code> functions are actually wrappers around <code>quantmod</code> functions and so sometimes navigating the help files requires more effort).</li>
-<li>Write a paragraph to summarize your findings about the performance of the stocks you chose.</li>
-<li>Render the file then publish your report on returns to Rstudio Connect at shiny.byui.edu</li>
+<li><p>Visualize the stock returns. You can accomplish this inside of <code>tidyquant</code> or <code>dygraph.</code></p>
+<p>If possible, consider experimenting with some of the bells and whistles available in <code>dygraph.</code></p></li>
+<li><p>(optional bonus) Evaluate the return of the portfolio as a whole using functions from the <code>quantmod</code> package. (<code>quantmod</code> is installed as a dependent package of <code>tidyquant</code>. Many of the <code>tidyquant</code> functions are actually wrappers around <code>quantmod</code> functions and so sometimes navigating the help files requires more effort).</p></li>
+<li><p>Write a paragraph to summarize your findings about the performance of the stocks you chose.</p></li>
+<li><p>Render the file then publish your report on returns to Rstudio Connect at shiny.byui.edu</p></li>
 </ol>
 <section id="submit" class="level3">
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>

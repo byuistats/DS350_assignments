@@ -25,18 +25,14 @@ We will use `library(USAboundaries)` and `library(sf)` to make a map of the US a
 
 We want to create a map of the United States that plots the three largest cities (according to population) in each state - colored according to their rank. We also want to draw the shapes of the Idaho counties on the same plot.
 
-## Pre
+## Task
 
-1.  Create a map of the 48 continguous United States where each state is outlined and where the counties of Idaho are outlined. Here are some hints to keep in mind for this task (the *pre class* and *post class* portions).
+1.  Create a map of the 48 continguous United States where each state is outlined and where the counties of Idaho are outlined. Here are some hints to keep in mind for this task
     -   From `library(USAboundaries)` use `us_states()` and `us_counties()` to get the state and county shape geometries
     -   Remember that R has some helpful variables called `state.name` and `state.abb`
 2.  Create a dataset that only contains rows for the top 3 cities in each of the 48 continuous states and has a column that contains their ranking (either a 1, 2, or 3).
     -   From `library(USAboundaries)` use `us_cities()` to get a starting dataset and then do your wrangling from there.
-3.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
-
-## Post
-
-1.  Build on the progress you made in the *pre class* tasks in order to fully recreate this image:
+3.  Use the wrangled data to fully recreate this image (right click image to view in new window if it is too small to see well):
 
 ![](citymap.png)
 
@@ -45,9 +41,8 @@ We want to create a map of the United States that plots the three largest cities
 -   To add the labels to the image consider using library(ggrepel)
 -   The labels may not look correct until you save the map as a larger image.
 
-2.  Save your chart as a .png image. Try using ggsave() with width = 15 and height = 10. What hap\`pens if you change the width and height?
-
-3.  Render the `.qmd`. Push the `.png`, `.qmd`, `.md`, and `.html` files to your GitHub repository.
+4.  Save your chart as a .png image. Try using ggsave() with width = 15 and height = 10. What happens if you change the width and height?
+5.  Render the `.qmd`. Push the `.png`, `.qmd`, `.md`, and `.html` files to your GitHub repository.
 
 ### Submit
 

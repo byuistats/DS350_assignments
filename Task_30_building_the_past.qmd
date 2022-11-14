@@ -20,7 +20,7 @@ You have been asked to support a story for the local paper (that has a web prese
 
 Remember the big story is the collapse of new building permits at the initial stages of the 2007--2010 [mortgage crisis](https://en.wikipedia.org/wiki/Subprime_mortgage_crisis). Make sure your graphics highlight the collapse in a clear and honest manner.
 
-## Pre
+## Task
 
 1.  Use the `library(USAboundaries)` package to get two spatial data sets. One for all US states, and the other for counties of a state of your choice (for example, counties of Idaho).
 
@@ -28,22 +28,18 @@ Remember the big story is the collapse of new building permits at the initial st
 
 2.  Read in the `permits` data from the `devtools::install_github("hathawayj/buildings")` package. Wrangle the data into two separate data sets. One data set should look at single family permits at the state level for all US states. The other should look at single family permits at the county level for the state of your choice. -Look through your permit data and identify the FIPS columns.
 
-3.  Use the FIPS number columns to join the state and country permit data to the state and county spatial data.
+3.  Use the FIPS number columns to join the state and county permit data to the state and county spatial data.
 
-4.  Create at least one chart that shows, for each US state, the trend in single family building permits over time.
+4.  Create a chart that shows, for each US state, the trend in single family building permits over time.
 
-    -   Make sure at least one (if not all) of your charts displays the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).
+    -   Make sure at least one (if not all) of your charts display the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).
     -   Also, consider how you can effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)
 
-5.  Create an R Markdown report that has the charts and descriptions mentioned above. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
+5.  Create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time. Again, the chart should use some sort of spatial/geographical representation and you should consider how to deal with disparities of scale.
 
-## Post
+6.  Write a couple of paragraphs summarizing insights from your graphics for the reporter, and the choices you made during your visualization process.
 
-1.  In the same `.qmd` file you used in the *pre class* tasks, create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time.
-
-2.  Write a couple of paragraphs summarizing insights from your graphics for the reporter, and the choices you made during your visualization process.
-
-3.  Render your `.qmd` and push all Renderted files for this case study to your class GitHub repository.
+7.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
