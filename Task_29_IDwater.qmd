@@ -26,7 +26,7 @@ We have been asked by the state of Idaho to visualize their [water systems](http
 
 Below are the links to the data zip/files:
 
--   [Wells](https://opendata.arcgis.com/datasets/1abb666937894ae4a87afe9655d2ff83_1.zip)
+-   [Wells](https://opendata.arcgis.com/api/v3/datasets/1abb666937894ae4a87afe9655d2ff83_0/downloads/data?format=shp&spatialRefId=8826&where=1%3D1)
 -   [Dams](https://opendata.arcgis.com/datasets/e163d7da3b84410ab94700a92b7735ce_0.zip)
 -   [Water](https://research.idwr.idaho.gov/gis/Spatial/Hydrography/streams_lakes/c_250k/hyd250.zip)
 -   [State Shape](https://byuistats.github.io/M335/data/shp.zip)
@@ -36,8 +36,8 @@ Below are the links to the data zip/files:
     -   Only well locations with a production of more than 5000 gallons are included
     -   Only large dams (surface area larger than 50 acres) are included
     -   The `Snake River` and `Henrys Fork` rivers are the only bodies of water that should be included.
-3.  Create a map of Idaho showing these key water system features and save it as a `.png` file.
-4.  Change the projection so that Idaho is not tilted.
+3.  Change the projection so that Idaho is not tilted when plotted.
+4.  Create a map of Idaho showing these key water system features and save it as a `.png` file.
 5.  Render your `.qmd` file. Push your `.png,`, `.qmd`, `.md`, and `.html` to your GitHub repository.
 
 ### Submit
