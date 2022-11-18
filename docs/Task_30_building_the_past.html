@@ -481,7 +481,10 @@ ul.task-list{list-style: none;}
 <ul>
 <li>Look through your state data and county data and see if you can identify the columns containing the FIPS numbers. You will need these columns to merge this spatial data to our building permit data.</li>
 </ul></li>
-<li><p>Read in the <code>permits</code> data from the <code>devtools::install_github("hathawayj/buildings")</code> package. Wrangle the data into two separate data sets. One data set should look at single family permits at the state level for all US states. The other should look at single family permits at the county level for the state of your choice. -Look through your permit data and identify the FIPS columns.</p></li>
+<li><p>Read in the <code>permits</code> data from the <code>devtools::install_github("hathawayj/buildings")</code> package. If you have trouble with <code>devtools</code>, try running <code>remotes::install_github("hathawayj/buildings")</code>.</p></li>
+</ol>
+<p>Wrangle the data into two separate data sets. One data set should look at single family permits at the state level for all US states. The other should look at single family permits at the county level for the state of your choice. -Look through your permit data and identify the FIPS columns.</p>
+<ol start="3" type="1">
 <li><p>Use the FIPS number columns to join the state and county permit data to the state and county spatial data.</p></li>
 <li><p>Create a chart that shows, for each US state, the trend in single family building permits over time.</p>
 <ul>
