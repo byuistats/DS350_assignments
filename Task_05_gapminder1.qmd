@@ -7,7 +7,27 @@ title: "Gapminder Part 1"
 
 ### Reading
 
-Finish reading the rest of [Chapter 3: R for Data Science---Visualization](https://r4ds.had.co.nz/data-visualisation.html)
+::: panel-tabset
+## Traditional
+
+-   [Chapter 3.7-3.10: R for Data Science---Visualization](https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations) (i.e. the rest of chapter 3)
+
+## Interactive Primers
+
+-   [Visualize Data](https://posit.cloud/learn/primers/3):
+    -   Scatter plots
+    -   Line plots (just the Welcome and Line Graph)
+    -   Customize plots (just the Welcome, Zooming, Labels. Optionally, you can also do Themes and Scales)
+-   [Plotting large datasets](https://byuistats.github.io/M335/online_class/week2-ggplot.html)
+:::
+
+### Guided Instruction
+
+Guided instruction materials are tailored to this course and often have extra hints/emphasis to help you complete the task. These exercises assume you have read the material. They provide you an opportunity to practice while providing additional explanation. Solutions for the exercises are provided at the bottom of the file. You can think of this like a chance to "look in the back of the book." These activities are not graded or turned in. You can use them however you like, to your best benefit.
+
+1.  Read and complete the exercises in the `.Rmd` file (you may wish to knit the file first for easier reading): [ggplotting with many layers](https://byuistats.github.io/M335/online_class/week2-ggplot_part2.Rmd)
+
+Note that the guided instruction files and videos all use `.Rmd` files instead of `.qmd`. The way an `.Rmd` works is very similar and you don't need to adjust your work flow. Instead of "render" you "knit" the `.Rmd`. Also, don't be surprised - some of the YAML options, chunk options, and visual editor capabilities are different.
 
 ## Background
 
@@ -21,6 +41,8 @@ Finish reading the rest of [Chapter 3: R for Data Science---Visualization](https
     -   Use `scale_y_continuous(trans = "sqrt")` to get the correct scale on the y-axis.
 
 ![](task5_post.png)
+
+*Right click the image to open in a new tab so that you can zoom in and see the details.*
 
 Don't forget that slack is a great place to go if you can't figure something out. Asking questions in a way that allows people to help you is a skill you can practice in slack and within your groups.
 

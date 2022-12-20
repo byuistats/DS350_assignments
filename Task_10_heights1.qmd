@@ -7,21 +7,21 @@ title: "Mean Heights of Countries Over Time"
 
 ### Readings
 
+Scan through the following,
+
 1.  [Chapter 10: R for Data Science---Tibbles](https://r4ds.had.co.nz/tibbles.html)
 2.  [Chapter 18: R for Data Science---Pipes](https://r4ds.had.co.nz/pipes.html)
 3.  [Chapter 20: R for Data Science---Vectors](https://r4ds.had.co.nz/vectors.html)
 4.  [readxl R package](http://readxl.tidyverse.org/)
 5.  [downloader R package](https://github.com/wch/downloader)
 
-BONUS: [`rio`](https://github.com/leeper/rio) is the name of an R package that simplifies the reading in process. Instead of worrying about matching data types with the necessary package, you can just use `import()` from the `rio` package and it will figure it out for you. It can also read in a zipped file. `rio` treats the read in dataset as a data frame instead of a tibble. (\*Note: for zipped files with multiple datasets inside you can experiment with `rio::import_list` or the [`archive`](https://www.tidyverse.org/blog/2021/11/archive-1-1-2/) package.)
+The guided instruction for importing data may be particularly helpful.
 
 ### Guided Instruction
 
 [Data structure and tibbles](https://byuistats.github.io/M335/online_class/week3-tibbles_data_structures.Rmd)
 
 [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
-
-
 
 ## Background
 
@@ -35,7 +35,7 @@ This project is not as severe as the two quotes below, but it will give you a ta
 
 ## Task
 
-1.  Read in and tidy the [Worldwide heights estimates .xlsx file](https://byuistats.github.io/M335/data/heights/Height.xlsx). After tidying the data is should look something like this (this is just a snippet of a part of the dataset, yours will have more rows of course).
+1.  Read in and tidy the [Worldwide heights estimates .xlsx file](https://byuistats.github.io/M335/data/heights/Height.xlsx). After tidying the data it should look something like this (this is just a snippet of a part of the dataset, yours will have more rows of course).
 
 | Code | country                                  | height.cm | year_decade |
 |-----:|:-----------------------------------------|----------:|------------:|
@@ -46,7 +46,7 @@ This project is not as severe as the two quotes below, but it will give you a ta
 |  528 | Netherlands                              |     166.0 |        1810 |
 |  246 | Finland                                  |     171.9 |        1810 |
 
-3.  Make a plot fit for presentation, with decade on the x-axis and and all the countries heights in inches on the y-axis; with the points from Germany highlighted based on the data from the `.xlsx` file.
+3.  Make a plot fit for presentation, with decade on the x-axis and and all the countries' heights in inches on the y-axis; with the points from Germany highlighted based on the data from the `.xlsx` file.
 4.  Write a paragraph to summarize how you would respond to the assertion that humans are getting taller over the years. (Does your data tell a story?)
 5.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 

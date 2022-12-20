@@ -7,13 +7,18 @@ title: "Chipotle Functions"
 
 ### Readings
 
+::: panel-tabset
+## Traditional
+
 1.  Scan [Chapter 29: R for Data Science---R Markdown format](http://r4ds.had.co.nz/r-markdown-formats.html)
+2.  Read [Chapter 19: R for Data Science---Functions](http://r4ds.had.co.nz/functions.html)
 
-2.  You may wish to complete an interactive primer or read the book, or both ;)
+## Interactive Primer
 
--   read [Chapter 19: R for Data Science---Functions](http://r4ds.had.co.nz/functions.html) **OR**
--   [Interactive primers](https://rstudio.cloud/learn/primers/6) about functions
+1.  Scan [Chapter 29: R for Data Science---R Markdown format](http://r4ds.had.co.nz/r-markdown-formats.html)
+2.  [Interactive primers](https://rstudio.cloud/learn/primers/6) about functions
     -   "Function Basics" and "How to Write a Function" are essential. The other primers about functions are optional since they are beyond what we will be doing in this class
+:::
 
 ### Guided Instruction
 

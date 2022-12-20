@@ -217,12 +217,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
     </ul>
@@ -456,7 +456,7 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Pre Tasks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Post Tasks</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Tasks</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.</p>
@@ -478,81 +478,51 @@ ul.task-list{list-style: none;}
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <ol type="1">
 <li><p>Read the syllabus and ensure you understand the course procedures and grading.</p></li>
-<li><p>Download the install the latest versions of R and RStudio. R must be installed first so that RStudio can use it.</p>
+<li><p>Download and install the latest versions of R and RStudio. R must be installed first so that RStudio can use it.</p>
 <ul>
 <li>R (<a href="https://mirror.las.iastate.edu/CRAN/">Mac OS X</a> | <a href="https://mirror.las.iastate.edu/CRAN/">Windows</a></li>
 <li>RStudio (<a href="https://rstudio.com/products/rstudio/download/#download">Mac OS X</a> | <a href="https://rstudio.com/products/rstudio/download/#download">Windows</a>)</li>
 </ul></li>
 <li><p>If necessary, adjust your settings in RStudio to use the <a href="https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics">code diagnostics</a>. Feel free to place a check on every diagnostic for now, and then unselect those, throughout the semester, that you no longer find relevant.</p></li>
 <li><p><strong>IMPORTANT</strong>: Create a <a href="https://github.com/join?source=header-home">GitHub account</a></p></li>
-<li><p><strong>IMPORTANT</strong> Post your GitHub username on the <a href="https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing">GitHub Usernames google sheet</a>. After roughly 30 minutes (during normal working hours), you should receive two emails. If you do not see the two emails, check your spam and clutter folder. You can search your email for “335”, this used to be the course catalog number for the class and is still in the email. One email will be an invitation from “GitHub” to join the the class organization (give you the ability to see other students repos). Accept the invitation. The other email will be an invitation to collaborate (i.e.&nbsp;write permissions) on a repository with your name on it. Accept the invitation.</p>
+<li><p><strong>IMPORTANT</strong> Post your GitHub username on the <a href="https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing">GitHub Usernames google sheet</a>. This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates’ repositories.</p>
 <ul>
-<li>Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this repository to turn in assignments.</li>
+<li>Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this private repository to turn in assignments.</li>
 </ul></li>
+</ol>
+<p>After roughly 30 minutes (during normal working hours), you should receive two emails (ckeck your spam/clutter folder). Accept the invitation in each one. If you do not see the two emails, you can get to the invitations this way: If you are having trouble finding the emails, do the following:</p>
+<pre><code>-   To join our class organization click on the following URL and choose to accept the invitation.  [https://github.com/orgs/BYUI335](https://github.com/orgs/BYUI335/invitation)
+-   Create and follow the URL below, but replace the REPO_NAME portion with the actual name of your repo: `https://github.com/BYUI335/REPO_NAME/invitations`. So, for my repo as an example in the Winter2023 semester (my name is David Palmer), it would be: `https://github.com/BYUI335/DS350_WI23_Palmer_Davi/invitations`. After following the URL with your repo name, you will see an option to join the repo, click 'Accept Invitation'.
+-   If you are already a member of the class organization and you already have accepted access to your repo, clicking these URLs will just take you to the main page of the organization and the repo, respectively.</code></pre>
+<ol start="6" type="1">
 <li><p>Join the Data Science Society workspace in Slack. This is where we will have class conversations and ask questions. Here is the link to join: https://join.slack.com/t/byuidss/signup . The following sub-bullets provide additional detailed instructions about setting up and using slack.</p>
 <ul>
 <li>Create a professional username, something you could share with an employer</li>
-<li>In addition to the channels you are automatically add to, be sure to join the following two channels:
+<li>In addition to the channels you are automatically added to, be sure to join the following two channels:
 <ul>
-<li>Our class channel. It will look something like <code>#ds350_s22_allen</code> or <code>#ds350_s22_woodruff</code>, where the last part of the channel name corresponds to the last name of the instructor. Find the appropriate channel and add yourself to it. Once you are in the class channel, introduce yourself by replying to the <em>introduction</em> thread by clicking the thread, hit reply, then type a brief introduction.</li>
+<li>Our class channel. It will look something like <code>#ds350_wi23_palmer</code> or <code>#ds350_sp23_ball</code>, where the last part of the channel name corresponds to the last name of the instructor. Find the appropriate channel and add yourself to it. Once you are in the class channel, introduce yourself by replying to the <em>introduction</em> thread by clicking the thread, hit reply, then type a brief introduction.</li>
 <li><strong>#tutoring_lab</strong>, add this channel. It is where you can ask questions about code related to specific tasks or case studies.</li>
-<li>Browse through the channels and join as as many as you are interested in. This community will be a great resource, even if you are not a Data Science major.</li>
+<li>Browse through the channels and join as as many as you are interested in. <code>#internships-and-jobs</code> is a particularly active channel. This community will be a great resource, even if you are not a Data Science major.</li>
 </ul></li>
-<li>Extra features are available when you install Slack as an app on your PC and/or phone. The more comfortable you become with using Slack, the easier it will be to collaborate with each other throughout your professional career.</li>
+<li>It is highly recommended you install Slack as an app on your PC and/or phone. The more comfortable you become with using Slack, the easier it will be to collaborate with each other throughout your professional career.</li>
 </ul></li>
 <li><p>Post a professional picture to your GitHub, LinkedIn, and Slack icons. Go to the <a href="http://www.byui.edu/alumni/alumni-linkedin-photo-booth">BYU-Idaho LinkedIn Photobooth</a> if you don’t have a professional picture.</p></li>
-<li><p>Make plans to attend <a href="https://mailchi.mp/f2f2078fb178/want-to-deepen-those-analytic-skills-886266">Data Science Society</a> on the second Wednesday of the semester.</p></li>
+<li><p>Make plans / try to attend <a href="https://mailchi.mp/f2f2078fb178/want-to-deepen-those-analytic-skills-886266">Data Science Society</a> on the second Wednesday of the semester. Details will be posted on slack. (Attendance is not taken)</p></li>
 <li><p>Download the R script <a href="first-R-script.R">first-R-script.R</a> and open it in RStudio. Run each line of code, one at a time (figure out the keyboard shortcut to do this). Note any questions you want to ask your group when you get to class.</p>
 <ul>
 <li>It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don’t worry if you don’t understand all (or any of) the code.</li>
 </ul></li>
-</ol>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Git is a program that helps you organize code and keep track of any changes you make. Git uses folders called “repositories” to organize code into different projects. GitHub is an online platform where you can store your Git repositories, and then access them from any computer. You will use Git and GitHub this semester to submit your homework, in a repository made specifically for this class.</p>
-<ol type="1">
 <li><p>Study <a href="http://r4ds.had.co.nz/workflow-projects.html">Chapter 8: R for Data Science—Projects</a></p></li>
-<li><p>Install Git on your computer. Then link the repository we created for you on GitHub to an RStudio project dedicated specifically to this class. Read these <a href="https://byuistats.github.io/M335/git_335.html" target="_blank">instructions</a> <!-- or watch [this video](https://www.loom.com/share/cc734410dfec4e1bbabd5aeecff50e95) --> that walk you through the process of setting everything up and ensuring RStudio is talking to GitHub. If you can’t get it to work, reach out for help! This is a critical step to being able to turn in assignments.</p>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you didn’t put your Github info on the google sheet referenced in the “pre” part of this task, and accept the two invitations, then you will need to do so ASAP. Do not simply create your own repository since we want the repository to belong to our class organization.</p>
-</div>
-</div></li>
-<li><p>After completing step 2 above , edit the <code>README.md</code> in RStudio to include a short description of yourself, and “push” the changes to the online version of your repository.</p></li>
-<li><p>To practice “pulling”:</p>
-<ol type="1">
-<li><p>Now edit your <code>README.md</code> file from online instead of from within RStudio. Navigate to <a href="https://github.com/BYUI335">your repository</a> and open the <code>readme.md</code> file. Below your description, add links to the repos of everyone in your group (you may need to finish this part in class, or ask them over slack).</p></li>
-<li><p>Go back to RStudio. Notice that the repo links do not appear in your <code>README.md</code></p></li>
-<li><p>Using the terminal (next to the console) or Git tab in RStudio, <code>pull</code> the online changes you made to update the files on your hard drive.</p></li>
-<li><p>Let’s make one more change to <code>README.md</code> in RStudio by adding the name of your group. Then <code>push</code> the change to GitHub online.</p></li>
-</ol></li>
+<li><p><strong>This step will take a while.</strong> Git is a program that helps you organize code and keep track of any changes you make. Git uses folders called “repositories” to organize code into different projects. GitHub is an online platform where you can store your Git repositories, and then access them from any computer. You will use Git and GitHub this semester to store your homework, in a repository made specifically for this class.</p></li>
 </ol>
-<p>You will want to get in the habit of pull, add/stage, commit, push (in that order!) at least once everyday.</p>
-<section id="submit" class="level3">
-<h3 class="anchored" data-anchor-id="submit">Submit</h3>
-<p>Include a link to the <code>readme.md</code> file in the Week 1 Submission on I-learn.</p>
-<div class="callout-important callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Weekly Submissions for DS350
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Don’t submit multiple times to the submission box in I-learn, just submit 1 time at the end of the week; include all the links want graded that week.</p>
-</div>
-</div>
-</section>
+<p>Install Git on your computer. Then link the repository we created for you on GitHub to an RStudio project dedicated specifically to this class. Read these <a href="https://byuistats.github.io/M335/git_335.html" target="_blank">instructions</a> <!-- or watch [this video](https://www.loom.com/share/cc734410dfec4e1bbabd5aeecff50e95) --> that walk you through the process of setting everything up and ensuring RStudio is talking to GitHub. If you can’t get it to work, reach out for help! This is a critical step to being able to turn in assignments.</p>
+<pre><code>::: callout-warning
+If you didn't put your Github info on the google sheet referenced in the "pre" part of this task, and accept the two invitations, then you will need to do so ASAP. Do not simply create your own repository since we want the repository to belong to our class organization.
+:::</code></pre>
+<ol start="12" type="1">
+<li>After completing the previous step , edit the <code>README.md</code> in RStudio to include a short description of yourself, and “push” the changes to the online version of your repository.</li>
+</ol>
+<p>Then, include a link to the <code>readme.md</code> file in the task submission box on I-learn.</p>
 </div>
 </div>
 </div>

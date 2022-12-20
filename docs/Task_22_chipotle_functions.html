@@ -456,29 +456,38 @@ ul.task-list{list-style: none;}
 </header>
 
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Task</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" aria-current="page">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Task</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <section id="readings" class="level3">
 <h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Traditional</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Interactive Primer</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ol type="1">
-<li><p>Scan <a href="http://r4ds.had.co.nz/r-markdown-formats.html">Chapter 29: R for Data Science—R Markdown format</a></p></li>
-<li><p>You may wish to complete an interactive primer or read the book, or both ;)</p></li>
+<li>Scan <a href="http://r4ds.had.co.nz/r-markdown-formats.html">Chapter 29: R for Data Science—R Markdown format</a></li>
+<li>Read <a href="http://r4ds.had.co.nz/functions.html">Chapter 19: R for Data Science—Functions</a></li>
 </ol>
-<ul>
-<li>read <a href="http://r4ds.had.co.nz/functions.html">Chapter 19: R for Data Science—Functions</a> <strong>OR</strong></li>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li>Scan <a href="http://r4ds.had.co.nz/r-markdown-formats.html">Chapter 29: R for Data Science—R Markdown format</a></li>
 <li><a href="https://rstudio.cloud/learn/primers/6">Interactive primers</a> about functions
 <ul>
 <li>“Function Basics” and “How to Write a Function” are essential. The other primers about functions are optional since they are beyond what we will be doing in this class</li>
 </ul></li>
-</ul>
+</ol>
+</div>
+</div>
+</div>
 </section>
 <section id="guided-instruction" class="level3">
 <h3 class="anchored" data-anchor-id="guided-instruction">Guided Instruction</h3>
 <p><a href="https://byuistats.github.io/M335/online_class/week8_functions.Rmd">Functions</a></p>
 </section>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <p>You got your dream job working as a data analyst for one of your favorite restaurants, Chipotle!</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=FmW5RtswBRU">What is Chipotle</a></li>
@@ -491,7 +500,7 @@ ul.task-list{list-style: none;}
 <li>Here is a <a href="https://docs.safegraph.com/docs/monthly-patterns">data dictionary</a></li>
 </ul>
 </div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <p>The data contains a column <code>popularity_by_day</code>. This column contains a lot of information we need to extract from a string. As an example, for the restaurant with <code>placekey</code> equal to “zzw-222@5vg-nwf-mp9”, the value for <code>popularity_by_day</code> is a string:</p>
 <blockquote class="blockquote">
 <p>{“Monday”:94,“Tuesday”:76,“Wednesday”:89,“Thursday”:106,“Friday”:130,“Saturday”:128,“Sunday”:58}</p>

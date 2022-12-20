@@ -11,7 +11,7 @@ Read the chapter.
 
 [Chapter 28: R for Data Science---Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
 
-After reading the chapter, you may find these reference sheets/pages helpful.
+Creating custom, stylized `ggplot2` themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the `ggplot` lingo..
 
 -   [Theme Elements Reference Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
 
@@ -31,16 +31,16 @@ If the thing you want to edit is not a theme element, then it is related to data
 
 ## Task
 
-1.  Recreate [this graph](https://ourworldindata.org/grapher/excess-mortality-p-scores?tab=chart&stackMode=absolute&time=earliest..latest&region=World) as closely as you can. Add the United States, your home country, or another country of special interest to you (like where you served a mission) before downloading the data so you can complete bullet #4.
+1.  Recreate [this graph](https://ourworldindata.org/grapher/fruit-consumption-vs-gdp-per-capita?time=latest) as closely as you can. This will/should take the bulk of your time.
     -   The data is provided on the download tab.
-    -   Focus your energy on labels, the y-axis, background color, and line color.
+    -   Focus your energy on the y-axis, axes, legend, lines, scales, etc. Pay attention to detail.
+        -   Notice the x-axis is log transformed.
     -   Do NOT worry about making your graph interactive. Ignore that aspect completely
-    -   If you are getting stuck matching the graph, try completing steps 2 and 3, then coming back to this step with the time you have left.
-2.  Create a graph that highlights (draws attention to) any points that are above 100%. Be creative.
-3.  Create a another graph that shows a different way to highlight/emphasize points that are above 100%.
-4.  Add a line for the United States (or whatever country you chose), alter the chart to highlight/emphasize just the that country.
-5.  Write a paragraph summarizing insights you gain from the chart. Also reflect on how you can use "highlighting" to help the data tell a story.
-6.  Render the `.qmd` file. Push all files created as part of the render to your GitHub repository.
+    -   For now, don't worry about labeling the countries on the plot. We'll do some labeling below.
+2.  Create a graph that highlights (draws attention to) 3 or 4 specific countries you are interested in. Be creative.
+3.  Create *another graph* that highlights/emphasizes points all from the same continent.
+4.  Write a paragraph summarizing insights you gained, or new skills/commands you learned in this task. Also reflect on how you can use "highlighting" to help the data tell a story.
+5.  Render the `.qmd` file. Push all files created as part of the render to your GitHub repository.
 
 ### Submit
 

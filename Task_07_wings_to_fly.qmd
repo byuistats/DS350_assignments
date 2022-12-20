@@ -7,7 +7,16 @@ title: "Wings to Fly"
 
 ### Reading
 
-[Interactive primer](https://rstudio.cloud/learn/primers/3.8) about how to customize your plot. (Start at the "Welcome" section from the menu on the left and work your way through all the sections. Some of it will be review)
+::: panel-tabset
+## Traditional
+
+-   No new reading
+
+## Interactive Primers
+
+-   [Visualize Data](https://posit.cloud/learn/primers/3):
+    -   Boxplots and Counts
+:::
 
 ## Background
 

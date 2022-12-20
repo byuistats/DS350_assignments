@@ -7,10 +7,23 @@ title: "Clean and Reformat (aka Tidy) Stock Data"
 
 ### Readings
 
-1.  [Chapter 11.5: R for Data Science---Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
-2.  [Chapter 12: R for Data Science---Tidy Data](http://r4ds.had.co.nz/tidy-data.html)
-3.  [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
+::: panel-tabset
+## Traditional
+
+-   [Chapter 11.5: R for Data Science---Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
+-   [Chapter 12: R for Data Science---Tidy Data](http://r4ds.had.co.nz/tidy-data.html)
+-   [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
     -   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
+
+## Interactive Primer
+
+-   [Chapter 11.5: R for Data Science---Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
+-   [Tidy Your Data](https://posit.cloud/learn/primers/4)
+    -   Reshape Data
+    -   Separate and Unite Columns
+-   [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
+    -   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
+:::
 
 ### Guided Instruction
 
@@ -30,8 +43,8 @@ We want to look at the returns for each six-month period of the year in which th
 ## Task
 
 1.  Use the appropriate function in `library(readr)` to read in the `.RDS` file found on [GitHub](https://github.com/byuistats/data/tree/master/Dart_Expert_Dow_6month_anova)
-    -   Depending on your computer, you should use `read_rds(url("WEBLOCATION.RDS"))` or `read_rds("WEBLOCATION.RDS")` to download and read the .RDS file type. Remember, R is case sensitive.
-    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the reading below).
+    -   Depending on your computer, you should use `read_rds(url("WEBLOCATION.RDS"))` or `read_rds("WEBLOCATION.RDS")` to download and read the .RDS file type. Remember, R is case sensitive. Replace `WEBLOCATION.RDS` with the correct url address.
+    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the assigned reading).
 2.  The `contestant_period` column is not "tidy" we want to create a `month_end` and a `year_end` column from the information it contains.
 3.  Save your "tidy" data as an `.rds` object. (see if you can read in the saved file!)
 4.  Use code to create a table of the DJIA returns that matches the table shown below (apply `pivot_wider()` to the data). Pay attention to detail.

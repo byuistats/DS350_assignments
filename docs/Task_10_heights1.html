@@ -217,12 +217,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
+  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Task_18-2_baseball_managers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Baseball Managers</span></a>
+  <a href="./Task_18-1_BYU_baseball.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BYU Baseball</span></a>
   </div>
 </li>
     </ul>
@@ -461,6 +461,7 @@ ul.task-list{list-style: none;}
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <section id="readings" class="level3">
 <h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<p>Scan through the following,</p>
 <ol type="1">
 <li><a href="https://r4ds.had.co.nz/tibbles.html">Chapter 10: R for Data Science—Tibbles</a></li>
 <li><a href="https://r4ds.had.co.nz/pipes.html">Chapter 18: R for Data Science—Pipes</a></li>
@@ -468,7 +469,7 @@ ul.task-list{list-style: none;}
 <li><a href="http://readxl.tidyverse.org/">readxl R package</a></li>
 <li><a href="https://github.com/wch/downloader">downloader R package</a></li>
 </ol>
-<p>BONUS: <a href="https://github.com/leeper/rio"><code>rio</code></a> is the name of an R package that simplifies the reading in process. Instead of worrying about matching data types with the necessary package, you can just use <code>import()</code> from the <code>rio</code> package and it will figure it out for you. It can also read in a zipped file. <code>rio</code> treats the read in dataset as a data frame instead of a tibble. (*Note: for zipped files with multiple datasets inside you can experiment with <code>rio::import_list</code> or the <a href="https://www.tidyverse.org/blog/2021/11/archive-1-1-2/"><code>archive</code></a> package.)</p>
+<p>The guided instruction for importing data may be particularly helpful.</p>
 </section>
 <section id="guided-instruction" class="level3">
 <h3 class="anchored" data-anchor-id="guided-instruction">Guided Instruction</h3>
@@ -488,7 +489,7 @@ ul.task-list{list-style: none;}
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <ol type="1">
-<li>Read in and tidy the <a href="https://byuistats.github.io/M335/data/heights/Height.xlsx">Worldwide heights estimates .xlsx file</a>. After tidying the data is should look something like this (this is just a snippet of a part of the dataset, yours will have more rows of course).</li>
+<li>Read in and tidy the <a href="https://byuistats.github.io/M335/data/heights/Height.xlsx">Worldwide heights estimates .xlsx file</a>. After tidying the data it should look something like this (this is just a snippet of a part of the dataset, yours will have more rows of course).</li>
 </ol>
 <table class="table">
 <colgroup>
@@ -545,7 +546,7 @@ ul.task-list{list-style: none;}
 </tbody>
 </table>
 <ol start="3" type="1">
-<li>Make a plot fit for presentation, with decade on the x-axis and and all the countries heights in inches on the y-axis; with the points from Germany highlighted based on the data from the <code>.xlsx</code> file.</li>
+<li>Make a plot fit for presentation, with decade on the x-axis and and all the countries’ heights in inches on the y-axis; with the points from Germany highlighted based on the data from the <code>.xlsx</code> file.</li>
 <li>Write a paragraph to summarize how you would respond to the assertion that humans are getting taller over the years. (Does your data tell a story?)</li>
 <li>Render the <code>.qmd</code> file. Push all the files created in the rendering process into your GitHub repository.</li>
 </ol>

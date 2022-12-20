@@ -9,7 +9,18 @@ title: "Gapminder Part 2"
 
 **This may be the most important reading of the semester** since we will use these transformation skills extensively the rest of the semester.
 
+::: panel-tabset
+## Traditional
+
 [Chapter 5: Data Transformation](https://r4ds.had.co.nz/transform.html)
+
+## Interactive Primers
+
+-   [Programming Basics](https://posit.cloud/learn/primers/1.2)
+-   [Work With Data](https://posit.cloud/learn/primers/3):
+    -   Isolating data with dplyr
+    -   Deriving information with dplyr (you can skip the challenges at the end if you want)
+:::
 
 ### Guided Instruction
 
