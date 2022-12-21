@@ -22,10 +22,7 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
 1.  Read the syllabus and ensure you understand the course procedures and grading.
 
-2.  Download and install the latest versions of R and RStudio. R must be installed first so that RStudio can use it.
-
-    -   R ([Mac OS X](https://mirror.las.iastate.edu/CRAN/) \| [Windows](https://mirror.las.iastate.edu/CRAN/)
-    -   RStudio ([Mac OS X](https://rstudio.com/products/rstudio/download/#download) \| [Windows](https://rstudio.com/products/rstudio/download/#download))
+2.  [Download and install the latest versions of R and RStudio.](https://posit.co/download/rstudio-desktop/)
 
 3.  If necessary, adjust your settings in RStudio to use the [code diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics). Feel free to place a check on every diagnostic for now, and then unselect those, throughout the semester, that you no longer find relevant.
 
