@@ -20,18 +20,18 @@ title: "Get in SHP"
 
 We have been asked by the state of Idaho to visualize their [water systems](https://data-idwr.hub.arcgis.com/pages/popular-maps) in the state: wells, dams, and a couple of key rivers.
 
+Though not necessary for this assignment, you may wish to challenge yourself by visiting the [Idaho Department of Water Resources](https://idwr.idaho.gov/) website and trying to find the wells dataset and the dams dataset on their site. You can also find files to use in the "Task" portion of the assignment.
+
 <!-- They have provided an [shp file](https://byuistats.github.io/M335/data/shp.zip) for us and given us a web address for the [well](https://data-idwr.opendata.arcgis.com/datasets/1abb666937894ae4a87afe9655d2ff83_1), [dam](https://data-idwr.opendata.arcgis.com/datasets/e163d7da3b84410ab94700a92b7735ce_0), and [water](https://research.idwr.idaho.gov/gis/Spatial/Hydrography/streams_lakes/c_250k/hyd250.zip) locations.  -->
 
 ## Task
 
 Below are the links to the data zip/files:
 
-Below are the links to the necessary file:
-
-* [Wells](https://byuistats.github.io/M335/data/Wells.zip)
-* [Dams](https://byuistats.github.io/M335/data/Idaho_Dams.zip)
-* [Water](https://byuistats.github.io/M335/data/water.zip)
-* [State Shape](https://byuistats.github.io/M335/data/shp.zip)
+-   [Wells](https://byuistats.github.io/M335/data/Wells.zip)
+-   [Dams](https://byuistats.github.io/M335/data/Idaho_Dams.zip)
+-   [Water](https://byuistats.github.io/M335/data/water.zip)
+-   [State Shape](https://byuistats.github.io/M335/data/shp.zip)
 
 1.  Read in all four of the necessary SHP file datasets.
 2.  Filter the data so that
