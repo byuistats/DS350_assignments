@@ -24,6 +24,7 @@ book:
       chapters:
         - Task_08_gun_deaths.qmd
         - Task_09_stock_table.qmd
+        - to_pivot_or_not_to_pivot.qmd
         - Task_10_heights1.qmd
         - Task_11_heights2.qmd
     - part: "Module 5: Data for Presentation"

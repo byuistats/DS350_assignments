@@ -9,13 +9,15 @@ title: "CPI Index"
 
 Read/review the following
 
-1.  [readxl](http://readxl.tidyverse.org/)
-2.  [rio](https://github.com/leeper/rio)
-3.  [ALL of Chapter 11: R for Data Science---Data Import](http://r4ds.had.co.nz/data-import.html)
+Scan through the following,
 
-### Guided Instruction
+1.  [Chapter 10: R for Data Science---Tibbles](https://r4ds.had.co.nz/tibbles.html)
+2.  [Chapter 18: R for Data Science---Pipes](https://r4ds.had.co.nz/pipes.html)
+3.  [Chapter 20: R for Data Science---Vectors](https://r4ds.had.co.nz/vectors.html)
+4.  [readxl R package](http://readxl.tidyverse.org/)
+5.  [downloader R package](https://github.com/wch/downloader)
+6.  [ALL of Chapter 11: R for Data Science---Data Import](http://r4ds.had.co.nz/data-import.html)
 
-Complete the following if you have not yet: [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
 
 ## Background
 
@@ -34,15 +36,17 @@ The data used to create that chart can be found in these excel files, one file f
 -   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202002.xlsx>
 -   <https://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202003.xlsx>
 
-1.  Load in the datasets. Note that not all the datasets have an identical structure.
+1.  Load in the datasets. Note that NOT all the datasets have an identical structure.
 2.  Wrangle the data and prepare the files to be combined into one overall dataset.
-    -   Use `mutate()` to add a column to each dataset to identify what month it represents.
 3.  Combine the datasets into one overall dataset
+
+    -   You can "stack" or append the datasets to one another using `bind_rows()`.
+
 4.  Use the combined dataset to recreate the chart.
 
 ![](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png)
 
-Some of the food items used to calculate the CPI changed starting in February 2020: some were removed and others were added. One could argue that the dip in the CPI was due to the change in items rather than a result of the Corona Virus.
+Now for the fun/challenging part! Some of the food items used to calculate the CPI changed starting in February 2020: some were removed and others were added. One could argue that the dip in the CPI was due to the change in items rather than a result of the Corona Virus.
 
 5.  Create 1 or 2 charts that investigate this hypothesis.
 6.  Write a a paragraph or two to articulate the story the data tells regarding the dip in CPI and the change of items included.

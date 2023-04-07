@@ -14,6 +14,11 @@ Scan the reading to learn what types of files these packages are used to read in
 
 Be sure to do the Readings and Guided Instruction for the previous task if you have not yet.
 
+### Guided Instruction
+
+Complete the following if you have not yet: [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
+
+
 ## Background
 
 The [Scientific American](https://www.scientificamerican.com/article/why-are-we-getting-taller/) argues that humans have been getting taller over the years. As the data scientists that we are becoming, we would like to find data that validates or refutes this concept. Our challenge is to show different male heights across the centuries.
