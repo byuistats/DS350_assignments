@@ -205,14 +205,14 @@
   {
     "objectID": "Task_31a_leaflet_basics.html",
     "href": "Task_31a_leaflet_basics.html",
-    "title": "29  Interactive Maps",
+    "title": "29  Interactive Map Basics",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\n\nReadings\nIn Leaflet for R read the following sections:\n\nIntroduction\nThe Map Widget\nBasemaps\nMarkers\nPopups and Labels\nLines and Shapes\nColors\n\nA gallery of tiles to consider is the Leaflet Providers Preview\n\n\nGuided Instruction\n\nPublishing to a Shiny Server for Interactive Files\nLeaflet Basic.Rmd\n(optional) Answer Key to Above Guided Instructions\n\n\n\n\nYou can recreate a previous map task, or find your own spatial data to display using leaflet. Consider using layers and control boxes to show time or other aspects of the data.\n\n\n\nChoose an option:\n\nRecreate a previous task visualization using a simple leaflet plot using R OR\nFind your own spatial data that interests you and build a simple interactive map using leaflet\n\nPublish your visualization to Rstudio Connect at shiny.byui.edu\nPaste the link to your Rstudio Connect file in a readme.md file on GitHub\n\n\nSubmit\nIn I-learn submit the link to your RStudio Connect file"
   },
   {
     "objectID": "Task_31b_leaflet_layers.html",
     "href": "Task_31b_leaflet_layers.html",
-    "title": "30  Interactive Maps",
+    "title": "30  Interactive Map Layers",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\n\nReadings\nIn Leaflet for R read the following sections:\n\nIntroduction\nThe Map Widget\nBasemaps\nMarkers\nPopups and Labels\nLines and Shapes\nColors\nLayers\n\nA gallery of tiles to consider is the Leaflet Providers Preview\n\n\nGuided Instruction\n\nPublishing to a Shiny Server for Interactive Files\nLeaflet Basic.Rmd\nLeaflet Layers.Rmd\n(optional) Answer Key to Above Guided Instructions\n\n\n\n\nYou can recreate a previous map task, or find your own spatial data to display using leaflet. You must use layers to allow the user to control what is shown on the map.\n\n\n\nChoose an option:\n\nRecreate a previous task visualization using layers on a leaflet plot using R OR\nFind your own spatial data that interests you and build an interactive map using leaflet layers and control boxes (i.e. checking which boxes to use).\n\nLayers is a great way to show progression of time. You could experiment with using the two different kinds of layers.\n\n\nPublish your visualization to Rstudio Connect at shiny.byui.edu\nPaste the link to your Rstudio Connect file in a readme.md file on GitHub\n\n\nSubmit\nIn I-learn submit the link to your RStudio Connect file"
   },
