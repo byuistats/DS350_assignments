@@ -1,0 +1,48 @@
+---
+title: "Our World in Data Highlighting Excess Mortality"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+Read the chapter.
+
+[Chapter 28: R for Data Science---Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+
+Creating custom, stylized `ggplot2` themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the `ggplot` lingo..
+
+-   [Theme Elements Reference Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
+
+-   [Theme Elements Demonstration](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+
+-   [Theme Documentation](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+
+### Guided Instruction
+
+[Visualization for Presentation](https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation.Rmd)
+
+## Background
+
+The Our World in Data website publishes research and graphics that provide insight into world data. We are going to recreate one of their charts and use it to practice our annotation skills.
+
+If the thing you want to edit is not a theme element, then it is related to data and can mostly likely be changed inside a geom\_*() or a scale\_*() layer.
+
+## Task
+
+1.  Recreate [this graph](https://ourworldindata.org/grapher/excess-mortality-p-scores-average-baseline?tab=chart&stackMode=absolute&time=earliest..latest&region=World) as closely as you can. This will/should take the bulk of your time.
+    -   The data is provided on the download tab.
+    -   Focus your energy on the y-axis, axes, legend, lines, scales, etc. Pay attention to detail.
+    -   Do NOT worry about making your graph interactive. Ignore that aspect completely
+    -   To convert characters to dates you can use `lubridate::mdy()`. You can reorder the letters 'm', 'd', and 'y' in the code to match the order that the month, day and year are presented in the character string.
+    -   If you are getting stuck matching the graph exactly, try completing steps 2 and 3, then coming back to this step with the time you have left.
+2.  Suppose we wanted to highlight (draw attention to) any points that are above 100%. Create two more graphs that show two different ways to highlight these points.
+3.  Make one more graph that adds a line for the United States. Try highlighting the United States line using what you learned from the textbook.
+4.  Write a paragraph summarizing insights you gained, or new skills/commands you learned in this task. Also reflect on how you can use "highlighting" to help the data tell a story.
+5.  Render the `.qmd` file. Push all files created as part of the render to your GitHub repository.
+
+### Submit
+
+In I-learn submit a link to the `.md` file on GitHub.
+:::

@@ -37,6 +37,7 @@ If the thing you want to edit is not a theme element, then it is related to data
         -   Notice the x-axis is log transformed.
     -   Do NOT worry about making your graph interactive. Ignore that aspect completely
     -   For now, don't worry about labeling the countries on the plot. We'll do some labeling below.
+    -   If you are getting stuck matching the graph exactly, try completing steps 2 and 3, then coming back to this step with the time you have left.
 2.  Create a graph that highlights (draws attention to) 3 or 4 specific countries you are interested in. Be creative.
 3.  Create *another graph* that highlights/emphasizes points all from the same continent.
 4.  Write a paragraph summarizing insights you gained, or new skills/commands you learned in this task. Also reflect on how you can use "highlighting" to help the data tell a story.

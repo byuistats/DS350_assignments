@@ -28,6 +28,8 @@ Remember the big story is the collapse of new building permits at the initial st
 
 2.  Read in the `permits` data from the `devtools::install_github("hathawayj/buildings")` package. If you have trouble with `devtools`, try running `remotes::install_github("hathawayj/buildings")`.
 
+    1.  Note: `buildings` is the name of the package. `permits` is the name of the dataset within the `buildings` package.
+
 Wrangle the data into two separate data sets. One data set should look at single family permits at the state level for all US states. The other should look at single family permits at the county level for the state of your choice. -Look through your permit data and identify the FIPS columns.
 
 3.  Use the FIPS number columns to join the state and county permit data to the state and county spatial data.

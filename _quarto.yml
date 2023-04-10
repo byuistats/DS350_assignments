@@ -27,7 +27,7 @@ book:
         - to_pivot_or_not_to_pivot.qmd
         - Task_10_heights1.qmd
         - Task_11_heights2.qmd
-    - part: "Module 5: Data for Presentation"
+    - part: "Module 5: Visualization for Presentation"
       chapters:
         - Task_14_highlight_owd1.qmd  
         - Task_15_owd2.qmd
@@ -58,7 +58,8 @@ book:
         - Task_30_building_the_past.qmd
     - part: "Module 11: Interactive Charts"
       chapters:
-        - Task_31_leaflet.qmd
+        - Task_31a_leaflet_basics.qmd
+        - Task_31b_leaflet_layers.qmd
         - Task_32_dygraph.qmd
     - part: "Module: In the Workplace"
       chapters:
@@ -69,13 +70,13 @@ book:
       chapters:
         - Task_03_questions.qmd
         - Task_12_get_data.qmd
-    - part: "Semester Project"
-      chapters:
         - semester_project.qmd
     - part: "Alternate/extra tasks"
       chapters:
         - Task_06_GBBO.qmd
         - Task_11bonus_cpi.qmd
+        - Task_31_leaflet.qmd
+        - Task_14a_highlight_owd_excess_mortality.qmd
 
 
 bibliography: references.bib
