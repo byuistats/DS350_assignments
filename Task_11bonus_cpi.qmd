@@ -38,10 +38,7 @@ The data used to create that chart can be found in these excel files, one file f
 
 1.  Load in the datasets. Note that NOT all the datasets have an identical structure.
 2.  Wrangle the data and prepare the files to be combined into one overall dataset.
-3.  Combine the datasets into one overall dataset
-
-    -   You can "stack" or append the datasets to one another using `bind_rows()`.
-
+3.  Combine (aka "stack" or append) the datasets into one overall dataset
 4.  Use the combined dataset to recreate the chart.
 
 ![](http://byuimath.com/bmw/all/335/uploads/CodingChallenge1.png)
