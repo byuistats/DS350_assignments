@@ -11,13 +11,13 @@ title: "It's About Time"
 
 ### Guided Instruction
 
-Complete the guided instruction for the previous tasks in this module if you have not yet.
+[lubridate](https://byuistats.github.io/M335/online_class/week9-lubridate.Rmd)
 
 ## Background
 
 We have transaction data for a few Rexburg, Idaho businesses that have been in operation for three months. Each of these companies has come to your investment company for a loan to expand their business. Your boss has asked you to go through the transactions for each business and provide daily, weekly, and monthly gross revenue summaries and comparisons.
 
-A strong customer base is preferred over companies whose revenue comes from just a few big purchases/customers. Thus, customer traffic (number of transactions) will also be helpful in deciding which company to choose. 
+A strong customer base is preferred over companies whose revenue comes from just a few big purchases/customers. Thus, customer traffic (number of transactions) will also be helpful in deciding which company to choose.
 
 Your boss would like a short write-up with tables and visualizations that help with the decision of which company did the best over the three-month period. You will also need to provide a short paragraph with your recommendation after building your analysis.
 
@@ -33,9 +33,9 @@ This course only looks at understanding and visualizing recorded time series dat
     -   Consider whether to aggregate at the daily, the weekly, or monthly level - or all 3
 3.  Provide a visualization that shows customer traffic (i.e. \# of transactions) for each company.
     -   Consider whether to aggregate at the daily, the weekly, or monthly level - or all 3
-2.  Provide a visualization that gives insight into **hours of operation** for each company.
-3.  Write a short paragraph with your final recommendation. Which company do you think performed the best over the three months? Why?
-4.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
+4.  Provide a visualization that gives insight into **hours of operation** for each company.
+5.  Write a short paragraph with your final recommendation. Which company do you think performed the best over the three months? Why?
+6.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
 
 ### Submit
 
