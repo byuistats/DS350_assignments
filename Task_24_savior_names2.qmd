@@ -23,9 +23,9 @@ With our "string" skills we are going to check her results and build an improved
 
 ## Task
 
-1.  Get the scripture text and savior name data into R. This is the exact same same scripture and Savior name data as the previous "Distance Between Savior Names" task.
-2.  Our ultimate goal will be to display the distribution of the distance between savior names for each book in the Book of Mormon (i.e. 15 differen distributions). Ideally the plot should facilitate easy comparison between the distributions.
-    -   This is very similar to what we did in Part 1 task, except that there is a distribution for each book (15 total distributions).
+1.  Get the scripture text and savior name data into R. This is the exact same same scripture and Savior name data used in the ["Distance Between Savior Names Part 1"](Task_21_savior_names1.qmd) task. (The code and data to read in the code is found there)
+2.  Our ultimate goal will be to display the **distribution** of the distance between savior names for each book in the Book of Mormon (i.e. 15 different distributions). Ideally the plot should facilitate easy comparison between the distributions.
+    -   This is very similar to what we did in [Part 1 task](Task_21_savior_names1.qmd), except that there is a distribution for each book (15 total distributions) instead of just 1 overall distribution for the entire Book of Mormon text.
 3.  Use the list of Savior names and the Book of Mormon text to find the distribution of words between references to the Savior for each book in the Book of Mormon.
     -   Split on each instance of a Savior name in the Book of Mormon.
     -   Then count the number of words between each instance.
