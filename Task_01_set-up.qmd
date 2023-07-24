@@ -65,7 +65,7 @@ After roughly 30 minutes (during normal working hours), you should receive two e
 
     -   It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don't worry if you don't understand all (or any of) the code.
 
-## Submit
+### Submit
 
 Your submission of your GitHub info to the google sheet, and your presence on slack will be used to determine if this assignment was completed.
 :::
