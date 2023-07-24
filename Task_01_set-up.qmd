@@ -65,15 +65,7 @@ After roughly 30 minutes (during normal working hours), you should receive two e
 
     -   It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don't worry if you don't understand all (or any of) the code.
 
-10. Study [Chapter 8: R for Data Science---Projects](http://r4ds.had.co.nz/workflow-projects.html)
+## Submit
 
-11. Git is a program that helps you organize code and keep track of any changes you make. Git uses folders called "repositories" to organize code into different projects. GitHub is an online platform where you can store your Git repositories, and then access them from any computer. You will use Git and GitHub this semester to store your homework, in a repository made specifically for this class.
-
-**Read these [instructions](https://byuistats.github.io/M335/git_335.html){target="_blank"}** <!-- or watch [this video](https://www.loom.com/share/cc734410dfec4e1bbabd5aeecff50e95) --> **that walk you through the process of installing Git on your computer, and then syncing an RStudio project for this class with your GitHub repository.** If you have taken the class before, choose don't reuse the repository.
-
-If you can't get it to work, reach out for help! This is a critical step to being able to turn in assignments. Do not simply create your own repository since we want the repository to belong to our class organization.
-
-12. After completing the previous step , edit the `README.md` in RStudio to include a short description of yourself, and "push" the changes to the online version of your repository.
-
-**Then, include a link to the `readme.md` file in the task submission box on I-learn.**
+Your submission of your GitHub info to the google sheet, and your presence on slack will be used to determine if this assignment was completed.
 :::

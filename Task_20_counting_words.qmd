@@ -32,14 +32,13 @@ scriptures_data <- rio::import("http://scriptures.nephi.org/downloads/lds-script
   as_tibble()
 ```
 
-2. Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
-3. Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
-4. Create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
+2.  Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
+3.  Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
+4.  Create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
     -   Count how many words there are per verse
     -   Since there are 15 books, you should graphically depict/summarize 15 distributions of word counts.
 5.  Create an `.qmd` file to show your results (including the graph).
 6.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
-
 
 ### Submit
 
