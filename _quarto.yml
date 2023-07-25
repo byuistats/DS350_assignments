@@ -30,6 +30,7 @@ book:
         - Task_11_heights2.qmd
     - part: "Module 5: Visualization for Presentation"
       chapters:
+        - polish_previous_task.qmd
         - Task_14_highlight_owd1.qmd  
         - Task_15_owd2.qmd
     - part: "Module 6: Data Joins"

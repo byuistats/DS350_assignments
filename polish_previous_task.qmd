@@ -1,0 +1,43 @@
+# Polish a Previous Visualization
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+Read the chapter.
+
+[Chapter 28: R for Data Science---Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+
+Creating custom, stylized `ggplot2` themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the `ggplot` lingo..
+
+-   [Theme Elements Reference Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/)
+
+-   [Theme Elements Demonstration](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+
+-   [Theme Documentation](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+
+### Guided Instruction
+
+[Visualization for Presentation](https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation.Rmd)
+
+## Background
+
+Your boss/client really liked the work you did previously in Reducing Gun Deaths and/or Wings to Fly. They want to use the graphic in a presentation they will be making at a keynote address for a professional conference. You will need to return to that work and polish the graph for presentation.
+
+With your ever increasing understanding of visualization and programming, improve the graph that was previously turned in.
+
+## Task
+
+1.  Attempt at least 2 of the [book exercises in section 28.3.1.](https://r4ds.had.co.nz/graphics-for-communication.html#exercises-75)
+
+2. Revisit the assignments of Reducing Gun Deaths or Wings to Fly and polish the visuals so that they are suitable for presentation at a conference. Use the theme layer, and potentially add other layers, to make the story the graph is telling more clear, compelling, and attractive. You may also wish to use other geoms than you used originally.
+
+     - Give the quarto file with the changes a different name so that you can easily make comparisons between the new and old versions.
+
+3.  Render the updated `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
+
+### Submit
+
+In I-learn paste the link to the `.md` file on GitHub.
+:::
