@@ -10,7 +10,7 @@ title: "Wings to Fly"
 ::: panel-tabset
 ## Traditional
 
--   No new reading
+-   No new reading. If you are doing interactive primers, be sure to check the reading listed there.
 
 ## Interactive Primers
 

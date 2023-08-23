@@ -5,29 +5,26 @@
 
 Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.
 
-1.  Read the syllabus and ensure you understand the course procedures and grading.
+1.  Study [Chapter 8: R for Data Science---Projects](http://r4ds.had.co.nz/workflow-projects.html)
 
-2.  Study [Chapter 8: R for Data Science---Projects](http://r4ds.had.co.nz/workflow-projects.html)
-
-3.  Version control systems (VCS) allow developers to maintain a record of how their code has changed over time. When used properly, a VCS can help a developer track down the exact point in time when a bug was introduced or fixed, easily undo changes, and collaborate with other developers.
+2.  Version control systems (VCS) allow developers to maintain a record of how their code has changed over time. When used properly, a VCS can help a developer track down the exact point in time when a bug was introduced or fixed, easily undo changes, and collaborate with other developers.
 
     There are many types of version control systems. Some of the more popular ones include CVS, subversion, mercurial, and Git. In recent years, Git has quickly become the most popular of the group.
 
     Git is a program that helps you organize code and keep track of any changes you make. Git runs on your local machine, but GitHub is an online tool built around Git. This allows you to move your version control to the cloud and really facilitates collaboration with others. Git uses folders called "repositories" to organize code into different projects. GitHub is an online platform where you can store your Git repositories. You will use Git and GitHub this semester to store your homework, in a (private) repository made specifically for this class. We will manage the repositories of all the students in the class using an "organization" on GitHub.
 
-    You should watch this [20 minute video](https://www.youtube.com/watch?v=eWxxfttcMts) for a quick introduction to Git. (warning, in the video there is a picture of someone giving the middle finger as a rude gesture).
+    You should watch this [2 minute video](https://www.youtube.com/watch?v=2ReR1YJrNOM) and this [video, starting at 5:32](https://youtu.be/eWxxfttcMts?t=332) for a quick introduction to Git. (warning, in the video there is a picture of someone giving the middle finger as a rude gesture).
 
 #### Optional, Extra Readings
 
-* [What is Git](https://cfss.uchicago.edu/setup/what-is-git/)
-* [Using version control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
-* [RStudio and GitHub integration](https://www.youtube.com/watch?v=E2d91v1Twcc)
-* Chapters 4, 6, 7, and 9 of [happygitwithr](http://happygitwithr.com/github-acct.html)
-* [githug](https://github.com/jennybc/githug)
-* [Getting ready](https://byui-cs.github.io/CS246/week-04/prepare.html)
-* [Resources to learn Git](https://try.github.io/levels/1/challenges/1)
-* [Advanced tutorial](http://learngitbranching.js.org/)
-
+-   [What is Git, a written introduction](https://www.nobledesktop.com/learn/git/what-is-git)
+-   [Using version control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+-   [RStudio and GitHub integration](https://www.youtube.com/watch?v=E2d91v1Twcc)
+-   Chapters 4, 6, 7, and 9 of [happygitwithr](http://happygitwithr.com/github-acct.html)
+-   [githug](https://github.com/jennybc/githug)
+-   [Getting ready](https://byui-cs.github.io/CS246/week-04/prepare.html)
+-   [Resources to learn Git](https://try.github.io/levels/1/challenges/1)
+-   [Advanced tutorial](http://learngitbranching.js.org/)
 
 ## Tasks
 

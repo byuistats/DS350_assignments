@@ -1,4 +1,4 @@
-# Few Layers, Many Rows
+# Visualizing Large Distributions (i.e. many rows) with a Small Number of Layers 
 
 ::: panel-tabset
 ## Resources

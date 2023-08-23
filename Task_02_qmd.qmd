@@ -23,8 +23,8 @@
 
     -   Add the following to the YAML so that the file will always print it's most recent rendering
 
-        ``` r
-        date: "`r format(Sys.time(), '%B %d, %Y')`"
+        ```{r eval = FALSE}
+        date: '`r format(Sys.time(), '%B %d, %Y')`'
         ```
 
     -   Add the following code to the YAML so that the `.md` file will be kept at the time of rendering.

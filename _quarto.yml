@@ -60,6 +60,7 @@ book:
         - Task_30_building_the_past.qmd
     - part: "Module 11: Interactive Charts"
       chapters:
+        - Task_31_leaflet.qmd
         - Task_31a_leaflet_basics.qmd
         - Task_31b_leaflet_layers.qmd
         - Task_32_dygraph.qmd

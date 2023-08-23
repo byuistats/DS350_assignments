@@ -15,7 +15,7 @@ Creating custom, stylized `ggplot2` themes can get complicated very quickly. Fin
 
 -   [Theme Elements Demonstration](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
 
--   [Theme Documentation](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+-   [Theme Documentation](https://ggplot2.tidyverse.org/reference/theme.html)
 
 ### Guided Instruction
 

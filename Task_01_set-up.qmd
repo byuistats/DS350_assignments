@@ -59,9 +59,9 @@ After roughly 30 minutes (during normal working hours), you should receive two e
 
 7.  Post a professional picture to your GitHub, LinkedIn, and Slack icons. Go to the [BYU-Idaho LinkedIn Photobooth](http://www.byui.edu/alumni/alumni-linkedin-photo-booth) if you don't have a professional picture.
 
-8.  Make plans / try to attend [Data Science Society](https://mailchi.mp/f2f2078fb178/want-to-deepen-those-analytic-skills-886266) on the second Wednesday of the semester. Details will be posted on slack. (Attendance is not taken)
+8.  Make plans / try to attend [Data Science Society](https://byuidatascience.github.io/newsite/society/) on the second Wednesday of the semester. Details will be posted on slack, usually in the *#general* channel. (Attendance is not taken)
 
-9.  Download the R script [first-R-script.R](first-R-script.R) and open it in RStudio. Run each line of code, one at a time (figure out the keyboard shortcut to do this). Note any questions you want to ask your group when you get to class.
+9.  Download the R script [first-R-script.R](first-R-script.R) and open it in RStudio. Run each line of code, one at a time (figure out the keyboard shortcut to do this). Note any questions you want to ask of your classmates or instructor.
 
     -   It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don't worry if you don't understand all (or any of) the code.
 

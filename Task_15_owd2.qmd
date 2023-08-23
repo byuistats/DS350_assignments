@@ -11,7 +11,7 @@ title: "Choose Your Own OWD"
 
 -   These next two references come from another excellent online book: ggplot2: Elegant Graphics for Data Analysis. You may find it a useful reference at other times during the semester as well. For this assignment you may find it useful to scan these two chapters:
 
-    -   [Themes](https://ggplot2-book.org/polishing.html)
+    -   [Themes](https://ggplot2-book.org/themes)
     -   [Annotations](https://ggplot2-book.org/annotations.html)
 
 ### Guided Instruction
@@ -25,6 +25,7 @@ The [Our World in Data](https://ourworldindata.org/) website has world data. It 
 ## Task
 
 1.  Review the [Our World in Data](https://ourworldindata.org/) webpage and find a graphic that interests you. Using the data from their website, spend a couple of hours recreating their graphic as closely as you can in an `.qmd` file . (Make sure you keep the link or can navigate back to the original chart on their website).
+2.  Be sure to include a link to or a snapshop of the graphic you are trying to recreate in your `.qmd` file
 
 ### Submit
 
