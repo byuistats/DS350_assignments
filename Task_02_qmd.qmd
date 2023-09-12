@@ -5,23 +5,22 @@
 
 1\. [Announcing Quarto](https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)
 
--   (optional) For R users, here is some explanation of the side [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/)
+-   Quarto is automatically installed when you install R-studio.
+-   (optional) For R users who are used to Rmarkdown, here is some explanation of the differences and [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/) compared to Rmarkdown.
 
-2\. Install quarto from [here](https://quarto.org/docs/get-started/)
-
-3\. Walk through the tutorial ["Hello, Quarto"](https://quarto.org/docs/get-started/hello/rstudio.html) for RStudio
+2\. Walk through the tutorial ["Hello, Quarto"](https://quarto.org/docs/get-started/hello/rstudio.html) for RStudio
 
 -   Here is a [video walk through of the tutorial](https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb), to help fill in the gaps if you had trouble following the reading.
 
-4\. Walk through the tutorial [Computations](https://quarto.org/docs/get-started/computations/rstudio.html) for RStudio (especially from the beginning through Code Folding section)
+3\. Walk through the tutorial [Computations](https://quarto.org/docs/get-started/computations/rstudio.html) for RStudio (especially from the beginning through Code Folding section)
 
 ## Task
 
-1.  We will use the `Computations.qmd` file you created as part of the tutorial in the readings, to get some more practice/learn. We won't actually turn the `Computations` file in. Change options in the yaml and code chunks of the `Computations.qmd` file:
+1.  We will use the `Computations.qmd` file you created as part of the tutorial in the readings to get some more practice/learn. **We won't actually turn the `Computations` file in**. Change options in the yaml and code chunks of the `Computations.qmd` file:
 
     -   Adjust the YAML so the rendered file has a title of "Computations".
 
-    -   Add the following to the YAML so that the file will always print it's most recent rendering
+    -   Add the following to the YAML so that the file will always print the date of its most recent rendering
 
         ```{r eval = FALSE}
         date: '`r format(Sys.time(), '%B %d, %Y')`'
@@ -58,7 +57,7 @@
     -   Use any website, blog, or article with good visualizations.
     -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/).
 
-3.  **While in the project for this class' repository, start a new `.qmd` file.** Edit what's there by default to title the report "Task_2". Put a link to each article in the `.qmd` file. Also, write a one-paragraph review of each article that answers the following questions:
+3.  **While in the project for this class' repository, start a new `.qmd` file.** Edit what's there by default to title the report "First_Quarto_File". Put a link to each article you found in item 2 above in the `.qmd` file. Also, write a one-paragraph review of each article that answers the following questions:
 
     -   What is unique or good about the visualization? List a few ideas.
     -   What could be better? Identify at least one issue with the visualization.
@@ -73,9 +72,9 @@ Experiment/play with adding callouts or other text formatting in the visual edit
 
 3.  Add an R code chunk that contains the following code: `plot(1:20)`;
 4.  **IMPORTANT**: Adjust the YAML so that when you render this new `.qmd` file, the `.md` is also saved.
-5.  Render the file you titled "Task_2" to `.html`. Push all the files and folders to GitHub that were created as a result. This will include your `.md`, `.html`, `.qmd` files and a folder probably titled "Task_2\_files".
+5.  Render the file you titled "First_Quarto_File" to `.html`. Push **all** the files and folders to GitHub that were created as a result. This will include your `.md`, `.html`, `.qmd` files and a folder probably titled "First_Quarto_File_files".
 
 ### Submission
 
-In I-learn, submit the link to your `Task_2.md` file that is stored on GitHub.
+In I-learn, submit the link to your `First_Quarto_File.md` file that is stored on GitHub.
 :::
