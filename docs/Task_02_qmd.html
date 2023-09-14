@@ -605,7 +605,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Adjust the YAML so the rendered file has a title of “Computations”.</p></li>
 <li><p>Add the following to the YAML so that the file will always print the date of its most recent rendering</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">'`r format(Sys.time(), '</span><span class="sc">%B %</span>d, %Y<span class="st">')`'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"`r format(Sys.time(), '%B %d, %Y')`"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></li>
 <li><p>Add the following code to the YAML so that the <code>.md</code> file will be kept at the time of rendering.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>execute<span class="sc">:</span></span>
