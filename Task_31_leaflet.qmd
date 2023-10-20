@@ -22,7 +22,7 @@ A gallery of tiles to consider is the [Leaflet Providers Preview](http://leaflet
 
 ### Guided Instruction
 
-1.  [Publishing to a Shiny Server for Interactive Files](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
+1.  [Publishing to a Posit Server for Interactive Files](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
 2.  [Leaflet Basic.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_basic.Rmd)
 3.  [Leaflet Layers.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_layers.Rmd)
 4.  (optional) [Answer Key to Above Guided Instructions](https://byuistats.github.io/M335/online_class/week13-leaflet_activity_keys.html)
@@ -36,7 +36,7 @@ You can recreate the previous map task, or find your own spatial data to display
 1.  Choose an option:
     -   Recreate a previous task visualization using a simple leaflet plot using R OR
     -   Find your own spatial data that interests you and build a simple interactive map using leaflet You could experiment with using one (or both) of the two different kinds of layers.
-2.  **Publish your visualization to Rstudio Connect at shiny.byui.edu**
+2.  **Publish your visualization to Rstudio Connect at posit.byui.edu**
 3.  Paste the link to your Rstudio Connect file in a `readme.md` file on GitHub
 
 ### Submit

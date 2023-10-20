@@ -7,7 +7,7 @@ title: "Interactive Time Series"
 
 ### Readings
 
-1.  [Publishing to a Shiny server](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
+1.  [Publishing to a Posit server](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
 2.  [dygraphs for R](http://rstudio.github.io/dygraphs/index.html)
 3.  [timetk R package](https://github.com/business-science/timekit), especially section 4 about conversion functions
 4.  (optional) Review [tidyquant R package](https://github.com/business-science/tidyquant) used in a previous task
@@ -43,9 +43,9 @@ The `dygraphs` for R package requires we use an `xts` objects, rather than a dat
 
 5.  Write a paragraph to summarize your findings about the performance of the stocks you chose.
 
-6.  Render the file then publish your report on returns to Rstudio Connect at shiny.byui.edu
+6.  Render the file then publish your report on returns to Rstudio Connect at posit.byui.edu
 
 ### Submit
 
-Publish your case study to Rstudio Connect at shiny.byui.edu
+Publish your case study to Rstudio Connect at posit.byui.edu
 :::
