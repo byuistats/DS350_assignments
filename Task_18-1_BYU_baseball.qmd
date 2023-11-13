@@ -23,7 +23,7 @@ Over the campfire, you and a friend get into a debate about which college in Uta
 1.  Install the `library(Lahman)` and examine the available data sets.
     -   Find the handful of data sets that you will need in that package to show full college name and player **first and last names** (not first and middle name) as well as their annual earnings.
 2.  Install and load the `priceR` package, then use the `adjust_for_inflation(price = your_earnings_vector, from_date = your_earnings_year_vector, country = "US", to_date = 2021)` function to get all earnings in 2021 dollars.
-3.  In an `.qmd` file make a plot (or two) showing how professional baseball player earnings who are alum of BYU compare to the professional players who are alum of other Utah schools.
+3.  In an `.qmd` file make a plot (or two) showing how professional baseball player earnings who are alum of BYU compare to the professional players who are alum of other Utah schools. A simple bar graph comparing the total (or mean) of salaries per school is not sufficient; try to get beyond graphing simple data summaries.
 4.  Write a paragraph (or two) to summarize your findings and explain what conclusions you can draw from your visualization.
 5.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
