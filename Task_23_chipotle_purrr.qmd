@@ -43,17 +43,15 @@ This task asks you to conduct the analysis/visualization using two different uni
 
 5.  Ensure both of your visualizations are "presentation worthy".
 
-6.  Render your \`.qmd\`, then push all the files created in the rendering process into your GitHub repository.
-
-7.  Write a paragraph or two to address the following points:
+6.  Write a paragraph or two to address the following points:
 
     -   Now that you have seen both graphs, make a recommendation regarding which day(s) of the week Chipotle's big promotion should run.
     -   Explain which visualization was most influential in your decision. In other words, which unit of measure (store count of busiest day, or count of inidividual visits) is most useful. If you think both are valuable, explain why.
     -   Mention any other worthy insights.
 
-8.  Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
+7.  After all your hard work, you just received notice that you will be put on a different project and a co-worker will pick up this analysis where you left off. The best way to store the data so that this nested list structure is still in place when you hand it off is to give them an r dataset file. Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
 
-9.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
+8.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
 
 ### Submit
 
