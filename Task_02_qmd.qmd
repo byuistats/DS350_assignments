@@ -65,9 +65,9 @@
 ::: callout-note
 ## Take time to play/experiment
 
-::: panel-tabset
+
 Experiment/play with adding callouts or other text formatting in the visual editor of the file. Switch between the Visual Editor and the Source Editor so you can see what adjustments are being made to the code. Eventually you should be relatively comfortable making edits in visual or source editors.
-:::
+
 :::
 
 3.  Add an R code chunk that contains the following code: `plot(1:20)`;
