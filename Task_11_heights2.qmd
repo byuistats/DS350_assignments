@@ -18,7 +18,6 @@ Be sure to do the Readings and Guided Instruction for the previous task if you h
 
 Complete the following if you have not yet: [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
 
-
 ## Background
 
 The [Scientific American](https://www.scientificamerican.com/article/why-are-we-getting-taller/) argues that humans have been getting taller over the years. As the data scientists that we are becoming, we would like to find data that validates or refutes this concept. Our challenge is to show different male heights across the centuries.
@@ -37,8 +36,8 @@ This time, instead of looking at the mean height per country over time like we d
     -   [Bureau of Labor Statistics Height Data: csv format](https://raw.githubusercontent.com/hadley/r4ds/main/data/heights.csv)
         -   Note: There is no birth year, so just assume mid-20th century and use 1950 as birth year
         -   Don't forget to filter for just males.
-    -   [University of Wisconsin National Survey Data: SPSS (.sav) format](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav)
-        -   You'll want to look here to understand this dataset and know which columns to use: [National Survey Codebook](http://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK)
+    -   [University of Wisconsin National Survey Data: SPSS (.sav) format](https://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav)
+        -   You'll want to look here to understand this dataset and know which columns to use: [National Survey Codebook](https://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK)
         -   There is no gender identifier in this survey, we will just work with the data, knowing there is likely a mix of genders.
 
 2.  Wrangle each dataset so that it contains the following columns: `birth_year`, `height.in`, `height.cm`, and `study`.

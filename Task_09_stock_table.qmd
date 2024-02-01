@@ -44,9 +44,9 @@ We want to look at the returns for each six-month period of the year in which th
 
 1.  Use the appropriate function in `library(readr)` to read in the `.RDS` file found on [GitHub](https://github.com/byuistats/data/tree/master/Dart_Expert_Dow_6month_anova)
     -   Depending on your computer, you should use `read_rds(url("WEBLOCATION.RDS"))` or `read_rds("WEBLOCATION.RDS")` to download and read the .RDS file type. Remember, R is case sensitive. Replace `WEBLOCATION.RDS` with the correct url address.
-    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing the assigned reading).
+    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob' (seeing this [reading](Task_08_gun_deaths.qmd)).
 2.  The `contestant_period` column is not "tidy" we want to create a `month_end` and a `year_end` column from the information it contains.
-3.  Save your "tidy" data as an `.rds` object. (see if you can read in the saved file!)
+3.  Save your "tidy" data as an `.rds` object. (as an optional challenge, see if you can read in the saved file!)
 4.  Use code to create a table of the DJIA returns that matches the table shown below (apply `pivot_wider()` to the data). Pay attention to detail.
 
 ![](DJIA_returns.PNG)

@@ -19,6 +19,13 @@ The world is a dangerous place. Police shootings, mass shootings, and apparently
 
 While their visualizations focused on yearly averages, our client wants to create commercials that help reduce the gun deaths in the US. They would like to target the commercials in different seasons of the year (think month variable) to audiences that could have the most impact in reducing gun deaths. Our challenge is to summarize and visualize seasonal trends across the other variables in these data.
 
+<!-- I like to watch this video in class to analyze what makes the charts/arguments effective? -->
+<!-- I try to emphasize their ability to standardize the data (i.e. per capita) and challenge -->
+<!-- students to think about how they could/should standardize the data in the graphs they are making -->
+<!-- For example: compare proportion of race in a dataset to the proportion of that race in the US... AND/OR...divide deaths by month by the number of days in the month so February doesn't look so drastic -->
+
+<!-- https://www.youtube.com/watch?v=bX4qUsgHa4Y -->
+
 ## Task
 
 1.  Write a short paragraph summarizing their article: [FiveThirtyEight article](https://fivethirtyeight.com/features/gun-deaths/)
