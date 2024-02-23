@@ -7,7 +7,10 @@ title: "It's About Time"
 
 ### Readings
 
-[lubridate cheatsheet and quick summary](http://lubridate.tidyverse.org/)
+-   [Chapter 16: R for Data Science---Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)
+-   [lubridate Vignette](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html)
+-   [lubridate cheatsheet and quick summary](http://lubridate.tidyverse.org/)
+-   (optional) [Time Series Visualization Gallery](https://vcg.informatik.uni-rostock.de/~ct/timeviz/timeviz.html)
 
 ### Guided Instruction
 
