@@ -6,7 +6,7 @@ title: "Team Meeting Instructions"
 
 ## Overview
 
-Students have found these meetings to be an important and engaging way to improve their coding skills, visualization skills, code review skills, data intuition and data validation skills.
+Students have found these meetings to be an important and engaging way to improve their coding skills, visualization skills, code review skills, data intuition and data validation skills. Meetings should last 30-60 minutes, depending on the number of members and their needs.
 
 Each task and case study has many possible solutions. There is always more than one way to complete the assignment. No two students will do things exactly the same.
 
