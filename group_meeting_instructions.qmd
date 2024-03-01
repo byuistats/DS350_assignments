@@ -44,7 +44,7 @@ To be considered "prepared" for the group meetings, students should have their w
 
 ## Accountability
 
-Once a week, students will fill out a survey that asks them to rate themselves and their teammates on these 3 questions:
+Once a week, students will fill out a survey in I-learn that asks them to rate themselves and their teammates on these 3 questions:
 
 -   Was the person prepared (see [Preparation for Group Meetings])?
 
