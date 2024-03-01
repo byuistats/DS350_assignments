@@ -33,12 +33,12 @@ To be considered "prepared" for the group meetings, students should have their w
 3.  Address any issues team members have with accessing/reading in the data, loading necessary packages, or understanding instructions.
 4.  Discuss key assumptions/definitions that needed to be made or required for data cleaning. Share how were these implemented or addressed.
 5.  Look at the visualization. Specifically, discuss the following:
-    1.  If applicable: What is the final recommendation/answer to the question?
-        1.  If group members are getting different results, is it because of the visualization or the underlying data?
-        2.  What evidence in the chart specifically lead to that answer/recommendation?
-    2.  Did the visualization satisfy all the requirements of the assignment? If not, what needs to be added/changed?
-    3.  What remaining questions/counter arguments still exist?
-    4.  What other visualizations could have been tried? What other geoms could have been explored?
+    -   If applicable: What is the final recommendation/answer to the question?
+        -   If group members are getting different results, is it because of the visualization or the underlying data?
+        -   What evidence in the chart specifically lead to that answer/recommendation?
+    -   Did the visualization satisfy all the requirements of the assignment? If not, what needs to be added/changed?
+    -   What remaining questions/counter arguments still exist?
+    -   What other visualizations could have been tried? What other geoms could have been explored?
 6.  How could the visualization be strengthened/improved?
 7.  Walk through the highlights of your code. Share things you were proud to have discovered or places where you got stuck.
 
