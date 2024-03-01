@@ -13,33 +13,33 @@ Please note that this policy is specific to this class; other instructors or cou
 
 ## Acceptable Uses
 
-[Idea Generation]{.underline}: Students can use ChatGPT for brainstorming project and assignment topic **ideas**.
+-   Idea Generation: Students can use ChatGPT for brainstorming project and assignment topic **ideas**.
 
-[Enhancing Written Work]{.underline}: For refining pre-written content to ensure clarity, coherence, and readability.
+-   Enhancing Written Work: For refining pre-written content to ensure clarity, coherence, and readability.
 
-[Outline Creation]{.underline}: To draft structures or outlines of reports.
+-   Outline Creation: To draft structures or outlines of reports.
 
-[Concept Clarification]{.underline}: As an additional resource for understanding difficult concepts beyond what is provided in the readings.
+-   Concept Clarification: As an additional resource for understanding difficult concepts beyond what is provided in the readings.
 
-[Data Analysis Insights]{.underline}: For guidance on data analysis techniques or statistical methodologies.
+-   Data Analysis Insights: For guidance on data analysis techniques or statistical methodologies.
 
-[Peer Review Assistance]{.underline}: To gain preliminary insights for potential improvements, similar to a peer review.
+-   Peer Review Assistance: To gain preliminary insights for potential improvements, similar to a peer review.
 
 ## Coding-Specific Uses:
 
-[Syntax and Error Debugging]{.underline}: For guidance on rectifying syntax or runtime errors.
+Syntax and Error Debugging: For guidance on rectifying syntax or runtime errors.
 
-[Code Optimization]{.underline}: To refine and optimize existing code.
+Code Optimization: To refine and optimize existing code.
 
-[Coding Best Practices]{.underline}: For insights on specific coding practices (such as spacing) and naming conventions.
+Coding Best Practices: For insights on specific coding practices (such as spacing) and naming conventions.
 
-[Code Snippet Generation]{.underline}: For help with a line or two of code to accomplish a specific, pre-determined purpose.
+Code Snippet Generation: For help with a line or two of code to accomplish a specific, pre-determined purpose.
 
-[Library and API Usage]{.underline}: For understanding and best practices related to libraries or APIs.
+Library and API Usage: For understanding and best practices related to libraries or APIs.
 
-[Code Documentation and Comments]{.underline}: To draft clear documentation or comments for code.
+Code Documentation and Comments: To draft clear documentation or comments for code.
 
-[Ancillary Data Discovery and Formatting]{.underline}: To quickly collect data that is not necessarily provided as part of the assignment (such as the birth year of a set of countries). Or as a substitute for screen scraping: copying a pasting some data found on a website and asking for it back in a csv file. For **Math326 students: data generation to "simulate" your experiment is NOT okay - you must actually execute the proposed experiment.**
+Ancillary Data Discovery and Formatting: To quickly collect data that is not necessarily provided as part of the assignment (such as the birth year of a set of countries). Or as a substitute for screen scraping: copying a pasting some data found on a website and asking for it back in a csv file. For **Math326 students: data generation to "simulate" your experiment is NOT okay - you must actually execute the proposed experiment.**
 
 ![](https://img.freepik.com/free-photo/young-brunette-woman-working-using-computer-laptop-sitting-floor-doing-stop-sing-with-palm-hand-warning-expression-with-negative-serious-gesture-face_839833-35192.jpg?t=st=1709332575~exp=1709336175~hmac=76f62333343a9868699e0629553e847c9a5b0a142426a5dac60fe43c5375d496&w=1380){width="313"}
 
@@ -47,25 +47,25 @@ Please note that this policy is specific to this class; other instructors or cou
 
 **Disclaimer**: The list of prohibited uses mentioned below is not exhaustive. Students are expected to exercise sound judgment and maturity in determining whether a specific use falls within the boundaries of academic integrity. If you are unsure about the appropriateness of using AI tools for a particular task, you are encouraged to consult with the professor or teaching assistants for guidance.
 
-[Direct Submission]{.underline}: Students must not submit any content directly from ChatGPT (or similar tool) or from others' repos as their own.
+Direct Submission: Students must not submit any content directly from ChatGPT (or similar tool) or from others' repos as their own.
 
-[Plagiarism]{.underline}: Any representation of AI-generated content as original work is considered plagiarism and is strictly forbidden as per BYU-I honor code
+Plagiarism: Any representation of AI-generated content as original work is considered plagiarism and is strictly forbidden as per BYU-I honor code
 
-[Over-reliance]{.underline}: AI tools should complement, not replace, independent thought, analysis, and research.
+Over-reliance: AI tools should complement, not replace, independent thought, analysis, and research.
 
-[Verbatim Question Answering]{.underline}: Students are strictly prohibited from using ChatGPT or similar tools to provide direct answers to questions from homework, quizzes, or exams.
+Verbatim Question Answering: Students are strictly prohibited from using ChatGPT or similar tools to provide direct answers to questions from homework, quizzes, or exams.
 
-[Complete Code Generation]{.underline}: While generating code snippets for guidance is acceptable, students should not submit entire functions, classes, or programs that are solely generated by AI tools or copied from other students repos.
+Complete Code Generation: While generating code snippets for guidance is acceptable, students should not submit entire functions, classes, or programs that are solely generated by AI tools or copied from other students repos.
 
 While generative AI and access to others' repos is a valuable asset, students must fully comprehend any code or information they use.
 
 ## Guidelines for Use
 
-[**Citation**]{.underline}: Influences from AI tools on portions of work should be appropriately cited. Be sure to explain what parts AI was used for and how it was used.
+**Citation**: Influences from AI tools on portions of work should be appropriately cited. Be sure to explain what parts AI was used for and how it was used.
 
-[Editing and Verification]{.underline}: Students must edit and verify any content sourced from AI tools for accuracy and relevance.
+Editing and Verification: Students must edit and verify any content sourced from AI tools for accuracy and relevance.
 
-[Security]{.underline}: Exercise caution and understanding with any AI-suggested security-related code or advice.
+Security: Exercise caution and understanding with any AI-suggested security-related code or advice.
 
 ## Sanctions for Misuse
 
