@@ -1,5 +1,5 @@
 ---
-title: "GitHub Issues Round 1"
+title: "Write GitHub Issues"
 ---
 
 ::: panel-tabset
@@ -17,11 +17,9 @@ GitHub is much more than simply storage in the cloud. It can be used to collabor
 
 <!-- Do this part during class since there is no other good way to verify that it is done! -->
 
-First, find two other student's compiled files in their repository for the previous week's Case Study and provide feedback using the issues feature in GitHub (If they already have two issues find a different student to critique). You should mention things they could do to improve their visualization, for example.
-
-Later, after the class had the chance to leave issues for you, reply to the issues and close the issues after addressing them. (Depending on the issue, addressing it may simply be a reply to the issue, or it may be uploading an update to the assignment).
+First, find two other student's compiled files in their repository for a previous week's Case Study or task and provide feedback using the issues feature in GitHub. If they already have two *student written* issues find a different student to critique. You should mention things they could do to improve their visualization (or code).
 
 ### Submit
 
-In I-learn, submit a link to your GitHub Issues page. It should show no open issues. All closed issues should have a comment/response explaining how the issue was resolved.
+In I-learn, submit 2 URL's: one URL link to each of the issues you wrote in someone else's GitHub repository.
 :::
