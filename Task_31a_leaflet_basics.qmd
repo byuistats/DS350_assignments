@@ -7,15 +7,15 @@ title: "Interactive Map Basics"
 
 ### Readings
 
-In [Leaflet for R](http://rstudio.github.io/leaflet/) read the following sections:
+In [Leaflet for R](http://rstudio.github.io/leaflet/) read the following articles:
 
--   Introduction
--   The Map Widget
--   Basemaps
+-   Using Basemaps
+-   Choropleths
+-   Add color to a leaflet
 -   Markers
 -   Popups and Labels
 -   Lines and Shapes
--   Colors
+-   Show/Hide Layers
 
 A gallery of tiles to consider is the [Leaflet Providers Preview](http://leaflet-extras.github.io/leaflet-providers/preview/)
 
@@ -34,10 +34,10 @@ You can recreate a previous map task, or find your own spatial data to display u
 1.  Choose an option:
     -   Recreate a previous task visualization using a simple leaflet plot using R OR
     -   Find your own spatial data that interests you and build a simple interactive map using leaflet
-2.  **Publish your visualization to Rstudio Connect at shiny.byui.edu**
-3.  Paste the link to your Rstudio Connect file in a `readme.md` file on GitHub
+2.  **Publish your visualization to Posit Connect at shiny.byui.edu**
+3.  (optional) Paste the link to your Posit Connect file in a `readme.md` file on GitHub
 
 ### Submit
 
-In I-learn submit the link to your RStudio Connect file
+In I-learn submit the link to your Posit Connect file. Ensure permissions are set to allow the teacher and TA viewing access.
 :::
