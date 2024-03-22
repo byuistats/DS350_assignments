@@ -11,6 +11,7 @@ Scan the reading to learn what types of files these packages are used to read in
 
 1.  [Haven package](http://haven.tidyverse.org/)
 2.  [foreign R package and `read.dbf()`](https://www.rdocumentation.org/packages/foreign/versions/0.8-69/topics/read.dbf)
+3.  [cheatsheet](https://rstudio.github.io/cheatsheets/data-import.pdf)
 
 Be sure to do the Readings and Guided Instruction for the previous task if you have not yet.
 

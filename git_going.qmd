@@ -5,7 +5,7 @@
 
 Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.
 
-1.  Study [Chapter 8: R for Data Science---Projects](http://r4ds.had.co.nz/workflow-projects.html)
+1.  Study [Chapter 6.2 Projects: R for Data Science (2nd ed)](https://r4ds.hadley.nz/workflow-scripts#projects)
 
 2.  Version control systems (VCS) allow developers to maintain a record of how their code has changed over time. When used properly, a VCS can help a developer track down the exact point in time when a bug was introduced or fixed, easily undo changes, and collaborate with other developers.
 

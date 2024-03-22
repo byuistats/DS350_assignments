@@ -9,6 +9,7 @@ title: "Get in SHP"
 
 1.  Be sure to watch the videos and read the articles that are linked within [this reading](https://byuistats.github.io/M335/online_class/week12-CRS_reading.html).
 2.  [USA Boundaries](https://github.com/ropensci/USAboundaries) if you haven't read it yet
+3.  (optional/extra) [Chapter 6.3: ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/maps.html)
 
 <!-- Much of my summary/structure for the article above was adopted from this article: [Coordinate Reference Systems (sections 8.1 - 8.5)](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/coordinate_reference_systems.html) -->
 

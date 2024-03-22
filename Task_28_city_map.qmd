@@ -15,12 +15,11 @@ title: "U.S. Cities"
         `install.packages(“USAboundaries”, repos = “https://ropensci.r-universe.dev”, type = “source”)`
 
         `install.packages(“USAboundariesData”, repos = “https://ropensci.r-universe.dev”, type = “source”)`
+4.  (optional/extra) [Chapter 6.2 and 6.4: ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/maps.html)
 
 ### Guided Instruction
 
 [This file](https://byuistats.github.io/M335/online_class/week12-sf-instruction.Rmd) contains explanations and "fill-in-the-blank" coding exercises (along with solutions at the bottom of the file) to help you prepare for the task. It assumes you have done the reading.
-
-
 
 ## Background
 

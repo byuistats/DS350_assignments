@@ -7,19 +7,9 @@ title: "Gapminder Part 1"
 
 ### Reading
 
-::: panel-tabset
-## Traditional
+-   [Chapter 9 Layers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/layers)
 
--   [Chapter 3.7-3.10: R for Data Science---Visualization](https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations) (i.e. the rest of chapter 3)
-
-## Interactive Primers
-
--   [Visualize Data](https://posit.cloud/learn/primers/3):
-    -   Scatter plots
-    -   Line plots (just the Welcome and Line Graph)
-    -   Customize plots (just the Welcome, Zooming, Labels. Optionally, you can also do Themes and Scales)
--   [Plotting large datasets](https://byuistats.github.io/M335/online_class/week2-ggplot.html)
-:::
+-   [ggplot cheatsheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 
 ### Guided Instruction
 

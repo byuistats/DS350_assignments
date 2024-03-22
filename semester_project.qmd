@@ -13,7 +13,7 @@ Most of the resources to help you develop a good question and find good data are
 
 You do not have to change the typical format we have been using this semester, but it might be fun to experiment. You can learn about different flavors of Rmarkdown here:
 
-[Chapter 29: Rmarkdown formats](https://r4ds.had.co.nz/r-markdown-formats.html)
+[Chapter 29 Quarto formats: R for Data Science (2nd ed)](https://r4ds.hadley.nz/quarto-formats)
 
 If you have a quality project, you are encouraged to make it publicly available by publishing it to R Studio Connect via BYU-Idaho's Shiny Server, or posting it on your own GitHub account or personal blog.
 

@@ -5,9 +5,7 @@
 
 ### Readings
 
-Read the chapter.
-
-[Chapter 28: R for Data Science---Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+[Chapter 11 Communication: R for Data Science (2nd ed)](http://r4ds.had.co.nz/graphics-for-communication.html)
 
 Creating custom, stylized `ggplot2` themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the `ggplot` lingo..
 
@@ -31,9 +29,9 @@ With your ever increasing understanding of visualization and programming, improv
 
 1.  Attempt at least 2 of the [book exercises in section 28.3.1.](https://r4ds.had.co.nz/graphics-for-communication.html#exercises-75)
 
-2. Revisit the assignments of Reducing Gun Deaths or Wings to Fly and polish the visuals so that they are suitable for presentation at a conference. Use the theme layer, and potentially add other layers, to make the story the graph is telling more clear, compelling, and attractive. You may also wish to use other geoms than you used originally.
+2.  Revisit the assignments of Reducing Gun Deaths or Wings to Fly and polish the visuals so that they are suitable for presentation at a conference. Use the theme layer, and potentially add other layers, to make the story the graph is telling more clear, compelling, and attractive. You may also wish to use other geoms than you used originally.
 
-     - Give the quarto file with the changes a different name so that you can easily make comparisons between the new and old versions.
+    -   Give the quarto file with the changes a different name so that you can easily make comparisons between the new and old versions.
 
 3.  Render the updated `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 

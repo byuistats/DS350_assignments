@@ -6,11 +6,11 @@
 Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.
 
 1.  [Being a better online reader](https://www.newyorker.com/science/maria-konnikova/being-a-better-online-reader)
-2.  [Chapter 1 Intro: R for Data Scientists](http://r4ds.had.co.nz/index.html)
-3.  [Chapter 4 Basics: R for Data Scientists](https://r4ds.had.co.nz/workflow-basics.html)
+2.  [Introduction: R for Data Scientists (2nd ed)](https://r4ds.hadley.nz/intro)
+3.  [Chapter 2 Workflow Basics: R for Data Scientists (2nd ed)](https://r4ds.hadley.nz/workflow-basics)
 4.  [Lesson 3 R and RStudio basics, skip section 3.3](https://rbasics.netlify.app/3-rstudiobasics.html)
 5.  [Modern Dive: Chapter 1 Getting Started with Data in R](https://moderndive.com/1-getting-started.html)
-6.  [Chapter 6 Workflow: Scripts](https://r4ds.had.co.nz/workflow-scripts.html)
+6.  [Chapter 6.1 Workflow: Scripts: R for Data Science (2nd ed)](https://r4ds.hadley.nz/workflow-scripts)
 7.  Optional: If you are new to R and want more practice, I recommend the 'swirl' package. It is an interactive tutorial. Follow the instructions below:
     -   Run the following code, then follow the prompts. Choose option 1: R programming. When presented with 15 different modules I recommend completing 1, 3, 4, 5, 7, 8, 12. (7 and 8 are optional, we will hit them again later in the semester). Say "no" when it asks if you want credit for completing a module.
 

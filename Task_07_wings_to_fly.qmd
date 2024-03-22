@@ -7,16 +7,9 @@ title: "Wings to Fly"
 
 ### Reading
 
-::: panel-tabset
-## Traditional
+[Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
 
--   No new reading. If you are doing interactive primers, be sure to check the reading listed there.
-
-## Interactive Primers
-
--   [Visualize Data](https://posit.cloud/learn/primers/3):
-    -   Boxplots and Counts
-:::
+[Chapter 13.1 - 13.3 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
 
 ## Background
 

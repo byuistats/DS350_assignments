@@ -5,6 +5,8 @@
 
 ### Readings
 
+NEEDS TO BE UPDATED
+
 [Chapter 10: Tibbles](https://r4ds.had.co.nz/tibbles.html)
 
 ### Guided Instruction
@@ -23,9 +25,11 @@ Specifically, you want to know how the 7-day viewership changes within a season 
 
 1.  Read in the TV ratings data for the show using the following code. We will be using the `ratings` dataset. You can learn more about the data set by running `?ratings`.
 
-        install.packages("remotes")
-        remotes::install_github("apreshill/bakeoff")
-        library(bakeoff)
+    ```         
+    install.packages("remotes")
+    remotes::install_github("apreshill/bakeoff")
+    library(bakeoff)
+    ```
 
 2.  Create a chart to illustrate the differences in seven-day viewership between the first and last episode of each season respectively.
 

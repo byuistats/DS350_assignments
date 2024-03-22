@@ -7,8 +7,7 @@ title: "Baseball Managers"
 
 ### Readings
 
--   [Chapter 13: R for Data Science---Relational Data](http://r4ds.had.co.nz/relational-data.html) OR
--   [Interactive Primer on Joins](https://rstudio.cloud/learn/primers/4.3)
+[Chapter 19.1 - 19.4 Joins: R for Data Science (2nd ed)](https://r4ds.hadley.nz/joins)
 
 ### Guided Instruction
 

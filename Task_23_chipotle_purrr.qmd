@@ -7,9 +7,7 @@ title: "Chipotle purrr"
 
 ### Readings
 
--   Complete all the [interactive purrr primers](https://rstudio.cloud/learn/primers/5) EXCEPT "Multiple Vectors".
-    -   "Multiple Vectors" is a bit long and goes much deeper than we will go in this class. However, if you are having fun and want to explore, it is an extremely powerful concept to learn.
-    -   The "Map Shortcuts" primer could also be skipped if you are short on time. However, the shortcuts are handy and especially if you ever want to read someone else's code that uses map (for example when you are googling for answers/troubleshooting).
+[Chapter 21.5 Map Functions: R for Data Science (1st ed)](https://r4ds.had.co.nz/iteration.html#the-map-functions)
 
 ### Guided Instruction
 
@@ -18,6 +16,12 @@ These videos provide a demonstration of purrr and hints for setting up and solvi
 -   [Part 1](https://www.loom.com/share/cef0a90d4282429da426f26817f9db03?sharedAppSource=personal_library)
 -   [Part 2](https://www.loom.com/share/98949bde51f44ab4992c51e01f1b1409?sharedAppSource=personal_library)
 -   [Part 3](https://www.loom.com/share/674f111b84f04e4bb1fc3b2520cc6f40?sharedAppSource=personal_library)
+
+### Enrichment Reading
+
+Here is some useful (optional) reading if you want to repeat code and apply it to multiple columns. This won't be necessary for our tasks, but is very common in practice.
+
+[Chapter 26.2 Modifying Multiple Columns: R for Data Science (2nd ed)](https://r4ds.hadley.nz/iteration#sec-across)
 
 ## Background
 

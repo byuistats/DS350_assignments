@@ -7,23 +7,12 @@ title: "Clean and Reformat (aka Tidy) Stock Data"
 
 ### Readings
 
-::: panel-tabset
-## Traditional
-
--   [Chapter 11.5: R for Data Science---Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
--   [Chapter 12: R for Data Science---Tidy Data](http://r4ds.had.co.nz/tidy-data.html)
+-   [Chapter 7.5 - 7.7 Writing Data: R for Data Science (2nd ed)](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
+-   [Chapter 12 Tidy Data: R for Data Science](http://r4ds.had.co.nz/tidy-data.html) (1st ed)
+    -   (optional) For more complex pivoting examples, read the 2nd edition chapter: [Chapter 5 Data Tidying: R for Data Science (2nd ed)](https://r4ds.hadley.nz/data-tidy)
 -   [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
     -   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
-
-## Interactive Primer
-
--   [Chapter 11.5: R for Data Science---Writing and Saving Data](https://r4ds.had.co.nz/data-import.html#writing-to-a-file)
--   [Tidy Your Data](https://posit.cloud/learn/primers/4)
-    -   Reshape Data
-    -   Separate and Unite Columns
--   [RDS vs. RData](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata)
-    -   By the way, contrary to what the article suggests, I don't believe saving your workspace is a good idea unless you think you'll need it. It just slows down your computer. That's the point of a script or markdown file, all the code is already saved so you can reproduce the workspace if necessary.
-:::
+-   [tidyr cheatsheet](https://rstudio.github.io/cheatsheets/tidyr.pdf)
 
 ### Guided Instruction
 

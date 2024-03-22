@@ -9,9 +9,9 @@ title: "Counting Words"
 
 These readings are focused on working with factors in R
 
--   [Chapter 15: R for Data Science---Factors](http://r4ds.had.co.nz/factors.html)
--   [Forcats R package](http://stat545.com/block029_factors.html)
--   Optional: the [stringi R package](https://rdrr.io/rforge/stringi/man/stri_stats_latex.html) offers additional, less commonly needed functions for working with strings.
+-   [Chapter 16 Factors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/factors)
+    -   or [Forcats R package](http://stat545.com/block029_factors.html)
+-   [forcats cheatsheet](https://rstudio.github.io/cheatsheets/factors.pdf)
 
 ### Guided Instruction
 

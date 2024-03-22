@@ -7,9 +7,7 @@ title: "Our World in Data Highlighting Excess Mortality"
 
 ### Readings
 
-Read the chapter.
-
-[Chapter 28: R for Data Science---Graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+[Chapter 11 Communication: R for Data Science (2nd ed)](http://r4ds.had.co.nz/graphics-for-communication.html)
 
 Creating custom, stylized `ggplot2` themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the `ggplot` lingo..
 
