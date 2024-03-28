@@ -22,11 +22,7 @@ You got your dream job working as a data analyst for one of your favorite restau
 
 Chipotle is planning to run a large 1 or 2 day promotion. They would like the promotion to take place when the restaurant is busiest. They have gathered restaurant level data that you can use to answer the question: what is the busiest day in the restaurant?
 
-We will answer this question over the course of a couple of assignments. For now, we will build a couple of functions that help us evaluate one site at a time.
-
-The dataset this comes from is not needed for this task. (The next task will use the dataset.) Your function just needs a string as input, not the column of data. However, in case you are curious, here is the restaurant level data: <https://byuistats.github.io/M335/data/chipotle_reduced.csv>
-
--   Here is a [data dictionary](https://docs.safegraph.com/docs/monthly-patterns)
+We will answer this question over the course of a couple of assignments. For now, we will build a couple of functions that help us evaluate one restaurant site at a time.
 
 ## Task
 
@@ -34,7 +30,7 @@ The data contains a column `popularity_by_day`. This column contains a lot of in
 
 > {"Monday":94,"Tuesday":76,"Wednesday":89,"Thursday":106,"Friday":130,"Saturday":128,"Sunday":58}
 
-1.  Using the string above as a test case, or example, implement your regex/string skills to split the string and convert it into a tibble with two columns: day of week and number of visits. You should get a tibble that looks like something like this:
+1.  Using the string above as a test case, or example, implement your regex/string skills to split the string and \]convert it into a tibble with two columns: day of week and number of visits. You should get a tibble that looks like something like this:
 
 | day       | visits |
 |-----------|--------|

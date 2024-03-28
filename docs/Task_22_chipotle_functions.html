@@ -570,11 +570,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.youtube.com/watch?v=AmDTjUdCQsU">Say what?!</a>. Ask Brother Woodruff how he pronounces it :).</li>
 </ul>
 <p>Chipotle is planning to run a large 1 or 2 day promotion. They would like the promotion to take place when the restaurant is busiest. They have gathered restaurant level data that you can use to answer the question: what is the busiest day in the restaurant?</p>
-<p>We will answer this question over the course of a couple of assignments. For now, we will build a couple of functions that help us evaluate one site at a time.</p>
-<p>The dataset this comes from is not needed for this task. (The next task will use the dataset.) Your function just needs a string as input, not the column of data. However, in case you are curious, here is the restaurant level data: <a href="https://byuistats.github.io/M335/data/chipotle_reduced.csv" class="uri">https://byuistats.github.io/M335/data/chipotle_reduced.csv</a></p>
-<ul>
-<li>Here is a <a href="https://docs.safegraph.com/docs/monthly-patterns">data dictionary</a></li>
-</ul>
+<p>We will answer this question over the course of a couple of assignments. For now, we will build a couple of functions that help us evaluate one restaurant site at a time.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>The data contains a column <code>popularity_by_day</code>. This column contains a lot of information we need to extract from a string. As an example, for the restaurant with <code>placekey</code> equal to “zzw-222@5vg-nwf-mp9”, the value for <code>popularity_by_day</code> is a string:</p>
@@ -582,7 +578,7 @@ ul.task-list li input[type="checkbox"] {
 <p>{“Monday”:94,“Tuesday”:76,“Wednesday”:89,“Thursday”:106,“Friday”:130,“Saturday”:128,“Sunday”:58}</p>
 </blockquote>
 <ol type="1">
-<li>Using the string above as a test case, or example, implement your regex/string skills to split the string and convert it into a tibble with two columns: day of week and number of visits. You should get a tibble that looks like something like this:</li>
+<li>Using the string above as a test case, or example, implement your regex/string skills to split the string and ]convert it into a tibble with two columns: day of week and number of visits. You should get a tibble that looks like something like this:</li>
 </ol>
 <table class="table">
 <thead>
