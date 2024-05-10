@@ -11,7 +11,7 @@ editor: visual
 1.  Complete these readings if you have not yet:
     -   [Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
 
-        [Chapter 13.1 - 13.3 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
+        [Chapter 13 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
 2.  [Chapter 7.1 - 7.3 Data Import: R for Data Science (2nd ed)](https://r4ds.hadley.nz/data-import)
 3.  Reading data from GitHub: Raw vs. blob
     -   [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub

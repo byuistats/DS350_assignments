@@ -9,7 +9,7 @@ title: "Wings to Fly"
 
 [Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
 
-[Chapter 13.1 - 13.3 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
+[Chapter 13 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
 
 ## Background
 

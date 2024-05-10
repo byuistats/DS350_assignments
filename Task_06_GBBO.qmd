@@ -7,7 +7,10 @@
 
 NEEDS TO BE UPDATED
 
-[Chapter 10: Tibbles](https://r4ds.had.co.nz/tibbles.html)
+1.  Complete these readings if you have not yet:
+    -   [Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
+
+        [Chapter 13 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
 
 ### Guided Instruction
 
