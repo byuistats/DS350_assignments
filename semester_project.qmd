@@ -33,7 +33,7 @@ Present your visualization-based analysis that addresses your question then get 
 
 -   Remember, Rstudio connect can serve as a public location to link to. You can also set up your own GitHub account and make it public. You could then link your post to these locations for people to see your code and/or graphics.
 
-You will briefly review the senior project with the teacher in your exit interview
+You will briefly review the semester project with the teacher in your exit interview
 
 ### Specifics
 
@@ -46,11 +46,11 @@ Your semester project should include
     -   Combine and Reformat: Most likely will need something like: bind(), join(), pivot().
 -   Visualize:
     -   Geometry: Use geom\_\*() functions appropriately to communicate your data.
-    -   Aesthetics: Use aes() appropriately to map variables in your data to important aesthetics in your chart.
+    -   Aesthetics: Use aes() appropriately to connect variables in your data with important aesthetics in your chart.
     -   Theme: Demonstrate you know how to edit theme elements to enhance the message of the chart.
 -   Interpret: Describe the insights gained from your wrangling and visualizations, and discuss how those insights might impact actions or decisions.
 
 ### Submit
 
-In I-learn submit a link to a place where your senior project can be viewed (may or may not be an `.md` file)
+In I-learn submit a link to a place where your semester project can be viewed (may or may not be an `.md` file)
 :::

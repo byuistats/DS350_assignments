@@ -20,11 +20,11 @@ Good data science hinges on good questions. Watch the videos here to help you as
     -   Look for other examples of people addressing your question, or a similar question, online. Include a url to their work if possible.
     -   Present your question to a *data scientist, data analyst (this can include teachers), or other professional in the field* to get feedback on the **quality and feasability** of the question and if it can be addressed in two months.
     -   Get feedback from three to four other people on their interest in your questions.
+    -   Type up a summary of the feedback you received for each question.
 
-3.  Edit the `readme.md` file in this week's folder for this assignment so that it contains your potential questions *and feedback*. Push it to GitHub to be easily shared. 
+3.  Edit the `readme.md` file in this week's folder for this assignment so that it contains your potential questions ***and feedback***. Push it to GitHub to be easily shared.
 
 ### Submit
 
 In I-learn submit a link to the `readme.md` file on GitHub.
-
 :::
