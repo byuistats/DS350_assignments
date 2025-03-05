@@ -6,6 +6,7 @@ book:
   title: "DS350 assignments"
   author: "BYU-Idaho Data Science"
   date: "7/13/2022"
+  page-navigation: false
   chapters:
     - index.qmd
     - part: "Module 1: Technology Set-up"

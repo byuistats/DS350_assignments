@@ -2,7 +2,7 @@
 title: "Data Search"
 ---
 
-::: panel-tabset
+:::: panel-tabset
 ## Readings
 
 These readings are from the book *Build a Career in Data Science*. If the links below don't work for you, you can get an electronic version of the book from the [BYU-Idaho library](https://library.byui.edu/).
@@ -17,7 +17,9 @@ Optional:
 
 -   David Robinson has a [fantastic blog post](http://varianceexplained.org/r/start-blog/) on the benefits of sharing your work in a public blog or GitHub repo.
 
-There are lots of sites that recommend other sites for finding free data, here is one of them: [Finding data to answer your question](https://www.dataquest.io/blog/free-datasets-for-projects/). A couple of other fun places include
+You can use google's data search to find data: <https://datasetsearch.research.google.com/>
+
+There are also lots of sites that recommend other sites for finding free data, here is one of them: [Finding data to answer your question](https://www.dataquest.io/blog/free-datasets-for-projects/). A couple of other fun places include
 
 -   [Data is Plural](https://www.data-is-plural.com/archive/) is a newsletter that sends you interesting datasets every week. Scroll through the archive and see if any topics jump out at you!
 
@@ -51,4 +53,4 @@ CAUTION: If you have to download your data (as opposed to read it directly from 
 ### Submit
 
 In I-learn submit a link to the script or `.md` file on GitHub.
-:::
+::::
