@@ -384,102 +384,124 @@
     ]
   },
   {
+    "objectID": "Task_34_dashboard_gh_pages.html",
+    "href": "Task_34_dashboard_gh_pages.html",
+    "title": "35  Quarto Dashboarding and GitHub Pages",
+    "section": "",
+    "text": "ResourcesBackgroundTask\n\n\n\nReadings\nQuarto Dashboard Introduction\nQuarto Dashboard Layout\nAbout GitHub Pages\nHow to enable GitHub pages on your existing repo\nOptional\nQuarto Dashboard Data Display (highly recommended)\nQuarto Dashboard Theming\nInteractive Dashboards Using R (if using Shiny, an interactive dashboard could be deployed on Posit connect)\n\n\n\nYou are excited for your new job in the Strategy Department at Boeing, a commercial airliner manufacturer in the United States. In an effort to better understand their customer’s operations, Boeing is curious about how the age of an airplane affects its use. In a previous analysis (Age of Planes) you investigated the age of airplanes. Senior level managers found the analysis fascinating and would like to include the charts in a dashboard they are building for the VP of Sales.\nThey have asked you to polish your charts from that analysis and put them all into a single dashboard.\n\n\n\nBuild a dashboard that includes the 3 charts you created in the Age of Planes analysis. The dashboard should include one other image (e.g. a picture of a plane or the Boeing logo) to improve the aesthetic appeal of the dashboard.\n\nYou can create this in your docs folder to ensure the .html file is public after you render it\n\nEnable GitHub Pages in the root directory of your main branch. To do this, follow the instructions in the reading. (There are other ways to enable GitHub Pages that are better if you are actually going to build an entire website, but for this one-off type document this is the simplest way to get introduced to the idea of hosting webpages from GitHub).\n\n\nSubmit\nIn I-learn submit a link to your dashboard .html file published on your repo’s GitHub pages.",
+    "crumbs": [
+      "Module 12: Dashboards and GitHub",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Quarto Dashboarding and GitHub Pages</span>"
+    ]
+  },
+  {
+    "objectID": "Task_35_github_collab.html",
+    "href": "Task_35_github_collab.html",
+    "title": "36  GitHub Collaborations",
+    "section": "",
+    "text": "ResourcesBackgroundTask\n\n\n\nReadings\n\n\n\nYou are consulting for an investing firm. The client would like to compare how well the portfolio managers on the team are doing. Specifically, the client would like a graph of each of the team member’s portfolio performance on a dashboard, as well as a picture of the team displayed on the dashboard.\n\n\n\nThe team will create a single quarto dashboard. The dashboard should contain the following:\n\nThere should be one card that shows a team picture with everyone in it.\nEach team member should have an individual picture as well, each in it’s own card. (Note: these pages will be public, so if you do not want to post your picture, you can choose something/someone else to put in place of your picture)\nThere should be one card for each team member to show their portfolio’s return (Each team member’s portfolio should consist of 3 unique stocks). Be sure to correctly label each graph so the client knows which graph belongs to which team member. Hint: Use the Stocks assignment and tidyquant to create a chart to show your portfolio performance. Not a lot of new code (if any) should be needed for this part.\n\nThe quarto dashboard should be worked on collaboratively using the team repository that has been created for you in our class organization. In this repository, members of a group have all been given write access to their team’s repo. (Repository names will be of the form WI25_palmer_team1. In other words, the first two letters of the semester season, a two digit number to represent the year, an underscore followed by the teacher’s last name, and finally the word “Team” and then the team’s number in I-learn).\n\nAn example quarto dashboard containing content generated in the file itself as well as pulled in from other files can be found at this GitHub repo. (Be sure to read the Readme file there for more explanation and a link to what the finished product of the dashboard looks like).\n\nIn the example, content is put into the dashboard directly or through referencing other files. Either method of populating the dashboard with content is acceptable.\n\n\nThe dashboard should have at least 2 rows and at least 2 columns\nTo truly treat GitHub like the collaboration tool that it is, you will need to get your changes into your group’s repo, without causing havoc. To do so, follow the Feature Branch Workflow instructions.\n\nThe instructions give 2 options. Don’t do it directly on GitHub, follow the instructions that have you walk through the process in RStudio. (BTW: This will have you use the clicking method of committing and pushing, rather than the terminal)\n\n\n\nSubmit\nIn I-learn submit a link to your dashboard .html file published on your team repo’s GitHub pages.",
+    "crumbs": [
+      "Module 12: Dashboards and GitHub",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>GitHub Collaborations</span>"
+    ]
+  },
+  {
     "objectID": "Task_13_github1.html",
     "href": "Task_13_github1.html",
-    "title": "35  Write GitHub Issues",
+    "title": "37  Write GitHub Issues",
     "section": "",
     "text": "ReadingsBackgroundTask\n\n\n\nGitHub Issues: a quick tutorial\nExample of a long issue thread (just scan this to see how issues on GitHub can be used)\nOptional: reprex R Package (this could be helpful when trying to illustrate a bug or problem)\n\n\n\nGitHub is much more than simply storage in the cloud. It can be used to collaborate and communicate. Making feature requests or pointing out bugs in software is a common use of the GitHub Issues feature.\n\n\n\nFirst, find two other student’s compiled files in their repository for a previous week’s Case Study or task and provide feedback using the issues feature in GitHub. If they already have two student written issues find a different student to critique. You should mention things they could do to improve their visualization (or code).\n\nSubmit\nIn I-learn, submit 2 URL’s: one URL link to each of the issues you wrote in someone else’s GitHub repository.",
     "crumbs": [
       "Module: In the Workplace",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Write GitHub Issues</span>"
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Write GitHub Issues</span>"
     ]
   },
   {
     "objectID": "Task_16_github2.html",
     "href": "Task_16_github2.html",
-    "title": "36  Respond to, and Close, GitHub Issues",
+    "title": "38  Respond to, and Close, GitHub Issues",
     "section": "",
     "text": "Task\n\n\n\nDo the readings for the “Write GitHub Issues” task if you haven’t yet.\nAddress the issues currently on your GitHub and close them. Be sure you put a comment or explanation as a reply to original issue that was left to explain how you addressed it.\nMost suggestions should be implemented. However, if you feel the feedback is off base or would actually make your chart worse, you should explain that in a comment on the issue page and then close the issue without making the change. You may take a similar course of action if the suggestion would require you to do something completely out of scope of the material we have learned so far.\nBe sure to address issues left by the instructor or TA as well and resubmit them so that you can get more complete assignments.\n\n\nSubmit\nIn I-learn, submit a link to your GitHub Issues page showing that all issues are closed.",
     "crumbs": [
       "Module: In the Workplace",
-      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Respond to, and Close, GitHub Issues</span>"
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Respond to, and Close, GitHub Issues</span>"
     ]
   },
   {
     "objectID": "Task_33_interview.html",
     "href": "Task_33_interview.html",
-    "title": "37  Exit Interview Prep",
+    "title": "39  Exit Interview Prep",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\nRe-read the syllabus for the course.\n\n\nIf your focus is on learning and skill development, the grade will take care of itself. Rather than a rigid set of boxes to be checked, the grade guidance in the syllabus provides sufficient flexibility for you to propose your own grade based on your learning, and think through what evidences exist to support your proposal. An overwhelming majority of students get the grade they propose.\n\n\n\nUpdate your resume to reflect this semester’s worth of learning and experience. This is not about our class per se, upload a version you would actually use when applying for a job\nJoin the BYUI Data Science LinkedIn, GitHub, Slack groups (if you haven’t yet) and make sure your picture is placed in your profile.\nSchedule your exit interview with the instructor.\nWrite a one-page cover letter to your instructor. You can read about cover letters and see an example of the proper form here. In this case you are not applying for a job, instead be sure to include the following:\n\nThe grade you deserve and why. Please defend your reasoning based on the Syllabus. This is the most important part of the letter, but for most students will also be the shortest part.\nExplanation of how you fit (or will fit) into the data science industry.\nYour confidence in and strategies for addressing ambiguity that you have gained this semester.\n\nAttend the Exit Interview. In the exit interview we will: review the semester project, review the grade proposal, review your resume, and talk about the future. After this you should plan to get internships in the field. Your resume is one of the main ways you will extract value ($$) from the time and effort you spent in college.\n\n\nSubmit\nIn I-learn submit the letter and updated resume. Show up for the exit interview.",
     "crumbs": [
       "Module: In the Workplace",
-      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Exit Interview Prep</span>"
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Exit Interview Prep</span>"
     ]
   },
   {
     "objectID": "Task_03_questions.html",
     "href": "Task_03_questions.html",
-    "title": "38  Asking Questions",
+    "title": "40  Asking Questions",
     "section": "",
     "text": "ReadingTask\n\n\nGood data science hinges on good questions. Watch the videos here to help you ask questions, especially as you develop questions for your semester project. NOTE: These LinkedInLearning videos require BYUI authentication. Follow these steps to play the videos: Free LinkedInLearning for College Students (Step by Step).\n\nHarness the Power of Questions\nRun Question Meetings\nClarify Key Terms\n\n\n\n\nRead the semester project assignment\nDevelop a few novel questions (at least 4) that data can answer. Consider this a brainstorm of what you might address for your semester project.\n\nLook for other examples of people addressing your question, or a similar question, online. Include a url to their work if possible.\nPresent your question to a data scientist, data analyst (this can include teachers), or other professional in the field to get feedback on the quality and feasability of the question and if it can be addressed in two months.\nGet feedback from three to four other people on their interest in your questions.\nType up a summary of the feedback you received for each question.\n\nEdit the readme.md file in this week’s folder for this assignment so that it contains your potential questions and feedback. Push it to GitHub to be easily shared.\n\n\nSubmit\nIn I-learn submit a link to the readme.md file on GitHub.",
     "crumbs": [
       "Module: Semester Project",
-      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Asking Questions</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Asking Questions</span>"
     ]
   },
   {
     "objectID": "Task_12_get_data.html",
     "href": "Task_12_get_data.html",
-    "title": "39  Data Search",
+    "title": "41  Data Search",
     "section": "",
     "text": "ReadingsBackgroundTask\n\n\nThese readings are from the book Build a Career in Data Science. If the links below don’t work for you, you can get an electronic version of the book from the BYU-Idaho library.\n\nSection 4.1: Creating a project\nSection 4.4: Interview with David Robinson, data scientist\n\nOptional:\n\nIf you enjoy podcasts, you can also try listening to episode 4 of the author’s podcast which covers some (but not all!) of the material from Chapter 4.\nDavid Robinson has a fantastic blog post on the benefits of sharing your work in a public blog or GitHub repo.\n\nYou can use google’s data search to find data: https://datasetsearch.research.google.com/\nThere are also lots of sites that recommend other sites for finding free data, here is one of them: Finding data to answer your question. A couple of other fun places include\n\nData is Plural is a newsletter that sends you interesting datasets every week. Scroll through the archive and see if any topics jump out at you!\nTidy Tuesday is a community of R users that explore and visualize a new dataset every Tuesday. This GitHub account contains every dataset used in Tidy Tuesday. Click on the “data” folder and then pick a year to start exploring.\n\n\n\nFinding good data takes time, and can take longer than the time to tidy your data. This task could easily take three to six hours to find the data you need for your semester project. You may not finish this task this week, but you should definitely start it so that you are not rushed at the end of the semester. After you find good, potential data sources pick one to focus on working with for this task.\nDon’t be afraid to pivot or change directions if you find a dataset that sparks your interest or cannot find data to answer your initial question.\n\n\nCreate an .qmd file or R script that has links to data sources with a description of the quality of each.\n\nCheck out 3-5 potential data sets/sources (that are free). Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)\nOf the 3-5 potential data sources you found, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.\n\n\n\n\n\n\n\nWarning\n\n\n\nCAUTION: If you have to download your data (as opposed to read it directly from the web) you may want to store your data outside of the project folder so it doesn’t try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there. There are also other ways to make Git ignore your data.\n\n\n\nCreate two to three quick visualizations that you used to check the quality of your data. (Keep the code for at least one of them.)\nThink through limitations of the compiled data in addressing your original question.\n\nFurthermore, you should be thinking about and begin to address any follow-on or alternate questions that you could use for your project.\n\nPush your R script or markdown files to your GitHub repository.\n\n\nSubmit\nIn I-learn submit a link to the script or .md file on GitHub.",
     "crumbs": [
       "Module: Semester Project",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Data Search</span>"
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Data Search</span>"
     ]
   },
   {
     "objectID": "semester_project.html",
     "href": "semester_project.html",
-    "title": "40  Semester Project",
+    "title": "42  Semester Project",
     "section": "",
     "text": "This culminating case study is like a “choose your own adventure” book. You get to choose the topic and the data! Your project should demonstrate the skills you learned in this class, including importing, wrangling, visualizing, and interpreting data. Specific requirements are listed in the Tasks section.\n\n\nResourcesTask\n\n\nMost of the resources to help you develop a good question and find good data are contained in the other tasks related to the semester project, Asking Questions and Data Search.\nYou do not have to change the typical format we have been using this semester, but it might be fun to experiment. You can learn about different flavors of Rmarkdown here:\nChapter 29 Quarto formats: R for Data Science (2nd ed)\nIf you have a quality project, you are encouraged to make it publicly available by publishing it to R Studio Connect via BYU-Idaho’s Shiny Server, or posting it on your own GitHub account or personal blog.\n\n\nStudents always ask how involved or big the project needs to be. Your project should be on the scale of a large task. It should use and demonstrate the skills we learned in this class. It should include wrangling, some visualization (most likely 2 or more charts), and thoughtful analysis. It should include discussion and interpretation of the results. (Including techniques learned in other classes is okay and encouraged, as long as the skills learned in this class are also present).\nPresent your visualization-based analysis that addresses your question then get lots of feedback. This can be a springboard to a Senior Project or it can be what gets you a job offer. Ideas for receiving feedback (in order of effort involved):\n\nPresent your analysis to your roommates (or spouse) and update your presentation based on the feedback.\nIf possible, get feedback from two to three fellow classmates on your presentation and update it based on their feedback.\nIf possible, present your draft presentation to a data scientist to review for clarity.\nIf possible, present your work at a society meeting, the research and creative works conference, or as an online blog or link.\nRemember, Rstudio connect can serve as a public location to link to. You can also set up your own GitHub account and make it public. You could then link your post to these locations for people to see your code and/or graphics.\n\nYou will briefly review the semester project with the teacher in your exit interview\n\nSpecifics\nYour semester project should include\n\nImport: Load at least one dataset from a remote source.\nWrangle:\n\nBasic Wrangle: Use at least two of the following: select(), filter(), mutate(), arrange(), slice().\nGrouped Wrangle: use at least two of the following: group_by(), summarize(), count().\nCombine and Reformat: Most likely will need something like: bind(), join(), pivot().\n\nVisualize:\n\nGeometry: Use geom_*() functions appropriately to communicate your data.\nAesthetics: Use aes() appropriately to connect variables in your data with important aesthetics in your chart.\nTheme: Demonstrate you know how to edit theme elements to enhance the message of the chart.\n\nInterpret: Describe the insights gained from your wrangling and visualizations, and discuss how those insights might impact actions or decisions.\n\n\n\nSubmit\nIn I-learn submit a link to a place where your semester project can be viewed (may or may not be an .md file)",
     "crumbs": [
       "Module: Semester Project",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Semester Project</span>"
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Semester Project</span>"
     ]
   },
   {
     "objectID": "Task_06_GBBO.html",
     "href": "Task_06_GBBO.html",
-    "title": "41  Great British Bake Off",
+    "title": "43  Great British Bake Off",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\n\nReadings\nNEEDS TO BE UPDATED\n\nComplete these readings if you have not yet:\n\nChapter 12 Logical Vectors: R for Data Science (2nd ed)\nChapter 13 Numbers: R for Data Science (2nd ed)\n\n\n\n\nGuided Instruction\n\ndata structures\nThe previous guided instruction could still be helpful if you have not yet completed it: data wrangling with dplyr\n\n\n\n\nThe Great British Bake Off was a hit reality TV show that put amateur bakers against each other. Contestants were eliminated in each round until a winner was crowned. The show ran for 12 seasons (a season is called a series in the dataset) through 2021, with plenty of drama. You will analyze the show’s 7-day viewership (i.e. TV ratings over a 7 day period).\nSpecifically, you want to know how the 7-day viewership changes within a season and across seasons. In one graph, you compare the 7-day viewership for the season’s premiere and finale. In another graph, you compare the mean across seasons while not losing track of each episode’s 7-day viewership.\n\n\n\nRead in the TV ratings data for the show using the following code. We will be using the ratings dataset. You can learn more about the data set by running ?ratings.\ninstall.packages(\"remotes\")\nremotes::install_github(\"apreshill/bakeoff\")\nlibrary(bakeoff)\nCreate a chart to illustrate the differences in seven-day viewership between the first and last episode of each season respectively.\nCreate another chart that displays the ratings for each and every episode AND the season’s mean rating. This should should only include series/seasons that have 10 episodes.\nWrite a paragraph or two in your .qmd file to discuss\n\nPatterns of viewership within a season\nHistorical trends of the show’s viewership and changes over time\n\nPerhaps a little internet surfing or Googling will help you find reasons for the viewership changes.\n\n\nRender the updated `.qmd` file. Push all the files created in the rendering process into your GitHub repository.\n\n\nSubmit\nIn I-learn paste the link to the .md file on GitHub.",
     "crumbs": [
       "Alternate/extra tasks",
-      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Great British Bake Off</span>"
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Great British Bake Off</span>"
     ]
   },
   {
     "objectID": "Task_11bonus_cpi.html",
     "href": "Task_11bonus_cpi.html",
-    "title": "42  CPI Index",
+    "title": "44  CPI Index",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\n\nReadings\nRead/review the following\nScan through the following,\n\nChapter 10: R for Data Science—Tibbles\nChapter 18: R for Data Science—Pipes\nChapter 20: R for Data Science—Vectors\nreadxl R package\ndownloader R package\nALL of Chapter 11: R for Data Science—Data Import\n\n\n\n\nThis article tracks the Consumer Price Index average food price in the United Kingdom. The author notes a drop in food prices in February 2020 and attributes that to the Corona Virus pandemic. She has 1 chart in her article.\nThe article is on Medium, which means if you frequent that site often then you won’t be able to see the image unless you pay for a membership. Here is a screen capture of the image if the article won’t show.\n\n\nThe data used to create that chart can be found in these excel files, one file for each month of data:\n\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201910.xlsx\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201911.xlsx\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices201912.xlsx\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202001.xlsx\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202002.xlsx\nhttps://byuistats.github.io/M335/data/cpi_food_uk/cpiaverageprices202003.xlsx\n\n\nLoad in the datasets. Note that NOT all the datasets have an identical structure.\nWrangle the data and prepare the files to be combined into one overall dataset.\nCombine (aka “stack” or append) the datasets into one overall dataset\nUse the combined dataset to recreate the chart.\n\n\nNow for the fun/challenging part! Some of the food items used to calculate the CPI changed starting in February 2020: some were removed and others were added. One could argue that the dip in the CPI was due to the change in items rather than a result of the Corona Virus.\n\nCreate 1 or 2 charts that investigate this hypothesis.\nWrite a a paragraph or two to articulate the story the data tells regarding the dip in CPI and the change of items included.\nRender the .qmd file. Push all the files created in the rendering process into your GitHub repository.\n\n\nSubmit\nIn I-learn submit a link to the .md file on GitHub.",
     "crumbs": [
       "Alternate/extra tasks",
-      "<span class='chapter-number'>42</span>  <span class='chapter-title'>CPI Index</span>"
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>CPI Index</span>"
     ]
   },
   {
     "objectID": "Task_14a_highlight_owd_excess_mortality.html",
     "href": "Task_14a_highlight_owd_excess_mortality.html",
-    "title": "44  Our World in Data Highlighting Excess Mortality",
+    "title": "46  Our World in Data Highlighting Excess Mortality",
     "section": "",
     "text": "ResourcesBackgroundTask\n\n\n\nReadings\nChapter 11 Communication: R for Data Science (2nd ed)\nCreating custom, stylized ggplot2 themes can get complicated very quickly. Finding answers and examples on Google is easier if you know what key words to search for. These reference sheets/pages helpful as you learn the ggplot lingo..\n\nTheme Elements Reference Sheet\nTheme Elements Demonstration\nTheme Documentation\n\n\n\nGuided Instruction\nVisualization for Presentation\n\n\n\nThe Our World in Data website publishes research and graphics that provide insight into world data. We are going to recreate one of their charts and use it to practice our annotation skills.\nIf the thing you want to edit is not a theme element, then it is related to data and can mostly likely be changed inside a geom_() or a scale_() layer.\n\n\n\nRecreate this graph as closely as you can. This will/should take the bulk of your time.\n\nThe data is provided on the download tab.\nFocus your energy on the y-axis, axes, legend, lines, scales, etc. Pay attention to detail.\nDo NOT worry about making your graph interactive. Ignore that aspect completely\nTo convert characters to dates you can use lubridate::mdy(). You can reorder the letters ‘m’, ‘d’, and ‘y’ in the code to match the order that the month, day and year are presented in the character string.\nIf you are getting stuck matching the graph exactly, try completing steps 2 and 3, then coming back to this step with the time you have left.\n\nSuppose we wanted to highlight (draw attention to) any points that are above 100%. Create two more graphs that show two different ways to highlight these points.\nMake one more graph that adds a line for the United States. Try highlighting the United States line using what you learned from the textbook.\nWrite a paragraph summarizing insights you gained, or new skills/commands you learned in this task. Also reflect on how you can use “highlighting” to help the data tell a story.\nRender the .qmd file. Push all files created as part of the render to your GitHub repository.\n\n\nSubmit\nIn I-learn submit a link to the .md file on GitHub.",
     "crumbs": [
       "Alternate/extra tasks",
-      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Our World in Data Highlighting Excess Mortality</span>"
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Our World in Data Highlighting Excess Mortality</span>"
     ]
   }
 ]

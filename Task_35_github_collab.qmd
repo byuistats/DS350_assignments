@@ -1,0 +1,37 @@
+---
+title: "GitHub Collaborations"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+## Background
+
+You are consulting for an investing firm. The client would like to compare how well the portfolio managers on the team are doing. Specifically, the client would like a graph of each of the team member’s portfolio performance on a dashboard, as well as a picture of the team displayed on the dashboard.
+
+## Task
+
+1.  The team will create a single quarto dashboard. The dashboard should contain the following:
+
+    -   There should be one card that shows a team picture with everyone in it.
+    -   Each team member should have an individual picture as well, each in it’s own card. (Note: these pages will be public, so if you do not want to post your picture, you can choose something/someone else to put in place of your picture)
+    -   There should be one card for each team member to show their portfolio’s return (Each team member’s portfolio should consist of 3 unique stocks). Be sure to correctly label each graph so the client knows *which graph belongs to which team member*. **Hint**: Use the Stocks assignment and tidyquant to create a chart to show your portfolio performance. Not a lot of new code (if any) should be needed for this part.
+
+2.  The quarto dashboard should be worked on collaboratively using the team repository that has been created for you in our class organization. In this repository, members of a group have all been given write access to their team’s repo. (Repository names will be of the form WI25_palmer_team1. In other words, the first two letters of the semester season, a two digit number to represent the year, an underscore followed by the teacher’s last name, and finally the word “Team” and then the team’s number in I-learn).
+
+    -   An example quarto dashboard containing content generated in the file itself as well as pulled in from other files can be found [at this GitHub repo](https://github.com/BYUI335/dashboard_child_source_file_demo). (Be sure to read the Readme file there for more explanation and a link to what the finished product of the dashboard looks like).
+
+        -   In the example, content is put into the dashboard directly or through referencing other files. Either method of populating the dashboard with content is acceptable.
+
+3.  The dashboard should have at least 2 rows and at least 2 columns
+
+4.  To truly treat GitHub like the collaboration tool that it is, you will need to get your changes into your group’s repo, without causing havoc. To do so, follow the [Feature Branch Workflow instructions](https://fish497.github.io/website/lectures/week_03/lec_08_workflows_ex.html#Feature_branch_workflow).
+
+    -   The instructions give 2 options. **Don’t do it directly on GitHub**, follow the instructions that have you walk through the process in RStudio. (BTW: This will have you use the clicking method of committing and pushing, rather than the terminal)
+
+### Submit
+
+In I-learn submit a link to your dashboard .html file published on your team repo’s GitHub pages.
+:::

@@ -65,6 +65,10 @@ book:
         - Task_31a_leaflet_basics.qmd
         - Task_31b_leaflet_layers.qmd
         - Task_32_dygraph.qmd
+    - part: "Module 12: Dashboards and GitHub"
+      chapters:
+        - Task_34_dashboard_gh_pages.qmd
+        - Task_35_github_collab.qmd
     - part: "Module: In the Workplace"
       chapters:
         - Task_13_github1.qmd
