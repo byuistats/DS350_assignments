@@ -15,11 +15,13 @@ title: "Age of Planes"
 
 ## Background
 
+You are excited for your new job in the Strategy Department at Boeing, a commercial airliner manufacturer in the United States. In an effort to better understand their customer’s operations, Boeing is curious about how the age of an airplane affects its use.  \
+
 In a previous task we used the `flights` tibble from the `nycflights13` package to answer questions about flight delays. That same package contains four other tibbles that are related to flights and can help us answer more complex questions. Run `data(package = "nycflights13")` to see a list of the tibbles with a brief description.
 
-For this task we are trying to answer two questions:
+For this task your boss wants answers to two these questions:
 
-What is the relationship between departure delays and age of the plane? What is the relationship between airline carrier and age of the plane?
+What is the relationship between departure delays and age of the plane? What is the relationship between airline carrier and age of the plane? What else did you learn as investigated the relationship between age of plane and other variables?
 
 ## Task
 
