@@ -1,5 +1,5 @@
 ---
-title: "GitHub Collaborations"
+title: "If you want to go far, go together"
 ---
 
 ::: panel-tabset
@@ -7,7 +7,11 @@ title: "GitHub Collaborations"
 
 ### Readings
 
+[Feature Branch Workflow instructions](https://fish497.github.io/website/lectures/week_03/lec_08_workflows_ex.html#Feature_branch_workflow).
+
 ## Background
+
+An African proverb says, "If you want to go fast, go alone. If you want to go far, go together." The objective of this project is to have you and your team work together, and begin to unlock the true value of GitHub as a collaborative tool.
 
 You are consulting for an investing firm. The client would like to compare how well the portfolio managers on the team are doing. Specifically, the client would like a graph of each of the team member’s portfolio performance on a dashboard, as well as a picture of the team displayed on the dashboard.
 
