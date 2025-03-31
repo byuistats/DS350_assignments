@@ -1,5 +1,5 @@
 ---
-title: "If you want to go far, go together"
+title: "Let's Git together!"
 ---
 
 ::: panel-tabset
