@@ -2,20 +2,19 @@
 title: "Mean Heights of Countries Over Time"
 ---
 
-::: panel-tabset
+:::: panel-tabset
 ## Resources
 
 ### Readings
 
 Scan through the following,
 
-1.  [Chapter 27.1 - 27.3 A Field Guide to Base R: R for Data Science (2nd ed)](https://r4ds.had.co.nz/tibbles.html)
-    -   This will be helpful in learning to subset/reference elements of vectors and lists (and consequently dataframe and tibbles as well)
-2.  [Chapter 20.2.1 - 20.2.4 Reading Excel: R for Data Science (2nd ed)](https://r4ds.hadley.nz/spreadsheets#prerequisites)
-3.  [Chapter 20.3 - 20.4 Reading Google Sheets: R for Data Science (2nd ed)](https://r4ds.hadley.nz/spreadsheets#google-sheets)
-4.  [readxl R package](http://readxl.tidyverse.org/)
-5.  [downloader R package](https://github.com/wch/downloader)
-6.  [cheatsheet](https://rstudio.github.io/cheatsheets/data-import.pdf)
+1.  [Chapter 27.1 - 27.3 A Field Guide to Base R: R for Data Science (2nd ed)](https://r4ds.hadley.nz/base-R.html#introduction)
+    -   This will be helpful in learning to subset/reference elements of vectors and lists (and consequently dataframe and tibbles as well). Section 27.3.3 is especially insightful.
+2.  [Chapter 20 Spreadsheets: R for Data Science (2nd ed)](https://r4ds.hadley.nz/spreadsheets#introduction)
+3.  [readxl R package](http://readxl.tidyverse.org/)
+4.  [downloader R package](https://github.com/wch/downloader)
+5.  [cheatsheet](https://rstudio.github.io/cheatsheets/data-import.pdf)
 
 ::: callout-tip
 The guided instruction for importing data may be particularly helpful.
@@ -57,4 +56,4 @@ This project is not as severe as the two quotes below, but it will give you a ta
 ### Submit
 
 In I-learn submit a link to the `.md` file on GitHub.
-:::
+::::
