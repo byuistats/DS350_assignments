@@ -37,9 +37,9 @@ Wrangle the data into two separate data sets. One data set should look at single
 4.  Create a chart that shows, for each US state, the trend in single family building permits over time.
 
     -   Make sure at least one (if not all) of your charts display the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).
-    -   Also, consider how you can effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)
+    -   Also, you must effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)
 
-5.  Create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time. Again, the chart should use some sort of spatial/geographical representation and you should consider how to deal with disparities of scale.
+5.  Create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time. Again, the chart should use some sort of spatial/geographical representation and you must deal with disparities of scale so that the rise and fall in each geography is visible.
 
 6.  Write a couple of paragraphs summarizing insights from your graphics for the reporter, and the choices you made during your visualization process.
 
