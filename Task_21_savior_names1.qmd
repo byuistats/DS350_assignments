@@ -22,7 +22,7 @@ With our strong "string" skills we are going to check her results and build an i
 ## Task
 
 1.  Get the scripture and savior name data into R.
-    -   **Scripture Text:** Use the same data as the Counting Words task. You don't have to download it again if you stored it on your computer. See the [Counting Words](Task_20_counting_words.qmd) for code to complete this step.
+    -   **Scripture Text:** Use the [same data](https://github.com/beandog/lds-scriptures/raw/master/csv/lds-scriptures.csv) as the Counting Words task.
     -   **Savior Names:** Use `read_rds(url("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds"))` or `read_rds("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds")` to download and load the Savior names table into R. (Or try experimenting with [`rio::import()`](https://github.com/leeper/rio) to read in the data)
 2.  Use the list of Savior names and the Book of Mormon text to find the distribution of number of words between references to the Savior.
     -   Split the string on each instance of a Savior name in the Book of Mormon,

@@ -25,13 +25,7 @@ We are going to use some of our string skills to count words in the New Testamen
 
 ## Task
 
-1.  In a previous week we learned to download zip files, unzip them, and then read in their content. This process is greatly simplified with the `rio` package (dealing with zipped folders may be more tricky). [`rio`](https://github.com/leeper/rio) is a package that can read in a wide variety of file types with one easy command. After installing the `rio` package download the data using this code:
-
-```{r eval = FALSE, echo = TRUE}
-scriptures_data <- rio::import("http://scriptures.nephi.org/downloads/lds-scriptures.csv.zip") %>% 
-  as_tibble()
-```
-
+1.  Read in the scriptures dataset contained in this csv file [at this link](https://github.com/beandog/lds-scriptures/raw/master/csv/lds-scriptures.csv).
 2.  Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
 3.  Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
 4.  Create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
