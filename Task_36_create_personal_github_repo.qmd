@@ -115,7 +115,7 @@ Choose 1 of the 3 tabs below and follow those instructions for publishing a port
 
 4.  Check the box for "Create a git repository"
 
-5.   Create a new folder in your project and call it "docs".
+5.  Create a new folder in your project and call it "docs".
 
 6.  At the beginning of the semester we initialized and installed git, we connected RStudio to GitHub, and installed the "usethis" package. If, for some reason, you haven't done those things by now, make sure they are done.
 
