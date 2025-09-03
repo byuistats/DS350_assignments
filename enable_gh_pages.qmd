@@ -34,7 +34,3 @@ Select the box for “Use your GitHub Pages website”
 Now the link to your repo’s home page is quick to get to for anyone who visits your repository.
 
 ![](homepage_link_location.png)
-
-```{r}
-print("Thanks!")
-```

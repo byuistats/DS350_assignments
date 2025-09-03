@@ -1,0 +1,62 @@
+# First Quarto Markdown `.qmd`
+
+:::: panel-tabset
+## Reading
+
+1\. [Announcing Quarto](https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)
+
+-   Quarto is automatically installed when you install R-studio.
+-   (optional) For R users who are used to Rmarkdown, here is some explanation of the differences and [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/) compared to Rmarkdown.
+
+2\. Walk through the tutorial ["Hello, Quarto"](https://quarto.org/docs/get-started/hello/rstudio.html) for RStudio
+
+-   Here is a [video walk through of the tutorial](https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb), to help fill in the gaps if you had trouble following the reading.
+
+3\. Walk through the tutorial [Computations](https://quarto.org/docs/get-started/computations/rstudio.html) for RStudio (especially from the beginning through Code Folding section)
+
+4.  [quarto cheatsheet](https://rstudio.github.io/cheatsheets/quarto.pdf)
+
+(optional) 5. [Chapter 28 Quarto: R for Data Science (2nd ed)](https://r4ds.hadley.nz/quarto)
+
+## Task
+
+1.  Find [**three**]{.underline} articles that use data and visualizations to answer a question
+
+    -   Use any website, blog, or article with good visualizations.
+    -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/).
+
+2.  **While in the project for this class' repository, start a new `.qmd` file.**
+
+    -   Edit The YAML
+
+        -   Change what's there by default to title the report "First_Quarto_File".
+
+        -   Add the following code to the YAML. (Make sure the spacing matches!). Can you describe what this code is doing?
+
+            ``` r
+            format:
+              html:
+                code-fold: true
+                code-line-numbers: true
+            ```
+
+3.  In the body of the `.qmd` file put a link to each article you found. Also, write a one-paragraph review of each article that answers the following questions:
+
+    <!-- -->
+
+    -   What is unique or good about the visualization? List a few ideas.
+    -   What could be better? Identify at least one issue with the visualization.
+
+::: callout-note
+## Take time to play/experiment
+
+Experiment/play with adding callouts or other text formatting in the visual editor of the file. Switch between the Visual Editor and the Source Editor so you can see what adjustments are being made to the code. Eventually you should be relatively comfortable making edits in visual or source editors.
+:::
+
+4.  Add an R code chunk that contains the following code: `plot(1:20)`; 
+5.  Render the file you titled "First_Quarto_File" to `.html`. Push **all** the files and folders to GitHub that were created as a result.
+
+### Submission
+
+In I-learn, submit a link to your `First_Quarto_File.html` published on your GitHub pages website.
+::::

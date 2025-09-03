@@ -1,7 +1,5 @@
 ---
-title: "Project 6: Git Your DS Portfolio Online"
-date: 2020-05-01T11:02:05+06:00
-lastmod: 2020-09-15T10:42:26+06:00
+title: "Let's Git Personal"
 weight: 6
 draft: false
 # search related keywords
@@ -16,11 +14,9 @@ As students, you will want to curate your creative work on GitHub using a progra
 
 Many people store their personal websites, blogs, and project websites on GitHub. Our textbook and course are hosted on GitHub, and you can see [J. Hathaway's](http://jhathaway.io/) or [Ryan Hafen's](https://ryanhafen.com/) personal Data Science websites that are hosted on GitHub as well.
 
-For this project, you will be making a public website that is a data science portfolio that will be hosted on GitHub. Your Resume will be one section of your portfolio/website. You should also post Data Science Society projects, personal projects, and any other data science related work you have done outside of class. Do not post any of the DS250 course work in this portfolio.
+For this project, you will be making a public website that is a data science portfolio that will be hosted on GitHub. Your Resume will be one section of your portfolio/website. You should also post Data Science Society projects, personal projects, and any other data science related work you have done outside of class. Do not post any of the course work in this portfolio.
 
-### Data
-
-**Portfolio:** [BYUI Data Science Portfolio](https://github.com/byuidatascience/datascience_portfolio)
+If you already have a personal repository on GitHub, great! Use this assignment to revisit it, update it, or spruce it up.
 
 ### Readings
 
@@ -211,9 +207,9 @@ g.  You can now make changes to any of the pages, delete pages, or add pages wit
 
 #### Put your Resume online
 
--   **Update the `resume.qmd` file** located at the top level folder with information about you. If doesn't have to be fancy, just make sure it is stuff about you and not Isaac Newton. See [P4DS: CH30 Markdown](https://aeturrell.github.io/python4DS/markdown.html)
+-   **Update the `resume.qmd` file** located at the top level folder with information about you. If doesn't have to be fancy, just make sure it is stuff about you and not Isaac Newton. See [Chap 29 in the R for Data Science book](https://r4ds.hadley.nz/quarto-formats.html#output-options)
 -   Push your results to GitHub. Then go online to verify it was successful.
 
 ### Deliverables
 
-Submit a URL link to your resume as a webpage hosted on GitHub.
+Submit a URL link to your resume as a webpage hosted on GitHub pages.

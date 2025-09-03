@@ -1,5 +1,5 @@
 ---
-title: "Quarto Dashboarding and GitHub Pages"
+title: "Quarto Dashboarding"
 ---
 
 ::: panel-tabset
@@ -9,14 +9,12 @@ title: "Quarto Dashboarding and GitHub Pages"
 
 -   [Quarto Dashboard Introduction](https://quarto.org/docs/dashboards/)
 -   [Quarto Dashboard Layout](https://quarto.org/docs/dashboards/layout.html)
--   [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
--   [How to enable GitHub pages on your existing repo](https://byuistats.github.io/DS350_assignments/enable_gh_pages.html)
 
 [*Optional*]{.underline}
 
 -   [Quarto Dashboard Data Display](https://quarto.org/docs/dashboards/data-display.html) (highly recommended)
 -   [Quarto Dashboard Theming](https://quarto.org/docs/dashboards/theming.html)
--   [Interactive Dashboards Using R](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) (if using Shiny, an interactive dashboard could be deployed on Posit connect)
+-   [Interactive Dashboards Using R](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) (using Shiny)
 
 ## Background
 
@@ -27,10 +25,6 @@ They have asked you to polish your charts from that analysis and put them all in
 ## Task
 
 1.  Build a dashboard that includes the 3 charts you created in the [Age of Planes](http://localhost:3332/Task_17_age_of_planes.html) analysis. The dashboard should include one other image (e.g. a picture of a plane or the Boeing logo) to improve the aesthetic appeal of the dashboard.
-
-    -   You can create this in your docs folder to ensure the .html file is public after you render it
-
-2.  Enable GitHub Pages in the root directory of your main branch. To do this, follow the instructions in the reading. (There are other ways to enable GitHub Pages that are better if you are actually going to build an entire website, but for this one-off type document this is the simplest way to get introduced to the idea of hosting webpages from GitHub).
 
 ### Submit
 
