@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>task_01_set-up---copy</title>
+<title>task_02_qmd-copy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,20 +20,55 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="Task_01_set-up - Copy_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Task_01_set-up - Copy_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Task_01_set-up - Copy_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Task_01_set-up - Copy_files/libs/quarto-html/popper.min.js"></script>
-<script src="Task_01_set-up - Copy_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Task_01_set-up - Copy_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Task_01_set-up - Copy_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Task_01_set-up - Copy_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Task_01_set-up - Copy_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Task_01_set-up - Copy_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Task_01_set-up - Copy_files/libs/bootstrap/bootstrap-bb462d781dde1847d9e3ccf7736099dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="Task_02_qmd-Copy_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Task_02_qmd-Copy_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Task_02_qmd-Copy_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Task_02_qmd-Copy_files/libs/quarto-html/popper.min.js"></script>
+<script src="Task_02_qmd-Copy_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Task_02_qmd-Copy_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Task_02_qmd-Copy_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Task_02_qmd-Copy_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap-bb462d781dde1847d9e3ccf7736099dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -47,62 +82,73 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="technology-set-up" class="level1">
-<h1>Technology Set-up</h1>
+<section id="first-quarto-markdown-.qmd" class="level1">
+<h1>First Quarto Markdown <code>.qmd</code></h1>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Tasks</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Reading</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.</p>
-<ol type="1">
-<li><a href="https://www.newyorker.com/science/maria-konnikova/being-a-better-online-reader">Being a better online reader</a></li>
-<li><a href="https://r4ds.hadley.nz/intro">Introduction: R for Data Scientists (2nd ed)</a></li>
-<li><a href="https://r4ds.hadley.nz/workflow-basics">Chapter 2 Workflow Basics: R for Data Scientists (2nd ed)</a></li>
-<li><a href="https://rbasics.netlify.app/3-rstudiobasics.html">Lesson 3 R and RStudio basics, skip section 3.3</a></li>
-<li><a href="https://moderndive.com/1-getting-started.html">Modern Dive: Chapter 1 Getting Started with Data in R</a></li>
-<li><a href="https://r4ds.hadley.nz/workflow-scripts">Chapter 6.1 Workflow: Scripts: R for Data Science (2nd ed)</a></li>
-<li>Optional: If you are new to R and want more practice, I recommend the ‘swirl’ package. It is an interactive tutorial. Follow the instructions below:
+<p>1. <a href="https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/">Announcing Quarto</a></p>
 <ul>
-<li>Run the following code, then follow the prompts. Choose option 1: R programming. When presented with 15 different modules I recommend completing 1, 3, 4, 5, 7, 8, 12. (7 and 8 are optional, we will hit them again later in the semester). Say “no” when it asks if you want credit for completing a module.</li>
-</ul></li>
+<li>Quarto is automatically installed when you install R-studio.</li>
+<li>(optional) For R users who are used to Rmarkdown, here is some explanation of the differences and <a href="https://www.r-bloggers.com/2022/06/experimenting-with-quarto/">benefits of quarto</a> compared to Rmarkdown.</li>
+</ul>
+<p>2. Walk through the tutorial <a href="https://quarto.org/docs/get-started/hello/rstudio.html">“Hello, Quarto”</a> for RStudio</p>
+<ul>
+<li>Here is a <a href="https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb">video walk through of the tutorial</a>, to help fill in the gaps if you had trouble following the reading.</li>
+</ul>
+<p>3. Walk through the tutorial <a href="https://quarto.org/docs/get-started/computations/rstudio.html">Computations</a> for RStudio (especially from the beginning through Code Folding section)</p>
+<ol start="4" type="1">
+<li><a href="https://rstudio.github.io/cheatsheets/quarto.pdf">quarto cheatsheet</a></li>
 </ol>
-<p><code>install.packages("swirl")</code></p>
-<p><code>library(swirl)</code></p>
+<p>(optional) 5. <a href="https://r4ds.hadley.nz/quarto">Chapter 28 Quarto: R for Data Science (2nd ed)</a></p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <ol type="1">
-<li><p>Read the syllabus and ensure you understand the course procedures and grading.</p></li>
-<li><p><a href="https://posit.co/download/rstudio-desktop/">Download and install the latest versions of R and RStudio.</a></p></li>
-<li><p>If necessary, adjust your settings in RStudio to use the <a href="https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics">code diagnostics</a>. Feel free to place a check on every diagnostic for now, and then unselect those, throughout the semester, that you no longer find relevant.</p></li>
-<li><p><strong>IMPORTANT</strong>: Create a <a href="https://github.com/join?source=header-home">GitHub account</a></p></li>
-<li><p><strong>IMPORTANT</strong> Report your GitHub username on the <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0eDVfgYMC6FrYFgueVlB9KLzTRtwaupquXljFpD3qxvFtFA/viewform?usp=dialog">GitHub Usernames google form</a>. This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates’ repositories.</p>
+<li><p>Find <u><strong>three</strong></u> articles that use data and visualizations to answer a question</p>
 <ul>
-<li>Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this private repository to turn in assignments.</li>
+<li>Use any website, blog, or article with good visualizations.</li>
+<li>Some fun websites to try are <a href="https://pudding.cool/">The Pudding</a>, <a href="https://fivethirtyeight.com/">FiveThirtyEight</a>, <a href="https://ourworldindata.org/">Our World in Data</a>, and <a href="https://priceonomics.com/">Priceonomics</a>.</li>
+</ul></li>
+<li><p><strong>While in the project for this class’ repository, start a new <code>.qmd</code> file.</strong></p>
+<ul>
+<li><p>Edit The YAML</p>
+<ul>
+<li><p>Change what’s there by default to title the report “First_Quarto_File”.</p></li>
+<li><p>Add the following code to the YAML. (Make sure the spacing matches!). Can you describe what this code is doing?</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  html<span class="sc">:</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    code<span class="sc">-</span>fold<span class="sc">:</span> true</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    code<span class="sc">-</span>line<span class="sc">-</span>numbers<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ul></li>
+<li><p>In the body of the <code>.qmd</code> file put a link to each article you found. Also, write a one-paragraph review of each article that answers the following questions:</p>
+<!-- -->
+<ul>
+<li>What is unique or good about the visualization? List a few ideas.</li>
+<li>What could be better? Identify at least one issue with the visualization.</li>
 </ul></li>
 </ol>
-<p>You will receive an invite to the organization and to the repo soon. Please accept it. I will post on slack soon after I have sent out all the invites.</p>
-<ol start="6" type="1">
-<li><p>Join the Data Science Society workspace in Slack. This is where we will have class conversations and ask questions. Here is the link to join: https://join.slack.com/t/byuidss/signup . The following sub-bullets provide additional detailed instructions about setting up and using slack.</p>
-<ul>
-<li>Create a professional username, something you could share with an employer</li>
-<li>In addition to the channels you are automatically added to, be sure to join the following two channels:
-<ul>
-<li>Our class channel. It will look something like <code>#ds350_wi23_palmer</code> or <code>#ds350_sp23_ball</code>, where the last part of the channel name corresponds to the last name of the instructor. Find the appropriate channel and add yourself to it. Once you are in the class channel, introduce yourself by replying to the <em>introduction</em> thread by clicking the thread, hit reply, then type a brief introduction.</li>
-<li><strong>#tutoring_lab</strong>, add this channel. It is where you can ask questions about code related to specific tasks or case studies.</li>
-<li>Browse through the channels and join as as many as you are interested in. <code>#internships-and-jobs</code> is a particularly active channel. This community will be a great resource, even if you are not a Data Science major.</li>
-</ul></li>
-<li>It is highly recommended you install Slack as an app on your PC and/or phone. The more comfortable you become with using Slack, the easier it will be to collaborate with each other throughout your professional career.</li>
-</ul></li>
-<li><p>Post a professional picture to your GitHub, LinkedIn, and Slack icons. Go to the <a href="http://www.byui.edu/alumni/alumni-linkedin-photo-booth">BYU-Idaho LinkedIn Photobooth</a> if you don’t have a professional picture.</p></li>
-<li><p>Make plans / try to attend <a href="https://byuidatascience.github.io/newsite/society/">Data Science Society</a> on the second Wednesday of the semester. Details will be posted on slack, usually in the <em>#general</em> channel. (Attendance is not taken)</p></li>
-<li><p>Download the R script <a href="first-R-script.R">first-R-script.R</a> and open it in RStudio. Run each line of code, one at a time (figure out the keyboard shortcut to do this). Note any questions you want to ask of your classmates or instructor.</p>
-<ul>
-<li>It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don’t worry if you don’t understand all (or any of) the code.</li>
-</ul></li>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Take time to play/experiment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Experiment/play with adding callouts or other text formatting in the visual editor of the file. Switch between the Visual Editor and the Source Editor so you can see what adjustments are being made to the code. Eventually you should be relatively comfortable making edits in visual or source editors.</p>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Add an R code chunk that contains the following code: <code>plot(1:20)</code>;</li>
+<li>Render the file you titled “First_Quarto_File” to <code>.html</code>. Push <strong>all</strong> the files and folders to GitHub that were created as a result.</li>
 </ol>
-<section id="submit" class="level3">
-<h3 class="anchored" data-anchor-id="submit">Submit</h3>
-<p>Your submission of your GitHub info to the google sheet, and your presence on slack will be used to determine if this assignment was completed.</p>
+<section id="submission" class="level3">
+<h3 class="anchored" data-anchor-id="submission">Submission</h3>
+<p>In I-learn, submit a link to your <code>First_Quarto_File.html</code> published on your GitHub pages website.</p>
 </section>
 </div>
 </div>
