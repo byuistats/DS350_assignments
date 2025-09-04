@@ -99,9 +99,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>3. Walk through the tutorial <a href="https://quarto.org/docs/get-started/computations/rstudio.html">Computations</a> for RStudio (especially from the beginning through Code Folding section)</p>
 <ol start="4" type="1">
-<li><a href="https://rstudio.github.io/cheatsheets/quarto.pdf">quarto cheatsheet</a></li>
+<li><p><a href="https://rstudio.github.io/cheatsheets/quarto.pdf">quarto cheatsheet</a></p></li>
+<li><p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">About GitHub Pages</a> (read until it starts giving step-by-step how-to instructions)</p></li>
 </ol>
-<p>(optional) 5. <a href="https://r4ds.hadley.nz/quarto">Chapter 28 Quarto: R for Data Science (2nd ed)</a></p>
+<p>(optional) 6. <a href="https://r4ds.hadley.nz/quarto">Chapter 28 Quarto: R for Data Science (2nd ed)</a></p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <ol type="1">
@@ -144,11 +145,26 @@ Take time to play/experiment
 </div>
 <ol start="4" type="1">
 <li>Add an R code chunk that contains the following code: <code>plot(1:20)</code>;</li>
-<li>Render the file you titled “First_Quarto_File” to <code>.html</code>. Push <strong>all</strong> the files and folders to GitHub that were created as a result.</li>
+<li>Render the file you titled “First_Quarto_File” to <code>.html</code>. Push <strong>all</strong> the files and folders to GitHub that were created as a result.
+<ol start="4" type="1">
+<li>Note than an .html file should be created in the <code>docs/</code> folder.</li>
+</ol></li>
 </ol>
 <section id="submission" class="level3">
 <h3 class="anchored" data-anchor-id="submission">Submission</h3>
-<p>In I-learn, submit a link to your <code>First_Quarto_File.html</code> published on your GitHub pages website.</p>
+<p>In I-learn, submit a link to your <code>First_Quarto_File.html</code> published on your GitHub pages website. To find the link to this file, follow these steps:</p>
+<ol type="1">
+<li><p>Navigate to your GitHub pages website homepage.</p>
+<ul>
+<li>The homepage for your website can be found by going to your repository’s setting icon, and then choosing “pages” from the menu on the left. You will be brought to a page that has a button near the top labeled, “Visit site”. Click that button to go to your website’s homepage. The url, or web address, is your starting point. It will probably end in something like <code>.pages.github.io</code></li>
+</ul></li>
+<li><p>Then tack on to the end of the url from step 1 the file path to your .html file. The path is relative to the <code>docs/</code> folder.</p>
+<ul>
+<li>For example, imagine you saved the <code>my_task.qmd</code> file in the <code>w01</code> folder. When you render <code>my_task.qmd</code>, the <code>my_task.html</code> file should appear in the <code>docs/w01</code> folder. Thus, the path to add is <code>/w01/my_task.html</code>.</li>
+</ul>
+<p>In summary if your home page address was <code>https://crazy-random234.pages.github.io</code> then url you should visit to see your file (and the url to submit) would be</p>
+<p><code>https://crazy-random234.pages.github.io/w01/my_task.html</code></p></li>
+</ol>
 </section>
 </div>
 </div>
