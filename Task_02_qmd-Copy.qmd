@@ -57,7 +57,7 @@ Experiment/play with adding callouts or other text formatting in the visual edit
 
 4.  Add an R code chunk that contains the following code: `plot(1:20)`;
 5.  Render the file you titled "First_Quarto_File" to `.html`. Push **all** the files and folders to GitHub that were created as a result.
-    4.  Note than an .html file should be created in the `docs/` folder.
+    -   Note that an .html file should be created in the `docs/` folder.
 
 ### Submission
 
@@ -71,7 +71,7 @@ In I-learn, submit a link to your `First_Quarto_File.html` published on your Git
 
     -   For example, imagine you saved the `my_task.qmd` file in the `w01` folder. When you render `my_task.qmd`, the `my_task.html` file should appear in the `docs/w01` folder. Thus, the path to add is `/w01/my_task.html`.
 
-    In summary if your home page address was `https://crazy-random234.pages.github.io` then url you should visit to see your file (and the url to submit) would be
+    In summary if your home page address was `https://crazy-random234.pages.github.io` then the url you should visit to see your file (and the url to submit) would be
 
     `https://crazy-random234.pages.github.io/w01/my_task.html`
 ::::

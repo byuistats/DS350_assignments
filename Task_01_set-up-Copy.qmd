@@ -42,7 +42,7 @@ To get to the invitation to your personal repo, you can create the url you need 
 
 So, for my repo as an example in the Fall 2025 semester (my name is David Palmer), it would be:
 
-`https://github.com/byui-math-dept/DS350_FA25_Palmer_Davi/invitations`
+`https://github.com/byui-math-dept/DS350_F25_Palmer_Davi/invitations`
 
 After following the URL with your repo name, you will see an option to join the repo, click 'Accept Invitation'.
 
