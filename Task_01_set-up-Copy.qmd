@@ -28,7 +28,7 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
 4.  **IMPORTANT**: Create a [GitHub account](https://github.com/join?source=header-home)
 
-5.  **IMPORTANT** Report your GitHub username on the [DS350 student github repos](https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing) google sheet. This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates' repositories.
+5.  **IMPORTANT:** Report your GitHub username on the [DS350 student github repos](https://docs.google.com/spreadsheets/d/1xfs1FmlDwmd8YBA2PzaMCbYVE1g4yyuU4GWwpPstqps/edit?usp=sharing) google sheet. This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates' repositories.
 
     -   Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this private repository to turn in assignments.
 
