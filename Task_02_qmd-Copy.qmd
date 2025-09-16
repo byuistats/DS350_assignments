@@ -1,6 +1,6 @@
 # First Quarto Markdown `.qmd`
 
-:::: panel-tabset
+::::: panel-tabset
 ## Reading
 
 1\. [Announcing Quarto](https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)
@@ -56,8 +56,24 @@ Experiment/play with adding callouts or other text formatting in the visual edit
 :::
 
 4.  Add an R code chunk that contains the following code: `plot(1:20)`;
+
 5.  Render the file you titled "First_Quarto_File" to `.html`. Push **all** the files and folders to GitHub that were created as a result.
-    -   Note that an .html file should be created in the `docs/` folder.
+
+::: callout-important
+## Before You Render to docs folder
+
+To ensure that the quarto file renders an `.html` file to the `docs` folder, the options at the top of the `_quarto.yml` file should look like the following:
+
+``` r
+project:
+  type: website
+  output-dir: docs
+```
+
+If `output-dir: docs` option is omitted, then anytime the quarto file renders it will likely create a `_site` folder and place the resulting `.html` file and other related files in that folder. That is problematic because the Pages setting on your GitHub repo is configured to publish files from the `docs` folder.
+:::
+
+
 
 ### Submission
 
@@ -74,4 +90,4 @@ In I-learn, submit a link to your `First_Quarto_File.html` published on your Git
     In summary if your home page address was `https://crazy-random234.pages.github.io` then the url you should visit to see your file (and the url to submit) would be
 
     `https://crazy-random234.pages.github.io/w01/my_task.html`
-::::
+:::::
