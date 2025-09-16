@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,7 +65,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="Task_02_qmd-Copy_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="Task_02_qmd-Copy_files/libs/quarto-html/anchor.min.js"></script>
 <link href="Task_02_qmd-Copy_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Task_02_qmd-Copy_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="Task_02_qmd-Copy_files/libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Task_02_qmd-Copy_files/libs/bootstrap/bootstrap-bb462d781dde1847d9e3ccf7736099dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -144,12 +144,26 @@ Take time to play/experiment
 </div>
 </div>
 <ol start="4" type="1">
-<li>Add an R code chunk that contains the following code: <code>plot(1:20)</code>;</li>
-<li>Render the file you titled “First_Quarto_File” to <code>.html</code>. Push <strong>all</strong> the files and folders to GitHub that were created as a result.
-<ul>
-<li>Note that an .html file should be created in the <code>docs/</code> folder.</li>
-</ul></li>
+<li><p>Add an R code chunk that contains the following code: <code>plot(1:20)</code>;</p></li>
+<li><p>Render the file you titled “First_Quarto_File” to <code>.html</code>. Push <strong>all</strong> the files and folders to GitHub that were created as a result.</p></li>
 </ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Before You Render to docs folder
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To ensure that the quarto file renders an <code>.html</code> file to the <code>docs</code> folder, the options at the top of the <code>_quarto.yml</code> file should look like the following:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>project<span class="sc">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> website</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  output<span class="sc">-</span>dir<span class="sc">:</span> docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If <code>output-dir: docs</code> option is omitted, then anytime the quarto file renders it will likely create a <code>_site</code> folder and place the resulting <code>.html</code> file and other related files in that folder. That is problematic because the Pages setting on your GitHub repo is configured to publish files from the <code>docs</code> folder.</p>
+</div>
+</div>
 <section id="submission" class="level3">
 <h3 class="anchored" data-anchor-id="submission">Submission</h3>
 <p>In I-learn, submit a link to your <code>First_Quarto_File.html</code> published on your GitHub pages website. To find the link to this file, follow these steps:</p>
