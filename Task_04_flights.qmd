@@ -6,7 +6,7 @@
 ### Readings
 
 -   [Chapter 1 Visualization: R for Data Science (2nd ed)](https://r4ds.hadley.nz/data-visualize)
--   [Chapter 10 Exploratory Data Analysis: R for Data Science (2nd ed)](https://r4ds.hadley.nz/eda)
+-   [Chapter 10 Exploratory Data Analysis: R for Data Science (2nd ed)](https://r4ds.hadley.nz/EDA.html)
 -   [Plotting large datasets](https://byuistats.github.io/M335/online_class/week2-ggplot.html)
 -   [ggplot cheatsheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 
