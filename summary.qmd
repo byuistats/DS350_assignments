@@ -1,8 +1,8 @@
 # "Pre: Technology Set-up"
 
-## Readings {}
+## Readings
 
-Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.
+Readings teach you to do the things that a data analyst or scientist does and prepare you for the task. There are a lot of readings for this task, but many of them are short.
 
 1.  [Being a better online reader](https://www.newyorker.com/science/maria-konnikova/being-a-better-online-reader)
 2.  [Chapter 1 Intro: R for Data Scientists](http://r4ds.had.co.nz/index.html)

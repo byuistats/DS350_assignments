@@ -52,5 +52,5 @@ Your semester project should include
 
 ### Submit
 
-In I-learn submit a link to a place where your semester project can be viewed (may or may not be an `.md` file)
+In I-learn submit a link to your `html` file hosted on your own personal repo's GitHub pages.
 :::
