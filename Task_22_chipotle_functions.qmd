@@ -2,7 +2,7 @@
 title: "Chipotle Functions"
 ---
 
-::: panel-tabset
+:::: panel-tabset
 ## Resources
 
 ### Readings
@@ -119,9 +119,9 @@ Function 2 should return "Wednesday, Saturday".
 We will worry about expanding the function to multiple sites or rows in the next task. For now the input is just one string.
 :::
 
-3.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
+3.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file and any other files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the \`.md\` file on GitHub.
-:::
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
+::::

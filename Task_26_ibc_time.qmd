@@ -36,9 +36,9 @@ This course only looks at understanding and visualizing recorded time series dat
     -   Consider whether to aggregate at the daily, the weekly, or monthly level - or all 3
 4.  Provide a visualization that gives insight into **hours of operation** for each company.
 5.  Write a short paragraph with your final recommendation. Which company do you think performed the best over the three months? Why?
-6.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files to your GitHub repository.
+6.  Render the `.qmd`. Push the `.qmd`, `.md`, and `.html` files (and any other files or folders created during the rendering process) to your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

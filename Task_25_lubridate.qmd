@@ -34,5 +34,5 @@ A car wash business based in Rexburg, Idaho USA wants to see if the temperature 
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

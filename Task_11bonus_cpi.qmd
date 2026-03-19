@@ -18,7 +18,6 @@ Scan through the following,
 5.  [downloader R package](https://github.com/wch/downloader)
 6.  [ALL of Chapter 11: R for Data Science---Data Import](http://r4ds.had.co.nz/data-import.html)
 
-
 ## Background
 
 [This article](https://medium.com/nightingale/covid-19-leads-to-a-drop-in-average-food-prices-in-the-uk-a6605a31cb0f) tracks the Consumer Price Index average food price in the United Kingdom. The author notes a drop in food prices in February 2020 and attributes that to the Corona Virus pandemic. She has 1 chart in her article.
@@ -51,5 +50,5 @@ Now for the fun/challenging part! Some of the food items used to calculate the C
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

@@ -42,5 +42,5 @@ If the thing you want to edit is not a theme element, then it is related to data
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

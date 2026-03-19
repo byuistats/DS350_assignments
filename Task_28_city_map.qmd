@@ -48,9 +48,9 @@ We want to create a map of the United States that plots the three largest cities
 -   The labels may not look correct until you save the map as a larger image.
 
 4.  Save your chart as a .png image. Try using ggsave() with width = 15 and height = 10. What happens if you change the width and height?
-5.  Render the `.qmd`. Push the `.png`, `.qmd`, `.md`, and `.html` files to your GitHub repository.
+5.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

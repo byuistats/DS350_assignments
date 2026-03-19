@@ -55,5 +55,5 @@ This project is not as severe as the two quotes below, but it will give you a ta
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 ::::

@@ -26,8 +26,9 @@ The [Our World in Data](https://ourworldindata.org/) website has world data. It 
 
 1.  Review the [Our World in Data](https://ourworldindata.org/) webpage and find a graphic that interests you. Using the data from their website, spend a couple of hours recreating their graphic as closely as you can in an `.qmd` file . (Make sure you keep the link or can navigate back to the original chart on their website).
 2.  Be sure to include a link to or a snapshop of the graphic you are trying to recreate in your `.qmd` file
+3.  Render the `.qmd` file. Push all files created as part of the render to your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the .md file containing your chart(s) on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

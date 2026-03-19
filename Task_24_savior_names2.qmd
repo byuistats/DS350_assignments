@@ -36,5 +36,5 @@ With our "string" skills we are going to check her results and build an improved
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

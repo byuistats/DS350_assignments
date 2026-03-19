@@ -41,9 +41,9 @@ Below are the links to the data zip/files:
     -   The `Snake River` and `Henrys Fork` rivers are the only bodies of water that should be included.
 3.  Change the projection so that Idaho is not tilted when plotted.
 4.  Create a map of Idaho showing these key water system features and save it as a `.png` file.
-5.  Render your `.qmd` file. Push your `.png,`, `.qmd`, `.md`, and `.html` to your GitHub repository.
+5.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

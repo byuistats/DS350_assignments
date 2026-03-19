@@ -42,9 +42,8 @@ We want to look at the returns for each six-month period of the year in which th
 ![](DJIA_returns.PNG)
 
 6.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
-    -   Don't be surprised if the table doesn't render well in the `.md` file on Github. That is okay, as long as it looks correct in your `.html` or `.html` preview.
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

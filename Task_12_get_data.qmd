@@ -52,5 +52,5 @@ CAUTION: If you have to download your data (as opposed to read it directly from 
 
 ### Submit
 
-In I-learn submit a link to the script or `.md` file on GitHub.
+In I-learn submit a link to the script or a link to your \`html\` file hosted on your repo's GitHub pages
 ::::

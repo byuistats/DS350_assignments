@@ -55,9 +55,9 @@ This task asks you to conduct the analysis/visualization using two different uni
 
 7.  After all your hard work, you just received notice that you will be put on a different project and a co-worker will pick up this analysis where you left off. The best way to store the data so that this nested list structure is still in place when you hand it off is to give them an r dataset file. Save your dataset as a `.rds` file. This dataset should have each restaurant as a row and a list column of nested tibbles containing the visit counts for day of the week.
 
-8.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file into your GitHub repository.
+8.  Render your `.qmd` and push your `.rds` data file, `.qmd`, `.md` and `.html` file and any other files or folders created during the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit a link to the `.md` file on GitHub.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::
