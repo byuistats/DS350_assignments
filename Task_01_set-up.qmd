@@ -28,23 +28,23 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
 4.  **IMPORTANT**: Create a [GitHub account](https://github.com/join?source=header-home)
 
-5.  **IMPORTANT** Post your GitHub username on the [GitHub Usernames google sheet](https://docs.google.com/spreadsheets/d/11mOhk8goCaMc8Uu8wB1CYQLi46jQCSQDH8mvnZnMpT0/edit?usp=sharing). This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates' repositories.
+5.  **IMPORTANT:** Report your GitHub username on the [DS350 student github repos](https://docs.google.com/spreadsheets/d/1xfs1FmlDwmd8YBA2PzaMCbYVE1g4yyuU4GWwpPstqps/edit?usp=sharing) google sheet. This will automatically ensure that a GitHub repository is created for you and that you are added to our class organization so that you can see your classmates' repositories.
 
     -   Normally you would create your own repository, but because we want your class repository saved in a special organization we are creating it for you. You will be using this private repository to turn in assignments.
 
-After roughly 30 minutes (during normal working hours), you should receive two emails (ckeck your spam/clutter folder). Accept the invitation in each one. If you do not see the two emails, you can get to the invitations this way:
+After roughly 20 minutes, you should receive two emails (ckeck your spam/clutter folder). Accept the invitation in each one. If you do not see the two emails, you can get to the invitations this way:
 
-> -   To join our class organization click on the following URL and choose to accept the invitation. <https://github.com/orgs/BYUI335>
+> -   To join our class organization click on the following URL and choose to accept the invitation. <https://github.com/orgs/byui-math-dept>
 >
 > -   To get to the invitation to your personal repo, you can create the url you need to visit. Use the address below as an example, but replace the REPO_NAME portion with the actual name of your repo:
 >
->     `https://github.com/BYUI335/REPO_NAME/invitations`
+> `https://github.com/byui-math-dept/REPO_NAME/invitations`
 >
->     -   So, for my repo as an example in the Winter2023 semester (my name is David Palmer), it would be:
+> -   So, for my repo as an example in the Fall 2025 semester (my name is David Palmer), it would be:
 >
->         `https://github.com/BYUI335/DS350_WI23_Palmer_Davi/invitations`
+> `https://github.com/byui-math-dept/DS350_F25_Palmer_Davi/invitations`
 >
->     -   After following the URL with your repo name, you will see an option to join the repo, click 'Accept Invitation'.
+> -   After following the URL with your repo name, you will see an option to join the repo, click 'Accept Invitation'.
 >
 > If you are already a member of the class organization and you already have accepted access to your repo, clicking these URLs will just take you to the main page of the organization and the repo, respectively.
 
@@ -65,7 +65,7 @@ After roughly 30 minutes (during normal working hours), you should receive two e
 
     -   It is not crucial that you understand what each line of code does at this point in the semester. However, briefly try guessing what each line of code does before running it, but don't worry if you don't understand all (or any of) the code.
 
-### Submit
+## Submit
 
 Your submission of your GitHub info to the google sheet, and your presence on slack will be used to determine if this assignment was completed.
 :::

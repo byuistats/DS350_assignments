@@ -1,6 +1,6 @@
 # Git Going
 
-::: panel-tabset
+:::::: panel-tabset
 ## Readings
 
 Readings teach you to do the things that a data analyst or scientist does and prepare your for the task. There are a lot of readings for this task, but many of them are short.
@@ -151,7 +151,7 @@ From RStudio, go to *Tools \> Global Options \> Git/SVN* and make sure that the 
 
 If you make any changes, **restart RStudio and try the steps at the top of the page again**.
 
-Still not working? Try [googling](https://www.google.com) your problem or speak with myself or the TA.
+Still not working? Try [googling](https://www.google.com) your problem or speak with your instructor or TA.
 :::
 
 3.  **Syncing Github and RStudio.** Follow the 4 step process below.[^git_going-1]
@@ -230,7 +230,7 @@ knitr::include_graphics("Git_workflow_diagram.png")
 ### Submit
 
 Include a link to your `readme.md` file in the task submission box on I-learn.
-:::
+::::::
 
 [^git_going-1]: The instructions presented below are lifted from the \[rfortherestofus.com\](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/) website.
 

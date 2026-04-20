@@ -71,8 +71,10 @@ book:
         - Task_35_github_collab.qmd
     - part: "Module: In the Workplace"
       chapters:
+        - career_certification.qmd
         - Task_13_github1.qmd
         - Task_16_github2.qmd
+        - Task_36_create_personal_github_repo.qmd
         - Task_33_interview.qmd
     - part: "Module: Semester Project"
       chapters:
