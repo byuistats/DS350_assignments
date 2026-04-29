@@ -22,14 +22,14 @@ We will also want to know how the variables relate to each other. We can create 
 
 ## Task
 
-1.  Create a new `.qmd` to do this task. Don't forget to load (not install) the tidyverse package.
+1.  To complete this task, start with one of the blank `.qmd` files that already exist in the repo in the w02 folder. You can add your own text and code. Don't forget to load (not install) the tidyverse package.
 2.  Use the `nycflights13::flights` dataset. (You may need to install `nycflights13` package first).
     -   Note the use of double colon allows you to access functions and datasets from a package without loading the entire package.
     -   You can run `?nycflights13::flights` in the console to learn more about the variables in the dataset. (Don't include this in your Quarto file).
 3.  Pick two variables (columns) whose relationship you would like to explore.
     -   Provide a visualization of the univariate distribution of each of the selected variables separately (i.e. 2 plots are needed here, 1 for each variable)
     -   Build bivariate summaries of the variables you have chosen to investigate (1 plot is needed here, the plot should contain both variables in it).
-4.  Write one to two *paragraphs* in the `.qmd` summarizing insights from your graphics and your data presentation choices.
+4.  Write one or two *paragraphs* in the `.qmd` summarizing insights from your graphics and your data presentation choices.
 5.  Render your `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
