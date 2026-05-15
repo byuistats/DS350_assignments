@@ -1,0 +1,85 @@
+---
+title: "Combining Height Files"
+---
+
+::::: panel-tabset
+## Resources
+
+### Readings
+
+Scan the reading to learn what types of files these packages are used to read in.
+
+1.  [Haven package](http://haven.tidyverse.org/)
+2.  [foreign R package and `read.dbf()`](https://www.rdocumentation.org/packages/foreign/versions/0.8-69/topics/read.dbf)
+3.  [cheatsheet](https://rstudio.github.io/cheatsheets/data-import.pdf)
+
+Be sure to do the Readings and Guided Instruction for the previous task if you have not yet.
+
+### Guided Instruction
+
+Complete the following if you have not yet: [Data structures and importing data](https://byuistats.github.io/M335/online_class/week4-importing_data.Rmd)
+
+## Background
+
+The [Scientific American](https://www.scientificamerican.com/article/why-are-we-getting-taller/) argues that humans have been getting taller over the years. As the data scientists that we are becoming, we would like to find data that validates or refutes this concept. Our challenge is to show different male heights across the centuries.
+
+This time, instead of looking at the mean height per country over time like we did for the previous task, we have a few files that contain heights of individuals. Each file represents a different time and/or place from which the individuals are sampled. We will combine the data from these files into one dataset to facilitate our visualization.
+
+## Task
+
+::: callout-note
+## AI Use
+
+This assignment is a level 3 assignment in the [AI Assessment Scale](https://aiassessmentscale.com/#levels), meaning collaborative AI is allowed. More specifically, AI may be used to help complete the task, including idea generation, drafting code, feedback, and refinement. Students should critically evaluate (and modify) the AI suggested outputs, demonstrating their understanding.
+:::
+
+1.  Work with these datasets where each row represents an individual. Import these five datasets into R.
+
+    - [German male conscripts in Bavaria, 19th century: Stata format](https://byuistats.github.io/M335/data/heights/germanconscr.dta).
+    - [Heights of bavarian male conscripts, 19th century: Stata format](https://byuistats.github.io/M335/data/heights/germanprison.dta).
+    - [Heights of south-east and south-west german soldiers born in the 18th century: DBF format](https://byuistats.github.io/M335/data/heights/Heights_south-east.zip).
+      - This file is zipped. After downloading it with `download()`, trying using `unzip()` and `read.dbf()` to load the data into R.
+      - Can you tell which column is the birth year? HINT: Google translate may be helpful.
+    - [Bureau of Labor Statistics Height Data: csv format](https://raw.githubusercontent.com/hadley/r4ds/main/data/heights.csv)
+      - Note: There is no birth year, so just assume mid-20th century and use 1950 as birth year
+      - Don't forget to filter for just males.
+    - [University of Wisconsin National Survey Data: SPSS (.sav) format](https://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/main05022005.sav)
+      - You'll want to look here to understand this dataset and know which columns to use: [National Survey Codebook](https://www.ssc.wisc.edu/nsfh/wave3/NSFH3%20Apr%202005%20release/Nsfh3main04202005.CBK)
+      - There is no gender identifier in this survey, we will just work with the data, knowing there is likely a mix of genders.
+
+2.  Wrangle each dataset so that it contains the following columns: `birth_year`, `height.in`, `height.cm`, and `study`.
+
+    - You will have to potentially do some renaming and conversions between inches and centimeters.
+    - You need to create the "study" column yourself to identify which dataset the rows came from.
+    - For each dataset `select(birth_year, height.in, height.cm, study)`
+
+3.  Use the `bind_rows()` function to combine your five individual datasets into one dataset.Each dataset must have the columns in the same order for this to work.
+
+4.  Write a short paragraph summarizing the data wrangling process you had to go through to create your tidy dataset. Include in that discussion any decisions you had to make about what data to exclude.
+
+5.  Make a plot of the five studies containing individual heights to examine the question of height distribution across centuries.
+
+6.  Write at least two paragraphs to address the following:
+
+    - How does the story told by this data compare to the story told by the data in the previous task? Do they agree or do they contradict? If they contradict, reason through the contradiction and try to make sense of it.\
+    - How would you respond to the assertion that humans are getting taller over time based on the datasets in these two tasks involving height?
+    - Be sure to provide an overall conclusion about where you stand on the question.
+
+7.  Render the `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
+
+### Submit
+
+::: callout-important
+## Deliverable + Demonstrated Judgement Shows Competence
+
+Creating a chart is simply not enough. You must validate outputs, explain assumptions and detect bad assumptions, supervise/review AI generated code, communicate uncertainty, and make defensible decisions.
+
+In the age of AI, generating a product is not the measure of competence like it used to be. Instead, **generating trust in the product is the new bar.** A senior data scientist is increasingly valuable not because they can type syntax fastest, but because they are [sound thinkers](https://www.byui.edu/byu-idaho-learning-outcomes/) with data.
+:::
+
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.Your assignment must meet the specs on all these criteria:
+
+- Technical correctness, following the instructions above
+- Analytical defensibility, including the discussion of decisions made in the data wrangling process and how those decisions impact the end result.
+- Evidence of informed judgement, including proper AI citation and your overall conclusion about the question of whether humans are getting taller over time.
+:::::
