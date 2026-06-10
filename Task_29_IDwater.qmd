@@ -15,7 +15,7 @@ title: "Get in SHP"
 
 ### Guided Instruction
 
-[This file](https://byuistats.github.io/M335/online_class/week12-CRS_exercises.Rmd) has you take an active role in learning by getting some coding practice changing the CRS of a plot. It also reviews one method for reading in zipped files using temporary files. Using `rio` package to read in the zip files may also work. (Rendering this .qmd file may make it easier to read)
+[This file](https://byuistats.github.io/M335/online_class/week12-CRS_exercises.Rmd) has you take an active role in learning by getting some coding practice changing the CRS of a plot. It also reviews one method for reading in zipped files using temporary files. (Rendering this .qmd file may make it easier to read)
 
 ## Background
 
@@ -29,16 +29,16 @@ Though not necessary for this assignment, you may wish to challenge yourself by 
 
 Below are the links to the data zip/files:
 
--   [Wells](https://byuistats.github.io/M335/data/Wells.zip)
--   [Dams](https://byuistats.github.io/M335/data/Idaho_Dams.zip)
--   [Water](https://byuistats.github.io/M335/data/water.zip)
--   [State Shape](https://byuistats.github.io/M335/data/shp.zip)
+- [Wells](https://byuistats.github.io/M335/data/Wells.zip)
+- [Dams](https://byuistats.github.io/M335/data/Idaho_Dams.zip)
+- [Water](https://byuistats.github.io/M335/data/water.zip)
+- [State Shape](https://byuistats.github.io/M335/data/shp.zip)
 
 1.  Read in all four of the necessary SHP file datasets.
 2.  Filter the data so that
-    -   Only well locations with a production of more than 5000 gallons are included
-    -   Only large dams (surface area larger than 50 acres) are included
-    -   The `Snake River` and `Henrys Fork` rivers are the only bodies of water that should be included.
+    - Only well locations with a production of more than 5000 gallons are included
+    - Only large dams (surface area larger than 50 acres) are included
+    - The `Snake River` and `Henrys Fork` rivers are the only bodies of water that should be included.
 3.  Change the projection so that Idaho is not tilted when plotted.
 4.  Create a map of Idaho showing these key water system features and save it as a `.png` file.
 5.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
