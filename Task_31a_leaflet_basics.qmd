@@ -9,21 +9,19 @@ title: "Interactive Map Basics"
 
 In [Leaflet for R](http://rstudio.github.io/leaflet/) read the following articles:
 
--   Using Basemaps
--   Choropleths
--   Add color to a leaflet
--   Markers
--   Popups and Labels
--   Lines and Shapes
--   Show/Hide Layers
+- Using Basemaps
+- Choropleths
+- Add color to a leaflet
+- Markers
+- Popups and Labels
+- Lines and Shapes
+- Show/Hide Layers
 
 A gallery of tiles to consider is the [Leaflet Providers Preview](http://leaflet-extras.github.io/leaflet-providers/preview/)
 
 ### Guided Instruction
 
-1.  [Publishing to a Shiny Server for Interactive Files](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
-2.  [Leaflet Basic.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_basic.Rmd)
-3.  (optional) [Answer Key to Above Guided Instructions](https://byuistats.github.io/M335/online_class/week13-leaflet_activity_keys.html)
+1.  [Leaflet Basic.Rmd](https://byuistats.github.io/M335/online_class/week13-leaflet_basic.Rmd)
 
 ## Background
 
@@ -32,12 +30,15 @@ You can recreate a previous map task, or find your own spatial data to display u
 ## Task
 
 1.  Choose an option:
-    -   Recreate a previous task visualization using a simple leaflet plot using R OR
-    -   Find your own spatial data that interests you and build a simple interactive map using leaflet
-2.  **Publish your visualization to Posit Connect at shiny.byui.edu**
-3.  (optional) Paste the link to your Posit Connect file in a `readme.md` file on GitHub
+
+    - Recreate a previous task visualization using a simple leaflet plot using R OR
+    - Find your own spatial data that interests you and build a simple interactive map using leaflet
+
+2.  Write one to two paragraphs in the `.qmd` summarizing insights from your graphics and your data presentation choices.
+
+3.  Render your `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit the link to your Posit Connect file. Ensure permissions are set to allow the teacher and TA viewing access.
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::

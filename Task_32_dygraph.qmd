@@ -7,7 +7,6 @@ title: "Interactive Time Series"
 
 ### Readings
 
-1.  [Publishing to a Posit server](https://byuistats.github.io/M335/online_class/week10-shiny.Rmd)
 2.  [dygraphs for R](http://rstudio.github.io/dygraphs/index.html)
 3.  [timetk R package](https://github.com/business-science/timekit), especially section 4 about conversion functions
 4.  (optional) Review [tidyquant R package](https://github.com/business-science/tidyquant) used in a previous task
@@ -33,17 +32,17 @@ The `dygraphs` for R package requires we use an `xts` objects, rather than a dat
 
 2.  Let's now pull current stock information from the web using `library(tidyquant)`. The command `tq_get(c("AMZN","MSFT","WMT"))` will pull the last 10 years of daily stock information for Amazon, Microsoft, and Walmart. Pick your own set of 3-10 stocks and use the `tq_get()` function to pull stock price data.
 
-    -   Include only the most recent 5 years worth of data as you wrangle the data
+    - Include only the most recent 5 years worth of data as you wrangle the data
 
-3.  Visualize the stock returns as an interactive graph using `dygraph.`If possible, consider experimenting with some of the bells and whistles available in `dygraph.`
+3.  Visualize the stock returns as an interactive graph using `dygraph.` Try experimenting with some of the bells and whistles available in `dygraph.`
 
 4.  (optional bonus) Evaluate the return of the portfolio as a whole using functions from the `quantmod` package. (`quantmod` is installed as a dependent package of `tidyquant`. Many of the `tidyquant` functions are actually wrappers around `quantmod` functions and so sometimes navigating the help files requires more effort).
 
 5.  Write a paragraph to summarize your findings about the performance of the stocks you chose.
 
-6.  Render the file then publish your report on returns to Posit Connect at posit.byui.edu
+6.  Render your `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
 
-In I-learn submit the link to your Posit Connect file. (Make sure you edit the settings so that instructors and classmates have access to view the file).
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
 :::
