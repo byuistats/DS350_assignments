@@ -20,11 +20,12 @@ book:
         - Task_05_gapminder1.qmd
     - part: "Module 3: Data Wrangling"
       chapters:
+        - Task_06_GBBO.qmd
         - Task_06_gapminder2.qmd
         - Task_07_wings_to_fly.qmd
+        - Task_08_gun_deaths.qmd
     - part: "Module 4: Data Ingestion"
       chapters:
-        - Task_08_gun_deaths.qmd
         - Task_09_stock_table.qmd
         - to_pivot_or_not_to_pivot.qmd
         - Task_10_heights1.qmd
@@ -32,8 +33,10 @@ book:
     - part: "Module 5: Visualization for Presentation"
       chapters:
         - polish_previous_task.qmd
-        - Task_14_highlight_owd1.qmd  
+        - Task_14_highlight_owd1.qmd 
+        - Task_14a_highlight_owd_excess_mortality.qmd
         - Task_15_owd2.qmd
+        - Task_15_ugly_graph_contest.qmd
     - part: "Module 6: Data Joins"
       chapters:
         - Task_17_age_of_planes.qmd
@@ -81,12 +84,9 @@ book:
         - Task_03_questions.qmd
         - Task_12_get_data.qmd
         - semester_project.qmd
-    - part: "Alternate/extra tasks"
-      chapters:
-        - Task_06_GBBO.qmd
-        - Task_11bonus_cpi.qmd
-        - Task_31_leaflet.qmd
-        - Task_14a_highlight_owd_excess_mortality.qmd
+
+
+
 
 
 bibliography: references.bib

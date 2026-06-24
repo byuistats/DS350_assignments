@@ -10,39 +10,39 @@ keywords: [""]
 
 GitHub is an online platform where data scientists and developers can communicate and share work. It has also morphed into a tool to house all your work in a portfolio. Think about an Art student and how they have to develop their portfolio of various skills they have across the art classes. Similarly you will want to showcase you skillset across the Data Science skillsets.
 
-As students, you will want to curate your creative work on GitHub using a program called Git. GitHub is the place to share your original work, **not your homework assignments**. The reading assignments will dive deaper into what to include in your portfolio and what not to include.
+As students, you will want to curate your creative work on GitHub using a program called Git. GitHub is the place to share your original work, **not your homework assignments**. The reading assignments will dive deeper into what to include in your portfolio and what not to include.
 
 Many people store their personal websites, blogs, and project websites on GitHub. Our textbook and course are hosted on GitHub, and you can see [J. Hathaway's](http://jhathaway.io/) or [Ryan Hafen's](https://ryanhafen.com/) personal Data Science websites that are hosted on GitHub as well.
 
-For this project, you will be making a public website that is a data science portfolio that will be hosted on GitHub. Your Resume will be one section of your portfolio/website. You should also post Data Science Society projects, personal projects, and any other data science related work you have done outside of class. Do not post any of the course work in this portfolio.
+For this project, you will be making a public website that is a data science portfolio hosted by GitHub pages. Your Resume will be one section of your portfolio/website. You should also post Data Science Society projects (ensure you respect NDA's!), personal projects, and any other data science related work you have done outside of class. Do not post any of the course work in this portfolio.
 
 If you already have a personal repository on GitHub, great! Use this assignment to revisit it, update it, or spruce it up.
 
 ### Readings
 
--   [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
--   [Git vs. GitHub: What is the difference between them?](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them#:~:text=The%20key%20difference%20between%20Git,and%20upload%20or%20download%20resources.)
--   [Setting up a website using Quarto documents](https://quarto.org/docs/publishing/github-pages.html#:~:text=There%20are%20three%20ways%20to,publish%20from%20the%20docs%20directory.)
+- [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
+- [Git vs. GitHub: What is the difference between them?](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them#:~:text=The%20key%20difference%20between%20Git,and%20upload%20or%20download%20resources.)
+- [Setting up a website using Quarto documents](https://quarto.org/docs/publishing/github-pages.html#:~:text=There%20are%20three%20ways%20to,publish%20from%20the%20docs%20directory.)
 
 #### Optional
 
--   [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+- [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
 ##### Portfolio Resources
 
--   [How to Modify a Quarto Website](https://quarto.org/docs/websites/website-tools.html)
--   [How to Create a Compelling GitHub Portfolio](https://towardsdatascience.com/how-to-create-a-compelling-github-portfolio-a229e7472a92)
--   [How to Create a Professional Portfolio on GitHub](https://towardsdatascience.com/how-to-create-a-professional-portfolio-on-github-that-will-help-land-your-first-job-in-data-science-e1fc8bd7a797)
--   [Data Science Portfolios That Will Get You the Job](https://www.dataquest.io/blog/build-a-data-science-portfolio/)
--   [4 Data Science Portfolio Projects You Need to Create](https://builtin.com/data-science/data-science-portfolio-projects)
--   [Example 1 - Data Science Portfolio](https://github.com/rodrigo-arenas/portfolio)
--   [Example 2 - Data Science Portfolio](https://github.com/topics/portfolio-website)
+- [How to Modify a Quarto Website](https://quarto.org/docs/websites/website-tools.html)
+- [How to Create a Compelling GitHub Portfolio](https://towardsdatascience.com/how-to-create-a-compelling-github-portfolio-a229e7472a92)
+- [How to Create a Professional Portfolio on GitHub](https://towardsdatascience.com/how-to-create-a-professional-portfolio-on-github-that-will-help-land-your-first-job-in-data-science-e1fc8bd7a797)
+- [Data Science Portfolios That Will Get You the Job](https://www.dataquest.io/blog/build-a-data-science-portfolio/)
+- [4 Data Science Portfolio Projects You Need to Create](https://builtin.com/data-science/data-science-portfolio-projects)
+- [Example 1 - Data Science Portfolio](https://github.com/rodrigo-arenas/portfolio)
+- [Example 2 - Data Science Portfolio](https://github.com/topics/portfolio-website)
 
 ### Questions and Tasks
 
 There are multiple ways to set-up a website using quarto documents. A succinct synopsis of the [3 ways is found here](https://quarto.org/docs/publishing/github-pages.html#:~:text=There%20are%20three%20ways%20to,publish%20from%20the%20docs%20directory.). We will walk through the first and 3rd ways.
 
-The first option is to “Render sites on your local machine to the `docs` directory, check the rendered site into GitHub, and then configure your GitHub repo to publish from the `docs` directory. This is referred to as Method 1 below. This is the set-up you have been using all semester, so it is likely the method you will feel most comfortable with.
+The first option is to “Render sites on your local machine to the `docs` directory, check the rendered site into GitHub, and then configure your GitHub repo to publish from the `docs` directory." This is referred to as Method 1 below. This is the set-up you have been using all semester, so it is likely the method you will feel most comfortable with.
 
 We will show how to do this using a starting template, or from scratch. The 3rd option (also called Method 3) is to “Use a GitHub Action to automatically render your files and publish the resulting content whenever you push a source code (e.g. quarto file) change to your repository”. This will be illustrated using a template file as a starting point.
 
@@ -83,7 +83,7 @@ Choose 1 of the 3 tabs below and follow those instructions for publishing a port
 
     b\. You are prompted to paste the url to the GitHub repository.
 
-    -   You are also asked where to store it. Create a new folder that does not reside within any other projects or GitHub repo folders. You can now select "Create Project".
+    - You are also asked where to store it. Create a new folder that does not reside within any other projects or GitHub repo folders. You can now select "Create Project".
 
 6.  You can now make changes to any of the pages, delete pages, or add pages. Be sure to render or preview the pages you made changes to. This will create the .html file the website needs and store it in the docs folder.
 
@@ -91,13 +91,13 @@ Choose 1 of the 3 tabs below and follow those instructions for publishing a port
 
 7.  We will now implement the "pull, add, commit push" workflow in RStudio to send our local files to GitHub. To do this, go to the terminal and type the following commands:
 
-    -   git pull
+    - git pull
 
-    -   git add .
+    - git add .
 
-    -   git commit -m"a message of your choice"
+    - git commit -m"a message of your choice"
 
-    -   git push
+    - git push
 
     **Now let's return to GitHub to see the "finished" product!**
 
@@ -151,43 +151,43 @@ Choose 1 of the 3 tabs below and follow those instructions for publishing a port
 
 a.  **Use the Portfolio Template on your Githhub root directory**
 
-    -   **Navigate to the [Data Science Portfolio](https://github.com/byuidatascience/datascience_portfolio) repo in GitHub. Note: This is a different template than what was used in the other 2 methods. It is set-up to work with GitHub actions, not publishing through the docs folder. Essentially, this will render your .qmd file in the cloud instead of locally. For quick changes, this can be a much slower process because it has to install R and all the packages each time. If you have a very large job though, it can be more effective to use GitHub's computing power instead of your own local machine.**
-    -   **Click the Green Button `Use this template` and select `Create a new repository`**\
-        ![](/Images/gh_template.png){width="200"}
-    -   **Click `include all branches` checkbox, this will include the `gh-pages` branch**\
-        ![](/Images/gh_include_all_branches.png){width="500"}
-    -   **Select yourself as the `Owner`**\
-        ![](/Images/gh_owner.png){width="500"}
-    -   **Name the repository as `username.github.io` where the username is your username on GitHub (Note: If the `username` part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.)**
-    -   **Click the Green Button `Create repository`**\
-        ![](/Images/gh_public.png){width="500"}
+    - **Navigate to the [Data Science Portfolio](https://github.com/byuidatascience/datascience_portfolio) repo in GitHub. Note: This is a different template than what was used in the other 2 methods. It is set-up to work with GitHub actions, not publishing through the docs folder. Essentially, this will render your .qmd file in the cloud instead of locally. For quick changes, this can be a much slower process because it has to install R and all the packages each time. If you have a very large job though, it can be more effective to use GitHub's computing power instead of your own local machine.**
+    - **Click the Green Button `Use this template` and select `Create a new repository`**\
+      ![](/Images/gh_template.png){width="200"}
+    - **Click `include all branches` checkbox, this will include the `gh-pages` branch**\
+      ![](/Images/gh_include_all_branches.png){width="500"}
+    - **Select yourself as the `Owner`**\
+      ![](/Images/gh_owner.png){width="500"}
+    - **Name the repository as `username.github.io` where the username is your username on GitHub (Note: If the `username` part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.)**
+    - **Click the Green Button `Create repository`**\
+      ![](/Images/gh_public.png){width="500"}
 
 b.  **Create a new branch `gh-pages` if you forgot to check the `include all branches` box (skip otherwise)**
 
-    -   **Click the `Branch: main` button then `view all branches`**\
-        ![](/Images/gh_view_all_branches.png){width="300"}
-    -   **Click the `New Branch` button**\
-        ![](/Images/gh_new_branch.png){width="200"}
-    -   **Name the branch `gh-pages` and click the Green Button `Create new branch`**\
-        ![](/Images/gh_create_new_branch.png){width="300"}
+    - **Click the `Branch: main` button then `view all branches`**\
+      ![](/Images/gh_view_all_branches.png){width="300"}
+    - **Click the `New Branch` button**\
+      ![](/Images/gh_new_branch.png){width="200"}
+    - **Name the branch `gh-pages` and click the Green Button `Create new branch`**\
+      ![](/Images/gh_create_new_branch.png){width="300"}
 
 c.  **Modify Pages Settings for Build and deployment from `main` to `gh-pages`:**
 
-    -   **Click the `Settings` tab**\
-        ![](/Images/gh_settings.png){width="300"}
-    -   **Scroll down to the `Pages` section in the left hand menu**\
-        ![](/Images/gh_pages.png){width="300"}
-    -   **Locate the Build and deployment section and change Branch from `main` to `gh-pages` and leave the right side as `/root`**\
-        ![](/Images/gh_gh-pages_root.png){width="750"}
+    - **Click the `Settings` tab**\
+      ![](/Images/gh_settings.png){width="300"}
+    - **Scroll down to the `Pages` section in the left hand menu**\
+      ![](/Images/gh_pages.png){width="300"}
+    - **Locate the Build and deployment section and change Branch from `main` to `gh-pages` and leave the right side as `/root`**\
+      ![](/Images/gh_gh-pages_root.png){width="750"}
 
 d.  **Clone the repository to your computer**
 
-    -   **Click the `<> Code` menu**
+    - **Click the `<> Code` menu**
 
-    -   **Click the Green Button `<> Code` and select the copy icon for the url.**\
-        ![](/Images/gh_open_in_desktop.png){width="300"}
+    - **Click the Green Button `<> Code` and select the copy icon for the url.**\
+      ![](/Images/gh_open_in_desktop.png){width="300"}
 
-        **Now return to RStudio**
+      **Now return to RStudio**
 
 e.  Clone the GitHub repository to your local machine
 
@@ -195,7 +195,7 @@ e.  Clone the GitHub repository to your local machine
 
     b\. You are prompted to paste the url to the GitHub repository.
 
-    -   You are also asked where to store it. Create a new folder that does not reside within any other projects or GitHub repo folders. You can now select "Create Project".
+    - You are also asked where to store it. Create a new folder that does not reside within any other projects or GitHub repo folders. You can now select "Create Project".
 
 f.  The website will work, but in order for R code to render you need to make a couple of additional changes
 
@@ -209,8 +209,8 @@ g.  You can now make changes to any of the pages, delete pages, or add pages wit
 
 #### Put your Resume online
 
--   **Update the `resume.qmd` file** located at the top level folder with information about you. It doesn't have to be fancy, just make sure it is stuff about you and not Isaac Newton. See [Chap 29 in the R for Data Science book](https://r4ds.hadley.nz/quarto-formats.html#output-options)
--   Push your results to GitHub. Then go online to verify it was successful.
+- **Update the `resume.qmd` file** located at the top level folder with information about you. It doesn't have to be fancy, just make sure it is stuff about you and not Isaac Newton. See [Chap 29 in the R for Data Science book](https://r4ds.hadley.nz/quarto-formats.html#output-options)
+- Push your results to GitHub. Then go online to verify it was successful.
 
 ### Deliverables
 

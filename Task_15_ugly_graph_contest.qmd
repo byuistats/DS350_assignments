@@ -1,0 +1,48 @@
+---
+title: "Best of the Worst"
+---
+
+::: panel-tabset
+## Resources
+
+### Readings
+
+- (review) [Chapter 7: R for Data Science---Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
+
+- These next two references come from another excellent online book: ggplot2: Elegant Graphics for Data Analysis. You may find it a useful reference at other times during the semester as well. For this assignment you may find it useful to scan these two chapters:
+
+  - [Themes](https://ggplot2-book.org/themes)
+  - [Annotations](https://ggplot2-book.org/annotations.html)
+
+### Guided Instruction
+
+[Example: Visualization for Presentation Walk Through](https://byuistats.github.io/M335/online_class/week5-visualization_for_presentation_OWD_task_example.Rmd)
+
+## Background
+
+"Know the rules well, so you can break them effectively." \~ [Dalai Lama](https://www.goodreads.com/quotes/629862-learn-and-obey-the-rules-very-well-so-you-will)
+
+Perhaps more relevant to data visualization, this version of a similar idea is widely (though perhaps mistakenly) attributed to Pablo Picasso: "Learn the rules like a pro, so you can break them like an artist."[^task_15_ugly_graph_contest-1]
+
+This assignment will test whether you are a data artist, by challenging you to break as many "design rules" as possible.
+
+## Task
+
+Use a previous graph or create a new one. (The [Our World in Data](https://ourworldindata.org/) website has data.) Use as many themes as needed to make it as ugly as possible.
+
+The requirements are:
+
+1.  It must be turned in on time.
+
+<!-- -->
+
+1.  It must be recognizable as a graph
+
+2.  Render your `.qmd` file. Push all the files created in the rendering process into your GitHub repository.
+
+### Submit
+
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
+:::
+
+[^task_15_ugly_graph_contest-1]: <https://en.wikiquote.org/wiki/Pablo_Picasso> (note the lack of this quote). Also, <https://writingcooperative.com/expression-explained-rules-were-meant-to-be-broken-2ea482e3307e>
