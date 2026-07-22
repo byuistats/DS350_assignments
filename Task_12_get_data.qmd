@@ -2,28 +2,28 @@
 title: "Data Search"
 ---
 
-:::: panel-tabset
+::::: panel-tabset
 ## Readings
 
 These readings are from the book *Build a Career in Data Science*. If the links below don't work for you, you can get an electronic version of the book from the [BYU-Idaho library](https://library.byui.edu/).
 
--   [Section 4.1: Creating a project](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/10)
+- [Section 4.1: Creating a project](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/10)
 
--   [Section 4.4: Interview with David Robinson, data scientist](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82)
+- [Section 4.4: Interview with David Robinson, data scientist](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82)
 
 Optional:
 
--   If you enjoy podcasts, you can also try listening to [episode 4 of the author's podcast](https://podcast.bestbook.cool/) which covers some (but not all!) of the material from Chapter 4.
+- If you enjoy podcasts, you can also try listening to [episode 4 of the author's podcast](https://podcast.bestbook.cool/) which covers some (but not all!) of the material from Chapter 4.
 
--   David Robinson has a [fantastic blog post](http://varianceexplained.org/r/start-blog/) on the benefits of sharing your work in a public blog or GitHub repo.
+- David Robinson has a [fantastic blog post](http://varianceexplained.org/r/start-blog/) on the benefits of sharing your work in a public blog or GitHub repo.
 
 You can use google's data search to find data: <https://datasetsearch.research.google.com/>
 
 There are also lots of sites that recommend other sites for finding free data, here is one of them: [Finding data to answer your question](https://www.dataquest.io/blog/free-datasets-for-projects/). A couple of other fun places include
 
--   [Data is Plural](https://www.data-is-plural.com/archive/) is a newsletter that sends you interesting datasets every week. Scroll through the archive and see if any topics jump out at you!
+- [Data is Plural](https://www.data-is-plural.com/archive/) is a newsletter that sends you interesting datasets every week. Scroll through the archive and see if any topics jump out at you!
 
--   [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) is a community of R users that explore and visualize a new dataset every Tuesday. This GitHub account contains every dataset used in Tidy Tuesday. Click on the "data" folder and then pick a year to start exploring.
+- [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) is a community of R users that explore and visualize a new dataset every Tuesday. This GitHub account contains every dataset used in Tidy Tuesday. Click on the "data" folder and then pick a year to start exploring.
 
 ## Background
 
@@ -35,8 +35,10 @@ Don't be afraid to pivot or change directions if you find a dataset that sparks 
 
 Create an `.qmd` file or R script that has links to data sources with a description of the quality of each.
 
-1.  Check out 3-5 potential data sets/sources (that are free). Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)
-2.  Of the 3-5 potential data sources you found, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.
+2.  Check out 3-5 potential data sets/sources (that are free). Choose one dataset to focus on for this assignment (later you may bring in the other sources or switch to another source)
+3.  Of the 3-5 potential data sources you found, pick 1 to focus on for this task. Build an R script or markdown file that reads in, formats, and visualizes the data using the principles of exploratory analysis.
+
+*Our World In Data as a data source is generally NOT allowed. Kaggle may be allowed, but you need to get permission from your teacher first.*
 
 ::: callout-warning
 CAUTION: If you have to download your data (as opposed to read it directly from the web) you may want to store your data outside of the project folder so it doesn't try to upload to GitHub. There is a space limit on free GitHub and you cannot push large datasets there. There are also other ways to make Git ignore your data.
@@ -53,4 +55,4 @@ CAUTION: If you have to download your data (as opposed to read it directly from 
 ### Submit
 
 In I-learn submit a link to the script or a link to your \`html\` file hosted on your repo's GitHub pages
-::::
+:::::
