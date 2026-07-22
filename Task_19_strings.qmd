@@ -7,14 +7,14 @@ title: "Strings and Regex"
 
 ### Readings
 
--   [Chapter 14 Strings: R for Data Science (2nd ed)](https://r4ds.hadley.nz/strings)
--   [Chapter 15 Regular Expression: R for Data Science (2nd ed)](https://r4ds.hadley.nz/regexps)
-    -   Note: the [stringi R package](https://rdrr.io/rforge/stringi/man/stri_stats_latex.html) offers additional, less commonly needed functions for working with strings.
--   [stringr cheatsheet](https://rstudio.github.io/cheatsheets/strings.pdf)
--   [RVerbalExpressions package (optional)](https://github.com/VerbalExpressions/RVerbalExpressions)
--   [regexr.com (optional)](http://regexr.com/)
--   [Regular Expression examples (optional)](https://qntm.org/files/re/re.html)
--   [Regular Expression support applet (optional)](https://regex101.com/)
+- [Chapter 14 Strings: R for Data Science (2nd ed)](https://r4ds.hadley.nz/strings)
+- [Chapter 15 Regular Expression: R for Data Science (2nd ed)](https://r4ds.hadley.nz/regexps)
+  - Note: the [stringi R package](https://rdrr.io/rforge/stringi/man/stri_stats_latex.html) offers additional, less commonly needed functions for working with strings.
+- [stringr cheatsheet](https://rstudio.github.io/cheatsheets/strings.pdf)
+- [RVerbalExpressions package (optional)](https://github.com/VerbalExpressions/RVerbalExpressions)
+- [regexr.com (optional)](http://regexr.com/)
+- [Regular Expression examples (optional)](https://qntm.org/files/re/re.html)
+- [Regular Expression support applet (optional)](https://regex101.com/)
 
 ### Guided Instruction
 
@@ -36,5 +36,5 @@ The three tasks below can be completed in many different ways, but generally sho
 
 ### Submit
 
-In I-learn submit a link to the script file on GitHub.
+In I-learn upload an R script (file extension `.R`) that can be downloaded and run on someone else's computer without them making any edits.
 :::
