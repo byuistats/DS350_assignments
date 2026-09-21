@@ -5,12 +5,12 @@
 
 1\. [Announcing Quarto](https://www.rstudio.com/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)
 
--   Quarto is automatically installed when you install R-studio.
--   (optional) For R users who are used to Rmarkdown, here is some explanation of the differences and [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/) compared to Rmarkdown.
+- Quarto is automatically installed when you install R-studio.
+- (optional) For R users who are used to Rmarkdown, here is some explanation of the differences and [benefits of quarto](https://www.r-bloggers.com/2022/06/experimenting-with-quarto/) compared to Rmarkdown.
 
 2\. Walk through the tutorial ["Hello, Quarto"](https://quarto.org/docs/get-started/hello/rstudio.html) for RStudio
 
--   Here is a [video walk through of the tutorial](https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb), to help fill in the gaps if you had trouble following the reading.
+- Here is a [video walk through of the tutorial](https://www.loom.com/share/e132ba1f2ca048cda716460fd4a58ebb), to help fill in the gaps if you had trouble following the reading.
 
 3\. Walk through the tutorial [Computations](https://quarto.org/docs/get-started/computations/rstudio.html) for RStudio (especially from the beginning through Code Folding section)
 
@@ -24,21 +24,21 @@
 
 1.  Find [**three**]{.underline} articles that use data and visualizations to answer a question
 
-    -   Use any website, blog, or article with good visualizations.
-    -   Some fun websites to try are [The Pudding](https://pudding.cool/), [FiveThirtyEight](https://fivethirtyeight.com/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/), and New York Times' [What's Going on in This Graph](https://www.nytimes.com/column/whats-going-on-in-this-graph) (BYUI students get free access to New York Times).
+    - Use any website, blog, or article with good visualizations.
+    - Some fun websites to try are [The Pudding](https://pudding.cool/), [Our World in Data](https://ourworldindata.org/), and [Priceonomics](https://priceonomics.com/), and New York Times' [What's Going on in This Graph](https://www.nytimes.com/column/whats-going-on-in-this-graph) (BYUI students get free access to New York Times).
 
 2.  **While in the project for this class' repository, navigate to** `w01\my_first_quarto.qmd`.
 
-    -   Notice the YAML
+    - Notice the YAML
 
-        -   Can you describe what the various options in the yaml code is doing?
+      - Can you describe what the various options in the yaml code is doing?
 
 3.  In the body of the `.qmd` file put a link to each article you found. Also, write a one-paragraph review of each article that answers the following questions:
 
     <!-- -->
 
-    -   What is unique or good about the visualization? List a few ideas.
-    -   What could be better? Identify at least one issue with the visualization.
+    - What is unique or good about the visualization? List a few ideas.
+    - What could be better? Identify at least one issue with the visualization.
 
 ::: callout-note
 ## Take time to play/experiment
@@ -46,12 +46,12 @@
 Experiment/play with adding callouts or other text formatting in the visual editor of the file. Switch between the Visual Editor and the Source Editor so you can see what adjustments are being made to the code. Eventually you should be relatively comfortable making edits in visual or source editors.
 :::
 
-4.  Add an R code chunk that contains the following code: `plot(1:20)`;
+4.  Leave the R code chunk that contains the following code: `plot(1:20)`; this is to test whether creating plot output is working correctly and visible in your submittal.
 
 5.  Click the `Render` button to create an `.html` version of the file in the docs folder. Push **all** the files and folders to GitHub that were created as a result.
 
-::: {.callout-tip appearance="minimal" icon="false"}
-## Why did the .html file get placed in the docs folder
+::: {.callout-note appearance="minimal" icon="false"}
+## FYI: why did the .html file get placed in the docs folder?
 
 To ensure that the quarto file renders an `.html` file to the `docs` folder, the options at the top of the `_quarto.yml` file were set to the following:
 
@@ -66,17 +66,19 @@ If `output-dir: docs` option is omitted, then anytime the quarto file renders it
 
 ### Submission
 
-In I-learn, submit a link to your `my_first_quarto.html` published on your GitHub pages website. To find the link to this file, follow these steps:
+In I-learn, submit a link to your `my_first_quarto.html` published on your GitHub pages website. To find the link to this file, [follow the steps in this video](https://www.loom.com/share/05b92969e264442d84349f4ec16b00e2) (also written out below):
 
--   Navigate to your GitHub pages website homepage.
--   The homepage for your website can be found by going to your repository's setting icon, and then choosing "pages" from the menu on the left.
--   You will be brought to a page that has a button near the top labeled, "Visit site". Click that button to go to your website's homepage.
--   While on your webiste, select the "Class Tasks" menu then select "My first quarto". To view the .html file you just created.
--   Copy and submit the url. This is how you will submit most tasks in the course.
+- Navigate to your GitHub pages website homepage.
+- The homepage for your website can be found by going to your repository's setting icon, and then choosing "pages" from the menu on the left.
+- You will be brought to a page that has a button near the top labeled, "Visit site". Click that button to go to your website's homepage.
+- While on your webiste, select the "Class Tasks" menu then select "My first quarto". To view the .html file you just created.
+- Copy and submit the url. This is how you will submit most tasks in the course.
 
 ::: callout-note
 ## Shortcut to your website
 
-Bookmarking your website is a good idea. You can also create a shortcut on the GitHub repo homepage. While on the homepage (or `<>Code` page) of your repository, select the little gear icon to the right of the word "About" (which is to the right of the green "Code" button). Then you can check a box labeled "Use your GitHub Pages website". Doing so will add a link to your website on the home page of your repo.
+Bookmarking your website is a good idea. You can also create a shortcut on the GitHub repo homepage. [Link to video instructions](https://www.loom.com/share/d95cb3a3d6c145df87abeace33f75013), or follow written instructions:
+
+While on the homepage (or `<>Code` page) of your repository, select the little gear icon to the right of the word "About" (which is to the right of the green "Code" button). Then you can check a box labeled "Use your GitHub Pages website". Doing so will add a link to your website on the home page of your repo.
 :::
 ::::::
