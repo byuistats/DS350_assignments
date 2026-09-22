@@ -17,14 +17,14 @@ Readings teach you to do the things that a data analyst or scientist does and pr
 
 #### Optional, Extra Readings
 
--   [What is Git, a written introduction](https://www.nobledesktop.com/learn/git/what-is-git)
--   [Using version control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
--   [RStudio and GitHub integration](https://www.youtube.com/watch?v=E2d91v1Twcc)
--   Chapters 4, 6, 7, and 9 of [happygitwithr](http://happygitwithr.com/github-acct.html)
--   [githug](https://github.com/jennybc/githug)
--   [Getting ready](https://byui-cs.github.io/CS246/week-04/prepare.html)
--   [Resources to learn Git](https://try.github.io/levels/1/challenges/1)
--   [Advanced tutorial](http://learngitbranching.js.org/)
+- [What is Git, a written introduction](https://www.nobledesktop.com/learn/git/what-is-git)
+- [Using version control in RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+- [RStudio and GitHub integration](https://www.youtube.com/watch?v=E2d91v1Twcc)
+- Chapters 4, 6, 7, and 9 of [happygitwithr](http://happygitwithr.com/github-acct.html)
+- [githug](https://github.com/jennybc/githug)
+- [Getting ready](https://byui-cs.github.io/CS246/week-04/prepare.html)
+- [Resources to learn Git](https://try.github.io/levels/1/challenges/1)
+- [Advanced tutorial](http://learngitbranching.js.org/)
 
 ## Tasks
 
@@ -41,8 +41,8 @@ To install Git for Windows, click here: [Git for Windows](https://git-for-window
 
 This method of installing Git for Windows leaves the Git executable in a conventional location, which will help you and other programs, e.g. RStudio, find it and use it. This also supports a transition to more expert use, because the "Git Bash" shell will be useful as you venture outside of R/RStudio.
 
--   When asked about "Adjusting your PATH environment", make sure to select "Git from the command line and also from 3rd-party software". Otherwise, we believe it is good to accept the defaults.
--   Note that RStudio for Windows prefers for Git to be installed below `C:/Program Files` and this appears to be the default. This implies, for example, that the Git executable on my Windows system is found at `C:/Program Files/Git/bin/git.exe`. Unless you have specific reasons not to, follow this convention.
+- When asked about "Adjusting your PATH environment", make sure to select "Git from the command line and also from 3rd-party software". Otherwise, we believe it is good to accept the defaults.
+- Note that RStudio for Windows prefers for Git to be installed below `C:/Program Files` and this appears to be the default. This implies, for example, that the Git executable on my Windows system is found at `C:/Program Files/Git/bin/git.exe`. Unless you have specific reasons not to, follow this convention.
 
 <!-- If you follow these instructions you can use the shell (also called the **terminal**) directly from within RStudio. We will walk you through how/when to use it in videos referenced later on this page. If you are extra ambitious see [this article for more information on how to use it and setup RStudio to use Git Bash, rather than the Command Prompt](https://support.rstudio.com/hc/en-us/articles/115010737148-Using-the-RStudio-Terminal). -->
 
@@ -77,9 +77,9 @@ Note also that, after upgrading macOS, you might need to re-do the above and/or 
 
 Install Git from here: <http://git-scm.com/downloads>.
 
--   This arguably sets you up the best for the future. It will certainly get you the latest version of Git of all approaches described here.
--   The GitHub home for the macOS installer is here: <https://github.com/timcharper/git_osx_installer>.
-    -   At that link, you can find more info if something goes wrong or you are working on an old version of macOS.
+- This arguably sets you up the best for the future. It will certainly get you the latest version of Git of all approaches described here.
+- The GitHub home for the macOS installer is here: <https://github.com/timcharper/git_osx_installer>.
+  - At that link, you can find more info if something goes wrong or you are working on an old version of macOS.
 
 ## Linux
 
@@ -121,13 +121,13 @@ Replace `hathawayj` and `hathawayj@byui.edu` with your name and email address. Y
 
 Open the [shell](/setup/shell/) on your computer. From there, type the following commands (replace the relevant parts with your own information):
 
--   `git config --global user.name 'hathawayj'`
+- `git config --global user.name 'hathawayj'`
 
--   This can be your full name, your username on GitHub, whatever you want. Each of your commits will be logged with this name, so make sure it is informative for others.
+- This can be your full name, your username on GitHub, whatever you want. Each of your commits will be logged with this name, so make sure it is informative for others.
 
--   `git config --global user.email 'hathawayj@byui.edu'`
+- `git config --global user.email 'hathawayj@byui.edu'`
 
--   **This must be the email address you used to register on GitHub.**
+- **This must be the email address you used to register on GitHub.**
 
 You will not see any output from these commands. To ensure the changes were made, run `git config --global --list`.
 
@@ -139,15 +139,15 @@ A basic test for successful installation of git is to simply enter `git` in the 
 
 If you are not sure where the git executable lives, try this in a shell:
 
--   `which git` (Mac, Linux)
--   `where git` (most versions of Windows)
+- `which git` (Mac, Linux)
+- `where git` (most versions of Windows)
 
 If Git appears to be installed and findable, launch RStudio and try again. If it still doesn't work, quit and re-launch RStudio if there's any doubt in your mind about whether you opened RStudio before or after installing Git.
 
 From RStudio, go to *Tools \> Global Options \> Git/SVN* and make sure that the box *Git executable* points to the Git executable. It should read something like:
 
--   `/usr/bin/git` (Mac, Linux)
--   `C:/Program Files (x86)/Git/bin/git.exe` (Windows)
+- `/usr/bin/git` (Mac, Linux)
+- `C:/Program Files (x86)/Git/bin/git.exe` (Windows)
 
 If you make any changes, **restart RStudio and try the steps at the top of the page again**.
 
@@ -160,62 +160,68 @@ Still not working? Try [googling](https://www.google.com) your problem or speak 
 Note that there have been recent changes in how RStudio [authenticates for using GitHub](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/), so some of the helpful blogs/resources online are now outdated.
 :::
 
--   *Step 1*: Connect RStudio to GitHub Now that RStudio can find Git on your computer, we need to connect RStudio to GitHub online. You should have already signed up for a GitHub account in [Task_01_set_up](Task_01_set-up.qmd) assignment.[^git_going-2]
+- *Step 1*: Connect RStudio to GitHub Now that RStudio can find Git on your computer, we need to connect RStudio to GitHub online. You should have already signed up for a GitHub account in [Task_01_set_up](Task_01_set-up.qmd) assignment.[^git_going-2]
 
-    -   Step 1a: Get a Personal Access Token (PAT).
+  - Step 1a: Get a Personal Access Token (PAT).
 
-        To generate a personal access token, run the following code in your R console. It will take you to the appropriate page on the GitHub website, where you'll give your token a name and copy it (don't lose it because it will never appear again!). On that same page, I recommend setting the expiration option to "No expiration", or choose "custom" and set it to something longer than the semester, so that you don't have to go through this process again. Watch the [1 minute video demonstration.](https://vimeo.com/511801645).
+    [Video Instructions (1 min 35 sec)](https://www.loom.com/share/a43d7468ce9f45fbb3119556cc9630c3)
 
-        ``` r
-        install.packages("usethis") #ignore this line if you installed the package already
-        library(usethis) #ignore this line if you loaded the package already
-        create_github_token()
-        ```
+    [Written instructions]{.underline}: To generate a personal access token, run the following code in your R console. It will take you to the appropriate page on the GitHub website, where you'll give your token a name and copy it (don't lose it because it will never appear again!). On that same page, I recommend setting the expiration option to "No expiration", or choose "custom" and set it to something longer than the semester, so that you don't have to go through this process again.
 
-    -   Step 1b: Store your PAT in RStudio.
+    ``` r
+    install.packages("usethis") #ignore this line if you installed the package already
+    library(usethis) #ignore this line if you loaded the package already
+    create_github_token()
+    ```
 
-        Now that you've created a Personal Access Token, we need to store it so that RStudio can access it and know to connect to your GitHub account. Run the code below, and when prompted, enter your GitHub username and the Personal Access Token as your password (NOT your GitHub password). Once you've done all of this, you have connected RStudio to GitHub!
+    Also on this step you need to authorize the token with your school single sign-on (SSO). This is because the repo we created for you exists in the `byui-math-dept` organization, which is behind a Church Education System paywall.
 
-        ``` r
-        install.packages("gitcreds")
-        library(gitcreds)
-        gitcreds_set()
-        ```
+    ![](images/clipboard-872476250.png)
 
--   *Step 2. Go to [GitHub.com](https://www.github.com) and login.* We have already created a repo for you to use in this class. If you do not see the repo when you log-in there may be a few reasons. The most common reason for not seeing the repo is because you did not accept BOTH invitations. Go back and make sure you completed [Task_01_set_up](Task_01_set-up.qmd) assignment correctly.
+  - Step 1b: Store your PAT in RStudio.
 
--   *Step 3. Clone your GitHub repo with RStudio*.
+    Now that you've created a Personal Access Token, we need to store it so that RStudio can access it and know to connect to your GitHub account. Run the code below, and when prompted, enter your GitHub username and the Personal Access Token as your password (NOT your GitHub password). Once you've done all of this, you have connected RStudio to GitHub!
 
-    -   In RStudio, start a new Project: *File \> New Project \> Version Control \> Git*.
+    ``` r
+    install.packages("gitcreds")
+    library(gitcreds)
+    gitcreds_set()
+    ```
 
-    -   In the "repository URL" paste the URL of your new GitHub repository. This url can be found by clicking on the big green button at the top of your repository. The url will be something like `https://github.com/hathawayj/myrepo.git`. - If you do NOT see an option to get the Project from Version Control make sure RStudio can find Git (see above).
+- *Step 2. Go to [GitHub.com](https://www.github.com) and login.* We have already created a repo for you to use in this class. If you do not see the repo when you log-in there may be a few reasons. The most common reason for not seeing the repo is because you did not accept BOTH invitations. Go back and make sure you completed [Task_01_set_up](Task_01_set-up.qmd) assignment correctly.
 
-    -   Decide where to store the local directory for the Project. Don't scatter everything around your computer - have a central location, or some meaningful structure. If you have taken the class before, do not store this folder inside of a folder from a previous semester and give it a very different name so you don't get the two confused.
+- *Step 3. Clone your GitHub repo with RStudio*.
 
-    -   Click "Create Project" to finish the process of downloading all the files and folders from the repository to your local machine. You now have successfully created all of these things:
+  - In RStudio, start a new Project: *File \> New Project \> Version Control \> Git*.
 
-        -   a directory (aka folder) on your computer
-        -   a Git repository, linked to a remote GitHub repository
-        -   an RStudio Project
+  - In the "repository URL" paste the URL of your new GitHub repository. This url can be found by clicking on the big green button at the top of your repository. The url will be something like `https://github.com/hathawayj/myrepo.git`. - If you do NOT see an option to get the Project from Version Control make sure RStudio can find Git (see above).
 
-    Whenever possible, this will be the preferred route for setting up your R projects because it is probably the simplest way to connect RStudio and Github. However, if you would like to connect GitHub to a previously created R-Studio project you can [follow this guide](https://cfss.uchicago.edu/setup/git-with-rstudio/#step-2-plan-b-connect-a-local-rstudio-project-to-a-github-repo).
+  - Decide where to store the local directory for the Project. Don't scatter everything around your computer - have a central location, or some meaningful structure. If you have taken the class before, do not store this folder inside of a folder from a previous semester and give it a very different name so you don't get the two confused.
 
--   *Step 4: Pull, add, commit and push to Github.* Do this every time you finish a valuable chunk of work, at least once a day. You can [watch this video](https://www.loom.com/share/96a2b5b3cf9b4b96b1f39c779e115b2c) for a step-by-step demonstration of the steps described below.
+  - Click "Create Project" to finish the process of downloading all the files and folders from the repository to your local machine. You now have successfully created all of these things:
 
-    To test it out, look in RStudio's file browser pane for the `README.md` file at the top level directory of your project. Double click it to open it. Modify the `README.md` file by adding a few sentences to introduce yourself to the teacher. Save your changes. Now sync your local project with the online Github repo by following these 4 steps in the Terminal:
+    - a directory (aka folder) on your computer
+    - a Git repository, linked to a remote GitHub repository
+    - an RStudio Project
 
-    ::: callout-note
-    ## Where is the terminal?
+  Whenever possible, this will be the preferred route for setting up your R projects because it is probably the simplest way to connect RStudio and Github. However, if you would like to connect GitHub to a previously created R-Studio project you can [follow this guide](https://cfss.uchicago.edu/setup/git-with-rstudio/#step-2-plan-b-connect-a-local-rstudio-project-to-a-github-repo).
 
-    Usually the terminal tab is located next to your Console tab in Rstudio
-    :::
+- *Step 4: Pull, add, commit and push to Github.* Do this every time you finish a valuable chunk of work, at least once a day. You can [watch this video](https://www.loom.com/share/96a2b5b3cf9b4b96b1f39c779e115b2c) for a step-by-step demonstration of the steps described below. (Side note: There is a point and click method to do this as well in Rstudio, but it is slow and clunky.)
 
-    -   At the prompt in the terminal type `git pull` and hit enter. This will bring any changes that others may have pushed to your Github repor down to your local machine. This is particularly helpful if you are working as a team on a larger project, or if you are accessing the Github repo from multiple computers (i.e. your work computer and your home computer). You may be asked to resolve conflicts if your local version conflicts with what is found in the repository.
-    -   Next type `git add .` and hit enter. The period means you are staging all the files in the Git pane. In the uncommon occurrence that you only want to upload certain files you can specify them by name.
-    -   Next type `git commit -m"put a cutomized message here"` and hit enter. This batches the changes and will be something that git tracks. The `-m` stands for message. The customized message is not optional, it should describe the nature of the changes you have made.
-    -   Next type `git push` and hit enter. This officially pushes from your local machine to the Github repository.
+  To test it out, look in RStudio's file browser pane for the `README.md` file at the top level directory of your project. Double click it to open it. Modify the `README.md` file by adding a few sentences to introduce yourself to the teacher. Save your changes. Now sync your local project with the online Github repo by following these 4 steps in the Terminal:
 
-Note, you cannot copy and paste into the terminal, you will have to type it out. There is a point and click method to do this as well in Rstudio, but it is slow and clunky. If you want to use it instead of the terminal commands, you can try watching [this video](https://www.youtube.com/watch?v=E2d91v1Twcc).
+  ::: callout-note
+  ## Where is the terminal?
+
+  Usually the terminal tab is located next to your Console tab in Rstudio
+  :::
+
+  - At the prompt in the terminal type `git pull` and hit enter. This will bring any changes that others may have pushed to your Github repor down to your local machine. This is particularly helpful if you are working as a team on a larger project, or if you are accessing the Github repo from multiple computers (i.e. your work computer and your home computer). You may be asked to resolve conflicts if your local version conflicts with what is found in the repository.
+  - Next type `git add .` and hit enter. The period means you are staging all the files in the Git pane. In the uncommon occurrence that you only want to upload certain files you can specify them by name.
+  - Next type `git commit -m"put a cutomized message here"` and hit enter. This batches the changes and will be something that git tracks. The `-m` stands for message. The customized message is not optional, it should describe the nature of the changes you have made.
+  - Next type `git push` and hit enter. This officially pushes from your local machine to the Github repository.
+
+Note, you cannot copy and paste into the terminal, you will have to type it out.
 
 Caution: Before you *push* your changes to GitHub, first you should *pull* from GitHub. Why? If you make changes to the repo in the browser or from another machine or (one day) a collaborator has pushed, you will be happier if you pull those changes in before you attempt to push.
 
