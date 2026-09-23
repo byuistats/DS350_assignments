@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -584,27 +587,32 @@ ul.task-list li input[type="checkbox"] {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Most of the resources to help you develop a good question and find good data are contained in the other tasks related to the semester project, <a href="./Task_03_questions.html">Asking Questions</a> and <a href="./Task_12_get_data.html">Data Search</a>.</p>
+<ul>
+<li><p><a href="https://medium.com/@9-5-datascientist/the-3-data-science-projects-i-tell-my-mentees-they-must-build-in-2026-11b4ab04d461?sk=5e22c9cf840e8c4f6a21f208dfdd32b6">3 “Must build” projects for any data science portfolio</a></p></li>
+<li><p><a href="https://www.kenreid.co.uk/blog/no-idea-no-problem-data-science-portfolio.html">No idea? No problem: A beginner’s guide to building your data science portfolio</a></p></li>
+</ul>
+<p>You may also find resources to help you develop a good question and find good data are contained in the other tasks related to the semester project, <a href="./Task_03_questions.html">Asking Questions</a> and <a href="./Task_12_get_data.html">Data Search</a>.</p>
 <p>You do not have to change the typical format we have been using this semester, but it might be fun to experiment. You can learn about different flavors of Rmarkdown here:</p>
 <p><a href="https://r4ds.hadley.nz/quarto-formats">Chapter 29 Quarto formats: R for Data Science (2nd ed)</a></p>
-<p>If you have a quality project, you are encouraged to make it publicly available by publishing it to R Studio Connect via BYU-Idaho’s Shiny Server, or posting it on your own GitHub account or personal blog.</p>
+<p>If you have a quality project, you are encouraged to make it publicly available.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Students always ask how involved or big the project needs to be. Your project should be on the scale of a large task. It should use and demonstrate the skills we learned in this class. It should include wrangling, some visualization (most likely 2 or more charts), and thoughtful analysis. It should include discussion and interpretation of the results. (Including techniques learned in other classes is okay and encouraged, as long as the skills learned in this class are also present).</p>
-<p>Present your visualization-based analysis that addresses your question then get lots of feedback. This can be a springboard to a Senior Project or it can be what gets you a job offer. Ideas for receiving feedback (in order of effort involved):</p>
+<p>Students always ask how involved or big the project needs to be. Your project should be on the scale of a large case study. It should use and demonstrate the skills we learned in this class. It should include wrangling, some visualization (most likely &gt;2 or more charts), and thoughtful analysis. It should include discussion and interpretation of the results. (Including techniques learned in other classes is okay and encouraged, as long as the skills learned in this class are also present).</p>
+<p>The resulting file should be polished and publication/presentation ready. Remove extra data views, warning messages, etc.</p>
+<p>Present your visualization-based analysis that addresses your question then get lots of feedback. Get used to explaining it to others in a technical and non-technical audience. You should be able to explain anomalies and trends, terms and metrics. This can be a springboard to a Senior Project or it can be what gets you a job offer. Ideas for receiving feedback (in order of effort involved):</p>
 <ul>
 <li><p>Present your analysis to your roommates (or spouse) and update your presentation based on the feedback.</p></li>
 <li><p>If possible, get feedback from two to three fellow classmates on your presentation and update it based on their feedback.</p></li>
 <li><p>If possible, present your draft presentation to a data scientist to review for clarity.</p></li>
 <li><p>If possible, present your work at a society meeting, the research and creative works conference, or as an online blog or link.</p></li>
-<li><p>Remember, Rstudio connect can serve as a public location to link to. You can also set up your own GitHub account and make it public. You could then link your post to these locations for people to see your code and/or graphics.</p></li>
 </ul>
+<p>Preferrably, if the data can be shared publicly, you would publish this on your own GitHub repo/portfolio and not in our class repo.</p>
 <p>You will briefly review the semester project with the teacher in your exit interview</p>
 <section id="specifics" class="level3">
 <h3 class="anchored" data-anchor-id="specifics">Specifics</h3>
 <p>Your semester project should include</p>
 <ul>
-<li>Import: Load at least one dataset from a remote source.</li>
+<li>Import: Load at least one dataset from a remote source. Our World In Data as a data source is generally NOT allowed. Kaggle may be allowed, but you need to get permission from your teacher first.</li>
 <li>Wrangle:
 <ul>
 <li>Basic Wrangle: Use at least two of the following: select(), filter(), mutate(), arrange(), slice().</li>

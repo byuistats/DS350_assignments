@@ -2,20 +2,19 @@
 title: "Data Search"
 ---
 
-::::: panel-tabset
+:::: panel-tabset
 ## Readings
 
-These readings are from the book *Build a Career in Data Science*. If the links below don't work for you, you can get an electronic version of the book from the [BYU-Idaho library](https://library.byui.edu/).
+[Section 4.1 of the book Build a Career in Data Science](https://learning.oreilly.com/library/view/build-a-career/9781617296246/kindle_split_014.html#ch04lev1sec1), which we have free access too through the BYU-Idaho library.
 
-- [Section 4.1: Creating a project](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/10)
+[Tips for a Top Notch Portfolio, and Project Suggestions](https://python.plainenglish.io/stop-building-toy-projects-beginner-data-science-projects-recruiters-care-about-a26887d2f16d)
 
-- [Section 4.4: Interview with David Robinson, data scientist](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82)
 
 Optional:
 
-- If you enjoy podcasts, you can also try listening to [episode 4 of the author's podcast](https://podcast.bestbook.cool/) which covers some (but not all!) of the material from Chapter 4.
-
 - David Robinson has a [fantastic blog post](http://varianceexplained.org/r/start-blog/) on the benefits of sharing your work in a public blog or GitHub repo.
+
+- [Section 4.4: Interview with David Robinson, data scientist](https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82)
 
 You can use google's data search to find data: <https://datasetsearch.research.google.com/>
 
@@ -55,4 +54,4 @@ CAUTION: If you have to download your data (as opposed to read it directly from 
 ### Submit
 
 In I-learn submit a link to the script or a link to your \`html\` file hosted on your repo's GitHub pages
-:::::
+::::

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -582,15 +585,12 @@ ul.task-list li input[type="checkbox"] {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Readings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Background</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Task</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>These readings are from the book <em>Build a Career in Data Science</em>. If the links below don’t work for you, you can get an electronic version of the book from the <a href="https://library.byui.edu/">BYU-Idaho library</a>.</p>
-<ul>
-<li><p><a href="https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/10">Section 4.1: Creating a project</a></p></li>
-<li><p><a href="https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82">Section 4.4: Interview with David Robinson, data scientist</a></p></li>
-</ul>
+<p><a href="https://learning.oreilly.com/library/view/build-a-career/9781617296246/kindle_split_014.html#ch04lev1sec1">Section 4.1 of the book Build a Career in Data Science</a>, which we have free access too through the BYU-Idaho library.</p>
+<p><a href="https://python.plainenglish.io/stop-building-toy-projects-beginner-data-science-projects-recruiters-care-about-a26887d2f16d">Tips for a Top Notch Portfolio, and Project Suggestions</a></p>
 <p>Optional:</p>
 <ul>
-<li><p>If you enjoy podcasts, you can also try listening to <a href="https://podcast.bestbook.cool/">episode 4 of the author’s podcast</a> which covers some (but not all!) of the material from Chapter 4.</p></li>
 <li><p>David Robinson has a <a href="http://varianceexplained.org/r/start-blog/">fantastic blog post</a> on the benefits of sharing your work in a public blog or GitHub repo.</p></li>
+<li><p><a href="https://livebook.manning.com/book/build-your-career-in-data-science/chapter-4/82">Section 4.4: Interview with David Robinson, data scientist</a></p></li>
 </ul>
 <p>You can use google’s data search to find data: <a href="https://datasetsearch.research.google.com/" class="uri">https://datasetsearch.research.google.com/</a></p>
 <p>There are also lots of sites that recommend other sites for finding free data, here is one of them: <a href="https://www.dataquest.io/blog/free-datasets-for-projects/">Finding data to answer your question</a>. A couple of other fun places include</p>

@@ -9,7 +9,11 @@ This culminating case study is like a "choose your own adventure" book. You get 
 ::: panel-tabset
 ## Resources
 
-Most of the resources to help you develop a good question and find good data are contained in the other tasks related to the semester project, [Asking Questions](Task_03_questions.qmd) and [Data Search](Task_12_get_data.qmd).
+- [3 "Must build" projects for any data science portfolio](https://medium.com/@9-5-datascientist/the-3-data-science-projects-i-tell-my-mentees-they-must-build-in-2026-11b4ab04d461?sk=5e22c9cf840e8c4f6a21f208dfdd32b6)
+
+- [No idea? No problem: A beginner's guide to building your data science portfolio](https://www.kenreid.co.uk/blog/no-idea-no-problem-data-science-portfolio.html)
+
+You may also find resources to help you develop a good question and find good data are contained in the other tasks related to the semester project, [Asking Questions](Task_03_questions.qmd) and [Data Search](Task_12_get_data.qmd).
 
 You do not have to change the typical format we have been using this semester, but it might be fun to experiment. You can learn about different flavors of Rmarkdown here:
 
