@@ -52,6 +52,7 @@ book:
         - Task_22_chipotle_functions.qmd
         - Task_23_chipotle_purrr.qmd
         - Task_24_savior_names2.qmd
+        - Task_24b_savior_names_combined.qmd
     - part: "Module 9: Time"
       chapters:
         - Task_25_lubridate.qmd

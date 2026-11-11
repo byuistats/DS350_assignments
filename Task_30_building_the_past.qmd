@@ -22,11 +22,17 @@ Remember the big story is the collapse of new building permits at the initial st
 
 ## Task
 
-1.  Use the `library(USAboundaries)` package to get two spatial data sets. One for all US states, and the other for counties of a state of your choice (for example, counties of Idaho).
+1.  If you plan to use `geo_facet`, you should download it directly from GitHub as there seems to be an unresolved bug in the CRAN version of the package.
 
-    -   Look through your state data and county data and see if you can identify the columns containing the FIPS numbers. You will need these columns to merge this spatial data to our building permit data.
+    ```         
+    remotes::install_github("hafen/geofacet")
+    ```
 
-2.  Read in the `permits` data from the `devtools::install_github("hathawayj/buildings")` package. If you have trouble with `devtools`, try running `remotes::install_github("hathawayj/buildings")`.
+2.  Use the `library(USAboundaries)` package to get two spatial data sets. One for all US states, and the other for counties of a state of your choice (for example, counties of Idaho).
+
+    - Look through your state data and county data and see if you can identify the columns containing the FIPS numbers. You will need these columns to merge this spatial data to our building permit data.
+
+3.  Read in the `permits` data from the `devtools::install_github("hathawayj/buildings")` package. If you have trouble with `devtools`, try running `remotes::install_github("hathawayj/buildings")`.
 
     1.  Note: `buildings` is the name of the package. `permits` is the name of the dataset within the `buildings` package.
 
@@ -36,8 +42,8 @@ Wrangle the data into two separate data sets. One data set should look at single
 
 4.  Create a chart that shows, for each US state, the trend in single family building permits over time.
 
-    -   Make sure at least one (if not all) of your charts display the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).
-    -   Also, you must effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)
+    - Make sure at least one (if not all) of your charts display the data using some sort of spatial/geographical representation (so geofacets, a chloropleth map, etc.).
+    - Also, you must effectively deal with the disparities of scale between geographies. (For example, the number of permits in California in a low year are much higher than the highest year for North Dakota.)
 
 5.  Create another chart(s) that shows, for each county in your chosen state, the trend in single family building over time. Again, the chart should use some sort of spatial/geographical representation and you must deal with disparities of scale so that the rise and fall in each geography is visible.
 

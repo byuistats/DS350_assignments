@@ -9,13 +9,13 @@ editor: visual
 ### Reading
 
 1.  Complete these readings if you have not yet:
-    -   [Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
+    - [Chapter 12 Logical Vectors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/logicals)
 
-        [Chapter 13 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
+      [Chapter 13 Numbers: R for Data Science (2nd ed)](https://r4ds.hadley.nz/numbers)
 2.  [Chapter 7.1 - 7.3 Data Import: R for Data Science (2nd ed)](https://r4ds.hadley.nz/data-import)
 3.  Reading data from GitHub: Raw vs. blob
-    -   [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub
-    -   [This video](https://www.loom.com/share/fe4d7c623f1d4c5197b63648358e3ddc) shows examples of using the correct url to read in the data.
+    - [Read this](https://www.labnol.org/internet/free-file-hosting-github/29092/#direct-urls-for-github-files) for a short written explanation of getting the right url from GitHub
+    - [This video](https://www.loom.com/share/fe4d7c623f1d4c5197b63648358e3ddc) shows examples of using the correct url to read in the data.
 
 ## Background
 
@@ -36,12 +36,12 @@ While their visualizations (no longer visible) focused on yearly averages, our c
 ## Task
 
 1.  Check out this interactive graphic about gun deaths: [Periscopic data viz](https://guns.periscopic.com/?year=2018) (note, it takes a while to run through its animation before the filters underneath the image become available). Write a couple of sentences about what you discover as you play with the graph's filters.
-2.  Read in the fiverthirtyeight.com data referenced in the Background section.  [full_data.csv](https://github.com/fivethirtyeight/guns-data).
-    -   When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob'.
-3.  Create one plot to illustrate one (or more) key insights from the data. Provide plot(s) that help the client know the different potential groups (variables) they could address in terms of overall/total deaths. 
+2.  Read in the fiverthirtyeight.com data referenced in the Background section. [full_data.csv](https://github.com/fivethirtyeight/guns-data).
+    - When using file paths to read files in from Github (and other locations), you must pay attention to 'raw' vs. 'blob'.
+3.  Create one plot to illustrate one (or more) key insights from the data. Provide plot(s) that help the client know the different potential groups (variables) they could address in terms of overall/total deaths.
 4.  Address the client's desire to create commercials for *different seasons* of the year.
-    -   Provide plots that help the client know the different potential groups (variables) they could address in different seasons (2-4 visualizations seem necessary)
-    -   Write 2-4 sentences describing each image.
+    - Provide plots that help the client know the different potential groups (variables) they could address in different seasons (2-4 visualizations seem necessary)
+    - Write 2-4 sentences describing each image.
 5.  Build an `.qmd` file to complete this task.
 6.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
 
