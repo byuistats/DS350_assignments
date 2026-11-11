@@ -1,0 +1,56 @@
+DATA DICTIONARY: FILE NAMING CONVENTION
+
+SYNTAX PATTERN:
+[WEIGHT]-[REAR_LEG]-[FRONT_LEG]-[TRIAL]-[MEASUREMENT].txt
+
+--------------------------------------------------------------------------------
+FIELDS & DEFINITIONS:
+
+1. WEIGHT (Weight Distribution)
+   - BH : Back Heavy
+   - FH : Front Heavy
+   - E  : Equal
+
+2. REAR_LEG / FRONT_LEG (Leg Configuration)
+   Format: [Gait][Direction][Angle]
+   
+   Gait Prefix:
+   - B : Bean gait
+   - P : Paddle gait
+   
+   Direction Code:
+   - N : Negative angle
+   - P : Positive angle
+   - (Omitted if angle is 0)
+   
+   Angle:
+   - Numerical value in degrees (e.g., 0, 20, 30, 40, 60)
+
+   Examples:
+   - B0   : Bean gait at 0 degrees
+   - P0   : Paddle gait at 0 degrees
+   - BN20 : Bean gait at -20 degrees
+   - BP30 : Bean gait at +30 degrees
+   - PN30 : Paddle gait at -30 degrees
+   - PP30 : Paddle gait at +30 degrees
+
+3. TRIAL (Trial Repetition)
+   - T1 : Trial 1
+   - T2 : Trial 2
+   - T3 : Trial 3
+
+4. MEASUREMENT (Data Type)
+   - COM : Center of Mass data
+   - PITCH : Pitch data
+
+--------------------------------------------------------------------------------
+EXAMPLES:
+
+BH-B0-P0-T1-COM.txt
+  -> Back Heavy | Rear: Bean 0° | Front: Paddle 0° | Trial 1 | COM data
+
+BH-BN20-BP30-T2-COM.txt
+  -> Back Heavy | Rear: Bean -20° | Front: Bean +30° | Trial 2 | COM data
+
+BH-PN60-PN30-T3-PITCH.txt
+  -> Back Heavy | Rear: Paddle -60° | Front: Paddle -30° | Trial 3 | PITCH data

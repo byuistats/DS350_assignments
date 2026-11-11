@@ -1,0 +1,88 @@
+================================================================================
+DATA DICTIONARY: MOTION TRACKING & KINEMATICS EXPORT
+================================================================================
+
+1. FILE OVERVIEW
+--------------------------------------------------------------------------------
+Description:   Time-series kinematic data generated from physical particle or 
+               object tracking (e.g., Tracker Video Analysis software). Contains
+               time, position, velocity, and acceleration measurements across
+               2D Cartesian space, including vector magnitudes.
+File Format:   Plain Text / Tab-Delimited (.txt or .tsv)
+Header Structure:
+  - Line 1: Object metadata (e.g., "[source: N] mass A")
+  - Line 2: Tab-separated column headers
+
+2. DATA TYPES & ENCODING
+--------------------------------------------------------------------------------
+Encoding:      ASCII / UTF-8
+Delimiter:     Tab (`\t`)
+Numeric Format:
+  - Floating-point numbers with standard decimal representation (e.g., 0.000)
+  - Exponential / Scientific notation (e.g., 1.709E-4, -5.678E-4)
+Missing Data:  Represented by blank tab-delimited cells (typically present at
+               the boundary steps where numerical differentiation cannot be
+               calculated, such as early/late velocity and acceleration frames).
+
+3. FIELD / COLUMN DEFINITIONS
+--------------------------------------------------------------------------------
+
+Field 1: t
+  - Description: Elapsed time from the start of the measurement sequence.
+  - Type:        Float
+  - Units:       Seconds (s)
+  - Range:       >= 0.000
+
+Field 2: x
+  - Description: Position coordinate along the horizontal axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters (m)
+
+Field 3: y
+  - Description: Position coordinate along the vertical axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters (m)
+
+Field 4: r
+  - Description: Radial distance (position magnitude) from the origin (0,0).
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters (m)
+  - Formula:     r = sqrt(x^2 + y^2)
+
+Field 5: vx
+  - Description: Component of velocity along the x-axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second (m/s)
+  - Formula:     vx = dx/dt
+
+Field 6: vy
+  - Description: Component of velocity along the y-axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second (m/s)
+  - Formula:     vy = dy/dt
+
+Field 7: v
+  - Description: Total speed (magnitude of the velocity vector).
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second (m/s)
+  - Formula:     v = sqrt(vx^2 + vy^2)
+
+Field 8: ax
+  - Description: Component of acceleration along the x-axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second squared (m/s^2)
+  - Formula:     ax = dvx/dt
+
+Field 9: ay
+  - Description: Component of acceleration along the y-axis.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second squared (m/s^2)
+  - Formula:     ay = dvy/dt
+
+Field 10: a
+  - Description: Total acceleration magnitude.
+  - Type:        Float (Scientific Notation)
+  - Units:       Meters per second squared (m/s^2)
+  - Formula:     a = sqrt(ax^2 + ay^2)
+
+================================================================================
