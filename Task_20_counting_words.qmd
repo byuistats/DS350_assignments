@@ -9,9 +9,11 @@ title: "Counting Words"
 
 These readings are focused on working with factors in R
 
--   [Chapter 16 Factors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/factors)
-    -   or [Forcats R package](http://stat545.com/block029_factors.html)
--   [forcats cheatsheet](https://rstudio.github.io/cheatsheets/factors.pdf)
+- [Chapter 16 Factors: R for Data Science (2nd ed)](https://r4ds.hadley.nz/factors)
+
+  - or [Forcats R package](http://stat545.com/block029_factors.html)
+
+- [forcats cheatsheet](https://rstudio.github.io/cheatsheets/factors.pdf)
 
 ### Guided Instruction
 
@@ -19,7 +21,7 @@ In this file, the "Extra Enrichment" section is just that, extra. It demonstrate
 
 ## Background
 
-In 1978 Susan Easton Black wrote an Ensign article, [Names of Christ in the Book of Mormon](https://www.churchofjesuschrist.org/study/ensign/1978/07/discovery/names-of-christ-in-the-book-of-mormon.html?lang=eng) that states: *"Even statistically, he is the dominant figure of the Book of Mormon."*
+In 1978 Susan Easton Black wrote an Ensign article, [Names of Christ in the Book of Mormon](https://www.churchofjesuschrist.org/study/ensign/1978/07/discovery/names-of-christ-in-the-book-of-mormon?lang=eng) that states: *"Even statistically, he is the dominant figure of the Book of Mormon."* Read the article at the link.
 
 We are going to use some of our string skills to count words in the New Testament and in the Book of Mormon.
 
@@ -29,8 +31,8 @@ We are going to use some of our string skills to count words in the New Testamen
 2.  Calculate the average verse length (number of words) in the New Testament compared to the Book of Mormon.
 3.  Count how often the word "Jesus" is used in the New Testament compared to the Book of Mormon.
 4.  Create a visualization to show the distribution of word count by verse for each book in the Book of Mormon.
-    -   Count how many words there are per verse
-    -   Since there are 15 books, you should graphically depict/summarize 15 distributions of word counts.
+    - Count how many words there are per verse
+    - Since there are 15 books, you should graphically depict/summarize 15 distributions of word counts.
 5.  Create an `.qmd` file to show your results (including the graph).
 6.  Render your `.qmd`, then push all the files created in the rendering process into your GitHub repository.
 

@@ -22,15 +22,17 @@ With our strong "string" skills we are going to check her results and build an i
 ## Task
 
 1.  Get the scripture and savior name data into R.
-    -   **Scripture Text:** Use the [same data](https://github.com/beandog/lds-scriptures/raw/master/csv/lds-scriptures.csv) as the Counting Words task.
-    -   **Savior Names:** Use `read_rds(url("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds"))` or `read_rds("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds")` to download and load the Savior names table into R. (Or try experimenting with [`rio::import()`](https://github.com/leeper/rio) to read in the data)
+    - **Scripture Text:** Use the [same data](https://github.com/beandog/lds-scriptures/raw/master/csv/lds-scriptures.csv) as the Counting Words task.
+    - **Savior Names:** Use `read_rds(url("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds"))` or `read_rds("https://byuistats.github.io/M335/data/BoM_SaviorNames.rds")` to download and load the Savior names table into R. (Or try experimenting with [`rio::import()`](https://github.com/leeper/rio) to read in the data)
 2.  Use the list of Savior names and the Book of Mormon text to find the distribution of number of words between references to the Savior.
-    -   Split the string on each instance of a Savior name in the Book of Mormon,
-    -   Then count the number of words between each instance.
+    - Split the string on each instance of a Savior name in the Book of Mormon,
+    - Then count the number of words between each instance.
 3.  Create a visualization of the **distribution** of words between savior names.
-    -   Can you get the plot to "tell a story"?
+    - Can you get the plot to "tell a story"?
 4.  Calculate the average number of words between each Savior name overall.
-5.  Create an `.qmd` file with one to two paragraphs to tell about the distribution / the data's story regarding distance between Savior names.
+5.  Create an `.qmd` file with one to two paragraphs to tell about your findings.
+    1.  Talk about the distribution / the data's story regarding distance between Savior names.
+    2.  Compare your results to the claims and results published in the article [Names of Christ in the Book of Mormon](https://www.churchofjesuschrist.org/study/ensign/1978/07/discovery/names-of-christ-in-the-book-of-mormon?lang=eng). Speak to the veracity of the claims in the article.
 6.  Render your \`.qmd\`, then push all the files created in the rendering process into your GitHub repository.
 
 ### Submit
