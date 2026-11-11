@@ -1,5 +1,5 @@
 ---
-title: "Distance Between Savior Names, Part 1"
+title: "Distance Between Savior Names (overall and by book)"
 ---
 
 ::: panel-tabset
