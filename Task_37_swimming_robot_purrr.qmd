@@ -83,4 +83,9 @@ df |> kable()
 4.  Explore the data and create a visualization or two that explores the effect of different gaits and leg angles on the velocity.
 
 5.  Write 2-3 paragraphs explaining your findings.
+
+### Submit
+
+In I-learn submit the link to your `html` file hosted on your repo's GitHub pages.
+
 :::
